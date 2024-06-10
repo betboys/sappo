@@ -39,8 +39,9 @@
 						<a class="footer-end-intro-link" href="<?php echo esc_url($permalink); ?>"><?php echo esc_html($title); ?></a>
 					</li>
 
-				<?php endforeach; ?>
-
+				<?php endforeach;
+				wp_reset_postdata();
+				?>
 			<?php endif; ?>
 		</ul>
 	</div>

@@ -1,0 +1,4326 @@
+/*
+ THEME NAME: Pixel
+ AUTHOR: Pixel
+ textdomain: pixel
+ VERSION: 3.0
+ */
+
+/* CUSTOM CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fonts */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(fonts/Bebas-Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Noto Sans Armenian Light";
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Light.ttf);
+}
+
+@font-face {
+  font-family: "Noto Sans Armenian Medium";
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Noto Sans Armenian SemiBold";
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Noto Sans Armenian Bold";
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Bold.ttf);
+}
+
+/* * */
+a {
+  text-decoration: none;
+  display: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input {
+  -moz-appearance: textfield;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font: 300 22px / 110% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+/* main */
+.main {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.split > div {
+  overflow: hidden;
+}
+
+.card-hover-visitble .split > div {
+  overflow: hidden;
+}
+
+/* root */
+:root {
+  --paddingTopAndBottom: 6.25vw;
+  --paddingLeftAndRigth: 7.813vw;
+}
+
+/* header */
+.header {
+  width: 100%;
+  padding: 0 var(--paddingLeftAndRigth);
+  background: rgba(16, 16, 17, 0.6);
+  -webkit-backdrop-filter: blur(21.75px);
+  backdrop-filter: blur(21.75px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  display: grid;
+  grid-template-areas:
+    "logo nav "
+    "subMenu subMenu";
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.logo-icon {
+  width: unset;
+  height: unset;
+}
+
+.burger-menu-open {
+  width: 66.2px;
+  height: 47px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.5s;
+}
+
+.lineN1 {
+  width: 100%;
+  height: 2.954px;
+  background: #fff;
+  transition: 0.5s;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+
+.lineN2 {
+  width: 75%;
+  height: 2.954px;
+  background: #fff;
+  margin-inline-start: auto;
+  transition: 0.5s;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+
+.burger-menu-open.new-element {
+  width: 47px;
+  height: 47px;
+}
+
+.lineN1.new-lineN1 {
+  transform: translate3d(0px, 6px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+}
+
+.lineN2.new-lineN2 {
+  width: 100%;
+  transform: translate3d(0px, -6px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
+}
+
+.menu-inner {
+  display: flex;
+  gap: 3.958vw;
+}
+
+.menu-list {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  gap: 9.7px;
+}
+
+.menu-link {
+  font: 500 22px / 150% "Noto Sans Armenian Medium";
+  color: #fff;
+  transition: 0.5s;
+}
+
+.dropdown-icon {
+  display: inherit;
+  transform-origin: center;
+  transition: 0.5s;
+}
+
+.dropdown-menu {
+  grid-area: subMenu;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  height: 0;
+}
+
+.logo {
+  width: max-content;
+  grid-area: logo;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  min-width: 750px;
+}
+
+.dropdown-menu-inner {
+  padding: 62.1px 9.449vw 85px 9.449vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 32px;
+}
+
+.dropdown-menu-item-title {
+  font: 600 22px / 150% "Noto Sans Armenian SemiBold";
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.dropdown-menu-item-list-intro {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font: 300 14px / 150% "Noto Sans Armenian Light";
+  color: #aaa;
+}
+
+.dropdown-menu-item-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dropdown-menu-item:nth-child(3)
+  .dropdown-menu-item-text-inner
+  .dropdown-menu-item-list-intro
+  .dropdown-menu-item-list
+  > svg,
+.dropdown-menu-item:nth-child(4)
+  .dropdown-menu-item-text-inner
+  .dropdown-menu-item-list-intro
+  .dropdown-menu-item-list
+  > svg,
+.dropdown-menu-item:nth-child(5)
+  .dropdown-menu-item-text-inner
+  .dropdown-menu-item-list-intro
+  .dropdown-menu-item-list
+  > svg {
+  display: none;
+}
+
+.dropdown-menu-item-title {
+  width: 94%;
+}
+
+.dropdown-menu-item {
+  padding: 30px 28.76px;
+  border: 1px solid #39393e;
+  background: #1a1a1c;
+  backdrop-filter: blur(13.25px);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.submenu-card-link {
+  display: flex;
+  gap: 29.81px;
+}
+
+.dropdown-menu-item-img {
+  width: 24.6px;
+  height: 25.9px;
+  margin-top: 8px;
+}
+
+.dropdown-menu-item:nth-child(1),
+.dropdown-menu-item:nth-child(2) {
+  width: 31.875vw;
+}
+
+.dropdown-menu-item:nth-child(3),
+.dropdown-menu-item:nth-child(4),
+.dropdown-menu-item:nth-child(5) {
+  width: 20.677vw;
+}
+
+.menu-list:nth-child(4) .menu-link {
+  width: 180px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: 0.5s;
+}
+
+.menu-list:nth-child(4) .menu-link::before {
+  content: "";
+  width: 76%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.menu-list:nth-child(4) .menu-link::after {
+  content: "";
+  width: 2px;
+  height: 50%;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+.language-dropdown {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.flag-image {
+  width: 27px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.language-dropdown label,
+.language-dropdown ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.language-icon {
+  transform-origin: center;
+  transition: 0.5s;
+}
+
+.language-icon-rotate {
+  transform: rotate(180deg);
+}
+
+.language-dropdown ul.lang-list {
+  position: absolute;
+  left: 0;
+  top: 66px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+}
+
+.language-dropdown ul.lang-list li.selected {
+  display: none;
+}
+
+.flag {
+  width: 85px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font: 500 22px / normal "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.language-dropdown.open ul.lang-list {
+  visibility: visible;
+  opacity: 1;
+}
+
+.animate,
+.lang-flag,
+.lang-list {
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+}
+
+/* home hero section */
+.page-hero {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  align-items: end;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.page-hero > * {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+.hero-heading-text-inner {
+  width: 95%;
+  max-width: 820px;
+  margin-left: var(--paddingLeftAndRigth);
+  margin-bottom: var(--paddingTopAndBottom);
+  position: relative;
+}
+
+.heading {
+  font: 400 calc(160px + 2.03999 * (100vw - 1920px) / 60) / 83% "Bebas Neue";
+  letter-spacing: 1.6px;
+  color: #fff;
+}
+
+.heading > .text-color-style {
+  padding-top: 25px;
+}
+
+.text-color-style {
+  display: inline-block;
+  overflow: hidden;
+  color: #fac917;
+}
+
+.subtitle {
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.hero-subtitle {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 24px;
+}
+
+.link-style {
+  width: 220px;
+  height: 52px;
+  margin-top: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font: 500 20px / 100% "Noto Sans Armenian Medium";
+  letter-spacing: 0.04px;
+  color: #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: 0.5s;
+}
+
+.link-style::before {
+  content: "";
+  width: 76%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.link-style::after {
+  content: "";
+  width: 2px;
+  height: 50%;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+/* redefining-security */
+.redefining-security {
+  width: 100%;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
+  background: #101011;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-intro {
+  width: 36.719vw;
+}
+
+.headingN2 {
+  font: 400 64px / 90% "Bebas Neue";
+  letter-spacing: 0.64px;
+  color: #fff;
+}
+
+.rigth-intro {
+  width: 43.49vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rigth-intro-subtitle {
+  width: 97.3%;
+}
+
+.rigth-intro-link {
+  width: max-content;
+  font: 500 20px / 100% "Noto Sans Armenian Medium";
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.5s;
+}
+
+.line-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.line-icon::before {
+  content: "";
+  width: 52px;
+  height: 1px;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.line-icon-svg {
+  transform-origin: center;
+  transform: rotate(270deg) translate(-0.5px, -6px);
+}
+
+.line-icon-svg-path {
+  transition: 0.5s;
+}
+
+/* our-service-cards */
+.our-service-cards {
+  width: 100%;
+  height: calc(1076px + 34 * (100vw - 1920px) / 60);
+  margin-top: -1px;
+}
+
+.cards-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.card {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(0deg, #18181b 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.card-image {
+  filter: grayscale(1);
+  transition: 0.5s;
+}
+
+.card-image.filter {
+  filter: grayscale(0);
+}
+
+.card-title {
+  writing-mode: vertical-rl;
+  height: calc(900px + 29.2 * (100vw - 1920px) / 60);
+  font: 400 calc(120px + 3.913 * (100vw - 1920px) / 60) / 92% "Bebas Neue";
+  color: #fff;
+  transform-origin: center;
+  transform: rotate(180deg);
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.card-hover-visitble {
+  width: 34.583vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-left: 30px;
+  padding-bottom: 60.29px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.card-link-mobile {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: none;
+}
+
+.card-title-hover {
+  font: 400 calc(100px + 2 * (100vw - 1920px) / 60) / 102% "Bebas Neue";
+  color: #fff;
+}
+
+.card-info-inner {
+  margin-top: 10.24px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.card-list-intro,
+.card-info-inner > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10.24px;
+}
+
+.card-info-inner ul li,
+.card-list {
+  display: flex;
+  align-items: center;
+  gap: 18.11px;
+  font: 500 calc(24px + 0.3913 * (100vw - 1920px) / 60) / 150%
+    "Noto Sans Armenian Medium";
+  color: #fff;
+}
+
+.card-link-icon {
+  transition: 0.5s;
+}
+
+.card:nth-child(3)
+  .card-hover-visitble
+  .card-info-inner
+  .card-list-intro
+  .card-list
+  > svg,
+.card:nth-child(4)
+  .card-hover-visitble
+  .card-info-inner
+  .card-list-intro
+  .card-list
+  > svg,
+.card:nth-child(5)
+  .card-hover-visitble
+  .card-info-inner
+  .card-list-intro
+  .card-list
+  > svg,
+.card:nth-child(6)
+  .card-hover-visitble
+  .card-info-inner
+  .card-list-intro
+  .card-list
+  > svg,
+.card:nth-child(7)
+  .card-hover-visitble
+  .card-info-inner
+  .card-list-intro
+  .card-list
+  > svg,
+.card:nth-child(8)
+  .card-hover-visitble
+  .card-info-inner
+  .card-list-intro
+  .card-list
+  > svg,
+.card:nth-child(9)
+  .card-hover-visitble
+  .card-info-inner
+  .card-list-intro
+  .card-list
+  > svg,
+.card:nth-child(10)
+  .card-hover-visitble
+  .card-info-inner
+  .card-list-intro
+  .card-list
+  > svg {
+  display: none;
+}
+
+/* gallery */
+.gallery {
+  width: 100%;
+  padding-top: 47.5px;
+  padding-bottom: var(--paddingTopAndBottom);
+  background: #101011;
+}
+
+.text-wrapper-list {
+  width: max-content;
+  font: 400 228.526px / 82% "Bebas Neue";
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.text-wrapper-list-first {
+  transform: translateX(-100%);
+}
+
+.text-wrapper-list-last {
+  margin-inline-start: auto;
+  transform: translateX(100%);
+  color: #fac917;
+}
+
+.gallery-container {
+  padding: 47.5px var(--paddingLeftAndRigth) 0 var(--paddingLeftAndRigth);
+}
+
+.gallery-text-and-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gallery-text {
+  font: 400 calc(128px + 2.2839 * (100vw - 1920px) / 60) / 83% "Bebas Neue";
+  letter-spacing: 1.28px;
+  color: #fff;
+}
+
+.hidden-intro {
+  display: none;
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.pagination-button {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #fff;
+}
+
+#pagination-numbers {
+  display: flex;
+  align-items: center;
+  font: 300 20px / 150% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.pagination-number:first-child {
+  position: relative;
+}
+
+.pagination-number:first-child::after {
+  content: "/";
+  margin-inline: 1px;
+}
+
+.pagination-number:last-child .pagination-number.active {
+  display: block;
+}
+
+.disabled {
+  background: rgba(68, 68, 68, 0.4);
+}
+
+.disabled > svg > path {
+  fill: #666666;
+}
+
+#paginated-list {
+  margin-top: 46px;
+}
+
+.gallery-flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 2.604vw;
+}
+
+.gallery-photo-intro {
+  overflow: hidden;
+}
+
+.gallery-photo {
+  filter: grayscale();
+  scale: 1;
+  transition: 1s;
+}
+
+/* sappo-security-service */
+.sappo-security-service {
+  width: 100%;
+  height: 1335px;
+  display: grid;
+  position: relative;
+}
+
+.sappo-security-service::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(images/sappo-security-service-image-men.webp) center center
+    no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.sappo-security-service-image {
+  height: 1335px;
+}
+
+.sappo-security-service-text {
+  font: 400 288.117px / 83% "Bebas Neue";
+  color: #fff;
+  width: 100%;
+  max-width: 830px;
+  position: relative;
+  margin-left: var(--paddingLeftAndRigth);
+  margin-top: 137.5px;
+}
+.wpml-ls-legacy-dropdown {
+  width: 100%;
+  max-width: 115px;
+  margin-left: 20px;
+}
+.wpml-ls-legacy-dropdown a {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 4px;
+}
+.wpml-ls-legacy-dropdown a.wpml-ls-item-toggle {
+  padding-right: 10px;
+}
+.wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:after {
+  content: url("data:image/svg+xml,%3Csvg class='language-icon' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.3982 15.6634C12.1785 15.8831 11.8224 15.8831 11.6027 15.6634L5.86788 9.92853C5.64821 9.70886 5.64821 9.35276 5.86788 9.13308L6.13305 8.86788C6.35271 8.64821 6.70887 8.64821 6.92854 8.86788L12.0005 13.9398L17.0724 8.86788C17.2921 8.64821 17.6482 8.64821 17.8679 8.86788L18.1331 9.13308C18.3527 9.35276 18.3527 9.70886 18.1331 9.92853L12.3982 15.6634Z' fill='white'%3E%3C/path%3E%3C/svg%3E");
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+  border-top: none;
+  position: absolute;
+  right: 10px;
+  top: unset;
+  transform-origin: center;
+  transition: 0.5s;
+}
+.wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
+  transform: rotate(180deg);
+}
+.wpml-ls-legacy-dropdown a:hover,
+.wpml-ls-legacy-dropdown a:focus,
+.wpml-ls-legacy-dropdown .wpml-ls-current-language:hover > a {
+  background-color: transparent;
+  color: #fff;
+}
+.wpml-ls-legacy-dropdown .wpml-ls-sub-menu {
+  border-top: none;
+}
+.wpml-ls-legacy-dropdown .wpml-ls-flag {
+  width: 27px;
+  height: 20px;
+  border-radius: 5px;
+}
+.sappo-security-service-text > .text-color-style {
+  padding-top: 36px;
+}
+
+.sappo-security-service > * {
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
+}
+
+/* our-trusted-partners */
+.our-trusted-partners {
+  width: 100%;
+  background: #fff;
+  padding-top: var(--paddingTopAndBottom);
+  padding-bottom: var(--paddingTopAndBottom);
+}
+
+.ttile-and-slide-buttons {
+  padding: 0 var(--paddingLeftAndRigth);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our-trusted-partners-title {
+  font: 400 calc(128px + 2.2839 * (100vw - 1920px) / 60) / 83% "Bebas Neue";
+  letter-spacing: 1.28px;
+  color: #101011;
+}
+
+.our-trusted-partners-swiper {
+  margin-left: 64px;
+}
+
+.swiper-wrapper {
+  width: -moz-max-content;
+  width: max-content;
+  height: 100%;
+  display: flex;
+}
+
+.swiper-slide {
+  position: relative;
+  cursor: pointer;
+}
+
+.next-prev-buttons {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.swiper-buttons {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+.swiper-button-disabled {
+  background: #ccc;
+}
+
+.partners-card-inner {
+  margin-top: 80px;
+}
+
+.master-master-inner {
+  margin-right: 64px;
+  width: 252px;
+  height: 188.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.master-inner {
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+  position: relative;
+}
+
+.chief {
+  width: 144px;
+  height: 108.59px;
+}
+
+.card-intro {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card-intro.click {
+  transform: rotateY(180deg);
+}
+
+.card-intro .side-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+
+.card-intro .side-2 {
+  width: 100%;
+  height: 100%;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    #eee;
+  display: flex;
+  align-items: center;
+}
+
+.partners-card-text {
+  padding: 28px 20px;
+  font: 300 16px / 137.5% "Noto Sans Armenian Light";
+  letter-spacing: 0.16px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+/* faq */
+.faq {
+  width: 100%;
+  background: #fff;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-text-inner {
+  width: 100%;
+  max-width: 500px;
+}
+
+.faq-title {
+  font: 400 128px / 83% "Bebas Neue";
+  color: #101011;
+}
+
+.faq-subtitle {
+  margin-top: 24px;
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+  color: #101011;
+}
+
+.faq-info-inner {
+  width: 54.167vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.faq-container {
+  padding: 20px 0;
+  border-top: 1px solid #aaa;
+}
+
+.faq-container:last-child {
+  border-bottom: 1px solid #aaa;
+}
+
+.faq-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font: 400 30px / 150% "Bebas Neue";
+  color: #101011;
+  transition: 0.5s;
+}
+
+.faq-text-hiiden {
+  padding-right: 50px;
+  overflow: hidden;
+  grid-area: hidden;
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+  color: #101011;
+  transition: 0.5s;
+}
+
+.faq-text::after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 10px;
+  background: url(images/faq-icon.svg) center center no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.faq-text.active::after {
+  transform: rotate(180deg);
+}
+
+.answercont {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+/* contact-us */
+.contact-us {
+  width: 100%;
+  position: relative;
+}
+
+.contact-us-image {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.contact-us-inner {
+  width: 100%;
+  padding: 60px var(--paddingLeftAndRigth);
+}
+
+.socal-media-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-title {
+  font: 400 128px / 83% "Bebas Neue";
+  letter-spacing: 1.28px;
+  color: #fff;
+}
+
+.contact-us-title > .text-color-style {
+  padding-top: 18px;
+}
+
+.contact-us-subtitle {
+  margin-top: 3px;
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.socal-media {
+  margin-top: 3.186vw;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 3.125vw;
+}
+
+.socal-media-list {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.socal-media-title-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8.21px;
+}
+
+.socal-media-title {
+  font: 700 22px / 140% "Noto Sans Armenian Bold";
+  color: #fff;
+}
+
+.socal-media-subtitle {
+  font: 400 22px / 150% "Bebas Neue";
+  color: #fff;
+}
+
+.socal-media-link {
+  font: 300 14px / 150% "Noto Sans Armenian Light";
+  text-decoration-line: underline;
+  color: #ccc;
+  transition: 0.5s;
+}
+
+.socal-media-list:last-child .socal-media-title-inner .socal-media-link {
+  width: max-content;
+  font: 300 16px / 150% "Noto Sans Armenian Light";
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  margin-top: 16.41px;
+  transition: 0.5s;
+}
+
+.socal-media-list:last-child
+  .socal-media-title-inner
+  .socal-media-link
+  > svg
+  > path {
+  transition: 0.5s;
+}
+
+.socal-media-list:last-child {
+  display: grid;
+  gap: 0;
+  column-gap: 16px;
+  grid-template-areas:
+    "address-svg address"
+    "socal-address socal-address";
+  grid-template-columns: 0fr;
+}
+
+.socal-media-list:last-child > svg {
+  grid-area: address-svg;
+}
+
+.socal-media-list:last-child > .address {
+  grid-area: address;
+}
+
+.socal-media-list:last-child > .socal-media-link-address {
+  grid-area: socal-address;
+}
+
+.contact-us-form {
+  width: 604px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 24px;
+}
+
+.form-name {
+  font: 400 18px / 179.762% "Bebas Neue";
+  color: #fff;
+}
+
+.form-input {
+  margin-top: 5.39px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.form-input p {
+  width: 100%;
+}
+.form-input svg > path {
+  transition: 0.3s;
+}
+.wpcf7-response-output,
+.wpcf7-not-valid-tip {
+  max-width: 40.267vw;
+  font-size: 14px;
+}
+.form-input svg {
+  position: absolute;
+  left: 16px;
+  top: 22px;
+}
+
+.input {
+  width: 100%;
+  padding: 16px 16px 16px 56px;
+  font: 300 16px / 202.232% "Noto Sans Armenian Light";
+  letter-spacing: -0.121px;
+  color: #fff;
+  border: 1.348px solid #48484e;
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.input:focus,
+.input:hover {
+  border-color: #eee;
+  opacity: 1;
+}
+
+.input:focus::placeholder,
+.input:hover::placeholder {
+  color: #eee;
+}
+
+.input:focus + svg > path,
+.input:hover + svg > path {
+  stroke: #eee;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #aaa;
+}
+
+.textarea {
+  height: 130px;
+  margin-top: 5.39px;
+  resize: none;
+  overflow: hidden;
+  outline: none;
+  background: none;
+  padding: 16px 16px 0 16px;
+  font: 300 16px / 202.232% "Noto Sans Armenian Light";
+  letter-spacing: -0.121px;
+  color: #fff;
+  border: 1.348px solid #48484e;
+  border-radius: 0;
+  opacity: 0.6;
+}
+
+.valid {
+  margin-top: 8px;
+  font: 300 14px / normal "Noto Sans Armenian Light";
+  color: #b42318;
+  display: none;
+}
+
+.checkbox-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.label {
+  font: 300 14px / 171.429% "Noto Sans Armenian Light";
+  letter-spacing: -0.09px;
+  color: #fff;
+}
+
+.label > .text-color-style {
+  display: initial;
+}
+
+.checkbox-input,
+.label {
+  cursor: pointer;
+}
+
+.send-button {
+  margin-top: 8px;
+  width: 100%;
+  padding: 12px 0;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: 0.5s;
+}
+.send-button input {
+  font: 300 20px / normal "Noto Sans Armenian Light";
+  letter-spacing: 0.04px;
+  color: #fff;
+  cursor: pointer;
+}
+.send-button::before {
+  content: "";
+  width: 75%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.send-button::after {
+  content: "";
+  width: 2px;
+  height: 50%;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+.send-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  background: #101011;
+  padding-top: 54px;
+  padding-bottom: 33px;
+  margin-top: -1px;
+}
+
+.footer-menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--paddingLeftAndRigth);
+}
+
+.footer-left {
+  width: 390px;
+}
+
+.footer-text {
+  margin-top: 54px;
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.footer-rigth {
+  width: 661px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.footer-menu-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-menu-inner .widget_nav_menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-menu-inner .widget_nav_menu ul a {
+  font: 300 18px / 150% "Noto Sans Armenian Light";
+  color: #fff;
+  transition: 0.5s;
+}
+.footer-menu-title {
+  font: 400 26px / 150% "Bebas Neue";
+  letter-spacing: 0.52px;
+  color: #fff;
+}
+
+.footer-menu-link {
+  font: 300 18px / 150% "Noto Sans Armenian Light";
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footer-menu-flex {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-end-inner {
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 54px;
+  padding-top: 32px;
+  border-top: 1px solid #444;
+}
+
+.footer-end-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.site-info {
+  font: 300 14px / 150% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.site-info-symbol {
+  opacity: 0.5;
+}
+
+.footer-end-intro-link {
+  font: 300 14px / 150% "Noto Sans Armenian Light";
+  text-decoration-line: underline;
+  color: #fff;
+  transition: 0.5s;
+}
+
+/* Contact Us */
+#contact > .contact-us-inner {
+  padding: 18.073vw var(--paddingLeftAndRigth) 12.24vw
+    var(--paddingLeftAndRigth);
+}
+
+/* About Us */
+#about {
+  align-items: center;
+}
+
+.about-hero-img {
+  height: 100vh;
+  position: relative;
+}
+
+.about-hero-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.75) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.about-hero-heading-text-inner {
+  width: 100%;
+  padding: 0 var(--paddingLeftAndRigth);
+  margin-top: 112px;
+}
+
+.about-heading {
+  font-size: calc(159px + 5.1 * (100vw - 1920px) / 60);
+}
+
+.about-heading > .text-color-style {
+  padding-top: 0;
+}
+
+.hero-subtitle-about {
+  width: 100%;
+  max-width: 910px;
+  margin-top: 24px;
+  position: relative;
+}
+
+/* Strength and Reliability */
+.strength-reliability {
+  width: 100%;
+  background: #101011;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -1px;
+  padding-top: var(--paddingTopAndBottom);
+}
+
+.strength-reliability-img {
+  width: 50.885vw;
+}
+
+.strength-reliability-text-inner {
+  width: 42.865vw;
+  padding-right: var(--paddingLeftAndRigth);
+}
+
+.strength-reliability-subtitle {
+  margin-top: 30px;
+  padding-right: 22px;
+}
+
+/* About Our Serives */
+.about-our-serives {
+  width: 100%;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
+  background: #101011;
+  margin-top: -1px;
+}
+
+.our-serives-title {
+  font: 400 128px / 83% "Bebas Neue";
+  color: #fff;
+}
+
+.about-our-serives-cards {
+  margin-top: 39px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 39px;
+}
+
+.about-our-serives-card-item {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.about-cards {
+  display: inherit;
+}
+
+.about-our-serives-card-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(68, 68, 68, 0.3);
+  transition: 0.5s;
+}
+
+.about-our-serives-card-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.75) 100%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.about-cards::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(68, 68, 68, 0.3);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.about-cards::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.75) 100%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.about-our-serives-card-image {
+  filter: grayscale(1);
+  transition: 0.5s;
+}
+
+.about-our-serives-card-item:nth-child(1),
+.about-our-serives-card-item:nth-child(2) {
+  width: 40.833vw;
+  height: 285px;
+}
+
+.about-our-serives-card-item:nth-child(3),
+.about-our-serives-card-item:nth-child(4),
+.about-our-serives-card-item:nth-child(5) {
+  width: 26.042vw;
+  height: 285px;
+}
+
+.about-our-serives-card-item:nth-child(1) .card-item-info,
+.about-our-serives-card-item:nth-child(2) .card-item-info {
+  width: 100%;
+  max-width: 500px;
+}
+
+.about-our-serives-card-item:nth-child(3) .card-item-info,
+.about-our-serives-card-item:nth-child(4) .card-item-info,
+.about-our-serives-card-item:nth-child(5) .card-item-info {
+  width: 100%;
+  max-width: 452px;
+}
+
+.about-our-serives-card-item:nth-child(3)
+  > .card-item-info
+  > .about-our-serives-card-title,
+.about-our-serives-card-item:nth-child(4)
+  > .card-item-info
+  > .about-our-serives-card-title,
+.about-our-serives-card-item:nth-child(5)
+  > .card-item-info
+  > .about-our-serives-card-title {
+  width: 100%;
+  max-width: 340px;
+}
+
+.card-item-info {
+  padding-inline: 24px;
+  position: absolute;
+  left: 0;
+  bottom: -136px;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+.about-our-serives-card-title {
+  font: 400 44px / 104.545% "Bebas Neue";
+  text-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+  letter-spacing: 1px;
+  color: #e3e3e3;
+}
+
+.about-our-serives-card-subtitle {
+  margin-top: 12px;
+  font: 300 14px / 150% "Noto Sans Armenian Light";
+  color: #eee;
+}
+
+.about-card-link {
+  width: 180px;
+  height: 52px;
+  margin-top: 24px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font: 500 20px / normal "Noto Sans Armenian Medium";
+  letter-spacing: 0.04px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.about-card-link::before {
+  content: "";
+  width: 73%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.about-card-link::after {
+  content: "";
+  width: 2px;
+  height: 50%;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+/* Our Team */
+.our-team {
+  width: 100%;
+  background: #101011;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
+  margin-top: -1px;
+}
+
+.our-team-title-subtitle {
+  width: 100%;
+  max-width: 840px;
+}
+
+.our-team-title {
+  font: 400 128px / 83% "Bebas Neue";
+  color: #fff;
+}
+
+.our-team-subtitle {
+  margin-top: 7px;
+  font: 300 17px / 173% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.our-team-men {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 80px;
+}
+
+.men-inner {
+  width: 296px;
+}
+
+.men-img {
+  height: 296px;
+}
+
+.name-surname {
+  margin-top: 24px;
+  font: 400 25px / 150% "Bebas Neue";
+  text-align: center;
+  color: #fff;
+}
+
+.position {
+  font: 300 17px / 173% "Noto Sans Armenian Light";
+  text-align: center;
+  color: #fff;
+}
+
+/* Descover */
+.descover {
+  width: 100%;
+  height: calc(1032px + 30 * (100vw - 1920px) / 60);
+  display: grid;
+  position: relative;
+  margin-top: -1px;
+}
+
+.descover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(images/descover-image-men.webp) center center no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.descover > * {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+.descover-image {
+  height: calc(1032px + 30 * (100vw - 1920px) / 60);
+}
+
+.descover-title {
+  width: 100%;
+  max-width: calc(850px + 25 * (100vw - 1920px) / 60);
+  margin-top: calc(80px + 3 * (100vw - 1920px) / 60);
+  margin-left: calc(67px + 1 * (100vw - 1920px) / 60);
+  font: 400 calc(224px + 7 * (100vw - 1920px) / 60) / 83% "Bebas Neue";
+  color: #fff;
+}
+
+/* Testimonials */
+.testimonials {
+  width: 100%;
+  padding: var(--paddingTopAndBottom) 0;
+  background: #101011;
+  margin-top: -1px;
+}
+
+.testimonials-title {
+  font: 400 calc(128px + 2.2839 * (100vw - 1920px) / 60) / 83% "Bebas Neue";
+  color: #fff;
+}
+
+.testimonials-swiper {
+  margin-left: var(--paddingLeftAndRigth);
+  margin-top: 39px;
+}
+
+.testimonials-slide-inner {
+  width: 506px;
+  padding: 24px;
+  background: rgba(68, 68, 68, 0.3);
+  margin-right: 51px;
+}
+
+.testimonials-name-surname {
+  font: 400 24px / 140% "Bebas Neue";
+  color: #fac917;
+}
+
+.company-owner {
+  font: 500 16px / 150% "Noto Sans Armenian Medium";
+  color: #666;
+}
+
+.testimonials-content {
+  margin-top: 20px;
+  font: 300 20px / 150% "Noto Sans Armenian Light";
+  text-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  color: #eee;
+}
+
+.testimonials-slide-buttons > .swiper-buttons {
+  background: #fff;
+}
+
+.testimonials-slide-buttons > .swiper-buttons > svg > path {
+  fill: #101011;
+}
+
+.testimonials-slide-buttons > .swiper-button-disabled {
+  background: rgba(68, 68, 68, 0.4);
+}
+
+.testimonials-slide-buttons > .swiper-button-disabled > svg > path {
+  fill: #666;
+}
+
+/* Services Single Pages */
+/* Physical Page */
+.physical-hero-img {
+  height: 100vh;
+  position: relative;
+}
+
+.physical-hero-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.physical-hero-heading-text-inner {
+  width: 100%;
+  max-width: 1393px;
+  padding-inline: var(--paddingLeftAndRigth);
+  margin-bottom: var(--paddingLeftAndRigth);
+  position: relative;
+}
+
+.hero-subtitle-physical {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* physical security services */
+.single-security-services {
+  width: 100%;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
+  background: #101011;
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-content-left {
+  width: 100%;
+  max-width: 648px;
+}
+
+.single-content-right {
+  width: 41.81vw;
+}
+
+.single-content-right-title {
+  font: 300 20px / 150% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.single-list-inner {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.single-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.single-list::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #fff;
+}
+
+/* left and right */
+.left-and-right {
+  width: 100%;
+  background: #101011;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-and-right-img {
+  width: 50vw;
+  height: 55.885vw;
+}
+
+.left-and-right-title {
+  font: 400 64px / 83% "Bebas Neue";
+  color: #fff;
+}
+
+.left-and-right-subtitle {
+  margin-top: 30px;
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.left-and-right:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.left-and-right:nth-child(odd) > .left-and-right-text-inner {
+  width: 43.958vw;
+  padding-left: var(--paddingLeftAndRigth);
+}
+
+.left-and-right:nth-child(even) > .left-and-right-text-inner {
+  width: 41.302vw;
+  padding-right: 5.156vw;
+}
+
+/* wcsss */
+.wcsss {
+  width: 100%;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
+  background: #101011;
+}
+
+.wcsss-text-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wcsss-left {
+  width: 39.167vw;
+}
+
+.wcsss-right {
+  width: 41.302vw;
+  font: 300 17px / 173% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.wcsss-items-inner {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 44px;
+}
+
+.wcsss-item {
+  width: 41.042vw;
+  padding: 24px;
+  background: rgba(68, 68, 68, 0.3);
+}
+
+.item-icon-text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.item-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.item-title {
+  font: 400 38px / normal "Bebas Neue";
+  letter-spacing: 1px;
+  color: #e3e3e3;
+}
+
+.item-content {
+  margin-top: 16px;
+  padding-right: 25px;
+  font: 300 18px / 150% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+/* other services wraper */
+.other-services-wraper {
+  padding-top: var(--paddingTopAndBottom);
+  background: #101011;
+}
+
+.other-services {
+  padding-inline: var(--paddingLeftAndRigth);
+  padding-bottom: 60px;
+  font: 400 128px / 83% "Bebas Neue";
+  color: #fff;
+  letter-spacing: 1.28px;
+}
+
+.other-services-wraper
+  > .our-service-cards
+  > .cards-wrapper
+  > .card
+  > .card-title {
+  right: 50%;
+  transform: translate(50%, 0) rotate(180deg);
+}
+
+/* Technical page */
+.single-hero-img {
+  height: 100vh;
+  position: relative;
+}
+
+.single-hero-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.75) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.single-hero-heading-text-inner {
+  width: 100%;
+  max-width: 1560px;
+  padding-inline: var(--paddingLeftAndRigth);
+  margin-bottom: var(--paddingLeftAndRigth);
+  position: relative;
+}
+
+.hero-subtitle-single {
+  width: 100%;
+  max-width: 834px;
+}
+
+.left-and-right > .left-and-right-text-inner > ul {
+  margin-top: 40px;
+  padding-right: 39px;
+}
+
+.left-and-right > .left-and-right-text-inner > ul > li {
+  font: 300 17px / 173% "Noto Sans Armenian Light";
+  color: #fff;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* Carrer */
+.carrer-hero-img {
+  height: 100vh;
+  position: relative;
+}
+
+.carrer-hero-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.75) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.carrer-hero-heading-text-inner {
+  width: 100%;
+  padding: 0 var(--paddingLeftAndRigth) 156.5px var(--paddingLeftAndRigth);
+  position: relative;
+  z-index: 1;
+}
+
+.carrer-heading > .text-color-style {
+  padding-top: 0;
+}
+
+/* current-openings */
+.current-openings {
+  width: 100%;
+  background: #101011;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
+}
+
+.list-group {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.list-group-item {
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.list-group-item.active {
+  color: #fac917;
+  position: relative;
+}
+
+.list-group-item.active::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #fac917;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.current-openings-content {
+  margin-top: 71px;
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  justify-content: space-between;
+}
+
+.category-item {
+  width: 39.583vw;
+  padding: 24px;
+  background: rgba(68, 68, 68, 0.3);
+}
+
+.category-hashtag {
+  font: 300 16px / 173% "Noto Sans Armenian Light";
+  color: #aaa;
+}
+
+.category-title {
+  margin-top: 5.01px;
+  font: 400 44px / normal "Bebas Neue";
+  color: #e3e3e3;
+  letter-spacing: 1px;
+}
+
+.location-time {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.location-time-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font: 300 16px / 150% "Noto Sans Armenian Light";
+  color: #aaa;
+}
+
+.location-time-img {
+  width: unset;
+  height: unset;
+}
+
+.category-item-link {
+  width: 180px;
+  height: 52px;
+  margin-top: 24px;
+  margin-inline-start: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font: 500 20px / normal "Noto Sans Armenian Medium";
+  color: #fff;
+  letter-spacing: 0.04px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: 0.5s;
+}
+
+.category-item-link::before {
+  content: "";
+  width: 76%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.category-item-link::after {
+  content: "";
+  width: 2px;
+  height: 50%;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+/* carrer se */
+.carrer-se {
+  width: 100%;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.se-left {
+  width: 36.146vw;
+}
+
+.carrer-headingN2 {
+  color: #101011;
+}
+
+.se-suttitle {
+  margin-top: 32px;
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+  color: #101011;
+}
+
+.se-right-img {
+  width: 39.948vw;
+  height: 38.333vw;
+}
+
+/* Career Single */
+.career-single-hero,
+.secureity-hero {
+  width: 100%;
+  background: #000;
+  position: relative;
+}
+
+.title-text-inner {
+  width: 100%;
+  padding-top: 255px;
+  padding-bottom: 145px;
+  padding-inline: var(--paddingLeftAndRigth);
+  position: relative;
+  z-index: 1;
+}
+
+.career-single-heading {
+  font: 400 128px / 83% "Bebas Neue";
+  color: #fff;
+}
+
+.secureity-hero h1 {
+  font: 400 128px / 83% "Bebas Neue";
+  color: #fff;
+}
+
+.secureity-hero h2 {
+  width: 100%;
+  max-width: 735px;
+  margin-top: 14px;
+  font: 300 16px / 150% "Noto Sans Armenian Light";
+}
+
+.location-time-single {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font: 300 16px / 150% "Noto Sans Armenian Light";
+  color: #eee;
+}
+
+.location-time-list-single {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.title-subtitle-intro {
+  margin-top: 194px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 39px;
+}
+
+.title-subtitle-intro > h3 {
+  width: 100%;
+  max-width: 600px;
+  font: 400 64px / 106% "Bebas Neue";
+  color: #eee;
+  letter-spacing: 0.64px;
+}
+
+.title-subtitle-intro > p {
+  width: calc(51.563vw + 16 * (100vw - 1920px) / 60);
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.title-subtitle-intro > ul {
+  width: calc(51.563vw + 16 * (100vw - 1920px) / 60);
+  display: flex;
+  flex-direction: column;
+}
+
+.title-subtitle-intro > ul > li {
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+  color: #fff;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.title-subtitle-intro a {
+  text-decoration: underline;
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.career-single-hero-img-inner,
+.secureity-hero-img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.career-single-hero-img-inner::before,
+.secureity-hero-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+/* Our Benefits */
+.our-benefits {
+  width: 100%;
+  padding-inline: var(--paddingLeftAndRigth);
+  padding-bottom: 8.75vw;
+  background: #000;
+}
+
+.our-benefits-title {
+  font: 400 128px / 83% "Bebas Neue";
+  color: #eee;
+  letter-spacing: 1.28px;
+}
+
+.benefits-icons-inner {
+  margin-top: 66px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.benefits-item {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  align-items: center;
+}
+
+.benefits-icon-img {
+  width: 121px;
+  height: 129px;
+}
+
+.benefits-icon-text {
+  font: 400 40px / 100% "Bebas Neue";
+  color: #fff;
+  text-align: center;
+}
+
+/* interested */
+.interested {
+  width: 100%;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
+  background: #131314;
+}
+
+.interested-title-subtitle {
+  width: 100%;
+  max-width: 628px;
+}
+
+.interested-title {
+  font: 400 128px / 83% "Bebas Neue";
+  letter-spacing: 1.28px;
+  color: #fac917;
+}
+
+.interested-subtitle {
+  margin-top: 10px;
+  font: 300 20px / 173% "Noto Sans Armenian Light";
+}
+
+.interested-subtitle p > a {
+  display: inline-block;
+  color: #fac917;
+}
+
+/* .interested-form, */
+.interested-form form {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 32px;
+  justify-content: space-between;
+}
+
+.incidents-form-intro {
+  width: 39.688vw;
+}
+
+.chosse-file {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.label-file {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+#file-input {
+  display: none;
+}
+
+.file-text {
+  font: 300 18px / 133.333% "Noto Sans Armenian Light";
+  color: #fff;
+}
+
+.remove {
+  cursor: pointer;
+  display: none;
+}
+
+.incidents-form-intro-textarea {
+  width: 100%;
+  margin-top: 18px;
+}
+
+.incidents-form-intro-textarea > .textarea {
+  height: 192px;
+}
+
+.send-button-inner {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.incidents-form-button {
+  width: 212px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px solid #fac917;
+  border-bottom: 2px solid #fac917;
+
+  transition: 0.5s;
+  position: relative;
+}
+.incidents-form-button p input {
+  font: 500 20px / normal "Noto Sans Armenian Medium";
+  letter-spacing: 0.04px;
+  color: #fff;
+  cursor: pointer;
+}
+.incidents-form-button:hover p input {
+  color: #fac917;
+  transition: 0.5s;
+}
+.wpcf7-spinner {
+  position: absolute;
+}
+.incidents-form-button::before {
+  content: "";
+  width: 73%;
+  height: 2px;
+  background: #fac917;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.incidents-form-button::after {
+  content: "";
+  width: 2px;
+  height: 50%;
+  background: #fac917;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+/*Added by Andranik */
+.single-content-right-title ul {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.single-content-right-title ul li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.single-content-right-title ul li:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #fff;
+}
+
+/* hover style */
+@media (min-width: 1101px) {
+  .about-our-serives-card-item:hover .about-our-serives-card-image {
+    filter: grayscale(0.5);
+  }
+
+  .about-our-serives-card-item:hover::before {
+    opacity: 0;
+  }
+
+  .about-our-serives-card-item:hover::after {
+    opacity: 1;
+  }
+
+  .about-our-serives-card-item:hover .card-item-info {
+    bottom: 24px;
+  }
+}
+
+@media (min-width: 1001px) {
+  .menu-link:hover {
+    color: #fac917;
+  }
+
+  .dropdown-menu-item:hover {
+    background: #020202;
+  }
+
+  .menu-list:hover:nth-child(4) .menu-link {
+    color: #fac917;
+    border-color: #fac917;
+  }
+
+  .menu-list:hover:nth-child(4) .menu-link::before {
+    width: 100%;
+    background: #fac917;
+  }
+
+  .menu-list:hover:nth-child(4) .menu-link::after {
+    background: #fac917;
+  }
+
+  .link-style:hover {
+    color: #fac917;
+    border-color: #fac917;
+  }
+
+  .link-style:hover::before {
+    width: 100%;
+    background: #fac917;
+  }
+
+  .link-style:hover::after {
+    background: #fac917;
+  }
+
+  .rigth-intro-link:hover {
+    color: #fac917;
+  }
+
+  .rigth-intro-link:hover .line-icon::before {
+    width: 69px;
+    background: #fac917;
+  }
+
+  .rigth-intro-link:hover .line-icon-svg-path {
+    fill: #fac917;
+  }
+
+  .gallery-photo-intro:hover .gallery-photo {
+    filter: unset;
+    scale: 1.05;
+  }
+
+  .faq-text:hover {
+    color: #fac917;
+  }
+
+  .faq-text:hover::after {
+    background: url(images/faq-icon-hover.svg);
+  }
+
+  .socal-media-link:hover {
+    color: #fac917;
+  }
+
+  .socal-media-list:last-child
+    .socal-media-title-inner
+    .socal-media-link:hover {
+    color: #fac917;
+  }
+
+  .socal-media-list:last-child
+    .socal-media-title-inner
+    .socal-media-link:hover
+    > svg
+    > path {
+    fill: #fac917;
+  }
+
+  .send-button:hover,
+  .send-button:hover input {
+    color: #fac917;
+    border-color: #fac917;
+  }
+
+  .send-button:hover::before {
+    width: 100%;
+    background: #fac917;
+  }
+
+  .send-button:hover::after {
+    background: #fac917;
+  }
+
+  .footer-menu-link:hover {
+    color: #fac917;
+  }
+
+  .footer-end-intro-link:hover {
+    color: #fac917;
+  }
+
+  .card:hover .card-title {
+    opacity: 0;
+    z-index: 0;
+  }
+
+  .card:hover .card-hover-visitble {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .card:hover .card-image {
+    filter: unset;
+  }
+
+  .card-link:hover .card-link-icon {
+    stroke: #fac917;
+    cursor: pointer;
+  }
+
+  .category-item-link:hover {
+    border-color: #fac917;
+    color: #fac917;
+  }
+
+  .category-item-link:hover::before {
+    width: 100%;
+    background: #fac917;
+  }
+
+  .category-item-link:hover::after {
+    background: #fac917;
+  }
+
+  .about-card-link:hover {
+    color: #fac917;
+    border-color: #fac917;
+  }
+
+  .about-card-link:hover::before {
+    width: 100%;
+    background: #fac917;
+  }
+
+  .about-card-link:hover::after {
+    background: #fac917;
+  }
+
+  .list-group-item:hover {
+    color: #fac917;
+  }
+
+  .incidents-form-button:hover {
+    color: #fac917;
+  }
+
+  .incidents-form-button:hover::before {
+    width: 100%;
+  }
+}
+
+/* responsive */
+@media (max-width: 1716px) and (min-width: 1101px) {
+  .about-our-serives-card-item:nth-child(3) .card-item-info,
+  .about-our-serives-card-item:nth-child(4) .card-item-info,
+  .about-our-serives-card-item:nth-child(5) .card-item-info {
+    bottom: -158px;
+  }
+
+  .about-our-serives-card-item:nth-child(3):hover .card-item-info,
+  .about-our-serives-card-item:nth-child(4):hover .card-item-info,
+  .about-our-serives-card-item:nth-child(5):hover .card-item-info {
+    bottom: 12px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .dropdown-menu-inner {
+    padding: 60px 7.449vw 60px 7.449vw;
+  }
+
+  .dropdown-menu-item:nth-child(1),
+  .dropdown-menu-item:nth-child(2) {
+    width: 33.875vw;
+  }
+
+  .dropdown-menu-item:nth-child(3),
+  .dropdown-menu-item:nth-child(4),
+  .dropdown-menu-item:nth-child(5) {
+    width: 21.677vw;
+  }
+
+  .text-wrapper-list {
+    font-size: 190.526px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .dropdown-menu-inner {
+    padding: 60px 5.449vw 60px 5.449vw;
+  }
+
+  .dropdown-menu-item:nth-child(1),
+  .dropdown-menu-item:nth-child(2) {
+    width: 35.875vw;
+  }
+
+  .dropdown-menu-item:nth-child(3),
+  .dropdown-menu-item:nth-child(4),
+  .dropdown-menu-item:nth-child(5) {
+    width: 23.2vw;
+  }
+
+  .logo-icon {
+    width: 115px;
+  }
+
+  .menu-list {
+    padding: 22px 0;
+  }
+
+  .contact-us-form {
+    width: 40.267vw;
+  }
+
+  .contact-us-title {
+    font-size: 100px;
+  }
+
+  .text-wrapper-list {
+    font-size: 180.526px;
+  }
+
+  .title-subtitle-intro > h3 {
+    max-width: 360px;
+    font-size: 50px;
+  }
+
+  .title-subtitle-intro > p,
+  .title-subtitle-intro > ul {
+    width: 48.563vw;
+  }
+}
+
+@media (max-width: 1390px) {
+  .dropdown-menu-inner {
+    padding: 60px 0;
+  }
+
+  .dropdown-menu-item:nth-child(1),
+  .dropdown-menu-item:nth-child(2) {
+    width: 40.875vw;
+  }
+
+  .dropdown-menu-item:nth-child(3),
+  .dropdown-menu-item:nth-child(4),
+  .dropdown-menu-item:nth-child(5) {
+    width: 26.677vw;
+  }
+
+  .footer-menu-flex {
+    gap: 1.727vw;
+  }
+
+  .footer-rigth {
+    width: 47.554vw;
+  }
+
+  .headingN2 {
+    font-size: 44px;
+  }
+
+  .card-info-inner {
+    flex-direction: column;
+    gap: 31.99px;
+  }
+
+  .faq-title {
+    font-size: 100px;
+  }
+
+  .faq-text-inner {
+    max-width: 400px;
+  }
+
+  .faq-info-inner {
+    width: 46.167vw;
+  }
+
+  .text-wrapper-list {
+    font-size: 170.526px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .about-our-serives-card-item:nth-child(1),
+  .about-our-serives-card-item:nth-child(2),
+  .about-our-serives-card-item:nth-child(3),
+  .about-our-serives-card-item:nth-child(4),
+  .about-our-serives-card-item:nth-child(5) {
+    height: 330px;
+  }
+
+  .card-item-info {
+    padding-left: 24px;
+    padding-right: 6px;
+  }
+
+  .se-right-img {
+    width: 45.948vw;
+    height: 54.333vw;
+  }
+}
+
+@media (max-width: 1291px) {
+  .about-our-serives-card-item:nth-child(3) .card-item-info,
+  .about-our-serives-card-item:nth-child(4) .card-item-info,
+  .about-our-serives-card-item:nth-child(5) .card-item-info {
+    bottom: -178px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .gallery-flex-inner {
+    gap: 2vw;
+  }
+
+  .gallery-photo-intro {
+    width: 48.8%;
+    height: 35vw;
+  }
+}
+
+@media (max-width: 1254px) {
+  .our-team-title {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .left-and-right {
+    flex-direction: column !important;
+    gap: 30px;
+    padding-inline: var(--paddingLeftAndRigth);
+    padding-bottom: 60px;
+  }
+
+  .left-and-right:nth-child(even) > .left-and-right-text-inner {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .left-and-right:nth-child(odd) > .left-and-right-text-inner {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 1190px) {
+  .contact-us-title {
+    font-size: 90px;
+  }
+
+  .socal-media-form {
+    width: 100%;
+    max-width: 467px;
+    flex-direction: column-reverse;
+  }
+
+  .contact-us-form {
+    width: 100%;
+    margin-top: 32.42px;
+  }
+
+  .socal-media {
+    gap: 25px;
+    margin-top: 45px;
+  }
+
+  .socal-media-title {
+    font-size: 20px;
+  }
+
+  .socal-media-subtitle {
+    display: none;
+  }
+
+  .socal-media-title-inner {
+    gap: 16px;
+  }
+
+  .socal-media-list:last-child .socal-media-title-inner .socal-media-link {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 1100px) {
+  :root {
+    --paddingLeftAndRigth: 3.813vw;
+  }
+
+  .dropdown-menu-item:nth-child(1),
+  .dropdown-menu-item:nth-child(2) {
+    width: 44.875vw;
+  }
+
+  .dropdown-menu-item:nth-child(3),
+  .dropdown-menu-item:nth-child(4),
+  .dropdown-menu-item:nth-child(5) {
+    width: 28.677vw;
+  }
+
+  .experience-unparalleled {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .experience-unparalleled-image {
+    width: 100%;
+    height: 90vw;
+    padding: 0 var(--paddingLeftAndRigth);
+    margin-left: 0;
+  }
+
+  .experience-unparalleled-right-inner {
+    width: 100%;
+  }
+
+  .experience-unparalleled-right-title {
+    width: 100%;
+    max-width: 730px;
+    font-size: 44px;
+    padding-left: var(--paddingLeftAndRigth);
+    padding-right: 6px;
+  }
+
+  .experience-unparalleled-right-subtitle {
+    width: 100%;
+    max-width: min(540px + var(--paddingLeftAndRigth) * 2);
+    padding: 0 var(--paddingLeftAndRigth);
+  }
+
+  .experience-unparalleled-info:nth-child(3) {
+    margin-top: 30px;
+  }
+
+  .experience-unparalleled-info {
+    width: min(100% - var(--paddingLeftAndRigth) * 2);
+    margin-inline: auto;
+    padding: 30px 24px;
+  }
+
+  .exp-title {
+    font-size: 32px;
+  }
+
+  .about-heading {
+    font-size: calc(89px + 5 * (100vw - 1100px) / 60);
+  }
+
+  .about-our-serives-cards {
+    flex-direction: column;
+    row-gap: 48px;
+    margin-top: 48px;
+  }
+
+  .about-our-serives-card-item {
+    width: 100% !important;
+  }
+
+  .about-our-serives-card-title {
+    max-width: 100% !important;
+  }
+
+  .card-item-info {
+    max-width: 100% !important;
+  }
+
+  .about-our-serives-card-subtitle {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .card-item-info {
+    bottom: 24px !important;
+  }
+
+  .about-our-serives-card-item {
+    height: 285px !important;
+  }
+
+  .about-our-serives-card-image.grayscale {
+    filter: grayscale(0.5);
+  }
+
+  .wcsss-item {
+    width: 45.042vw;
+  }
+
+  .wcsss-items-inner {
+    row-gap: 22px;
+  }
+
+  .category-item {
+    width: 44.583vw;
+  }
+
+  .carrer-se {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .se-left {
+    order: 1;
+    width: 100%;
+  }
+
+  .se-right-img {
+    order: 2;
+    width: 100%;
+    height: 75vw;
+    margin-top: 30px;
+  }
+
+  .se-suttitle {
+    order: 3;
+    margin-top: 30px;
+  }
+
+  .career-single-heading {
+    font-size: 100px;
+  }
+
+  .secureity-hero h1 {
+    font-size: 100px;
+  }
+
+  .title-subtitle-intro {
+    flex-direction: column;
+    row-gap: 0;
+    margin-top: 60px;
+  }
+
+  .title-subtitle-intro > h3:first-child {
+    margin-top: 0;
+  }
+
+  .title-subtitle-intro > h3 {
+    margin-top: 30px;
+  }
+
+  .title-subtitle-intro > p,
+  .title-subtitle-intro > ul {
+    width: 100%;
+  }
+
+  .location-time-single {
+    margin-top: 32px;
+  }
+
+  .career-single-hero-img-inner,
+  .secureity-hero-img {
+    height: 200vh;
+  }
+
+  .our-benefits-title,
+  .interested-title {
+    font-size: 100px;
+  }
+
+  .interested-title-subtitle {
+    max-width: 460px;
+  }
+
+  .incidents-form-intro {
+    width: 43.688vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .burger-menu-open {
+    display: flex;
+  }
+
+  .header {
+    grid-template-areas:
+      "logo burger"
+      "navigation navigation";
+    padding: 19px var(--paddingLeftAndRigth);
+    background: #101011e6;
+  }
+
+  .logo {
+    grid-area: logo;
+  }
+
+  .burger-menu-open {
+    grid-area: burger;
+  }
+
+  .navigation {
+    height: 0;
+    grid-area: navigation;
+    flex-direction: column;
+    align-items: start;
+    display: none;
+  }
+
+  .menu-inner {
+    overflow-y: scroll;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .menu-list {
+    padding: 0;
+  }
+
+  .menu-list:nth-child(4) .menu-link {
+    width: 100%;
+  }
+
+  .menu-list:nth-child(1) {
+    order: 1;
+  }
+
+  .menu-list:nth-child(2) {
+    order: 2;
+  }
+
+  .menu-list:nth-child(3) {
+    order: 3;
+  }
+
+  .menu-list:nth-child(4) {
+    order: 5;
+    margin-block: auto;
+  }
+
+  .menu-list:last-child .menu-link {
+    width: 100%;
+    max-width: 400px;
+    justify-content: center;
+  }
+
+  .menu-list:last-child {
+    margin-block-start: auto;
+    margin-bottom: 9.5rem;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .dropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 0;
+  }
+
+  .dropdown-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dropdown-menu {
+    position: unset;
+    background: none;
+    backdrop-filter: none;
+    transform: scale(1, 1);
+    height: 0;
+  }
+
+  .dropdown-menu-inner {
+    padding: 0;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .dropdown-menu-item {
+    width: 100% !important;
+    max-width: 400px;
+  }
+
+  .language-dropdown {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    order: 4;
+  }
+
+  .language-dropdown ul.lang-list {
+    position: unset;
+    padding-top: 0;
+  }
+
+  .page-hero,
+  .hero-video,
+  .single-hero-img,
+  .about-hero-img,
+  .carrer-hero-img {
+    height: inherit;
+  }
+
+  .hero-heading-text-inner {
+    margin-top: 188px;
+    margin-bottom: 95.63px;
+  }
+
+  .carrer-hero-heading-text-inner {
+    padding: 0 var(--paddingLeftAndRigth);
+    margin-bottom: 95.63px;
+    margin-top: 188px;
+  }
+
+  .physical-page-hero,
+  .physical-hero-img,
+  .single-page-hero,
+  .single-hero-img {
+    height: inherit;
+  }
+
+  .single-page-hero {
+    align-items: center;
+  }
+
+  .single-hero-heading-text-inner {
+    margin-bottom: 95.63px;
+    margin-top: 188px;
+  }
+
+  .footer-left {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .footer-rigth {
+    width: 57.554vw;
+  }
+
+  .footer-menu-container {
+    gap: 2vw;
+  }
+
+  .card-link > svg {
+    width: 36.621px;
+    height: 35.468px;
+  }
+
+  .our-service-cards {
+    height: auto;
+  }
+
+  .cards-wrapper {
+    flex-direction: column;
+  }
+
+  .card {
+    height: 300px;
+  }
+
+  .card.height {
+    height: 560px;
+  }
+
+  .height > .card-link-mobile {
+    display: block;
+  }
+
+  .height > .card-image {
+    filter: grayscale(0);
+  }
+
+  .card-hover-visitble {
+    width: 100%;
+    left: 0;
+    bottom: unset;
+    top: 13rem;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding: 0 20px;
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .card-title {
+    display: none;
+  }
+
+  .card-title-hover {
+    font-size: 80px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-title-hover.line2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-info-inner {
+    margin-top: 7.69px;
+    align-items: start;
+  }
+
+  .card-link {
+    margin-inline-start: auto;
+  }
+
+  .card-list {
+    width: 100%;
+    max-width: 540px;
+    font-size: 18px;
+  }
+
+  .sappo-security-service,
+  .sappo-security-service-image {
+    height: 870px;
+  }
+
+  .sappo-security-service-text {
+    font-size: 167.117px;
+  }
+
+  .partners-card-text {
+    height: 88px;
+    padding: 0 12px;
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .faq {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .faq-subtitle {
+    margin-top: 20px;
+  }
+
+  .faq-text-inner {
+    max-width: 480px;
+  }
+
+  .faq-info-inner {
+    width: 100%;
+  }
+
+  .faq-text {
+    font-size: 25px;
+  }
+
+  .faq-text-hiiden {
+    font-size: 18px;
+  }
+
+  .text-wrapper-list {
+    font-size: 160.526px;
+  }
+
+  #contact > .contact-us-inner {
+    padding: 145px var(--paddingLeftAndRigth) 60px var(--paddingLeftAndRigth);
+  }
+
+  .about-hero-heading-text-inner {
+    margin-top: 188px;
+    margin-bottom: 95.63px;
+    padding: 0;
+  }
+
+  .about-heading {
+    padding: 0 var(--paddingLeftAndRigth);
+  }
+
+  .hero-subtitle-about {
+    padding-left: var(--paddingLeftAndRigth);
+    padding-right: 13px;
+    max-width: 913px;
+  }
+
+  .strength-reliability {
+    flex-direction: column;
+    align-items: start;
+    gap: 30.37px;
+    padding-inline: var(--paddingLeftAndRigth);
+  }
+
+  .strength-reliability-subtitle {
+    padding-right: 0;
+  }
+
+  .across-title {
+    order: 1;
+  }
+
+  .strength-reliability-img {
+    width: 100%;
+    height: unset;
+    order: 2;
+  }
+
+  .strength-reliability-text-inner {
+    width: 100%;
+    padding-right: 0;
+    order: 3;
+  }
+
+  .descover-title {
+    max-width: calc(400px + 9 * (100vw - 1000px) / 60);
+    font-size: calc(100px + 2 * (100vw - 1000px) / 60);
+    margin-top: 21px;
+    margin-left: 22.05px;
+  }
+
+  .descover,
+  .descover-image {
+    height: 300px;
+  }
+
+  .physical-hero-heading-text-inner {
+    margin-bottom: 95.63px;
+    margin-top: 188px;
+  }
+
+  .physical-page-hero {
+    align-items: center;
+  }
+
+  .single-security-services {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .single-content-right {
+    width: 100%;
+  }
+
+  .single-content-left {
+    max-width: 100%;
+  }
+
+  .title-text-inner {
+    padding-top: 145px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (max-width: 890px) {
+  .home-cards-wrapper > .card:last-child > .card-hover-visitble {
+    top: 8rem;
+  }
+
+  .postid-85
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(2)
+    > .card-hover-visitble {
+    top: 8rem;
+  }
+
+  .postid-36
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(2)
+    > .card-hover-visitble {
+    top: 8rem;
+  }
+
+  .postid-96
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(1)
+    > .card-hover-visitble {
+    top: 8rem;
+  }
+
+  .postid-39
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(2)
+    > .card-hover-visitble {
+    top: 8rem;
+  }
+}
+
+@media (max-width: 880px) {
+  :root {
+    --paddingTopAndBottom: 60px;
+  }
+
+  .our-trusted-partners {
+    padding-top: var(--paddingTopAndBottom);
+    padding-bottom: var(--paddingTopAndBottom);
+  }
+
+  .redefining-security {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .left-intro,
+  .rigth-intro,
+  .rigth-intro-subtitle {
+    width: 100%;
+  }
+
+  .rigth-intro-link {
+    margin-top: 42px;
+  }
+
+  .footer-menu-container {
+    flex-direction: column;
+    gap: 54px;
+  }
+
+  .footer-rigth {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .text-wrapper-list {
+    font-size: 150.526px;
+  }
+}
+
+@media (max-width: 744px) {
+  :root {
+    --paddingLeftAndRigth: 24px;
+  }
+
+  .page-hero {
+    align-items: center;
+  }
+
+  .heading {
+    font-size: calc(120px + 1.714284 * (100vw - 1920px) / 60);
+  }
+
+  .card-title-hover {
+    font-size: 60px;
+  }
+
+  .card {
+    height: 280px;
+  }
+
+  .card.height {
+    height: 510px;
+  }
+
+  .text-wrapper-list {
+    font-size: 140.526px;
+  }
+
+  .about-heading {
+    font-size: calc(59px + 5 * (100vw - 744px) / 60);
+  }
+
+  .our-team-title {
+    font-size: 80px;
+  }
+
+  .our-team-subtitle {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .our-team-men {
+    margin-top: 60px;
+  }
+
+  .next-prev-buttons {
+    justify-content: center;
+    margin-top: 80px;
+  }
+
+  .our-serives-title {
+    font-size: 80px;
+  }
+
+  .testimonials-title {
+    font-size: 76px;
+  }
+
+  .left-and-right-img {
+    width: 100%;
+    height: 70.885vw;
+  }
+
+  .wcsss-text-inner {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .wcsss-left,
+  .wcsss-right {
+    width: 100%;
+  }
+
+  .wcsss-items-inner {
+    flex-direction: column;
+    margin-top: 60px;
+    row-gap: 30px;
+  }
+
+  .wcsss-item {
+    width: 100%;
+  }
+
+  .item-content {
+    padding-right: 0;
+  }
+
+  .item-title {
+    font-size: 22px;
+  }
+
+  .item-icon {
+    width: 27.714px;
+    height: 29.172px;
+  }
+
+  .other-services {
+    font-size: 80px;
+  }
+
+  .current-openings-content {
+    margin-top: 60px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+
+  .category-item {
+    width: 100%;
+  }
+
+  .list-group {
+    margin-top: 30px;
+    gap: 15px;
+  }
+
+  .category-title {
+    margin-top: 6px;
+    font-size: 30px;
+  }
+
+  .location-time {
+    margin-top: 6px;
+  }
+
+  .category-item-link {
+    margin-top: 32px;
+  }
+
+  .career-single-heading,
+  .our-benefits-title,
+  .interested-title {
+    font-size: 80px;
+  }
+
+  .secureity-hero h1 {
+    font-size: 80px;
+  }
+
+  .benefits-icons-inner {
+    margin-top: 60px;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .benefits-item {
+    width: 150px;
+  }
+
+  .benefits-icon-img {
+    width: 80px;
+    height: 86px;
+  }
+
+  .benefits-icon-text {
+    font-size: 24px;
+  }
+
+  .interested-form {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .incidents-form-intro {
+    width: 100%;
+  }
+
+  .chosse-file {
+    margin-top: 20px;
+  }
+
+  .incidents-form-intro-textarea {
+    margin-top: 20px;
+  }
+
+  .incidents-checkbox-inner {
+    margin-top: 15px;
+  }
+
+  .incidents-send-btn {
+    margin-top: 0;
+  }
+
+  .home-cards-wrapper > .card:last-child > .card-hover-visitble {
+    top: 13rem;
+  }
+
+  .card-title-hover {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .home-cards-wrapper > .card:last-child > .card-hover-visitble,
+  .home-cards-wrapper > .card:nth-child(4) > .card-hover-visitble {
+    top: 9.1rem;
+  }
+
+  .postid-85
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(1)
+    > .card-hover-visitble,
+  .postid-85
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(2)
+    > .card-hover-visitble {
+    top: 9.5rem;
+  }
+
+  .postid-36
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(1)
+    > .card-hover-visitble,
+  .postid-36
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(2)
+    > .card-hover-visitble {
+    top: 9.5rem;
+  }
+
+  .postid-91
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(1)
+    > .card-hover-visitble {
+    top: 9.5rem;
+  }
+
+  .postid-96
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(1)
+    > .card-hover-visitble {
+    top: 9.5rem;
+  }
+
+  .postid-39
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(1)
+    > .card-hover-visitble,
+  .postid-39
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(2)
+    > .card-hover-visitble {
+    top: 9.5rem;
+  }
+}
+
+@media (max-width: 690px) {
+  .gallery-container {
+    margin-top: var(--paddingTopAndBottom);
+  }
+
+  #paginated-list {
+    margin-top: 22px;
+  }
+
+  .pagination-container {
+    margin-top: 42px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 659px) {
+  .our-trusted-partners-title,
+  .gallery-text,
+  .single-our-service-title {
+    font-size: 80px;
+  }
+
+  .partners-card-inner,
+  .next-prev-buttons {
+    margin-top: 41px;
+  }
+
+  .master-master-inner {
+    width: 151.875px;
+    height: 113.65926px;
+  }
+
+  .chief {
+    width: 86.786px;
+    height: 65.445px;
+  }
+
+  .master-master-inner {
+    margin-right: 39px;
+  }
+
+  .our-trusted-partners-swiper {
+    margin-left: var(--paddingLeftAndRigth);
+  }
+
+  .text-wrapper-list {
+    font-size: 125.273px;
+  }
+
+  .single-our-service-title {
+    padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth) 16px
+      var(--paddingLeftAndRigth);
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-end-intro {
+    display: grid;
+    grid-template-areas:
+      "info info info"
+      "security1 security2 security3";
+    gap: 12px 14px;
+  }
+
+  .site-info {
+    grid-area: info;
+    text-align: center;
+  }
+
+  .footer-end-intro-list:nth-child(1) {
+    grid-area: security1;
+  }
+
+  .footer-end-intro-list:nth-child(2) {
+    grid-area: security2;
+  }
+
+  .footer-end-intro-list:nth-child(3) {
+    grid-area: security3;
+  }
+
+  .about-heading {
+    font-size: 50px !important;
+  }
+
+  .hero-subtitle-about {
+    margin-top: 9.63px;
+  }
+
+  .our-team-men {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .heading,
+  .faq-title,
+  .contact-us-title {
+    font-size: 80px;
+  }
+
+  .contact-us-title {
+    line-height: 100%;
+  }
+
+  .single-heading {
+    font-size: 74px;
+  }
+
+  .faq-text-hiiden {
+    padding-right: 0;
+  }
+
+  .hero-heading-text-inner {
+    width: 100%;
+    max-width: 360px;
+    margin-left: 0;
+    padding: 0 var(--paddingLeftAndRigth);
+  }
+
+  .link-style {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .footer {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .footer-rigth {
+    flex-direction: column;
+    gap: 54px;
+  }
+
+  .footer-end-inner {
+    padding-top: 24px;
+  }
+
+  .sappo-security-service,
+  .sappo-security-service-image {
+    height: 468px;
+  }
+
+  .sappo-security-service {
+    align-items: center;
+  }
+
+  .sappo-security-service-text {
+    font-size: 111px;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0 var(--paddingLeftAndRigth);
+  }
+
+  .card-title-hover {
+    max-width: 340px;
+    font-size: 45px;
+  }
+
+  .home-cards-wrapper > .card:last-child > .card-hover-visitble,
+  .home-cards-wrapper > .card:nth-child(4) > .card-hover-visitble {
+    top: 3.2rem;
+  }
+
+  .postid-85
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(1)
+    > .card-hover-visitble,
+  .postid-85
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(2)
+    > .card-hover-visitble {
+    top: 3.2rem;
+  }
+
+  .postid-36
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(1)
+    > .card-hover-visitble,
+  .postid-36
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(2)
+    > .card-hover-visitble {
+    top: 3.2rem;
+  }
+
+  .postid-91
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(1)
+    > .card-hover-visitble {
+    top: 3.2rem;
+  }
+
+  .postid-96
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(1)
+    > .card-hover-visitble {
+    top: 3.2rem;
+  }
+
+  .postid-39
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(1)
+    > .card-hover-visitble,
+  .postid-39
+    > .main
+    > .other-services-wraper
+    > .our-service-cards
+    > .cards-wrapper
+    > .card:nth-child(2)
+    > .card-hover-visitble {
+    top: 3.2rem;
+  }
+
+  .card-list {
+    max-width: 311px;
+    font-size: 16px;
+  }
+
+  .card {
+    height: 151px;
+  }
+
+  .card-hover-visitble {
+    top: 5.9rem;
+  }
+
+  .card {
+    height: 151px;
+  }
+
+  .card.height {
+    height: 400px;
+  }
+
+  .gallery-flex-inner {
+    gap: 20px;
+  }
+
+  .gallery-photo-intro {
+    width: 100%;
+    height: 35vw;
+  }
+
+  .strength-reliability-img {
+    height: 460px;
+  }
+
+  .testimonials-slide-inner {
+    width: 380px;
+    margin-right: 42px;
+  }
+
+  .testimonials-swiper {
+    margin-left: 6px;
+    margin-top: 60px;
+  }
+
+  .physical-hero-photo {
+    object-position: -15rem;
+  }
+
+  .left-and-right-img {
+    height: 395px;
+  }
+
+  .category-item-link {
+    width: 100%;
+  }
+
+  .se-right-img {
+    height: 318px;
+  }
+}
+
+@media (max-width: 477px) {
+  .about-card-link {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 440px) {
+  .descover-title {
+    font-size: 54.325px;
+    max-width: 220px;
+  }
+
+  .descover-image {
+    width: max-content;
+    object-position: -60px;
+  }
+
+  .descover::before {
+    width: 558.13px;
+    transform: translateX(-60px);
+  }
+}
+
+@media (max-width: 420px) {
+  .hero-heading-text-inner {
+    max-width: 100%;
+  }
+
+  .hero-subtitle {
+    max-width: 360px;
+  }
+
+  .pagination-container {
+    justify-content: space-between;
+  }
+
+  .experience-unparalleled-image {
+    height: 460px;
+  }
+}
+
+@media (max-width: 400px) {
+  .headingN2-home {
+    font-size: calc(42px + 5 * (100vw - 400px) / 60);
+  }
+
+  .rigth-intro {
+    width: 100%;
+    max-width: 335px;
+  }
+
+  .contact-us-subtitle {
+    width: 89%;
+  }
+}
+
+@media (max-width: 384px) {
+  .about-our-serives-card-subtitle {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

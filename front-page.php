@@ -3,8 +3,7 @@
 	<?php
 	$file = get_field('video');
 	?>
-	<!-- <video class="hero-video" poster="<?= the_field('video_poster'); ?>" src="<?php echo $file['url']; ?>" type="video/mp4" autoplay loop playsinline webkit-playsinline muted></video> -->
-	<img class="hero-video" src="<?= the_field('video_poster'); ?>" alt="">
+	<video class="hero-video" poster="<?= the_field('video_poster'); ?>" src="<?php echo $file['url']; ?>" type="video/mp4" autoplay loop playsinline webkit-playsinline muted></video>
 	<div class="hero-heading-text-inner">
 		<div class="container">
 			<h1 class="heading split"><?= the_field('title'); ?></h1>

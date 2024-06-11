@@ -118,7 +118,7 @@ body.no-scroll {
   width: 100%;
   padding: 0 var(--paddingLeftAndRigth);
   /* background: rgba(16, 16, 17, 0.6); */
-  background: blue;
+  background: green;
   -webkit-backdrop-filter: blur(21.75px);
   backdrop-filter: blur(21.75px);
   position: fixed;
@@ -3254,6 +3254,8 @@ body.no-scroll {
     flex-direction: column;
     align-items: start;
     display: none;
+    min-width: unset;
+    max-width: 100%;
   }
 
   .menu-inner {

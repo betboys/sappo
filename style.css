@@ -117,8 +117,7 @@ body.no-scroll {
 .header {
   width: 100%;
   padding: 0 var(--paddingLeftAndRigth);
-  /* background: rgba(16, 16, 17, 0.6); */
-  background: red;
+  background: rgba(16, 16, 17, 0.6);
   -webkit-backdrop-filter: blur(21.75px);
   backdrop-filter: blur(21.75px);
   position: fixed;

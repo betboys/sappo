@@ -1862,6 +1862,7 @@ body.no-scroll {
   margin-inline-start: auto;
   transform: translateX(100%);
   color: #fac917;
+  padding-bottom: 40px;
 }
 
 .gallery-container {

@@ -1597,7 +1597,7 @@ body.no-scroll {
 
 .hero-subtitle {
   width: 100%;
-  max-width: 600px;
+  max-width: 790px;
   margin-top: 24px;
 }
 
@@ -1793,7 +1793,8 @@ body.no-scroll {
 }
 
 .card-info-inner ul li,
-.card-list {
+.card-list,
+.card-info-inner p {
   display: flex;
   align-items: center;
   gap: 18.11px;

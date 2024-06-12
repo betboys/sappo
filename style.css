@@ -1256,7 +1256,7 @@ body.no-scroll {
 /* root */
 :root {
   --paddingTopAndBottom: 6.25vw;
-  --paddingLeftAndRigth: 7.813vw;
+  --paddingLeftAndRigth: calc(7.813vw + 0.3611 * (100vw - 1920px) / 60);
 }
 
 /* header */
@@ -1337,7 +1337,7 @@ body.no-scroll {
 }
 
 .menu-link {
-  font: 500 20px / 150% "Noto Sans Armenian Medium";
+  font: 500 22px / 150% "Noto Sans Armenian Medium";
   color: #fff;
   transition: 0.5s;
 }
@@ -1549,7 +1549,7 @@ body.no-scroll {
 /* home hero section */
 .page-hero {
   width: 100%;
-  height: calc(985px + 29.124 * (100vw - 1920px) / 60);
+  height: 985px;
   overflow: hidden;
   display: grid;
   align-items: end;
@@ -1557,7 +1557,7 @@ body.no-scroll {
 
 .hero-image-inner {
   width: 100%;
-  height: calc(985px + 29.124 * (100vw - 1920px) / 60);
+  height: 985px;
   position: relative;
 }
 
@@ -1577,7 +1577,7 @@ body.no-scroll {
   width: 100%;
   max-width: 820px;
   margin-left: var(--paddingLeftAndRigth);
-  margin-bottom: calc(151px + 6 * (100vw - 1920px) / 60);
+  margin-bottom: var(--paddingTopAndBottom);
   position: relative;
 }
 
@@ -1587,6 +1587,10 @@ body.no-scroll {
   color: #fff;
 }
 
+.heading>.text-color-style {
+  padding-top: 25px;
+}
+
 .text-color-style {
   display: inline-block;
   overflow: hidden;
@@ -1594,25 +1598,25 @@ body.no-scroll {
 }
 
 .subtitle {
-  font: 300 calc(20px + 0.25 * (100vw - 1920px) / 60) / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Light";
   color: #fff;
 }
 
 .hero-subtitle {
   width: 100%;
-  max-width: calc(790px + 21 * (100vw - 1920px) / 60);
-  margin-top: calc(24px + 0.008333 * (100vw - 1920px));
+  max-width: 790px;
+  margin-top: 24px;
 }
 
 .link-style {
-  width: calc(220px + 6.25 * (100vw - 1920px) / 60);
-  height: calc(52px + 0.624 * (100vw - 1920px) / 60);
-  margin-top: calc(40px + 1.5 * (100vw - 1920px) / 60);
+  width: 220px;
+  height: 52px;
+  margin-top: 40px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  font: 500 calc(20px + 0.25 * (100vw - 1920px) / 60) / 100% "Noto Sans Armenian Medium";
+  font: 500 20px / 100% "Noto Sans Armenian Medium";
   letter-spacing: 0.04px;
   color: #fff;
   border-left: 2px solid #fff;
@@ -1656,13 +1660,13 @@ body.no-scroll {
 }
 
 .headingN2 {
-  font: 400 calc(64px + 1.75 * (100vw - 1920px) / 60) / 106% "Bebas Neue";
+  font: 400 64px / 106% "Bebas Neue";
   letter-spacing: 0.64px;
   color: #fff;
 }
 
 .rigth-intro {
-  width: calc(43.49vw + 1 * (100vw - 1920px) / 60);
+  width: 43.49vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1674,8 +1678,7 @@ body.no-scroll {
 
 .rigth-intro-link {
   width: max-content;
-  margin-top: 24px;
-  font: 500 calc(20px + 0.25 * (100vw - 1920px) / 60) / 100% "Noto Sans Armenian Medium";
+  font: 500 20px / 100% "Noto Sans Armenian Medium";
   color: #fff;
   display: flex;
   align-items: center;
@@ -1747,8 +1750,8 @@ body.no-scroll {
 
 .card-title {
   writing-mode: vertical-rl;
-  height: calc(900px + 28 * (100vw - 1920px) / 60);
-  font: 400 calc(120px + 3.75 * (100vw - 1920px) / 60) / 92% "Bebas Neue";
+  height: calc(900px + 29.2 * (100vw - 1920px) / 60);
+  font: 400 calc(120px + 3.913 * (100vw - 1920px) / 60) / 92% "Bebas Neue";
   color: #fff;
   transform-origin: center;
   transform: rotate(180deg);
@@ -1835,7 +1838,7 @@ body.no-scroll {
 
 .text-wrapper-list {
   width: max-content;
-  font: 400 calc(228.526px + 8.5657 * (100vw - 1920px) / 60) / 82% "Bebas Neue";
+  font: 400 228.526px / 82% "Bebas Neue";
   text-transform: uppercase;
   color: #fff;
 }
@@ -1861,7 +1864,7 @@ body.no-scroll {
 }
 
 .gallery-text {
-  font: 400 calc(128px + 4.75 * (100vw - 1920px) / 60) / 120% "Bebas Neue";
+  font: 400 calc(128px + 2.2839 * (100vw - 1920px) / 60) / 120% "Bebas Neue";
   letter-spacing: 1.28px;
   color: #fff;
 }
@@ -1994,7 +1997,7 @@ body.no-scroll {
 /* sappo-security-service */
 .sappo-security-service {
   width: 100%;
-  height: calc(1100px + 28.75 * (100vw - 1920px) / 60);
+  height: 1100px;
   display: grid;
   position: relative;
 }
@@ -2009,11 +2012,11 @@ body.no-scroll {
 }
 
 .sappo-security-service-image {
-  height: calc(1100px + 28.75 * (100vw - 1920px) / 60);
+  height: 1100px;
 }
 
 .sappo-security-service-text {
-  font: 400 calc(288.117px + 8.5146*(100vw - 1920px) / 60) / 85% "Bebas Neue";
+  font: 400 288.117px / 85% "Bebas Neue";
   color: #fff;
   width: 100%;
   max-width: 830px;
@@ -3987,6 +3990,10 @@ body.no-scroll {
   .dropdown-menu-item:nth-child(5) {
     width: 21.677vw;
   }
+
+  .text-wrapper-list {
+    font-size: 190.526px;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -4019,6 +4026,10 @@ body.no-scroll {
 
   .contact-us-title {
     font-size: 100px;
+  }
+
+  .text-wrapper-list {
+    font-size: 180.526px;
   }
 
   .title-subtitle-intro>h3 {

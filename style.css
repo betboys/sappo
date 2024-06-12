@@ -4875,7 +4875,7 @@ body.no-scroll {
     width: 100%;
     left: 0;
     bottom: unset;
-    top: 13.1rem;
+    top: calc(13.1rem + -9 * (100vw - 1024px) / 60);
     padding-left: 0;
     padding-bottom: 0;
     padding: 0 20px;

@@ -4051,6 +4051,10 @@ body.no-scroll {
     font-size: 120px;
   }
 
+  .menu-link {
+    font-size: 18px;
+  }
+
   .hero-image-inner,
   .page-hero {
     height: 752px;

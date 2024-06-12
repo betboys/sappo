@@ -1813,6 +1813,13 @@ body.no-scroll {
   color: #fff;
 }
 
+.card-info-inner p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .card-link-icon {
   transition: 0.5s;
 }

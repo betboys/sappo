@@ -188,7 +188,7 @@ body.no-scroll {
 }
 
 .menu-list {
-  padding: 30px 0;
+  padding: 29px 0;
   display: flex;
   align-items: center;
   gap: 9.7px;
@@ -871,7 +871,7 @@ body.no-scroll {
 
 .wpml-ls-legacy-dropdown {
   width: unset;
-  max-width: 115px;
+  max-width: unset;
 }
 
 .wpml-ls-legacy-dropdown a {
@@ -879,6 +879,10 @@ body.no-scroll {
   background-color: transparent;
   color: #fff;
   padding: 10px 4px;
+}
+
+.wpml-ls-legacy-dropdown .wpml-ls-flag+span {
+  margin-left: 13px !important;
 }
 
 .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle {
@@ -891,11 +895,12 @@ body.no-scroll {
   display: inline-block;
   border: none;
   border-top: none;
-  position: absolute;
-  right: 10px;
+  position: unset !important;
+  right: unset;
   top: unset;
   transform-origin: center;
   transition: 0.5s;
+  margin-left: 10px;
 }
 
 .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {

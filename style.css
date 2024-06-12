@@ -4891,7 +4891,15 @@ body.no-scroll {
   }
 
   .sappo-security-service-text {
-    font-size: 167.117px;
+    font-size: 170px;
+  }
+
+  .footer-menu-container {
+    flex-direction: column;
+  }
+
+  .footer-left {
+    max-width: 390px;
   }
 
   .partners-card-text {

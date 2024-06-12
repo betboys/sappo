@@ -177,7 +177,7 @@ function footer() {
   footerMenuFlex.className = "footer-menu-flex";
   footerMenuFlex.append(footerMenuInner[0], footerMenuInner[1]);
   footerNav.appendChild(footerMenuFlex);
-  if (windowWidth <= 880) {
+  if (windowWidth <= 1024) {
     for (let i = 0; i < footerMenuInner.length; i++) {
       footerNav.append(footerMenuInner[i]);
     }

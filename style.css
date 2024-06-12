@@ -5079,9 +5079,6 @@ body.no-scroll {
 }
 
 @media (max-width: 880px) {
-  :root {
-    --paddingTopAndBottom: 60px;
-  }
 
   .our-trusted-partners {
     padding-top: var(--paddingTopAndBottom);
@@ -5119,7 +5116,10 @@ body.no-scroll {
 }
 
 @media (max-width: 767px) {
-
+  :root {
+    --paddingLeftAndRigth: 20px;
+    --paddingTopAndBottom: 60px;
+  }
   .page-hero {
     align-items: center;
   }

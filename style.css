@@ -5109,7 +5109,11 @@ body.no-scroll {
   }
 
   .card-hover-visitble {
-    top: 6rem;
+    top: 14.1rem;
+  }
+
+  .home-cards-wrapper>.card:last-child>.card-hover-visitble {
+    top: 11.1rem;
   }
 
   .menu-link {
@@ -5125,7 +5129,7 @@ body.no-scroll {
   }
 
   .card-title-hover {
-    font-size: 60px;
+    font-size: 45px;
   }
 
   .hero-heading-text-inner {

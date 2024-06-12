@@ -117,8 +117,7 @@ body.no-scroll {
 .header {
   width: 100%;
   padding: 0 var(--paddingLeftAndRigth);
-  /* background: rgba(16, 16, 17, 0.6); */
-  background: orange;
+  background: rgba(16, 16, 17, 0.6);
   -webkit-backdrop-filter: blur(21.75px);
   backdrop-filter: blur(21.75px);
   position: fixed;
@@ -223,7 +222,7 @@ body.no-scroll {
 .navigation {
   display: flex;
   align-items: center;
-  min-width: 750px;
+  gap: 3.958vw;
 }
 
 .dropdown-menu-inner {
@@ -869,20 +868,23 @@ body.no-scroll {
   margin-left: var(--paddingLeftAndRigth);
   margin-top: 137.5px;
 }
+
 .wpml-ls-legacy-dropdown {
-  width: 100%;
+  width: unset;
   max-width: 115px;
-  margin-left: 20px;
 }
+
 .wpml-ls-legacy-dropdown a {
   border: none;
   background-color: transparent;
   color: #fff;
   padding: 10px 4px;
 }
+
 .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle {
   padding-right: 10px;
 }
+
 .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:after {
   content: url("data:image/svg+xml,%3Csvg class='language-icon' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.3982 15.6634C12.1785 15.8831 11.8224 15.8831 11.6027 15.6634L5.86788 9.92853C5.64821 9.70886 5.64821 9.35276 5.86788 9.13308L6.13305 8.86788C6.35271 8.64821 6.70887 8.64821 6.92854 8.86788L12.0005 13.9398L17.0724 8.86788C17.2921 8.64821 17.6482 8.64821 17.8679 8.86788L18.1331 9.13308C18.3527 9.35276 18.3527 9.70886 18.1331 9.92853L12.3982 15.6634Z' fill='white'%3E%3C/path%3E%3C/svg%3E");
   vertical-align: middle;
@@ -895,23 +897,28 @@ body.no-scroll {
   transform-origin: center;
   transition: 0.5s;
 }
+
 .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transform: rotate(180deg);
 }
+
 .wpml-ls-legacy-dropdown a:hover,
 .wpml-ls-legacy-dropdown a:focus,
 .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover > a {
   background-color: transparent;
   color: #fff;
 }
+
 .wpml-ls-legacy-dropdown .wpml-ls-sub-menu {
   border-top: none;
 }
+
 .wpml-ls-legacy-dropdown .wpml-ls-flag {
   width: 27px;
   height: 20px;
   border-radius: 5px;
 }
+
 .sappo-security-service-text > .text-color-style {
   padding-top: 36px;
 }

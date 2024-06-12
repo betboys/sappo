@@ -1174,7 +1174,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 /* fonts */
 @font-face {
   font-family: "Bebas Neue";
-  src: url(fonts/Bebas-Neue/BebasNeue-Regular.ttf);
+  src: url(fonts/Bebas-Neue/BebasNeueArm.TTF);
 }
 
 @font-face {
@@ -1256,7 +1256,7 @@ body.no-scroll {
 /* root */
 :root {
   --paddingTopAndBottom: 6.25vw;
-  --paddingLeftAndRigth: 7.813vw;
+  --paddingLeftAndRigth: calc(7.813vw + 0.3611 * (100vw - 1920px) / 60);
 }
 
 /* header */
@@ -1567,8 +1567,8 @@ body.no-scroll {
 }
 
 .hero-heading-text-inner {
-  width: 95%;
-  max-width: 820px;
+  width: 100%;
+  max-width: 850px;
   margin-left: var(--paddingLeftAndRigth);
   margin-bottom: var(--paddingTopAndBottom);
   position: relative;
@@ -4124,9 +4124,6 @@ body.no-scroll {
 }
 
 @media (max-width: 1100px) {
-  :root {
-    --paddingLeftAndRigth: 3.813vw;
-  }
 
   .dropdown-menu-item:nth-child(1),
   .dropdown-menu-item:nth-child(2) {
@@ -4753,9 +4750,6 @@ body.no-scroll {
 }
 
 @media (max-width: 744px) {
-  :root {
-    --paddingLeftAndRigth: 24px;
-  }
 
   .page-hero {
     align-items: center;

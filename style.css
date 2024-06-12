@@ -5121,6 +5121,10 @@ body.no-scroll {
     --paddingTopAndBottom: 60px;
   }
 
+  .menu-link {
+    font-size: 22px;
+  }
+
   .page-hero {
     align-items: center;
   }

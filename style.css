@@ -4051,6 +4051,15 @@ body.no-scroll {
     font-size: 120px;
   }
 
+  .partners-card-text {
+    font-size: 14px;
+    padding: 0 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
   .menu-link {
     font-size: 18px;
   }

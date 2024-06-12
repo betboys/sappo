@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="page-hero" id="home">
-	<div class="hero-image-inner">	
+	<div class="hero-image-inner">
 		<img class="hero-image" src="<?= the_field('video_poster'); ?>" alt="">
 	</div>
 	<div class="hero-heading-text-inner">
@@ -36,6 +36,11 @@
 
 	</article>
 </section>
+
+<ul class="text-wrapper-ul">
+	<li class="text-wrapper-list text-wrapper-list-first"><?= the_field('animation_text') ?></li>
+	<li class="text-wrapper-list text-wrapper-list-last"><?= the_field('animation_text_2') ?></li>
+</ul>
 
 <section class="our-service-cards">
 	<div class="cards-wrapper home-cards-wrapper">
@@ -80,10 +85,7 @@
 		<?php endif; ?>
 	</div>
 </section>
-<ul class="text-wrapper-ul">
-		<li class="text-wrapper-list text-wrapper-list-first"><?= the_field('animation_text') ?></li>
-		<li class="text-wrapper-list text-wrapper-list-last"><?= the_field('animation_text_2') ?></li>
-	</ul>
+
 <section class="gallery">
 	<div class="gallery-container">
 		<div class="gallery-text-and-buttons">

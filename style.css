@@ -5372,9 +5372,83 @@ body.no-scroll {
     margin-top: 42px;
   }
 
+  .gallery-text {
+    font-size: 80px;
+  }
+
+  .sappo-security-service-text {
+    font-size: 105px;
+    margin-left: unset;
+    padding-inline: var(--paddingLeftAndRigth);
+    max-width: 530px;
+    margin-top: 79px;
+  }
+
+  .sappo-security-service,
+  .sappo-security-service-image {
+    height: 468px;
+    width: max-content;
+  }
+
   .card-title-hover {
     width: 100%;
     max-width: 450px;
+  }
+
+  .our-trusted-partners-title {
+    font-size: 80px;
+  }
+
+  .partners-card-inner {
+    margin-top: 41px;
+  }
+
+  .master-master-inner {
+    width: 151px;
+    height: 113px;
+    margin-right: 39px;
+  }
+
+  .faq-title {
+    font-size: 80px;
+  }
+
+  .contact-us-title {
+    font-size: 80px;
+  }
+
+  .contact-us-subtitle {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .socal-media-form {
+    flex-direction: column-reverse;
+    align-items: start;
+    margin-top: 32px;
+    gap: 45px;
+  }
+
+  .contact-us-form,
+  .wpcf7 {
+    width: 100%;
+  }
+
+  .faq-subtitle {
+    font-size: 20px;
+  }
+
+  .faq-container {
+    padding: 20px 0;
+  }
+
+  .chief {
+    width: 86.786px;
+    height: 65.445px;
+  }
+
+  .our-trusted-partners-swiper {
+    margin-left: var(--paddingLeftAndRigth);
   }
 
   .postid-85>.main>.other-services-wraper>.our-service-cards>.cards-wrapper>.card:nth-child(1)>.card-hover-visitble,
@@ -5647,6 +5721,10 @@ body.no-scroll {
 @media (max-width: 477px) {
   .about-card-link {
     margin-top: 15px;
+  }
+
+  .sappo-security-service::before {
+    transform: translateX(-45%);
   }
 }
 

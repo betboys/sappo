@@ -4303,7 +4303,25 @@ body.no-scroll {
   }
 
   .footer-left {
-    width: 380px;
+    width: 300px;
+  }
+
+  .footer-menu-title {
+    font-size: 20px;
+  }
+
+  .site-info,
+  .footer-end-intro-link {
+    font-size: 12px;
+  }
+
+  .footer-menu-inner .widget_nav_menu ul a {
+    font-size: 16px;
+  }
+
+  .footer-menu-inner,
+  .footer-menu-inner .widget_nav_menu ul {
+    gap: 15px;
   }
 
   .card-info-inner ul li,
@@ -4319,6 +4337,11 @@ body.no-scroll {
 
   .card-title-hover {
     font-size: calc(80px + 2*(100vw - 1920px) / 60);
+  }
+
+  .footer-text {
+    font-size: 16px;
+    margin-top: 40.4px;
   }
 }
 

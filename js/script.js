@@ -247,7 +247,7 @@ function ourServiceCards() {
 }
 /* our trusted partners */
 function partners() {
-  let partnersCard = document.querySelectorAll(".card-intro");
+  let partnersCard = document.querySelectorAll(".side-2");
   let masterInner = document.querySelectorAll(".master-master-inner");
   for (let i = 0; i < partnersCard.length; i++) {
     if (windowWidth > 1001 && windowWidth <= 3840) {

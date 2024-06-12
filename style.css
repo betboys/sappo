@@ -1843,6 +1843,10 @@ body.no-scroll {
   background: #101011;
 }
 
+.text-wrapper-ul {
+  background: #101011;
+}
+
 .text-wrapper-list {
   width: max-content;
   font: 400 228.526px / 82% "Bebas Neue";

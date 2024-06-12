@@ -5318,11 +5318,6 @@ body.no-scroll {
     max-width: 450px;
   }
 
-  .home-cards-wrapper>.card:last-child>.card-hover-visitble,
-  .home-cards-wrapper>.card:nth-child(4)>.card-hover-visitble {
-    top: 9.1rem;
-  }
-
   .postid-85>.main>.other-services-wraper>.our-service-cards>.cards-wrapper>.card:nth-child(1)>.card-hover-visitble,
   .postid-85>.main>.other-services-wraper>.our-service-cards>.cards-wrapper>.card:nth-child(2)>.card-hover-visitble {
     top: 9.5rem;
@@ -5459,13 +5454,6 @@ body.no-scroll {
 
   .faq-text-hiiden {
     padding-right: 0;
-  }
-
-  .hero-heading-text-inner {
-    width: 100%;
-    max-width: 360px;
-    margin-left: 0;
-    padding: 0 var(--paddingLeftAndRigth);
   }
 
   .link-style {

@@ -2222,7 +2222,7 @@ body.no-scroll {
 
 .faq-text-inner {
   width: 100%;
-  max-width: 500px;
+  max-width: 460px;
 }
 
 .faq-title {
@@ -2296,6 +2296,13 @@ body.no-scroll {
 .contact-us {
   width: 100%;
   position: relative;
+}
+
+.contact-us::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.40) 100%), radial-gradient(40.89% 27.34% at 38.12% 58.45%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.80) 100%);
 }
 
 .contact-us-image {

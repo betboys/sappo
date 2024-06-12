@@ -1256,7 +1256,7 @@ body.no-scroll {
 /* root */
 :root {
   --paddingTopAndBottom: 6.25vw;
-  --paddingLeftAndRigth: calc(7.813vw + 0.3611 * (100vw - 1920px) / 60);
+  --paddingLeftAndRigth: 7.813vw;
 }
 
 /* header */
@@ -4016,10 +4016,6 @@ body.no-scroll {
     width: 115px;
   }
 
-  .menu-list {
-    padding: 22px 0;
-  }
-
   .contact-us-form {
     width: 40.267vw;
   }
@@ -4040,6 +4036,57 @@ body.no-scroll {
   .title-subtitle-intro>p,
   .title-subtitle-intro>ul {
     width: 48.563vw;
+  }
+}
+
+@media (max-width: 1440px) {
+  .heading {
+    font-size: 120px;
+  }
+
+  .hero-image-inner,
+  .page-hero {
+    height: 752px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .hero-subtitle {
+    max-width: 680px;
+    margin-top: 20px;
+  }
+
+  .link-style {
+    margin-top: 30px;
+    width: 170px;
+    height: 47px;
+    font-size: 18px;
+  }
+
+  .menu-inner {
+    gap: 57px;
+  }
+
+  .menu-list {
+    padding: 24px 0;
+  }
+
+  .headingN2 {
+    font-size: 50px;
+  }
+
+  .rigth-intro {
+    width: 46.9vw;
+  }
+
+  .rigth-intro-link {
+    margin-top: 24px;
+  }
+
+  .card-title {
+    font-size: 90px;
   }
 }
 

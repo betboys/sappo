@@ -82,14 +82,14 @@ function headerSubmenu() {
     let dropdownIconFill = document.querySelector(".dropdown-icon-fill");
     dropdown.addEventListener("mouseover", function () {
       document.querySelector("body").classList.add("no-scroll");
-      dropdownMenu.style.height = "min(100vh - 340px)";
+      dropdownMenu.style.height = "600px";
       dropdownToggle.style.color = "#FAC917";
       dropdownIcon.style.transform = "rotate(180deg)";
       dropdownIconFill.style.fill = "#FAC917";
     });
     dropdownMenu.addEventListener("mouseover", function () {
       document.querySelector("body").classList.add("no-scroll");
-      dropdownMenu.style.height = "min(100vh - 340px)";
+      dropdownMenu.style.height = "600px";
       dropdownToggle.style.color = "#FAC917";
       dropdownIcon.style.transform = "rotate(180deg)";
       dropdownIconFill.style.fill = "#FAC917";
@@ -108,17 +108,17 @@ function headerSubmenu() {
       dropdownIcon.style.transform = "rotate(0deg)";
       dropdownIconFill.style.fill = "#fff";
     });
-    if (window.innerHeight <= 850) {
+    if (windowWidth >= 1025 && windowWidth <= 1240) {
       dropdown.addEventListener("mouseover", function () {
         document.querySelector("body").classList.add("no-scroll");
-        dropdownMenu.style.height = "100vh";
+        dropdownMenu.style.height = "640px";
         dropdownToggle.style.color = "#FAC917";
         dropdownIcon.style.transform = "rotate(180deg)";
         dropdownIconFill.style.fill = "#FAC917";
       });
       dropdownMenu.addEventListener("mouseover", function () {
         document.querySelector("body").classList.add("no-scroll");
-        dropdownMenu.style.height = "100vh";
+        dropdownMenu.style.height = "640px";
         dropdownToggle.style.color = "#FAC917";
         dropdownIcon.style.transform = "rotate(180deg)";
         dropdownIconFill.style.fill = "#FAC917";

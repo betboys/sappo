@@ -1178,23 +1178,23 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 @font-face {
-  font-family: "Noto Sans Armenian Light";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Light.ttf);
+  font-family: "Noto Sans Armenian Regular";
+  src: url(fonts/notosansarmenian/NotoSansArmenian-Regular.ttf);
 }
 
 @font-face {
   font-family: "Noto Sans Armenian Medium";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Medium.ttf);
+  src: url(fonts/notosansarmenian/NotoSansArmenian-Medium.ttf);
 }
 
 @font-face {
   font-family: "Noto Sans Armenian SemiBold";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-SemiBold.ttf);
+  src: url(fonts/notosansarmenian/NotoSansArmenian-SemiBold.ttf);
 }
 
 @font-face {
   font-family: "Noto Sans Armenian Bold";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Bold.ttf);
+  src: url(fonts/notosansarmenian/NotoSansArmenian-Bold.ttf);
 }
 
 /* * */
@@ -1238,7 +1238,7 @@ img {
 }
 
 body {
-  font: 300 22px / 110% "Noto Sans Armenian Light";
+  font: 300 22px / 110% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -1386,7 +1386,7 @@ body.no-scroll {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font: 300 14px / 150% "Noto Sans Armenian Light";
+  font: 300 14px / 150% "Noto Sans Armenian Regular";
   color: #aaa;
 }
 
@@ -1522,7 +1522,7 @@ body.no-scroll {
   display: flex;
   align-items: center;
   gap: 13px;
-  font: 500 22px / normal "Noto Sans Armenian Light";
+  font: 500 22px / normal "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -1598,7 +1598,7 @@ body.no-scroll {
 }
 
 .subtitle {
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -1892,7 +1892,7 @@ body.no-scroll {
 #pagination-numbers {
   display: flex;
   align-items: center;
-  font: 300 20px / 150% "Noto Sans Armenian Light";
+  font: 300 20px / 150% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -2205,7 +2205,7 @@ body.no-scroll {
 
 .partners-card-text {
   padding: 28px 20px;
-  font: 300 16px / 137.5% "Noto Sans Armenian Light";
+  font: 300 16px / 137.5% "Noto Sans Armenian Regular";
   letter-spacing: 0.16px;
   color: #fff;
   transition: 0.5s;
@@ -2232,7 +2232,7 @@ body.no-scroll {
 
 .faq-subtitle {
   margin-top: 24px;
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
   color: #101011;
 }
 
@@ -2266,7 +2266,7 @@ body.no-scroll {
   padding-right: 50px;
   overflow: hidden;
   grid-area: hidden;
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
   color: #101011;
   transition: 0.5s;
 }
@@ -2334,7 +2334,7 @@ body.no-scroll {
 
 .contact-us-subtitle {
   margin-top: 3px;
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -2368,7 +2368,7 @@ body.no-scroll {
 }
 
 .socal-media-link {
-  font: 300 14px / 150% "Noto Sans Armenian Light";
+  font: 300 14px / 150% "Noto Sans Armenian Regular";
   text-decoration-line: underline;
   color: #ccc;
   transition: 0.5s;
@@ -2376,7 +2376,7 @@ body.no-scroll {
 
 .socal-media-list:last-child .socal-media-title-inner .socal-media-link {
   width: max-content;
-  font: 300 16px / 150% "Noto Sans Armenian Light";
+  font: 300 16px / 150% "Noto Sans Armenian Regular";
   color: #fff;
   display: flex;
   align-items: center;
@@ -2456,7 +2456,7 @@ body.no-scroll {
 .input {
   width: 100%;
   padding: 16px 16px 16px 56px;
-  font: 300 16px / 202.232% "Noto Sans Armenian Light";
+  font: 300 16px / 202.232% "Noto Sans Armenian Regular";
   letter-spacing: -0.121px;
   color: #fff;
   border: 1.348px solid #48484e;
@@ -2494,7 +2494,7 @@ body.no-scroll {
   outline: none;
   background: none;
   padding: 16px 16px 0 16px;
-  font: 300 16px / 202.232% "Noto Sans Armenian Light";
+  font: 300 16px / 202.232% "Noto Sans Armenian Regular";
   letter-spacing: -0.121px;
   color: #fff;
   border: 1.348px solid #48484e;
@@ -2504,7 +2504,7 @@ body.no-scroll {
 
 .valid {
   margin-top: 8px;
-  font: 300 14px / normal "Noto Sans Armenian Light";
+  font: 300 14px / normal "Noto Sans Armenian Regular";
   color: #b42318;
   display: none;
 }
@@ -2516,7 +2516,7 @@ body.no-scroll {
 }
 
 .label {
-  font: 300 14px / 171.429% "Noto Sans Armenian Light";
+  font: 300 14px / 171.429% "Noto Sans Armenian Regular";
   letter-spacing: -0.09px;
   color: #fff;
 }
@@ -2543,7 +2543,7 @@ body.no-scroll {
 }
 
 .send-button input {
-  font: 300 20px / normal "Noto Sans Armenian Light";
+  font: 300 20px / normal "Noto Sans Armenian Regular";
   letter-spacing: 0.04px;
   color: #fff;
   cursor: pointer;
@@ -2597,7 +2597,7 @@ body.no-scroll {
 
 .footer-text {
   margin-top: 54px;
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -2621,7 +2621,7 @@ body.no-scroll {
 }
 
 .footer-menu-inner .widget_nav_menu ul a {
-  font: 300 18px / 150% "Noto Sans Armenian Light";
+  font: 300 18px / 150% "Noto Sans Armenian Regular";
   color: #fff;
   transition: 0.5s;
 }
@@ -2633,7 +2633,7 @@ body.no-scroll {
 }
 
 .footer-menu-link {
-  font: 300 18px / 150% "Noto Sans Armenian Light";
+  font: 300 18px / 150% "Noto Sans Armenian Regular";
   color: #fff;
   transition: 0.5s;
 }
@@ -2659,7 +2659,7 @@ body.no-scroll {
 }
 
 .site-info {
-  font: 300 14px / 150% "Noto Sans Armenian Light";
+  font: 300 14px / 150% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -2668,7 +2668,7 @@ body.no-scroll {
 }
 
 .footer-end-intro-link {
-  font: 300 14px / 150% "Noto Sans Armenian Light";
+  font: 300 14px / 150% "Noto Sans Armenian Regular";
   text-decoration-line: underline;
   color: #fff;
   transition: 0.5s;
@@ -2874,7 +2874,7 @@ body.no-scroll {
 
 .about-our-serives-card-subtitle {
   margin-top: 12px;
-  font: 300 14px / 150% "Noto Sans Armenian Light";
+  font: 300 14px / 150% "Noto Sans Armenian Regular";
   color: #eee;
 }
 
@@ -2936,7 +2936,7 @@ body.no-scroll {
 
 .our-team-subtitle {
   margin-top: 7px;
-  font: 300 17px / 173% "Noto Sans Armenian Light";
+  font: 300 17px / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -2965,7 +2965,7 @@ body.no-scroll {
 }
 
 .position {
-  font: 300 17px / 173% "Noto Sans Armenian Light";
+  font: 300 17px / 173% "Noto Sans Armenian Regular";
   text-align: center;
   color: #fff;
 }
@@ -3043,7 +3043,7 @@ body.no-scroll {
 
 .testimonials-content {
   margin-top: 20px;
-  font: 300 20px / 150% "Noto Sans Armenian Light";
+  font: 300 20px / 150% "Noto Sans Armenian Regular";
   text-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
   color: #eee;
 }
@@ -3112,7 +3112,7 @@ body.no-scroll {
 }
 
 .single-content-right-title {
-  font: 300 20px / 150% "Noto Sans Armenian Light";
+  font: 300 20px / 150% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3157,7 +3157,7 @@ body.no-scroll {
 
 .left-and-right-subtitle {
   margin-top: 30px;
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3194,7 +3194,7 @@ body.no-scroll {
 
 .wcsss-right {
   width: 41.302vw;
-  font: 300 17px / 173% "Noto Sans Armenian Light";
+  font: 300 17px / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3233,7 +3233,7 @@ body.no-scroll {
 .item-content {
   margin-top: 16px;
   padding-right: 25px;
-  font: 300 18px / 150% "Noto Sans Armenian Light";
+  font: 300 18px / 150% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3290,7 +3290,7 @@ body.no-scroll {
 }
 
 .left-and-right>.left-and-right-text-inner>ul>li {
-  font: 300 17px / 173% "Noto Sans Armenian Light";
+  font: 300 17px / 173% "Noto Sans Armenian Regular";
   color: #fff;
   list-style: disc;
   margin-left: 20px;
@@ -3337,7 +3337,7 @@ body.no-scroll {
 }
 
 .list-group-item {
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
   color: #fff;
   cursor: pointer;
   transition: 0.5s;
@@ -3372,7 +3372,7 @@ body.no-scroll {
 }
 
 .category-hashtag {
-  font: 300 16px / 173% "Noto Sans Armenian Light";
+  font: 300 16px / 173% "Noto Sans Armenian Regular";
   color: #aaa;
 }
 
@@ -3394,7 +3394,7 @@ body.no-scroll {
   display: flex;
   align-items: center;
   gap: 12px;
-  font: 300 16px / 150% "Noto Sans Armenian Light";
+  font: 300 16px / 150% "Noto Sans Armenian Regular";
   color: #aaa;
 }
 
@@ -3462,7 +3462,7 @@ body.no-scroll {
 
 .se-suttitle {
   margin-top: 32px;
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
   color: #101011;
 }
 
@@ -3502,7 +3502,7 @@ body.no-scroll {
   width: 100%;
   max-width: 735px;
   margin-top: 14px;
-  font: 300 16px / 150% "Noto Sans Armenian Light";
+  font: 300 16px / 150% "Noto Sans Armenian Regular";
 }
 
 .location-time-single {
@@ -3510,7 +3510,7 @@ body.no-scroll {
   display: flex;
   align-items: center;
   gap: 30px;
-  font: 300 16px / 150% "Noto Sans Armenian Light";
+  font: 300 16px / 150% "Noto Sans Armenian Regular";
   color: #eee;
 }
 
@@ -3538,7 +3538,7 @@ body.no-scroll {
 
 .title-subtitle-intro>p {
   width: calc(51.563vw + 16 * (100vw - 1920px) / 60);
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3549,7 +3549,7 @@ body.no-scroll {
 }
 
 .title-subtitle-intro>ul>li {
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
   color: #fff;
   list-style: disc;
   margin-left: 20px;
@@ -3557,7 +3557,7 @@ body.no-scroll {
 
 .title-subtitle-intro a {
   text-decoration: underline;
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3642,7 +3642,7 @@ body.no-scroll {
 
 .interested-subtitle {
   margin-top: 10px;
-  font: 300 20px / 173% "Noto Sans Armenian Light";
+  font: 300 20px / 173% "Noto Sans Armenian Regular";
 }
 
 .interested-subtitle p>a {
@@ -3683,7 +3683,7 @@ body.no-scroll {
 }
 
 .file-text {
-  font: 300 18px / 133.333% "Noto Sans Armenian Light";
+  font: 300 18px / 133.333% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -4085,8 +4085,13 @@ body.no-scroll {
     margin-top: 24px;
   }
 
-  .card-title {
+  .card-title,
+  .gallery-text {
     font-size: 90px;
+  }
+
+  .hero-heading-text-inner {
+    margin-bottom: 103px;
   }
 }
 

@@ -2016,7 +2016,7 @@ body.no-scroll {
 }
 
 .sappo-security-service-text {
-  font: 400 288.117px / 85% "Bebas Neue";
+  font: 400 calc(288.117px + 15 * (100vw - 1920px) / 60) / 85% "Bebas Neue";
   color: #fff;
   width: 100%;
   max-width: 830px;
@@ -4067,7 +4067,7 @@ body.no-scroll {
 
   .menu-inner,
   .navigation {
-    gap: 57px;
+    gap: calc(57px + 5 * (100vw - 1440px) / 60);
   }
 
   .menu-list {
@@ -4086,7 +4086,10 @@ body.no-scroll {
     margin-top: 24px;
   }
 
-  .card-title,
+  .card-title {
+    font-size: calc(90px + 4 * (100vw - 1440px) / 60);
+  }
+  
   .gallery-text {
     font-size: 90px;
   }
@@ -4330,14 +4333,6 @@ body.no-scroll {
     gap: 31.99px;
   }
 
-  .faq-title {
-    font-size: 100px;
-  }
-
-  .faq-text-inner {
-    max-width: 400px;
-  }
-
   .faq-info-inner {
     width: 46.167vw;
   }
@@ -4416,22 +4411,6 @@ body.no-scroll {
 @media (max-width: 1190px) {
   .contact-us-title {
     font-size: 90px;
-  }
-
-  .socal-media-form {
-    width: 100%;
-    max-width: 467px;
-    flex-direction: column-reverse;
-  }
-
-  .contact-us-form {
-    width: 100%;
-    margin-top: 32.42px;
-  }
-
-  .socal-media {
-    gap: 25px;
-    margin-top: 45px;
   }
 
   .socal-media-title {
@@ -4921,7 +4900,7 @@ body.no-scroll {
   }
 
   .faq-text-hiiden {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .text-wrapper-list {

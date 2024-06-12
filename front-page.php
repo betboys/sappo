@@ -80,12 +80,11 @@
 		<?php endif; ?>
 	</div>
 </section>
-
-<section class="gallery">
-	<ul class="text-wrapper-ul">
+<ul class="text-wrapper-ul">
 		<li class="text-wrapper-list text-wrapper-list-first"><?= the_field('animation_text') ?></li>
 		<li class="text-wrapper-list text-wrapper-list-last"><?= the_field('animation_text_2') ?></li>
 	</ul>
+<section class="gallery">
 	<div class="gallery-container">
 		<div class="gallery-text-and-buttons">
 			<h3 class="gallery-text" data-aos="fade-up"><?= the_field('gallery_title') ?></h3>

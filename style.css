@@ -5367,6 +5367,11 @@ body.no-scroll {
     gap: 20px;
   }
 
+  .pagination-container {
+    justify-content: space-between;
+    margin-top: 42px;
+  }
+
   .card-title-hover {
     width: 100%;
     max-width: 450px;

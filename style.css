@@ -1561,7 +1561,7 @@ body.no-scroll {
   position: relative;
 }
 
-.hero-image-inner {
+.hero-image-inner::before {
   content: "";
   position: absolute;
   inset: 0;

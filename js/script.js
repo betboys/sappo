@@ -369,23 +369,23 @@ if (document.getElementById("home")) {
   if (windowWidth <= 690) {
     paginatedList.appendChild(paginationContainer);
   }
-  window.addEventListener("load", function () {
-    for (let i = 0; i < listItems.length; i++) {
-      let imageWidth = listItems[i].clientWidth;
-      let imagaHeight = listItems[i].clientHeight;
-      if (windowWidth > 1260 && windowWidth <= 1920) {
-        let newImageWidth = (imageWidth / 1920) * 100;
-        let newImageHeight = (imagaHeight / 1920) * 100;
-        listItems[i].setAttribute(
-          "style",
-          `width: ${newImageWidth}vw; height: ${newImageHeight}vw`
-        );
-      }
-      if (windowWidth <= 520) {
-        listItems[i].setAttribute("style", `height: ${imageWidth}px`);
-      }
-    }
-  });
+  // window.addEventListener("load", function () {
+  //   for (let i = 0; i < listItems.length; i++) {
+  //     let imageWidth = listItems[i].clientWidth;
+  //     let imagaHeight = listItems[i].clientHeight;
+  //     if (windowWidth > 1260 && windowWidth <= 1920) {
+  //       let newImageWidth = (imageWidth / 1920) * 100;
+  //       let newImageHeight = (imagaHeight / 1920) * 100;
+  //       listItems[i].setAttribute(
+  //         "style",
+  //         `width: ${newImageWidth}vw; height: ${newImageHeight}vw`
+  //       );
+  //     }
+  //     if (windowWidth <= 520) {
+  //       listItems[i].setAttribute("style", `height: ${imageWidth}px`);
+  //     }
+  //   }
+  // });
   if (listItems.length > 1 && listItems.length <= 4) {
     one.innerHTML = 1;
     two.innerHTML = 1;

@@ -134,7 +134,7 @@ function headerSubmenu() {
     let dropdownIcon = document.querySelector(".dropdown-icon");
     let dropdownMenu = document.querySelector(".dropdown-menu");
     let dropdown = document.querySelector(".dropdown");
-    let menuUl = document.querySelector(".menu-main-menu");
+    let menuUl = document.querySelector(".menu-inner");
     let languageWpml = document.querySelector(".wpml-ls-statics-shortcode_actions");
     menuUl.append(languageWpml);
     menuOpen.addEventListener("click", function () {

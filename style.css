@@ -2175,10 +2175,6 @@ body.no-scroll {
   height: 100%;
 }
 
-.side-2.click {
-  opacity: 1;
-}
-
 .card-intro .side-1 {
   width: 100%;
   height: 100%;
@@ -2201,6 +2197,10 @@ body.no-scroll {
   align-items: center;
   transition: .5s;
   opacity: 0;
+}
+
+.side-2.click {
+  opacity: 1;
 }
 
 .partners-card-text {

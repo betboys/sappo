@@ -1792,7 +1792,7 @@ body.no-scroll {
   gap: 10.24px;
 }
 
-.card-info-inner ul li::marker {
+.card-info-inner ul li::before {
   content: url(images/Vector-list.svg);
 }
 

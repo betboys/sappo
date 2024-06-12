@@ -5061,10 +5061,6 @@ body.no-scroll {
 }
 
 @media (max-width: 890px) {
-  .home-cards-wrapper>.card:last-child>.card-hover-visitble {
-    top: 8rem;
-  }
-
   .postid-85>.main>.other-services-wraper>.our-service-cards>.cards-wrapper>.card:nth-child(2)>.card-hover-visitble {
     top: 8rem;
   }
@@ -5122,7 +5118,7 @@ body.no-scroll {
   }
 }
 
-@media (max-width: 744px) {
+@media (max-width: 767px) {
 
   .page-hero {
     align-items: center;

@@ -5120,16 +5120,27 @@ body.no-scroll {
     --paddingLeftAndRigth: 20px;
     --paddingTopAndBottom: 60px;
   }
+
   .page-hero {
     align-items: center;
   }
 
   .heading {
-    font-size: calc(120px + 1.714284 * (100vw - 1920px) / 60);
+    font-size: 80px;
   }
 
   .card-title-hover {
     font-size: 60px;
+  }
+
+  .hero-heading-text-inner {
+    margin-left: unset;
+    padding-inline: var(--paddingLeftAndRigth);
+    margin-bottom: 59.63px;
+  }
+
+  .subtitle {
+    font-size: 20px;
   }
 
   .card {

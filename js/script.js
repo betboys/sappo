@@ -73,7 +73,7 @@ function headerSubmenu() {
   dropdownToggle.addEventListener("click", function (e) {
     e.preventDefault();
   });
-  if (windowWidth >= 1024 && windowWidth <= 3840) {
+  if (windowWidth >= 1025 && windowWidth <= 3840) {
     let dropdownMenu = document.querySelector(".dropdown-menu");
     let header = document.querySelector(".header");
     header.appendChild(dropdownMenu);

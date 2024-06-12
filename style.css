@@ -3994,6 +3994,10 @@ body.no-scroll {
   .text-wrapper-list {
     font-size: 190.526px;
   }
+
+  .faq-info-inner {
+    width: 50.167vw;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -4092,6 +4096,119 @@ body.no-scroll {
 
   .hero-heading-text-inner {
     margin-bottom: 103px;
+  }
+
+  .text-wrapper-list {
+    font-size: 160px;
+  }
+
+  .gallery-photo-intro:nth-child(1),
+  .gallery-photo-intro:nth-child(5),
+  .gallery-photo-intro:nth-child(9),
+  .gallery-photo-intro:nth-child(13),
+  .gallery-photo-intro:nth-child(17),
+  .gallery-photo-intro:nth-child(21),
+  .gallery-photo-intro:nth-child(25),
+  .gallery-photo-intro:nth-child(29),
+  .gallery-photo-intro:nth-child(33),
+  .gallery-photo-intro:nth-child(37),
+  .gallery-photo-intro:nth-child(41) {
+    width: 26.597vw;
+    height: 24.306vw;
+  }
+
+  .gallery-photo-intro:nth-child(2),
+  .gallery-photo-intro:nth-child(6),
+  .gallery-photo-intro:nth-child(10),
+  .gallery-photo-intro:nth-child(14),
+  .gallery-photo-intro:nth-child(18),
+  .gallery-photo-intro:nth-child(22),
+  .gallery-photo-intro:nth-child(26),
+  .gallery-photo-intro:nth-child(30),
+  .gallery-photo-intro:nth-child(34),
+  .gallery-photo-intro:nth-child(38),
+  .gallery-photo-intro:nth-child(42) {
+    width: 55.208vw;
+    height: 24.306vw;
+  }
+
+  .gallery-photo-intro:nth-child(3),
+  .gallery-photo-intro:nth-child(7),
+  .gallery-photo-intro:nth-child(11),
+  .gallery-photo-intro:nth-child(15),
+  .gallery-photo-intro:nth-child(19),
+  .gallery-photo-intro:nth-child(23),
+  .gallery-photo-intro:nth-child(27),
+  .gallery-photo-intro:nth-child(31),
+  .gallery-photo-intro:nth-child(35),
+  .gallery-photo-intro:nth-child(39),
+  .gallery-photo-intro:nth-child(43),
+  .gallery-photo-intro:nth-child(4),
+  .gallery-photo-intro:nth-child(8),
+  .gallery-photo-intro:nth-child(12),
+  .gallery-photo-intro:nth-child(16),
+  .gallery-photo-intro:nth-child(20),
+  .gallery-photo-intro:nth-child(24),
+  .gallery-photo-intro:nth-child(28),
+  .gallery-photo-intro:nth-child(32),
+  .gallery-photo-intro:nth-child(36),
+  .gallery-photo-intro:nth-child(40),
+  .gallery-photo-intro:nth-child(44) {
+    width: 40.694vw;
+    height: 37.014vw;
+  }
+
+  .sappo-security-service-text {
+    font-size: 220px;
+  }
+
+  .sappo-security-service,
+  .sappo-security-service-image {
+    height: 870px;
+  }
+
+  .our-trusted-partners-title {
+    font-size: 90px;
+  }
+
+  .our-trusted-partners-swiper {
+    margin-left: 44px;
+  }
+
+  .partners-card-inner {
+    margin-top: 60px;
+  }
+
+  .master-master-inner {
+    width: 189px;
+    height: 141px;
+    margin-right: 48px;
+  }
+
+  .chief {
+    width: 108px;
+    height: 81.443px;
+  }
+
+  .faq-info-inner {
+    width: 54.167vw;
+  }
+
+  .faq-title {
+    font-size: 90px;
+  }
+
+  .faq-subtitle {
+    font-size: 18px;
+    margin-top: 18px ;
+  }
+
+  .faq-container {
+    padding: 15px 0;
+  }
+
+  .faq-text {
+    font-size: 22px;
   }
 }
 

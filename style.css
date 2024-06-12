@@ -1555,10 +1555,17 @@ body.no-scroll {
   align-items: end;
 }
 
-.hero-video {
+.hero-image-inner {
   width: 100%;
   height: 100vh;
-  object-fit: cover;
+  position: relative;
+}
+
+.hero-image-inner {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 70%, rgba(0, 0, 0, 0) 100%);
 }
 
 .page-hero>* {
@@ -4491,7 +4498,7 @@ body.no-scroll {
   }
 
   .page-hero,
-  .hero-video,
+  .hero-image-inner,
   .single-hero-img,
   .about-hero-img,
   .carrer-hero-img {

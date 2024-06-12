@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 <section class="page-hero" id="home">
-
-		<img class="hero-video" src="<?= the_field('video_poster'); ?>" alt="">
+	<div class="hero-image-inner">	
+		<img class="hero-image" src="<?= the_field('video_poster'); ?>" alt="">
+	</div>
 	<div class="hero-heading-text-inner">
 		<h1 class="heading" data-aos="fade-up"><?= the_field('title'); ?></h1>
 		<h2 class="subtitle hero-subtitle"><?= the_field('description'); ?> </h2>
@@ -131,7 +132,7 @@
 
 <section class="sappo-security-service">
 	<img class="sappo-security-service-image" src="<?= the_field('back_image') ?>" alt="">
-		<h3 class="sappo-security-service-text" data-aos="fade-up"><?= the_field('banner_text') ?></h3>
+	<h3 class="sappo-security-service-text" data-aos="fade-up"><?= the_field('banner_text') ?></h3>
 </section>
 
 

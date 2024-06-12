@@ -9,26 +9,24 @@
         <img class="carrer-hero-photo" src="<?php echo $featured_image_url; ?>" alt="">
     </div>
     <div class="carrer-hero-heading-text-inner">
-        <div class="container">
-            <h1 class="heading carrer-heading split"><?= the_field('title'); ?></h1>
-        </div>
+        <h1 class="heading carrer-heading" data-aos="fade-up"><?= the_field('title'); ?></h1>
         <h2 class="subtitle"><?= the_field('subtitle'); ?></h2>
     </div>
 </section>
 
 <section class="current-openings">
-    <div class="container">
-        <h3 class="headingN2 split"><?= the_field('job_openings_title'); ?></h3>
-    </div>
+    <h3 class="headingN2" data-aos="fade-up"><?= the_field('job_openings_title'); ?></h3>
     <ul class="list-group">
         <li class="list-group-item active" aria-current="true">All</li>
 
         <?php
         // Get the terms for the custom taxonomy 'career_category'
-        $terms = get_terms(array(
-            'taxonomy' => 'career_category',
-            'hide_empty' => false, // Set to true if you want to hide empty categories
-        ));
+        $terms = get_terms(
+            array(
+                'taxonomy' => 'career_category',
+                'hide_empty' => false, // Set to true if you want to hide empty categories
+            )
+        );
 
         // Check if any terms were found
         if (!empty($terms) && !is_wp_error($terms)) {
@@ -44,7 +42,7 @@
         $args = array(
             'post_type' => 'career',
             'posts_per_page' => -1, // Change as needed
-
+        
 
         );
         $related_services = new WP_Query($args);
@@ -58,12 +56,12 @@
                 $card_image = get_field('card_image', get_the_ID());
                 $card_description = get_field('card_description');
                 $terms = get_the_terms(get_the_ID(), 'career_category');
-        ?>
+                ?>
                 <article class="category-item" data-cat="<?php if ($terms && !is_wp_error($terms)) {
-                                                                foreach ($terms as $term) {
-                                                                    echo $term->name . ' ';
-                                                                }
-                                                            } ?>">
+                    foreach ($terms as $term) {
+                        echo $term->name . ' ';
+                    }
+                } ?>">
                     <?php
                     if ($terms && !is_wp_error($terms)) {
                         echo '<p class="category-hashtag">';
@@ -78,27 +76,27 @@
                     <h5 class="category-title"><?php the_title(); ?></h5>
                     <ul class="location-time">
                         <li class="location-time-list">
-                            <img class="location-time-img" src="<?php echo get_template_directory_uri(); ?>/images/location.svg" alt="">
+                            <img class="location-time-img" src="<?php echo get_template_directory_uri(); ?>/images/location.svg"
+                                alt="">
                             <?= the_field('location'); ?>
                         </li>
                         <li class="location-time-list">
-                            <img class="location-time-img" src="<?php echo get_template_directory_uri(); ?>/images/watch.svg" alt="">
+                            <img class="location-time-img" src="<?php echo get_template_directory_uri(); ?>/images/watch.svg"
+                                alt="">
                             <?= the_field('job_type'); ?>
                         </li>
                     </ul>
                     <a class="category-item-link" href="<?php echo get_permalink(); ?>">Apply now</a>
                 </article>
-        <?Php }
+            <?Php }
             wp_reset_postdata();
         } ?>
     </div>
 </section>
 <section class="carrer-se">
     <div class="se-left">
-        <div class="container">
-            <h3 class="headingN2 carrer-headingN2 split"><?php echo  the_field('left_title'); ?></h3>
-        </div>
-        <p class="se-suttitle"><?php echo  the_field('left_description'); ?></p>
+        <h3 class="headingN2 carrer-headingN2" data-aos="fade-up"><?php echo the_field('left_title'); ?></h3>
+        <p class="se-suttitle"><?php echo the_field('left_description'); ?></p>
     </div>
     <img class="se-right-img" src="<?php echo the_field('right_image'); ?>" alt="">
 </section>

@@ -2,16 +2,16 @@
 
 <section class="career-single-hero" id="career-single">
     <div class="title-text-inner">
-        <div class="container">
-            <h1 class="career-single-heading split"><?php the_title(); ?></h1>
-        </div>
+        <h1 class="career-single-heading" data-aos="fade-up"><?php the_title(); ?></h1>
         <ul class="location-time-single">
             <li class="location-time-list-single">
-                <img class="location-time-img" src="<?php echo get_template_directory_uri(); ?>/images/location.svg" alt="">
+                <img class="location-time-img" src="<?php echo get_template_directory_uri(); ?>/images/location.svg"
+                    alt="">
                 <?= the_field('location'); ?>
             </li>
             <li class="location-time-list-single">
-                <img class="location-time-img" src="<?php echo get_template_directory_uri(); ?>/images/watch.svg" alt="">
+                <img class="location-time-img" src="<?php echo get_template_directory_uri(); ?>/images/watch.svg"
+                    alt="">
                 <?= the_field('job_type'); ?>
             </li>
         </ul>
@@ -21,32 +21,32 @@
         </div>
     </div>
     <div class="career-single-hero-img-inner">
-        <img class="career-single-hero-img" src="<?php echo get_template_directory_uri(); ?>/images/career-single-hero-img.webp" alt="">
+        <img class="career-single-hero-img"
+            src="<?php echo get_template_directory_uri(); ?>/images/career-single-hero-img.webp" alt="">
     </div>
 </section>
 
 <section class="our-benefits">
-    <div class="container">
-        <h3 class="our-benefits-title split"><?= the_field('benefits_title', 'option'); ?></h3>
-    </div>
+    <h3 class="our-benefits-title" data-aos="fade-up"><?= the_field('benefits_title', 'option'); ?></h3>
     <div class="benefits-icons-inner">
         <?php
 
         // Check rows exists.
-        if (have_rows('benefits', 'option')) :
+        if (have_rows('benefits', 'option')):
 
             // Loop through rows.
-            while (have_rows('benefits', 'option')) : the_row();
+            while (have_rows('benefits', 'option')):
+                the_row();
 
                 // Load sub field value.
                 $name = get_sub_field('name');
                 $bimage = get_sub_field('image');
-        ?>
+                ?>
                 <div class="benefits-item">
                     <img class="benefits-icon-img" src="<?= $bimage ?>" alt="">
                     <p class="benefits-icon-text"><?= $name ?></p>
                 </div>
-        <?php
+                <?php
             endwhile;
         endif; ?>
     </div>
@@ -54,9 +54,7 @@
 
 <section class="interested">
     <div class="interested-title-subtitle">
-        <div class="container">
-            <h3 class="interested-title split"><?= the_field('career_form_title', 'option'); ?></h3>
-        </div>
+        <h3 class="interested-title" data-aos="fade-up"><?= the_field('career_form_title', 'option'); ?></h3>
         <div class="interested-subtitle"><?= the_field('career_form_description', 'option'); ?></div>
     </div>
     <div class="interested-form">

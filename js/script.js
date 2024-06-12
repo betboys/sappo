@@ -2,6 +2,12 @@ var $ = jQuery;
 const windowWidth = window.innerWidth;
 /* language select */
 $(document).ready(function () {
+  // title animation fide up
+  AOS.init({
+    duration: 400,
+    easing: 'linear',
+    once: true
+  });
   let languageIcon = document.querySelector(".language-icon");
   let flags = document.querySelectorAll(".flag");
   let langs = document.querySelectorAll(".lang");
@@ -176,27 +182,27 @@ function footer() {
   }
 }
 /* gsap text animation */
-function gsapTextSplit() {
-  gsap.registerPlugin(ScrollTrigger, SplitText);
-  function setupSplits() {
-    const targets = gsap.utils.toArray(".split");
-    targets.forEach((target) => {
-      let splitHeading = new SplitText(target, { type: "words, chars" });
-      let chars = splitHeading.chars;
-      gsap.from(chars, {
-        yPercent: 100,
-        stagger: true,
-        duration: 0.5,
-        scrollTrigger: {
-          trigger: target,
-          start: "top 75%",
-          end: "bottom center",
-        },
-      });
-    });
-  }
-  setupSplits();
-}
+// function gsapTextSplit() {
+//   gsap.registerPlugin(ScrollTrigger, SplitText);
+//   function setupSplits() {
+//     const targets = gsap.utils.toArray(".split");
+//     targets.forEach((target) => {
+//       let splitHeading = new SplitText(target, { type: "words, chars" });
+//       let chars = splitHeading.chars;
+//       gsap.from(chars, {
+//         yPercent: 100,
+//         stagger: true,
+//         duration: 0.5,
+//         scrollTrigger: {
+//           trigger: target,
+//           start: "top 75%",
+//           end: "bottom center",
+//         },
+//       });
+//     });
+//   }
+//   setupSplits();
+// }
 /* our service card */
 function ourServiceCards() {
   let cards = document.querySelectorAll(".card");
@@ -308,7 +314,7 @@ function form() {
 /* Home */
 if (document.getElementById("home")) {
   // title text animation
-  gsapTextSplit();
+  // gsapTextSplit();
   // header
   headerSubmenu();
   // our serive cards
@@ -524,7 +530,7 @@ if (document.getElementById("home")) {
 /* Contact Us */
 if (document.getElementById("contact")) {
   // title text animation
-  gsapTextSplit();
+  // gsapTextSplit();
   // header
   headerSubmenu();
   // form
@@ -538,7 +544,7 @@ if (document.getElementById("about")) {
   let swiperButtonNext = document.querySelectorAll(".swiper-button-next");
   let swiperButtonprev = document.querySelectorAll(".swiper-button-prev");
   // title text animation
-  gsapTextSplit();
+  // gsapTextSplit();
   // header
   headerSubmenu();
   // strength and reliability
@@ -610,7 +616,7 @@ if (document.getElementById("about")) {
 /* Serives Single Pages */
 if (document.getElementById("single")) {
   // title text animation
-  gsapTextSplit();
+  // gsapTextSplit();
   // header
   headerSubmenu();
   // our serive cards
@@ -638,7 +644,7 @@ if (document.getElementById("single")) {
 /* Carrer */
 if (document.getElementById("carrer")) {
   // title text animation
-  gsapTextSplit();
+  // gsapTextSplit();
   // header
   headerSubmenu();
   // select category
@@ -668,7 +674,7 @@ if (document.getElementById("carrer")) {
 /* Career Single */
 if (document.getElementById("career-single")) {
   // title text animation
-  gsapTextSplit();
+  // gsapTextSplit();
   // header
   headerSubmenu();
   // form choose file
@@ -707,7 +713,7 @@ if (document.getElementById("secureity")) {
   let heading = document.querySelector("h1");
   heading.className = "split";
   // title text animation
-  gsapTextSplit();
+  // gsapTextSplit();
   // header
   headerSubmenu();
   // footer

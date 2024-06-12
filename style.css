@@ -1582,7 +1582,7 @@ body.no-scroll {
 }
 
 .heading {
-  font: 400 calc(160px + 2.03999 * (100vw - 1920px) / 60) / 83% "Bebas Neue";
+  font: 400 calc(160px + 2.03999 * (100vw - 1920px) / 60) / 96% "Bebas Neue";
   letter-spacing: 1.6px;
   color: #fff;
 }
@@ -1660,7 +1660,7 @@ body.no-scroll {
 }
 
 .headingN2 {
-  font: 400 64px / 90% "Bebas Neue";
+  font: 400 64px / 106% "Bebas Neue";
   letter-spacing: 0.64px;
   color: #fff;
 }
@@ -1864,7 +1864,7 @@ body.no-scroll {
 }
 
 .gallery-text {
-  font: 400 calc(128px + 2.2839 * (100vw - 1920px) / 60) / 83% "Bebas Neue";
+  font: 400 calc(128px + 2.2839 * (100vw - 1920px) / 60) / 120% "Bebas Neue";
   letter-spacing: 1.28px;
   color: #fff;
 }
@@ -2016,7 +2016,7 @@ body.no-scroll {
 }
 
 .sappo-security-service-text {
-  font: 400 288.117px / 83% "Bebas Neue";
+  font: 400 288.117px / 85% "Bebas Neue";
   color: #fff;
   width: 100%;
   max-width: 830px;
@@ -2105,7 +2105,7 @@ body.no-scroll {
 }
 
 .our-trusted-partners-title {
-  font: 400 calc(128px + 2.2839 * (100vw - 1920px) / 60) / 83% "Bebas Neue";
+  font: 400 calc(128px + 2.2839 * (100vw - 1920px) / 60) / 96% "Bebas Neue";
   letter-spacing: 1.28px;
   color: #101011;
 }
@@ -2226,7 +2226,7 @@ body.no-scroll {
 }
 
 .faq-title {
-  font: 400 128px / 83% "Bebas Neue";
+  font: 400 128px / 120% "Bebas Neue";
   color: #101011;
 }
 
@@ -2314,6 +2314,7 @@ body.no-scroll {
 .contact-us-inner {
   width: 100%;
   padding: 60px var(--paddingLeftAndRigth);
+  position: relative;
 }
 
 .socal-media-form {
@@ -2508,7 +2509,7 @@ body.no-scroll {
   display: none;
 }
 
-.checkbox-inner {
+.checkbox-inner>p {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -3887,6 +3888,10 @@ body.no-scroll {
   }
 
   .footer-menu-link:hover {
+    color: #fac917;
+  }
+
+  .footer-menu-inner .widget_nav_menu ul a:hover {
     color: #fac917;
   }
 

@@ -2319,6 +2319,7 @@ body.no-scroll {
 
 .socal-media-form {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -2339,7 +2340,6 @@ body.no-scroll {
 }
 
 .socal-media {
-  margin-top: 3.186vw;
   display: inline-flex;
   flex-direction: column;
   gap: 3.125vw;
@@ -4024,10 +4024,6 @@ body.no-scroll {
     width: 40.267vw;
   }
 
-  .contact-us-title {
-    font-size: 100px;
-  }
-
   .text-wrapper-list {
     font-size: 180.526px;
   }
@@ -4069,7 +4065,8 @@ body.no-scroll {
     font-size: 18px;
   }
 
-  .menu-inner {
+  .menu-inner,
+  .navigation {
     gap: 57px;
   }
 
@@ -4200,7 +4197,7 @@ body.no-scroll {
 
   .faq-subtitle {
     font-size: 18px;
-    margin-top: 18px ;
+    margin-top: 18px;
   }
 
   .faq-container {
@@ -4210,6 +4207,94 @@ body.no-scroll {
   .faq-text {
     font-size: 22px;
   }
+
+  .faq-text-inner {
+    max-width: 375px;
+  }
+
+  .faq-text-hiiden {
+    font-size: 18px;
+  }
+
+  .contact-us-inner {
+    padding: 45px var(--paddingLeftAndRigth);
+  }
+
+  .contact-us-title {
+    font-size: 90px;
+  }
+
+  .contact-us-subtitle {
+    font-size: 18px;
+    margin-top: 2.25px;
+  }
+
+  .socal-media-title,
+  .socal-media-subtitle,
+  .form-name {
+    font-size: 16px;
+  }
+
+  .form-name {
+    line-height: 151.674%;
+  }
+
+  .socal-media-list>svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .form-input {
+    margin-top: 4.04px;
+  }
+
+  .input {
+    font-size: 12px;
+    padding: 12px 16px 12px 42px;
+  }
+
+  .form-input svg {
+    left: 12px;
+    top: 16px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .contact-us-form {
+    gap: 18px;
+  }
+
+  .textarea {
+    height: 97px;
+    margin-top: 4.04px;
+    padding: 12px 12px 0 12px;
+    font-size: 12px;
+  }
+
+  .send-button {
+    margin-top: 6px;
+  }
+
+  .socal-media-title-inner {
+    gap: 6.15px;
+  }
+
+  .socal-media-list:last-child .socal-media-title-inner .socal-media-link {
+    margin-top: 12.31px;
+    font-size: 14px;
+  }
+
+  .label {
+    font-size: 12px;
+  }
+
+  .send-button input {
+    font-size: 16px;
+  }
+
+  .footer-left {
+    width: 380px;
+}
 }
 
 @media (max-width: 1390px) {

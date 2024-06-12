@@ -4089,7 +4089,7 @@ body.no-scroll {
   .card-title {
     font-size: calc(90px + 4 * (100vw - 1440px) / 60);
   }
-  
+
   .gallery-text {
     font-size: 90px;
   }
@@ -4297,7 +4297,18 @@ body.no-scroll {
 
   .footer-left {
     width: 380px;
-}
+  }
+
+  .card-info-inner ul li,
+  .card-list,
+  .card-info-inner p {
+    font-size: 16px;
+  }
+
+  .card-link>svg {
+    width: 50px;
+    height: 48px;
+  }
 }
 
 @media (max-width: 1390px) {

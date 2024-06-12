@@ -4630,6 +4630,10 @@ body.no-scroll {
     display: flex;
   }
 
+  .wpml-ls-legacy-dropdown {
+    order: 4;
+  }
+
   .header {
     grid-template-areas:
       "logo burger"

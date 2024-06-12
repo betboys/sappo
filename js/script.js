@@ -218,7 +218,7 @@ function ourServiceCards() {
   for (let i = 0; i < cards.length; i++) {
     cards[i].style.width = 100 / cardLength + "%";
     cardTitleHover[i].textContent = cardTitle[i].textContent;
-    if (windowWidth >= 1001 && windowWidth <= 3840) {
+    if (windowWidth >= 1025 && windowWidth <= 3840) {
       cardTitleHover[i].addEventListener("click", function (e) {
         e.preventDefault();
       });
@@ -229,7 +229,7 @@ function ourServiceCards() {
         cards[i].style.width = 100 / cardLength + "%";
       });
     }
-    if (windowWidth <= 1000) {
+    if (windowWidth <= 1024) {
       cards[i].style.width = 100 + "%";
     }
     if (windowWidth <= 520) {

@@ -4902,6 +4902,11 @@ body.no-scroll {
     max-width: 390px;
   }
 
+  .footer-rigth {
+    width: 100%;
+    flex-direction: row;
+  }
+
   .partners-card-text {
     height: 88px;
     padding: 0 12px;

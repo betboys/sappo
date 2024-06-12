@@ -1568,7 +1568,7 @@ body.no-scroll {
 
 .hero-heading-text-inner {
   width: 100%;
-  max-width: 850px;
+  max-width: 820px;
   margin-left: var(--paddingLeftAndRigth);
   margin-bottom: var(--paddingTopAndBottom);
   position: relative;

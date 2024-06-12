@@ -369,7 +369,7 @@ if (document.getElementById("home")) {
   const two = document.querySelector(".two");
   const paginationContainer = document.querySelector(".pagination-container");
   const paginatedList = document.getElementById("paginated-list");
-  if (windowWidth <= 690) {
+  if (windowWidth <= 767) {
     paginatedList.appendChild(paginationContainer);
   }
   // window.addEventListener("load", function () {

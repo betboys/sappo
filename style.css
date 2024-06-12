@@ -2281,8 +2281,8 @@ body.no-scroll {
 .faq-text::after {
   content: "";
   display: block;
-  width: 18px;
-  height: 10px;
+  min-width: 18px;
+  min-height: 10px;
   background: url(images/faq-icon.svg) center center no-repeat;
   background-size: cover;
   transition: 0.5s;

@@ -1179,22 +1179,22 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 @font-face {
   font-family: "Noto Sans Armenian Regular";
-  src: url(fonts/notosansarmenian/NotoSansArmenian-Regular.ttf);
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Regular.ttf);
 }
 
 @font-face {
   font-family: "Noto Sans Armenian Medium";
-  src: url(fonts/notosansarmenian/NotoSansArmenian-Medium.ttf);
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Medium.ttf);
 }
 
 @font-face {
   font-family: "Noto Sans Armenian SemiBold";
-  src: url(fonts/notosansarmenian/NotoSansArmenian-SemiBold.ttf);
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-SemiBold.ttf);
 }
 
 @font-face {
   font-family: "Noto Sans Armenian Bold";
-  src: url(fonts/notosansarmenian/NotoSansArmenian-Bold.ttf);
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Bold.ttf);
 }
 
 /* * */

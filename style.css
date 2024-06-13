@@ -4101,7 +4101,8 @@ body.no-scroll {
 
   .hero-image-inner,
   .page-hero,
-  .carrer-hero-img {
+  .carrer-hero-img,
+  .about-hero-img {
     height: 752px;
   }
 

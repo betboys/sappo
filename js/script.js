@@ -623,7 +623,7 @@ if (document.getElementById("about")) {
       }
       serivesItem.forEach((acc) => acc.addEventListener("click", toggleAcc));
       function toggleAcc() {
-        serivesItem.forEach((item) =>
+        cardInfo.forEach((item) =>
           item != this ? item.classList.remove("top") : null
         );
         if (this.classList != "top") {

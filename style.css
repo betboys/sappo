@@ -1562,7 +1562,7 @@ body.no-scroll {
   height: 100vh;
   overflow: hidden;
   display: grid;
-  align-items: end;
+  align-items: center;
 }
 
 .hero-image-inner {
@@ -1587,7 +1587,7 @@ body.no-scroll {
   width: 100%;
   max-width: 820px;
   margin-left: var(--paddingLeftAndRigth);
-  margin-bottom: var(--paddingTopAndBottom);
+  margin-top: 100px;
   position: relative;
 }
 
@@ -4136,10 +4136,6 @@ body.no-scroll {
     font-size: 90px;
   }
 
-  .hero-heading-text-inner {
-    margin-bottom: 103px;
-  }
-
   .text-wrapper-list {
     font-size: 160px;
   }
@@ -5161,6 +5157,7 @@ body.no-scroll {
 
   .hero-heading-text-inner {
     margin-left: unset;
+    margin-top: unset;
     padding-inline: var(--paddingLeftAndRigth);
     margin-bottom: 59.63px;
   }

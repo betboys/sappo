@@ -5160,7 +5160,7 @@ body.no-scroll {
 
   .descover,
   .descover-image {
-    height: 300px;
+    height: 400px;
   }
 
   .physical-hero-heading-text-inner {
@@ -5232,6 +5232,17 @@ body.no-scroll {
   :root {
     --paddingLeftAndRigth: 20px;
     --paddingTopAndBottom: 60px;
+  }
+
+  .descover,
+  .descover-image {
+    height: calc(400px + 10*(100vw - 767px) / 60);
+    object-position: calc(0% + 20*(100vw - 767px) / 60);
+  }
+
+  .descover-title {
+    max-width: calc(400px + 10*(100vw - 1000px) / 60);
+    font-size: calc(100px + 3.75 * (100vw - 1000px) / 60);
   }
 
   .hero-image-inner,
@@ -5895,18 +5906,6 @@ body.no-scroll {
 
   .sappo-security-service::before {
     transform: translateX(calc(-38% + 25 * (100vw - 477px) / 60));
-  }
-}
-
-@media (max-width: 440px) {
-  .descover-title {
-    font-size: 54.325px;
-    max-width: 220px;
-  }
-
-  .descover-image {
-    width: max-content;
-    object-position: -60px;
   }
 }
 

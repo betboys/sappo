@@ -4072,7 +4072,11 @@ body.no-scroll {
 
 @media (max-width: 1440px) {
   .heading {
-    font-size: 120px;
+    font-size: calc(120px + 4.33735 * (100vw - 1440px) / 60);
+  }
+
+  .strength-reliability {
+    align-items: start;
   }
 
   .dropdown-menu-item-title {
@@ -4100,7 +4104,7 @@ body.no-scroll {
   .left-and-right-subtitle,
   .wcsss-right,
   .our-team-subtitle {
-    font-size: 18px;
+    font-size: calc(18px + 0.28916 * (100vw - 1440px) / 60);
   }
 
   .hero-image-inner,
@@ -4589,10 +4593,6 @@ body.no-scroll {
     font-size: 32px;
   }
 
-  .about-heading {
-    font-size: calc(89px + 5 * (100vw - 1100px) / 60);
-  }
-
   .about-our-serives-cards {
     flex-direction: column;
     row-gap: 48px;
@@ -4711,6 +4711,25 @@ body.no-scroll {
 @media (max-width: 1024px) {
   .burger-menu-open {
     display: flex;
+  }
+
+  .heading {
+    font-size: 90px;
+  }
+
+  .menu-link,
+  .rigth-intro-link,
+  .list-group-item,
+  .category-item-link,
+  .se-suttitle,
+  .title-subtitle-intro>p,
+  .title-subtitle-intro>ul>li,
+  .interested-subtitle,
+  .single-content-right-title,
+  .left-and-right-subtitle,
+  .wcsss-right,
+  .our-team-subtitle {
+    font-size: 16px;
   }
 
   .current-openings-content {

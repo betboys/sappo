@@ -1551,7 +1551,7 @@ body.no-scroll {
 /* home hero section */
 .page-hero {
   width: 100%;
-  height: 985px;
+  height: 100vh;
   overflow: hidden;
   display: grid;
   align-items: end;
@@ -1559,7 +1559,7 @@ body.no-scroll {
 
 .hero-image-inner {
   width: 100%;
-  height: 985px;
+  height: 100vh;
   position: relative;
 }
 

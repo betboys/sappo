@@ -2994,15 +2994,6 @@ body.no-scroll {
   margin-top: -1px;
 }
 
-.descover::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: url(images/descover-image-men.webp) center center no-repeat;
-  background-size: cover;
-  z-index: 2;
-}
-
 .descover>* {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
@@ -5697,11 +5688,6 @@ body.no-scroll {
   .descover-image {
     width: max-content;
     object-position: -60px;
-  }
-
-  .descover::before {
-    width: 558.13px;
-    transform: translateX(-60px);
   }
 }
 

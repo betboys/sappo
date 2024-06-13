@@ -2852,6 +2852,10 @@ body.no-scroll {
   transition: 0.5s;
 }
 
+.about-our-serives-card-item:nth-child(1)>.card-item-info {
+  bottom: -128px;
+}
+
 .about-our-serives-card-item:nth-child(1),
 .about-our-serives-card-item:nth-child(2) {
   width: 40.833vw;
@@ -2905,6 +2909,10 @@ body.no-scroll {
   margin-top: 12px;
   font: 400 14px / 150% "Noto Sans Armenian Regular";
   color: #eee;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .about-card-link {

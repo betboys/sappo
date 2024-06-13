@@ -621,15 +621,15 @@ if (document.getElementById("about")) {
           cardInfo[i].classList.toggle("top");
         });
       }
-      // serivesItem.forEach((acc) => acc.addEventListener("click", toggleAcc));
-      // function toggleAcc() {
-      //   cardInfo.forEach((item) =>
-      //     item != this ? item.classList.remove("top") : null
-      //   );
-      //   if (this.classList != "top") {
-      //     this.classList.toggle("top");
-      //   }
-      // }
+      serivesItem.forEach((acc) => acc.addEventListener("click", toggleAcc));
+      function toggleAcc() {
+        serivesItem.forEach((item) =>
+          item != this ? item.classList.remove("top") : null
+        );
+        if (this.classList != "top") {
+          this.classList.toggle("top");
+        }
+      }
     }
   // testimonials
   const swiper1 = new Swiper(swiperSlide[0], {

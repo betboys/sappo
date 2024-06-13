@@ -4072,7 +4072,16 @@ body.no-scroll {
     overflow: hidden;
   }
 
-  .menu-link {
+  .menu-link,
+  .rigth-intro-link,
+  .list-group-item,
+  .category-item-link,
+  .se-suttitle,
+  .title-subtitle-intro>p,
+  .title-subtitle-intro>ul>li,
+  .interested-subtitle,
+  .single-content-right-title,
+  .left-and-right-subtitle {
     font-size: 18px;
   }
 

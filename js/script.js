@@ -618,18 +618,18 @@ if (document.getElementById("about")) {
         serivesItem[i].addEventListener("click", function () {
           serivesItem[i].classList.toggle("about-cards");
           serivesImage[i].classList.toggle("grayscale");
-          // cardInfo[i].classList.toggle("top");
+          cardInfo[i].classList.toggle("top");
         });
       }
-      serivesItem.forEach((acc) => acc.addEventListener("click", toggleAcc));
-      function toggleAcc() {
-        cardInfo.forEach((item) =>
-          item != this ? item.classList.remove("top") : null
-        );
-        if (this.classList != "top") {
-          this.classList.toggle("top");
-        }
-      }
+      // serivesItem.forEach((acc) => acc.addEventListener("click", toggleAcc));
+      // function toggleAcc() {
+      //   cardInfo.forEach((item) =>
+      //     item != this ? item.classList.remove("top") : null
+      //   );
+      //   if (this.classList != "top") {
+      //     this.classList.toggle("top");
+      //   }
+      // }
     }
   // testimonials
   const swiper1 = new Swiper(swiperSlide[0], {

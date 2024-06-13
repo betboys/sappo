@@ -124,6 +124,9 @@ function headerSubmenu() {
         dropdownIconFill.style.fill = "#FAC917";
       });
     }
+    if(window.innerHeight <= 760) {
+      $(".dropdown-menu-inner").css("padding", "20px 2vw");
+    }
   }
   // responsive header mobile
   if (windowWidth <= 1024) {

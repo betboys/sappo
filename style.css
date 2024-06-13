@@ -3366,9 +3366,10 @@ body.no-scroll {
 
 .current-openings-content {
   margin-top: 71px;
-  display: grid;
-  grid-template-columns: repeat(2, 0fr);
-  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5.21vw;
 }
 
 .category-item {
@@ -5232,8 +5233,6 @@ body.no-scroll {
 
   .current-openings-content {
     margin-top: 60px;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 50px;
   }
 
   .category-item {

@@ -573,14 +573,14 @@ if (document.getElementById("about")) {
   let strengthReliabilityTextInner = document.querySelector(
     ".strength-reliability-text-inner"
   );
-  if ((windowWidth > 1000) & (windowWidth <= 1920)) {
-    let strengthReliabilityTextInnerHeight =
-      strengthReliabilityTextInner.clientHeight + 135;
-    strengthReliabilityImg.setAttribute(
-      "style",
-      `height: ${strengthReliabilityTextInnerHeight}px`
-    );
-  }
+  // if ((windowWidth > 1000) & (windowWidth <= 1920)) {
+  //   let strengthReliabilityTextInnerHeight =
+  //     strengthReliabilityTextInner.clientHeight + 135;
+  //   strengthReliabilityImg.setAttribute(
+  //     "style",
+  //     `height: ${strengthReliabilityTextInnerHeight}px`
+  //   );
+  // }
   if (windowWidth <= 1000) {
     let strengthReliability = document.querySelector(".strength-reliability");
     let acrossTitle = document.querySelector(".across-title");

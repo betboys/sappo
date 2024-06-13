@@ -1803,7 +1803,7 @@ body.no-scroll {
 }
 
 .card-title-hover {
-  font: 400 calc(100px + 2 * (100vw - 1920px) / 60) / 102% "Bebas Neue";
+  font: 400 calc(85px + 2 * (100vw - 1920px) / 60) / 102% "Bebas Neue";
   color: #fff;
 }
 
@@ -3182,7 +3182,7 @@ body.no-scroll {
 }
 
 .left-and-right-title {
-  font: 400 64px / 83% "Bebas Neue";
+  font: 400 64px / 120% "Bebas Neue";
   color: #fff;
 }
 
@@ -3277,7 +3277,7 @@ body.no-scroll {
 .other-services {
   padding-inline: var(--paddingLeftAndRigth);
   padding-bottom: 60px;
-  font: 400 128px / 83% "Bebas Neue";
+  font: 400 calc(128px + 4.75 * (100vw - 1920px) / 60) / 120% "Bebas Neue";
   color: #fff;
   letter-spacing: 1.28px;
 }
@@ -4077,6 +4077,18 @@ body.no-scroll {
     font-size: calc(120px + 4.33735 * (100vw - 1440px) / 60);
   }
 
+  .other-services {
+    font-size: calc(90px + 2.16 * (100vw - 1440px) / 60);
+  }
+
+  .item-title {
+    font-size: 35px;
+  }
+
+  .left-and-right-title {
+    font-size: calc(58px + 2.1 *(100vw - 1440px) / 60);
+  }
+
   .about-our-serives-card-title {
     font-size: calc(44px + 1 * (100vw - 1440px) / 60);
   }
@@ -4173,8 +4185,8 @@ body.no-scroll {
   }
 
   .card-title {
-    /* height: calc(680px + 15 * (100vw - 1920px) / 60); */
-    font-size: calc(92px + 6 * (100vw - 1440px) / 60);
+    height: calc(680px + 30*(100vw - 1440px) / 60);
+    font-size: calc(92px + 4 * (100vw - 1440px) / 60);
   }
 
   .gallery-text {
@@ -4522,6 +4534,11 @@ body.no-scroll {
     padding-right: 0;
   }
 
+  .left-and-right-img {
+    width: 100%;
+    height: 47.885vw;
+  }
+
   .left-and-right:nth-child(odd)>.left-and-right-text-inner {
     width: 100%;
     padding-left: 0;
@@ -4530,11 +4547,7 @@ body.no-scroll {
 
 @media (max-width: 1190px) {
   .socal-media-title {
-    font-size: 20px;
-  }
-
-  .socal-media-subtitle {
-    display: none;
+    font-size: 16px;
   }
 
   .socal-media-title-inner {
@@ -4631,7 +4644,7 @@ body.no-scroll {
   }
 
   .wcsss-item {
-    width: 45.042vw;
+    width: 41.042vw;
   }
 
   .wcsss-items-inner {
@@ -4717,7 +4730,7 @@ body.no-scroll {
 
   .headingN2 {
     font-size: 43px;
-}
+  }
 
   .wpml-ls-legacy-dropdown .wpml-ls-sub-menu {
     position: unset;

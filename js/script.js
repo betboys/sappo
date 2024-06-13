@@ -602,11 +602,11 @@ if (document.getElementById("about")) {
   //     `height: ${strengthReliabilityTextInnerHeight}px`
   //   );
   // }
-  if (windowWidth <= 1000) {
-    let strengthReliability = document.querySelector(".strength-reliability");
-    let acrossTitle = document.querySelector(".across-title");
-    strengthReliability.appendChild(acrossTitle);
-  }
+  // if (windowWidth <= 1000) {
+  //   let strengthReliability = document.querySelector(".strength-reliability");
+  //   let acrossTitle = document.querySelector(".across-title");
+  //   strengthReliability.appendChild(acrossTitle);
+  // }
   // our services
     if (windowWidth <= 1100) {
       let serivesItem = document.querySelectorAll(".about-our-serives-card-item");

@@ -5242,6 +5242,11 @@ body.no-scroll {
     height: 680px;
   }
 
+  .page-id-288 .page-hero,
+  .page-id-288 .single-hero-img {
+    height: calc(680px + -21 * (100vw - 767px) / 60);
+  }
+
   .postid-341 .page-hero,
   .postid-341 .single-hero-img {
     height: calc(680px + -21 * (100vw - 767px) / 60);
@@ -5271,6 +5276,10 @@ body.no-scroll {
     object-position: calc(93% + -10 * (100vw - 767px) / 60);
   }
 
+  .page-id-288 .hero-image {
+    object-position: calc(66% + 0 * (100vw - 767px) / 60);
+  }
+
   .postid-341 .single-hero-photo {
     object-position: calc(93% + 5 * (100vw - 767px) / 60);
   }
@@ -5294,6 +5303,10 @@ body.no-scroll {
 
   .carrer-hero-photo {
     object-position: calc(52% + 24 * (100vw - 767px) / 60);
+  }
+
+  .gallery-photo {
+    filter: grayscale(0);
   }
 
   .single-content-left {
@@ -5881,7 +5894,7 @@ body.no-scroll {
   }
 
   .sappo-security-service::before {
-    transform: translateX(-45%);
+    transform: translateX(calc(-38% + 25 * (100vw - 477px) / 60));
   }
 }
 

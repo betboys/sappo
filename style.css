@@ -5219,9 +5219,17 @@ body.no-scroll {
     --paddingTopAndBottom: 60px;
   }
 
+  .hero-image-inner,
+  .page-hero,
+  .carrer-hero-img,
+  .about-hero-img,
+  .single-hero-img {
+    height: 700px;
+  }
+
   .postid-338 .page-hero,
   .postid-338 .single-hero-img {
-    height: 900px;
+    height: calc(700px + -40 * (100vw - 767px) / 60);
   }
 
   .postid-338 .single-hero-photo {

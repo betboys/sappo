@@ -5138,6 +5138,10 @@ body.no-scroll {
     --paddingTopAndBottom: 60px;
   }
 
+  .ttile-and-slide-buttons {
+    justify-content: center;
+  }
+
   .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
     font-size: 18px;
   }

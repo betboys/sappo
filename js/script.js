@@ -537,6 +537,14 @@ if (document.getElementById("home")) {
   let ourTrustedPartners = document.querySelector(".our-trusted-partners");
   if (windowWidth <= 767) {
     ourTrustedPartners.appendChild(swiperButtons);
+    const swiper = new Swiper(".swiper", {
+      slidesPerView: 2,
+      speed: 1000,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
   }
   partners();
   // faq

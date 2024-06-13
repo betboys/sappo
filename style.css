@@ -4466,6 +4466,15 @@ body.no-scroll {
     width: 45.948vw;
     height: 54.333vw;
   }
+
+  .dropdown-menu-item-title {
+    font-size: 19px;
+  }
+
+  .dropdown-menu-item-list-intro,
+  .dropdown-menu-item-desc {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 1291px) {

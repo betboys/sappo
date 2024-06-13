@@ -1733,7 +1733,8 @@ body.no-scroll {
 /* our-service-cards */
 .our-service-cards {
   width: 100%;
-  height: calc(1076px + 34 * (100vw - 1920px) / 60);
+  /* height: calc(1076px + 34 * (100vw - 1920px) / 60); */
+  height: min(100vh + 100px);
   margin-top: -1px;
 }
 

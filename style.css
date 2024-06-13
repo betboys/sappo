@@ -1385,7 +1385,8 @@ body.no-scroll {
   overflow: hidden;
 }
 
-.dropdown-menu-item-list-intro {
+.dropdown-menu-item-list-intro,
+.dropdown-menu-item-desc {
   margin-top: 8px;
   display: flex;
   flex-direction: column;

@@ -1402,6 +1402,11 @@ body.no-scroll {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  position: relative;
+}
+
+.dropdown-menu-item-list::before {
+  content: url(images/Vector-checkbox.svg);
 }
 
 .dropdown-menu-item:nth-child(3) .dropdown-menu-item-text-inner .dropdown-menu-item-list-intro .dropdown-menu-item-list>svg,

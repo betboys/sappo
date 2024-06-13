@@ -2360,7 +2360,7 @@ body.no-scroll {
 }
 
 .contact-us-title {
-  font: 400 calc(128px + 4.75 * (100vw - 1920px) /60) / 83% "Bebas Neue";
+  font: 400 calc(128px + 4.75 * (100vw - 1920px) /60) / 120% "Bebas Neue";
   letter-spacing: 1.28px;
   color: #fff;
 }
@@ -4260,7 +4260,7 @@ body.no-scroll {
   }
 
   .our-trusted-partners-title {
-    font-size: 90px;
+    font-size: calc(90px + 2.16 * (100vw - 1440px) / 60);
   }
 
   .our-trusted-partners-swiper {
@@ -4287,7 +4287,7 @@ body.no-scroll {
   }
 
   .faq-title {
-    font-size: 90px;
+    font-size: calc(90px + 2.16 * (100vw - 1440px) / 60);
   }
 
   .faq-subtitle {
@@ -4316,7 +4316,7 @@ body.no-scroll {
   }
 
   .contact-us-title {
-    font-size: 90px;
+    font-size: calc(90px + 2.16 * (100vw - 1440px) / 60);
   }
 
   .contact-us-subtitle {
@@ -4473,7 +4473,7 @@ body.no-scroll {
   }
 
   .faq-info-inner {
-    width: 46.167vw;
+    width: 44.167vw;
   }
 }
 
@@ -4538,10 +4538,6 @@ body.no-scroll {
 }
 
 @media (max-width: 1190px) {
-  .contact-us-title {
-    font-size: 90px;
-  }
-
   .socal-media-title {
     font-size: 20px;
   }

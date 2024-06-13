@@ -2053,6 +2053,7 @@ body.no-scroll {
 
 .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
   margin-left: 13px !important;
+  font-size: 20px;
 }
 
 .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle {
@@ -4058,6 +4059,10 @@ body.no-scroll {
     font-size: 120px;
   }
 
+  .dropdown-menu-item-title {
+    font-size: 22px;
+  }
+
   .partners-card-text {
     font-size: 14px;
     padding: 0 15px;
@@ -4114,7 +4119,7 @@ body.no-scroll {
   }
 
   .card-title {
-    height: calc(590px + 13 * (100vw - 1920px) / 60);
+    height: calc(670px + 14 * (100vw - 1920px) / 60);
     font-size: calc(90px + 4 * (100vw - 1440px) / 60);
   }
 
@@ -5110,6 +5115,10 @@ body.no-scroll {
   :root {
     --paddingLeftAndRigth: 20px;
     --paddingTopAndBottom: 60px;
+  }
+
+  .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
+    font-size: 18px;
   }
 
   .card-hover-visitble {

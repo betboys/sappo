@@ -1407,6 +1407,7 @@ body.no-scroll {
 
 .dropdown-menu-item-list::before {
   content: url(images/Vector-checkbox.svg);
+  padding-right: 10px;
 }
 
 .dropdown-menu-item:nth-child(3) .dropdown-menu-item-text-inner .dropdown-menu-item-list-intro .dropdown-menu-item-list>svg,

@@ -3282,11 +3282,6 @@ body.no-scroll {
   letter-spacing: 1.28px;
 }
 
-.other-services-wraper>.our-service-cards>.cards-wrapper>.card>.card-title {
-  right: 50%;
-  transform: translate(50%, 0) rotate(180deg);
-}
-
 /* Technical page */
 .single-hero-img {
   height: 100vh;

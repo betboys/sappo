@@ -107,7 +107,7 @@ if ($feture_sec == 'yes'): ?>
     </section>
 <?php endif; ?>
 <section class="other-services-wraper">
-    <h3 class="other-services" data-aos="fade-up">Other <span class="text-color-style">services</span></h3>
+    <h3 class="other-services" data-aos="fade-up">Other <span style="color: #fac917;">services</span></h3>
     <div class="our-service-cards">
         <div class="cards-wrapper">
             <?php $current_post_id = get_the_ID();

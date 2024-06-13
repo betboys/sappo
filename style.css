@@ -4103,8 +4103,14 @@ body.no-scroll {
   .single-content-right-title,
   .left-and-right-subtitle,
   .wcsss-right,
-  .our-team-subtitle {
+  .our-team-subtitle,
+  .subtitle,
+  .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
     font-size: calc(18px + 0.28916 * (100vw - 1440px) / 60);
+  }
+
+  .about-hero-heading-text-inner {
+    margin-top: 0;
   }
 
   .hero-image-inner,

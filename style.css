@@ -5226,10 +5226,6 @@ body.no-scroll {
     --paddingTopAndBottom: 60px;
   }
 
-  .card-image {
-    filter: grayscale(0);
-  }
-
   .single-content-left {
     max-width: 100%;
   }
@@ -5719,6 +5715,11 @@ body.no-scroll {
 
   .card-title-hover {
     font-size: 45px;
+  }
+
+  .postid-340 .card:nth-child(3)>.card-hover-visitble,
+  .postid-340 .card:nth-child(4)>.card-hover-visitble {
+    top: 3.1rem;
   }
 
   .postid-340 .card:nth-child(3)>.card-hover-visitble>.card-title-hover,

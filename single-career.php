@@ -26,32 +26,6 @@
     </div>
 </section>
 
-<section class="our-benefits">
-    <h3 class="our-benefits-title" data-aos="fade-up"><?= the_field('benefits_title', 'option'); ?></h3>
-    <div class="benefits-icons-inner">
-        <?php
-
-        // Check rows exists.
-        if (have_rows('benefits', 'option')):
-
-            // Loop through rows.
-            while (have_rows('benefits', 'option')):
-                the_row();
-
-                // Load sub field value.
-                $name = get_sub_field('name');
-                $bimage = get_sub_field('image');
-                ?>
-                <div class="benefits-item">
-                    <img class="benefits-icon-img" src="<?= $bimage ?>" alt="">
-                    <p class="benefits-icon-text"><?= $name ?></p>
-                </div>
-                <?php
-            endwhile;
-        endif; ?>
-    </div>
-</section>
-
 <section class="interested">
     <div class="interested-title-subtitle">
         <h3 class="interested-title" data-aos="fade-up"><?= the_field('career_form_title', 'option'); ?></h3>

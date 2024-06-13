@@ -4729,6 +4729,18 @@ body.no-scroll {
     display: flex;
   }
 
+  .strength-reliability-text-inner>.headingN2 {
+    order: 1;
+  }
+
+  .strength-reliability-img {
+    order: 2;
+  }
+
+  .strength-reliability-subtitle {
+    order: 3;
+  }
+
   .item-content {
     font-size: 16px;
   }

@@ -1402,7 +1402,9 @@ body.no-scroll {
   display: none;
 }
 
-.dropdown-menu-item-title {
+.dropdown-menu-item:nth-child(3)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title,
+.dropdown-menu-item:nth-child(4)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title,
+.dropdown-menu-item:nth-child(5)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title {
   width: 94%;
 }
 

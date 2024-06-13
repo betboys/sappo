@@ -4929,13 +4929,6 @@ body.no-scroll {
     margin-top: 188px;
   }
 
-  .physical-page-hero,
-  .physical-hero-img,
-  .single-page-hero,
-  .single-hero-img {
-    height: inherit;
-  }
-
   .single-page-hero {
     align-items: center;
   }
@@ -5224,6 +5217,18 @@ body.no-scroll {
   :root {
     --paddingLeftAndRigth: 20px;
     --paddingTopAndBottom: 60px;
+  }
+
+  .single-hero-photo {
+    object-position: calc(52% + -16* (100vw - 767px) / 60);
+  }
+
+  .carrer-hero-img::before {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 38%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .carrer-hero-photo {
+    object-position: calc(52% + 24 * (100vw - 767px) / 60);
   }
 
   .single-content-left {

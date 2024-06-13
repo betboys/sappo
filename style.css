@@ -4465,6 +4465,11 @@ body.no-scroll {
     .card-info-inner {
       flex-direction: column;
       gap: 31.99px;
+      align-items: start;
+    }
+
+    .card-link {
+      margin-inline-start: auto;
     }
 
     .faq-info-inner {

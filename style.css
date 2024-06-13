@@ -5138,7 +5138,7 @@ body.no-scroll {
 
   .strength-reliability-img {
     width: 100%;
-    height: unset;
+    height: 48vw;
     order: 2;
   }
 
@@ -5146,6 +5146,9 @@ body.no-scroll {
     width: 100%;
     padding-right: 0;
     order: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
 
   .descover-title {

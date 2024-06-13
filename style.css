@@ -4081,7 +4081,9 @@ body.no-scroll {
   .title-subtitle-intro>ul>li,
   .interested-subtitle,
   .single-content-right-title,
-  .left-and-right-subtitle {
+  .left-and-right-subtitle,
+  .wcsss-right,
+  .our-team-subtitle {
     font-size: 18px;
   }
 
@@ -4128,7 +4130,7 @@ body.no-scroll {
   }
 
   .card-title {
-    height: calc(670px + 14 * (100vw - 1920px) / 60);
+    height: calc(680px + 15 * (100vw - 1920px) / 60);
     font-size: calc(90px + 4 * (100vw - 1440px) / 60);
   }
 

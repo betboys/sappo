@@ -5723,6 +5723,13 @@ body.no-scroll {
   }
 }
 
+@media (max-width: 430px) {
+  .master-master-inner {
+    width: calc(165.875px + 0 * (100vw - 430px) / 60);
+    height: calc(127.65926px + 0 * (100vw -420px) / 60);
+  }
+}
+
 @media (max-width: 420px) {
   .hero-heading-text-inner {
     max-width: 100%;

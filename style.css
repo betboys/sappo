@@ -2901,6 +2901,10 @@ body.no-scroll {
   transition: 0.5s;
 }
 
+.card-item-info.top {
+  bottom: 24px;
+}
+
 .about-our-serives-card-title {
   font: 400 44px / 104.545% "Bebas Neue";
   text-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);

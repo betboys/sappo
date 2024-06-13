@@ -603,20 +603,29 @@ if (document.getElementById("about")) {
     strengthReliability.appendChild(acrossTitle);
   }
   // our services
-  //   if (windowWidth <= 1100) {
-  //     let serivesItem = document.querySelectorAll(".about-our-serives-card-item");
-  //     let serivesImage = document.querySelectorAll(
-  //       ".about-our-serives-card-image"
-  //     );
-  //     let cardInfo = document.querySelectorAll(".card-item-info");
-  //     for (let i = 0; i < serivesItem.length; i++) {
-  //       serivesItem[i].addEventListener("click", function () {
-  //         // serivesItem[i].classList.toggle("about-cards");
-  //         // serivesImage[i].classList.toggle("grayscale");
-  //         cardInfo[i].classList.toggle("top");
-  //       });
-  //     }
-  //   }
+    if (windowWidth <= 1100) {
+      let serivesItem = document.querySelectorAll(".about-our-serives-card-item");
+      let serivesImage = document.querySelectorAll(
+        ".about-our-serives-card-image"
+      );
+      let cardInfo = document.querySelectorAll(".card-item-info");
+      for (let i = 0; i < serivesItem.length; i++) {
+        serivesItem[i].addEventListener("click", function () {
+          serivesItem[i].classList.toggle("about-cards");
+          serivesImage[i].classList.toggle("grayscale");
+          cardInfo[i].classList.toggle("top");
+        });
+      }
+      serivesItem.forEach((acc) => acc.addEventListener("click", toggleAcc));
+      function toggleAcc() {
+        serivesItem.forEach((item) =>
+          item != this ? item.classList.remove("height") : null
+        );
+        if (this.classList != "height") {
+          this.classList.toggle("height");
+        }
+      }
+    }
   // testimonials
   const swiper1 = new Swiper(swiperSlide[0], {
     slidesPerView: "auto",

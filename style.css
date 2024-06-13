@@ -4629,9 +4629,9 @@ body.no-scroll {
       max-width: 500px;
     }
 
-    .card-item-info {
+    /* .card-item-info {
       bottom: 24px !important;
-    }
+    } */
 
     .about-our-serives-card-item {
       height: 285px !important;

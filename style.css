@@ -1393,6 +1393,10 @@ body.no-scroll {
   gap: 8px;
   font: 400 14px / 150% "Noto Sans Armenian Regular";
   color: #aaa;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .dropdown-menu-item-list {

@@ -4734,6 +4734,10 @@ body.no-scroll {
     display: flex;
   }
 
+  .wpml-ls-legacy-dropdown .wpml-ls-sub-menu {
+    position: unset;
+  }
+
   .heading {
     font-size: 90px;
   }
@@ -4792,6 +4796,7 @@ body.no-scroll {
   }
 
   .menu-inner {
+    width: 100%;
     overflow-y: scroll;
     flex-direction: column;
     gap: 50px;

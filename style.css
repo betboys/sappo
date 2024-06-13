@@ -2139,7 +2139,7 @@ body.no-scroll {
 }
 
 .our-trusted-partners-title {
-  font: 400 calc(128px + 2.2839 * (100vw - 1920px) / 60) / 96% "Bebas Neue";
+  font: 400 calc(128px + 4.75  * (100vw - 1920px) / 60) / 96% "Bebas Neue";
   letter-spacing: 1.28px;
   color: #101011;
 }
@@ -2359,7 +2359,7 @@ body.no-scroll {
 }
 
 .contact-us-title {
-  font: 400 128px / 120% "Bebas Neue";
+  font: 400 calc(128px + 4.75 * (100vw - 1920px) /60) / 83% "Bebas Neue";
   letter-spacing: 1.28px;
   color: #fff;
 }
@@ -2788,7 +2788,7 @@ body.no-scroll {
 }
 
 .our-serives-title {
-  font: 400 128px / 83% "Bebas Neue";
+  font: 400 calc(128px + 4.75 * (100vw - 1920px) /60) / 83% "Bebas Neue";
   color: #fff;
 }
 
@@ -2965,11 +2965,11 @@ body.no-scroll {
 
 .our-team-title-subtitle {
   width: 100%;
-  max-width: 840px;
+  max-width: 880px;
 }
 
 .our-team-title {
-  font: 400 128px / 83% "Bebas Neue";
+  font: 400 calc(128px + 4.75 * (100vw - 1920px) /60) / 120% "Bebas Neue";
   color: #fff;
 }
 
@@ -3991,7 +3991,13 @@ body.no-scroll {
 }
 
 /* responsive */
-@media (max-width: 1716px) and (min-width: 1101px) {
+@media (max-width: 1728px) {
+  .our-team-title-subtitle {
+    max-width: 650px;
+  }
+}
+
+/* @media (max-width: 1716px) and (min-width: 1101px) {
 
   .about-our-serives-card-item:nth-child(3) .card-item-info,
   .about-our-serives-card-item:nth-child(4) .card-item-info,
@@ -4004,7 +4010,7 @@ body.no-scroll {
   .about-our-serives-card-item:nth-child(5):hover .card-item-info {
     bottom: 12px;
   }
-}
+} */
 
 @media (max-width: 1600px) {
   .dropdown-menu-inner {
@@ -4073,6 +4079,14 @@ body.no-scroll {
 @media (max-width: 1440px) {
   .heading {
     font-size: calc(120px + 4.33735 * (100vw - 1440px) / 60);
+  }
+
+  .name-surname {
+    font-size: 20px;
+  }
+
+  .position {
+    font-size: 14px;
   }
 
   .strength-reliability {
@@ -4500,12 +4514,6 @@ body.no-scroll {
   .gallery-photo-intro {
     width: 48.8%;
     height: 35vw;
-  }
-}
-
-@media (max-width: 1254px) {
-  .our-team-title {
-    font-size: 100px;
   }
 }
 

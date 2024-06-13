@@ -5725,8 +5725,8 @@ body.no-scroll {
 
 @media (max-width: 430px) {
   .master-master-inner {
-    width: calc(165.875px + 0 * (100vw - 430px) / 60);
-    height: calc(127.65926px + 0 * (100vw -420px) / 60);
+    width: calc(173.875px + 29*(100vw - 430px) / 60);
+    height: calc(135.65926px + 29*(100vw - 420px) / 60);
   }
 }
 

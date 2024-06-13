@@ -4458,10 +4458,6 @@ body.no-scroll {
     width: 47.554vw;
   }
 
-  .headingN2 {
-    font-size: 44px;
-  }
-
   .card-info-inner {
     flex-direction: column;
     gap: 31.99px;
@@ -4724,12 +4720,16 @@ body.no-scroll {
     display: flex;
   }
 
+  .headingN2 {
+    font-size: 43px;
+}
+
   .wpml-ls-legacy-dropdown .wpml-ls-sub-menu {
     position: unset;
   }
 
   .heading {
-    font-size: 90px;
+    font-size: calc(90px + 0.5 * (100vw - 1920px) / 60);
   }
 
   .menu-link,
@@ -4892,6 +4892,26 @@ body.no-scroll {
   .hero-heading-text-inner {
     margin-top: 188px;
     margin-bottom: 95.63px;
+    margin-left: unset;
+    padding-inline: var(--paddingLeftAndRigth);
+  }
+
+  .menu-link,
+  .rigth-intro-link,
+  .list-group-item,
+  .category-item-link,
+  .se-suttitle,
+  .title-subtitle-intro>p,
+  .title-subtitle-intro>ul>li,
+  .interested-subtitle,
+  .single-content-right-title,
+  .left-and-right-subtitle,
+  .wcsss-right,
+  .our-team-subtitle,
+  .subtitle,
+  .wpml-ls-legacy-dropdown .wpml-ls-flag+span,
+  .link-style {
+    font-size: 16px;
   }
 
   .carrer-hero-heading-text-inner {

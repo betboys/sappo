@@ -158,7 +158,7 @@ if ($feture_sec == 'yes'): ?>
     </div>
 </section>
 
-<section class="our-trusted-partners swiper-container">
+<!-- <section class="our-trusted-partners swiper-container">
     <div class="ttile-and-slide-buttons">
         <h3 class="our-trusted-partners-title" data-aos="fade-up">trusted by</h3>
         <div class="next-prev-buttons partners-slide-buttons">
@@ -294,6 +294,7 @@ if ($feture_sec == 'yes'): ?>
             </div>
         </div>
     </div>
-</section>
+</section> -->
+<?php get_template_part('templates/partners'); ?>
 <?php get_template_part('templates/contact'); ?>
 <?Php get_footer(); ?>

@@ -1772,8 +1772,8 @@ body.no-scroll {
 
 .card-title {
   writing-mode: vertical-rl;
-  height: calc(800px + 29.2 * (100vw - 1920px) / 60);
-  font: 400 calc(120px + 3.913 * (100vw - 1920px) / 60) / 92% "Bebas Neue";
+  /* height: calc(800px + 29.2 * (100vw - 1920px) / 60); */
+  font: 400 calc(110px + 2.2 * (100vw - 1920px) / 60) / 92% "Bebas Neue";
   color: #fff;
   transform-origin: center;
   transform: rotate(180deg);
@@ -4178,8 +4178,8 @@ body.no-scroll {
     }
 
     .card-title {
-      height: calc(680px + 15 * (100vw - 1920px) / 60);
-      font-size: calc(90px + 4 * (100vw - 1440px) / 60);
+      /* height: calc(680px + 15 * (100vw - 1920px) / 60); */
+      font-size: calc(92px + 6 * (100vw - 1440px) / 60);
     }
 
     .gallery-text {

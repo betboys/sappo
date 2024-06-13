@@ -5717,6 +5717,7 @@ body.no-scroll {
     font-size: 45px;
   }
 
+  .postid-339 .card:nth-child(4)>.card-hover-visitble,
   .postid-338 .card:nth-child(4)>.card-hover-visitble,
   .postid-341 .card:nth-child(3)>.card-hover-visitble,
   .postid-341 .card:nth-child(4)>.card-hover-visitble,
@@ -5727,7 +5728,7 @@ body.no-scroll {
     top: 3.1rem;
   }
 
-  
+  .postid-339 .card:nth-child(4)>.card-hover-visitble,
   .postid-338 .card:nth-child(4)>.card-hover-visitble,
   .postid-341 .card:nth-child(3)>.card-hover-visitble,
   .postid-341 .card:nth-child(4)>.card-hover-visitble,

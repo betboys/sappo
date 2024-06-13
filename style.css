@@ -3307,7 +3307,8 @@ body.no-scroll {
 
 .hero-subtitle-single {
   width: 100%;
-  max-width: 834px;
+  max-width: 880px;
+  margin-top: 24px;
 }
 
 .left-and-right>.left-and-right-text-inner>ul {
@@ -4889,14 +4890,6 @@ body.no-scroll {
     padding-top: 0;
   }
 
-  .page-hero,
-  .hero-image-inner,
-  .single-hero-img,
-  .about-hero-img,
-  .carrer-hero-img {
-    height: inherit;
-  }
-
   .hero-heading-text-inner {
     margin-top: 188px;
     margin-bottom: 95.63px;
@@ -5262,7 +5255,7 @@ body.no-scroll {
   }
 
   .subtitle {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .card {
@@ -5670,10 +5663,6 @@ body.no-scroll {
 
   .contact-us-title {
     line-height: 100%;
-  }
-
-  .single-heading {
-    font-size: 74px;
   }
 
   .faq-text-hiiden {

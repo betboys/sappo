@@ -277,11 +277,11 @@ function partners() {
         partnersCard[i].classList.remove("click");
       });
     }
-    // if (windowWidth <= 1001) {
-    //   masterInner[i].addEventListener("click", function () {
-    //     partnersCard[i].classList.toggle("click");
-    //   });
-    // }
+    if (windowWidth <= 1001) {
+      masterInner[i].addEventListener("click", function () {
+        partnersCard[i].classList.toggle("click");
+      });
+    }
   }
 }
 /* faq */

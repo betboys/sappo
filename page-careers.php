@@ -10,7 +10,7 @@
     </div>
     <div class="carrer-hero-heading-text-inner">
         <h1 class="heading carrer-heading" data-aos="fade-up"><?= the_field('title'); ?></h1>
-        <h2 class="subtitle"><?= the_field('subtitle'); ?></h2>
+        <h2 class="subtitle hero-subtitle-single"><?= the_field('subtitle'); ?></h2>
     </div>
 </section>
 

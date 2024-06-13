@@ -662,6 +662,29 @@ if (document.getElementById("carrer")) {
       });
     }
   }
+  $(function () {
+    $(".list-group").find(".list-group-item").on('click', function () {
+      choseBox($(this).attr('data-name'));
+    });
+    function choseBox(choseClass) {
+      console.log(choseClass);
+      $(".category-item").fadeOut(0);
+      $(".category-item").each(function () {
+        var _this = $(this);
+        var _thisValue = _this.attr('data-cat').indexOf(choseClass);
+        if (!(_thisValue < 0)) {
+          _this.fadeIn(0);
+        }
+      });
+    };
+    let first = document.querySelectorAll(".list-group-item");
+    let categorys = document.querySelectorAll(".category-item");
+    first[0].addEventListener("click", function () {
+      for (let i = 0; categorys.length; i++) {
+        categorys[i].style.display = "block";
+      }
+    })
+  });
   addClassElementEvent(".list-group-item", "active", "click");
   // secure environment
   if (windowWidth <= 1100) {

@@ -5243,7 +5243,7 @@ body.no-scroll {
   }
 
   .page-id-288 .page-hero,
-  .page-id-288 .single-hero-img {
+  .page-id-288 .hero-image-inner {
     height: calc(680px + -21 * (100vw - 767px) / 60);
   }
 
@@ -5263,7 +5263,7 @@ body.no-scroll {
   }
 
   .page-id-286 .page-hero,
-  .page-id-286 .single-hero-img {
+  .page-id-286 .about-hero-img {
     height: calc(680px + -20 * (100vw - 767px) / 60);
   }
 

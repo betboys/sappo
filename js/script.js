@@ -140,6 +140,22 @@ function headerSubmenu() {
         dropdownMenu.style.height = "450px";
       });
     }
+    if (window.innerHeight <= 600) {
+      $(".dropdown-menu-inner").css("padding", "20px 2vw");
+      $(".dropdown-menu-inner").css("row-gap", "20px");
+      let listsItems = document.querySelectorAll(".dropdown-menu-item");
+      listsItems[0].style.width = "38.875vw";
+      listsItems[1].style.width = "38.875vw";
+      listsItems[2].style.width = "25.2vw";
+      listsItems[3].style.width = "25.2vw";
+      listsItems[4].style.width = "25.2vw";
+      dropdown.addEventListener("mouseover", function () {
+        dropdownMenu.style.height = "400px";
+      });
+      dropdownMenu.addEventListener("mouseover", function () {
+        dropdownMenu.style.height = "400px";
+      });
+    }
   }
   // responsive header mobile
   if (windowWidth <= 1024) {

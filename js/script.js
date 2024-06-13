@@ -613,16 +613,16 @@ if (document.getElementById("about")) {
         serivesItem[i].addEventListener("click", function () {
           serivesItem[i].classList.toggle("about-cards");
           serivesImage[i].classList.toggle("grayscale");
-          cardInfo[i].classList.toggle("top");
+          // cardInfo[i].classList.toggle("top");
         });
       }
       serivesItem.forEach((acc) => acc.addEventListener("click", toggleAcc));
       function toggleAcc() {
-        serivesItem.forEach((item) =>
-          item != this ? item.classList.remove("height") : null
+        cardInfo.forEach((item) =>
+          item != this ? item.classList.remove("top") : null
         );
-        if (this.classList != "height") {
-          this.classList.toggle("height");
+        if (this.classList != "top") {
+          this.classList.toggle("top");
         }
       }
     }

@@ -5242,9 +5242,18 @@ body.no-scroll {
     height: calc(680px + -20 * (100vw - 767px) / 60);
   }
 
+  .page-id-286 .page-hero,
+  .page-id-286 .single-hero-img {
+    height: calc(680px + -20 * (100vw - 767px) / 60);
+  }
+
   .postid-338 .page-hero,
   .postid-338 .single-hero-img {
     height: calc(700px + -43 * (100vw - 767px) / 60);
+  }
+
+  .page-id-286 .about-hero-photo {
+    object-position: calc(93% + -10 * (100vw - 767px) / 60);
   }
 
   .postid-341 .single-hero-photo {

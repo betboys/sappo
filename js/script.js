@@ -589,6 +589,11 @@ if (document.getElementById("about")) {
   let strengthReliabilityTextInner = document.querySelector(
     ".strength-reliability-text-inner"
   );
+  if(windowWidth <= 1024) {
+    let aboutImage = document.querySelector(".strength-reliability-img");
+    let aboutTextInner = document.querySelector(".strength-reliability-text-inner");
+    aboutTextInner.appendChild(aboutImage);
+  }
   // if ((windowWidth > 1000) & (windowWidth <= 1920)) {
   //   let strengthReliabilityTextInnerHeight =
   //     strengthReliabilityTextInner.clientHeight + 135;

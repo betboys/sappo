@@ -4589,10 +4589,6 @@ body.no-scroll {
     row-gap: 22px;
   }
 
-  .category-item {
-    width: 44.583vw;
-  }
-
   .carrer-se {
     flex-direction: column;
     align-items: start;
@@ -4668,6 +4664,15 @@ body.no-scroll {
 @media (max-width: 1024px) {
   .burger-menu-open {
     display: flex;
+  }
+
+  .current-openings-content {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .category-item {
+    width: 100%;
   }
 
   .wpml-ls-legacy-dropdown {

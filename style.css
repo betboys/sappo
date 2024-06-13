@@ -2024,7 +2024,7 @@ body.no-scroll {
 /* sappo-security-service */
 .sappo-security-service {
   width: 100%;
-  height: 1100px;
+  height: calc(1100px + 28.7 * (100vw - 1920px) / 60);
   display: grid;
   position: relative;
 }
@@ -2039,7 +2039,7 @@ body.no-scroll {
 }
 
 .sappo-security-service-image {
-  height: 1100px;
+  height: calc(1100px + 28.7 * (100vw - 1920px) / 60);
 }
 
 .sappo-security-service-text {

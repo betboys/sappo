@@ -2691,7 +2691,7 @@ body.no-scroll {
 
 /* Contact Us */
 #contact>.contact-us-inner {
-  padding: 18.073vw var(--paddingLeftAndRigth) 12.24vw var(--paddingLeftAndRigth);
+  padding: 12.24vw var(--paddingLeftAndRigth) 12.24vw var(--paddingLeftAndRigth);
 }
 
 /* About Us */

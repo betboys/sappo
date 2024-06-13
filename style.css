@@ -5219,11 +5219,25 @@ body.no-scroll {
     --paddingTopAndBottom: 60px;
   }
 
-  .single-hero-photo {
+  .postid-338 .page-hero,
+  .postid-338 .single-hero-img {
+    height: 900px;
+  }
+
+  .postid-338 .single-hero-photo {
+    object-position: 54%;
+  }
+
+  .postid-340 .single-hero-photo {
     object-position: calc(52% + -16* (100vw - 767px) / 60);
   }
 
-  .carrer-hero-img::before {
+  .postid-342 .single-hero-photo {
+    object-position: calc(60% + 13* (100vw - 767px) / 60);
+  }
+
+  .carrer-hero-img::before,
+  .single-hero-img::before {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 38%, rgba(0, 0, 0, 0) 100%);
   }
 

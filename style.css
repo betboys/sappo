@@ -3837,7 +3837,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 /* hover style */
 @media (min-width: 1101px) {
   .about-our-serives-card-item:hover .about-our-serives-card-image {
-    filter: grayscale(5);
+    filter: grayscale(0);
     scale: 1.005;
   }
 

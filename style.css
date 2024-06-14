@@ -1496,6 +1496,10 @@ body.no-scroll {
   visibility: visible;
 }
 
+.wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
+  transform: unset;
+}
+
 .language-dropdown {
   display: flex;
   align-items: center;

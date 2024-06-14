@@ -1697,6 +1697,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   background: #101011;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .left-intro {
@@ -1722,6 +1723,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .rigth-intro-link {
   width: max-content;
+  margin-top: 24px;
   font: 500 1.25rem / 100% "Noto Sans Armenian Medium";
   color: #fff;
   display: flex;

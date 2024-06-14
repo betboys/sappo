@@ -1496,8 +1496,8 @@ body.no-scroll {
   visibility: visible;
 }
 
-.wpml-ls-native.icon-rotate {
-  vertical-align: middle;
+.wpml-ls-item-toggle.icon-rotate {
+  position: relative;
 }
 
 .icon-rotate::after {

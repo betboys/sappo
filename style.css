@@ -5226,6 +5226,10 @@ body.no-scroll {
     background: rgb(8 8 8 / 40%);
   }
 
+  .about-our-serives-card-title {
+    font-size: 2.75rem;
+  }
+
   .footer-rigth {
     flex-direction: column;
     gap: 3.375rem;

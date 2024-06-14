@@ -90,16 +90,18 @@ function headerSubmenu() {
     let dropdown = document.querySelector(".dropdown");
     let dropdownIcon = document.querySelector(".dropdown-icon");
     let dropdownIconFill = document.querySelector(".dropdown-icon-fill");
+    let submenuInner = document.querySelector(".dropdown-menu-inner");
+    let submenuInnerH = submenuInner.clientHeight + "px";
     dropdown.addEventListener("mouseover", function () {
       document.querySelector("body").classList.add("no-scroll");
-      dropdownMenu.style.height = "600px";
+      dropdownMenu.style.height = submenuInnerH;
       dropdownToggle.style.color = "#FAC917";
       dropdownIcon.style.transform = "rotate(180deg)";
       dropdownIconFill.style.fill = "#FAC917";
     });
     dropdownMenu.addEventListener("mouseover", function () {
       document.querySelector("body").classList.add("no-scroll");
-      dropdownMenu.style.height = "600px";
+      dropdownMenu.style.height = submenuInnerH;
       dropdownToggle.style.color = "#FAC917";
       dropdownIcon.style.transform = "rotate(180deg)";
       dropdownIconFill.style.fill = "#FAC917";
@@ -134,38 +136,38 @@ function headerSubmenu() {
         dropdownIconFill.style.fill = "#FAC917";
       });
     }
-    if (window.innerHeight <= 760) {
-      $(".dropdown-menu-inner").css("padding", "20px 2vw");
-      $(".dropdown-menu-inner").css("row-gap", "20px");
-      let listsItems = document.querySelectorAll(".dropdown-menu-item");
-      listsItems[0].style.width = "38.875vw";
-      listsItems[1].style.width = "38.875vw";
-      listsItems[2].style.width = "25.2vw";
-      listsItems[3].style.width = "25.2vw";
-      listsItems[4].style.width = "25.2vw";
-      dropdown.addEventListener("mouseover", function () {
-        dropdownMenu.style.height = "450px";
-      });
-      dropdownMenu.addEventListener("mouseover", function () {
-        dropdownMenu.style.height = "450px";
-      });
-    }
-    if (window.innerHeight <= 600) {
-      $(".dropdown-menu-inner").css("padding", "20px 2vw");
-      $(".dropdown-menu-inner").css("row-gap", "20px");
-      let listsItems = document.querySelectorAll(".dropdown-menu-item");
-      listsItems[0].style.width = "38.875vw";
-      listsItems[1].style.width = "38.875vw";
-      listsItems[2].style.width = "25.2vw";
-      listsItems[3].style.width = "25.2vw";
-      listsItems[4].style.width = "25.2vw";
-      dropdown.addEventListener("mouseover", function () {
-        dropdownMenu.style.height = "400px";
-      });
-      dropdownMenu.addEventListener("mouseover", function () {
-        dropdownMenu.style.height = "400px";
-      });
-    }
+    // if (window.innerHeight <= 760) {
+    //   $(".dropdown-menu-inner").css("padding", "20px 2vw");
+    //   $(".dropdown-menu-inner").css("row-gap", "20px");
+    //   let listsItems = document.querySelectorAll(".dropdown-menu-item");
+    //   listsItems[0].style.width = "38.875vw";
+    //   listsItems[1].style.width = "38.875vw";
+    //   listsItems[2].style.width = "25.2vw";
+    //   listsItems[3].style.width = "25.2vw";
+    //   listsItems[4].style.width = "25.2vw";
+    //   dropdown.addEventListener("mouseover", function () {
+    //     dropdownMenu.style.height = "450px";
+    //   });
+    //   dropdownMenu.addEventListener("mouseover", function () {
+    //     dropdownMenu.style.height = "450px";
+    //   });
+    // }
+    // if (window.innerHeight <= 600) {
+    //   $(".dropdown-menu-inner").css("padding", "20px 2vw");
+    //   $(".dropdown-menu-inner").css("row-gap", "20px");
+    //   let listsItems = document.querySelectorAll(".dropdown-menu-item");
+    //   listsItems[0].style.width = "38.875vw";
+    //   listsItems[1].style.width = "38.875vw";
+    //   listsItems[2].style.width = "25.2vw";
+    //   listsItems[3].style.width = "25.2vw";
+    //   listsItems[4].style.width = "25.2vw";
+    //   dropdown.addEventListener("mouseover", function () {
+    //     dropdownMenu.style.height = "400px";
+    //   });
+    //   dropdownMenu.addEventListener("mouseover", function () {
+    //     dropdownMenu.style.height = "400px";
+    //   });
+    // }
   }
   // responsive header mobile
   if (windowWidth <= 1024) {

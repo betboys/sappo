@@ -3158,6 +3158,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   background: #101011;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .single-content-left {

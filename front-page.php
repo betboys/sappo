@@ -62,7 +62,7 @@
 					<img class="card-image" src="<?= $card_image['url']; ?>" alt="">
 					<p class="card-title"><?= $card_title ?></p>
 					<div class="card-hover-visitble">
-						<a class="card-title-hover" href=""></a>
+						<a class="card-title-hover" href="<?php the_permalink(); ?>"></a>
 						<div class="card-info-inner">
 							<?= $card_description ?>
 

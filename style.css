@@ -2849,7 +2849,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   inset: 0;
   z-index: 1;
   background: linear-gradient(0deg,
-      rgba(0, 0, 0, 0.75) 100%,
+      rgba(0, 0, 0, 0.75) 0%,
       rgba(0, 0, 0, 0) 100%);
   transition: 0.5s;
   opacity: 0;
@@ -3837,7 +3837,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 /* hover style */
 @media (min-width: 1101px) {
   .about-our-serives-card-item:hover .about-our-serives-card-image {
-    filter: grayscale(0.5);
+    filter: grayscale(5);
+    scale: 1.005;
   }
 
   .about-our-serives-card-item:hover::before {

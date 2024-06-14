@@ -17,7 +17,7 @@ $(document).ready(function () {
       flags[0].innerHTML = langsSpan[i].innerHTML;
     });
   }
-  if (windowWidth > 1000 && windowWidth <= 3840) {
+  if (windowWidth > 1024 && windowWidth <= 3840) {
     $(".lang-flag").mouseover(function () {
       $(".language-dropdown").addClass("open");
       $(".language-icon").addClass("language-icon-rotate");
@@ -35,12 +35,15 @@ $(document).ready(function () {
       $(".language-icon").removeClass("language-icon-rotate");
     });
   }
-  if (windowWidth <= 1000) {
+  if (windowWidth <= 1024) {
     $(".lang-flag").click(function () {
       $(".language-dropdown").toggleClass("open");
       languageIcon.classList.toggle("language-icon-rotate");
     });
   }
+  $(".wpml-ls-item-toggle").click(function() {
+    $(".wpml-ls-sub-menu").toggleClass("visible");
+  });
   $("ul.lang-list li").click(function () {
     $(".language-icon").removeClass("language-icon-rotate");
     $("ul.lang-list li").removeClass("selected");

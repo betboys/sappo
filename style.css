@@ -1492,6 +1492,10 @@ body.no-scroll {
   transition: 0.5s;
 }
 
+.wpml-ls-sub-menu.visible {
+  visibility: visible;
+}
+
 .language-dropdown {
   display: flex;
   align-items: center;

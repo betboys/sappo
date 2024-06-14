@@ -4090,6 +4090,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: calc(8rem + 4.33735 * (100vw - 90rem) / 60);
   }
 
+  .single-hero-heading-text-inner {
+    margin-bottom: 6.438rem;
+  }
+
   .other-services {
     font-size: calc(5.625rem + 2.16 * (100vw - 90rem) / 60);
   }
@@ -4958,7 +4962,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .single-hero-heading-text-inner {
-    margin-bottom: 5.977rem;
     margin-top: 11.75rem;
   }
 
@@ -5269,6 +5272,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: calc(6.25rem + 3.75 * (100vw - 62.5rem) / 60);
   }
 
+  .single-hero-heading-text-inner {
+    margin-bottom: 3.727rem;
+    margin-top: unset;
+  }
+
   .hero-image-inner,
   .page-hero,
   .carrer-hero-img,
@@ -5366,10 +5374,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .menu-link {
     font-size: 1.375rem;
-  }
-
-  .page-hero {
-    align-items: center;
   }
 
   .heading {
@@ -5627,11 +5631,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .sappo-security-service,
   .sappo-security-service-image {
     height: 29.25rem;
-    object-position: calc(100% + -14 * (100vw - 767px) / 60);
+    object-position: calc(100% + -14 * (100vw - 47.938rem) / 60);
   }
 
   .sappo-security-service::before {
-    background-position: calc(100% + -14 * (100vw - 767px) / 60);
+    background-position: calc(100% + -14 * (100vw - 47.938rem) / 60);
   }
 
   .card-title-hover {

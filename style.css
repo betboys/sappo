@@ -1500,9 +1500,8 @@ body.no-scroll {
   vertical-align: middle;
 }
 
-.icon-rotate::before {
+.icon-rotate::after {
   content: '';
-  position: absolute;
   transform: rotate(180deg);
 }
 

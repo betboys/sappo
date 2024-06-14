@@ -4626,7 +4626,11 @@ body.no-scroll {
   }
 
   .about-our-serives-card-image.grayscale {
-    filter: grayscale(0.5);
+    filter: grayscale(0);
+  }
+
+  .about-our-serives-card-image {
+    filter: grayscale(0);
   }
 
   .wcsss-item {
@@ -5513,6 +5517,10 @@ body.no-scroll {
 
   .incidents-send-btn {
     margin-top: 0;
+  }
+
+  .incidents-form-button {
+    width: 100%;
   }
 
   .gallery-photo-intro:nth-child(1),

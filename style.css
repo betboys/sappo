@@ -4934,7 +4934,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .hero-heading-text-inner {
     margin-top: 11.75rem;
-    margin-bottom: 5.977rem;
     margin-left: unset;
     padding-inline: var(--paddingLeftAndRigth);
   }
@@ -5276,7 +5275,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .single-hero-heading-text-inner {
     margin-bottom: 3.727rem;
-    margin-top: unset;
+    margin-top: 11.75rem;
   }
 
   .hero-image-inner,

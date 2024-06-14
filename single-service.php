@@ -133,7 +133,7 @@ if ($feture_sec == 'yes'): ?>
                         <img class="card-image" src="<?php echo $card_image['url']; ?>" alt="">
                         <p class="card-title"><?= $card_title ?></p>
                         <div class="card-hover-visitble">
-                            <p class="card-title-hover"></p>
+                        <a class="card-title-hover" href="<?php the_permalink(); ?>"></a>
                             <div class="card-info-inner">
                                 <?= $card_description ?>
 

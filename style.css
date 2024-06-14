@@ -4090,6 +4090,15 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: calc(8rem + 4.33735 * (100vw - 90rem) / 60);
   }
 
+  .carrer-hero-heading-text-inner {
+    padding: 0 var(--paddingLeftAndRigth);
+    margin-top: 10rem;
+  }
+
+  .title-text-inner {
+    padding-top: 10rem;
+  }
+
   .other-services {
     font-size: calc(5.625rem + 2.16 * (100vw - 90rem) / 60);
   }
@@ -4751,6 +4760,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     display: flex;
   }
 
+  .carrer-hero-heading-text-inner {
+    margin-top: 11.75rem;
+  }
+
+  .title-text-inner {
+    padding-top: 11.75rem;
+  }
+
   .strength-reliability-text-inner>.headingN2 {
     order: 1;
   }
@@ -5247,6 +5264,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .carrer-hero-heading-text-inner {
+    margin-bottom: 3.727rem;
   }
 
   .about-our-serives-card-item::before {

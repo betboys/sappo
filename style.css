@@ -1496,12 +1496,12 @@ body.no-scroll {
   visibility: visible;
 }
 
-@media (min-width: 1024px) {
+.wpml-ls-native.icon-rotate {
+  vertical-align: middle;
+}
 
-  body .wpml-ls-legacy-dropdown .wpml-ls-current-language:focus .wpml-ls-sub-menu,
-  body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu {
-    visibility: visible;
-  }
+.icon-rotate::after {
+  transform: rotate(180deg);
 }
 
 .language-dropdown {

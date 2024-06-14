@@ -4090,10 +4090,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: calc(8rem + 4.33735 * (100vw - 90rem) / 60);
   }
 
-  .single-hero-heading-text-inner {
-    margin-bottom: 6.438rem;
-  }
-
   .other-services {
     font-size: calc(5.625rem + 2.16 * (100vw - 90rem) / 60);
   }
@@ -4211,7 +4207,17 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .hero-heading-text-inner {
-    margin-bottom: 6.438rem;
+    margin-bottom: unset;
+    margin-top: 10rem;
+  }
+
+  .single-hero-heading-text-inner {
+    margin-bottom: unset;
+    margin-top: 10rem;
+  }
+
+  .page-hero {
+    align-items: start;
   }
 
   .text-wrapper-list {

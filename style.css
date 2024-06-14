@@ -1496,6 +1496,13 @@ body.no-scroll {
   visibility: visible;
 }
 
+@media (min-width: 1024px) {
+  .wpml-ls-legacy-dropdown .wpml-ls-current-language:focus .wpml-ls-sub-menu,
+  .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu {
+    visibility: visible;
+  }
+}
+
 .language-dropdown {
   display: flex;
   align-items: center;

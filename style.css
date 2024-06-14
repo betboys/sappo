@@ -1501,6 +1501,7 @@ body.no-scroll {
 }
 
 .icon-rotate::after {
+  content: '';
   transform: rotate(180deg);
 }
 

@@ -1500,8 +1500,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transform: unset;
 }
 
-.js-wpml-ls-item-toggle:hover::after {
-  transform: rotate(180deg) !important;
+@media (min-width: 1024px) {
+
+  .js-wpml-ls-item-toggle:hover::after {
+    transform: rotate(180deg) !important;
+  }
 }
 
 .language-dropdown {

@@ -2835,7 +2835,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   inset: 0;
   background: linear-gradient(0deg,
-      rgba(0, 0, 0, 0.75) 70%,
+      rgba(0, 0, 0, 0.75) 20%,
       rgba(0, 0, 0, 0) 100%);
 }
 
@@ -3403,7 +3403,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   inset: 0;
   background: linear-gradient(0deg,
-      rgba(0, 0, 0, 0.75) 70%,
+      rgba(0, 0, 0, 0.75) 20%,
       rgba(0, 0, 0, 0) 100%);
 }
 
@@ -3444,7 +3444,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   inset: 0;
   background: linear-gradient(0deg,
-      rgba(0, 0, 0, 0.75) 70%,
+      rgba(0, 0, 0, 0.75) 20%,
       rgba(0, 0, 0, 0) 100%);
 }
 

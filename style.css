@@ -5044,8 +5044,6 @@ body.no-scroll {
 
   .footer-rigth {
     width: 100%;
-    flex-direction: column;
-    gap: 3.375rem;
   }
 
   .partners-card-text {
@@ -5218,6 +5216,11 @@ body.no-scroll {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75;
+  }
+
+  .footer-rigth {
+    flex-direction: column;
+    gap: 3.375rem;
   }
 
   .descover,

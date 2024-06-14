@@ -2924,7 +2924,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transition: 0.5s;
 }
 
-.card-item-info.top {
+.top>.card-item-info {
   bottom: 1.5rem;
 }
 

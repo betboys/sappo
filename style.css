@@ -5627,7 +5627,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .sappo-security-service,
   .sappo-security-service-image {
     height: 29.25rem;
-    width: max-content;
+    object-position: calc(100% + -14 * (100vw - 767px) / 60);
+  }
+
+  .sappo-security-service::before {
+    background-position: calc(100% + -14 * (100vw - 767px) / 60);
   }
 
   .card-title-hover {
@@ -5930,12 +5934,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 @media (max-width: 477px) {
   .about-card-link {
     margin-top: 0.938rem;
-  }
-
-  .sappo-security-service::before {
-    /* transform: translateX(calc(-38% + 25 * (100vw - 29.813rem) / 60)); */
-    transform: translateX(-38%);
-    z-index: 80;
   }
 }
 

@@ -5222,6 +5222,10 @@ body.no-scroll {
     --paddingTopAndBottom: 3.75rem;
   }
 
+  .about-our-serives-card-item::before {
+    background: rgb(8 8 8 / 40%);
+  }
+
   .footer-rigth {
     flex-direction: column;
     gap: 3.375rem;

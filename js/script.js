@@ -333,31 +333,31 @@ function faq() {
   });
 }
 /* form */
-function form() {
-  let sendButton = document.getElementById("send-btn");
-  let inputs = document.querySelectorAll(".input");
-  let valid = document.querySelectorAll(".valid");
-  if (sendButton) {
-    sendButton.addEventListener("click", function (e) {
-      e.preventDefault();
-      for (let i = 0; i < inputs.length; i++) {
-        if (inputs[i].value == "") {
-          valid[i].style.display = "block";
-          inputs[i].required = true;
-        }
-        if (valid[i].style.display == "block") {
-          inputs[i].addEventListener("input", function () {
-            valid[i].style.display = "none";
-            inputs[i].required = false;
-          });
-        }
-      }
-      setInterval(() => {
-        sendButton.disabled = false;
-      }, 3000);
-    });
-  }
-}
+// function form() {
+//   let sendButton = document.getElementById("send-btn");
+//   let inputs = document.querySelectorAll(".input");
+//   let valid = document.querySelectorAll(".valid");
+//   if (sendButton) {
+//     sendButton.addEventListener("click", function (e) {
+//       e.preventDefault();
+//       for (let i = 0; i < inputs.length; i++) {
+//         if (inputs[i].value == "") {
+//           valid[i].style.display = "block";
+//           inputs[i].required = true;
+//         }
+//         if (valid[i].style.display == "block") {
+//           inputs[i].addEventListener("input", function () {
+//             valid[i].style.display = "none";
+//             inputs[i].required = false;
+//           });
+//         }
+//       }
+//       setInterval(() => {
+//         sendButton.disabled = false;
+//       }, 3000);
+//     });
+//   }
+// }
 /* Home */
 if (document.getElementById("home")) {
   // title text animation
@@ -570,7 +570,7 @@ if (document.getElementById("home")) {
   // faq
   faq();
   // form
-  form();
+  // form();
   // footer
   footer();
 }
@@ -581,7 +581,7 @@ if (document.getElementById("contact")) {
   // header
   headerSubmenu();
   // form
-  form();
+  // form();
   // footer
   footer();
 }
@@ -670,7 +670,7 @@ if (document.getElementById("about")) {
   }
   partners();
   // form
-  form();
+  // form();
   // footer
   footer();
 }
@@ -698,7 +698,7 @@ if (document.getElementById("single")) {
   }
   partners();
   // form
-  form();
+  // form();
   // footer
   footer();
 }
@@ -751,7 +751,7 @@ if (document.getElementById("carrer")) {
     carrerSe.appendChild(seSuttitle);
   }
   // form
-  form();
+  // form();
   // footer
   footer();
 }
@@ -787,7 +787,7 @@ if (document.getElementById("career-single")) {
     });
   });
   // form
-  form();
+  // form();
   // footer
   footer();
 }

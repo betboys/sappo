@@ -251,9 +251,9 @@ function ourServiceCards() {
     cards[i].style.width = 100 / cardLength + "%";
     cardTitleHover[i].textContent = cardTitle[i].textContent;
     if (windowWidth >= 1025 && windowWidth <= 3840) {
-      cardTitleHover[i].addEventListener("click", function (e) {
-        e.preventDefault();
-      });
+      // cardTitleHover[i].addEventListener("click", function (e) {
+      //   e.preventDefault();
+      // });
       cards[i].addEventListener("mouseover", function () {
         cards[i].style.width = 100 / 2 + "%";
       });

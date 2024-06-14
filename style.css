@@ -2737,6 +2737,83 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transition: 0.5s;
 }
 
+/* Popup mail */
+.popup-mail {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(16, 16, 17, 0.6);
+  -webkit-backdrop-filter: blur(1.359rem);
+  backdrop-filter: blur(1.359rem);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-inner {
+  width: 29.935rem;
+  background: #D9D9D9;
+  padding-block: 4.813rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-intro {
+  width: 20.563rem;
+}
+
+.popup-title {
+  font: 400 63.719rem / 100% "Bebas Neue";
+  color: #FAC917;
+  text-align: center;
+}
+
+.popup-subtitle {
+  margin-top: 1.5rem;
+  font-size: 400 1rem / 143.75% "Noto Sans Armenian Regular";
+  color: #F8F9FA;
+  text-align: center;
+}
+
+.go-back {
+  width: 100%;
+  height: 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 0.125rem solid #fff;
+  border-bottom: 0.125rem solid #fff;
+  transition: 0.5s;
+  position: relative;
+  font: 500 1.25rem / normal "Noto Sans Armenian Medium";
+}
+
+
+.go-back::before {
+  content: "";
+  width: 76%;
+  height: 0.125rem;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.go-back::after {
+  content: "";
+  width: 0.125rem;
+  height: 50%;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+
 /* Contact Us */
 #contact>.contact-us-inner {
   padding: 12.24vw var(--paddingLeftAndRigth) 12.24vw var(--paddingLeftAndRigth);
@@ -3841,6 +3918,19 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 /* hover style */
 @media (min-width: 1101px) {
+  .go-back:hover {
+    color: #fac917;
+  }
+
+  .go-back:hover::before {
+    width: 100%;
+    background: #fac917;
+  }
+
+  .go-back:hover::after {
+    background: #fac917;
+  }
+
   .about-our-serives-card-item:hover .about-our-serives-card-image {
     filter: grayscale(0);
     scale: 1.005;

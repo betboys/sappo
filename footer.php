@@ -25,18 +25,20 @@
 	</div>
 	<div class="footer-end-inner">
 		<ul class="footer-end-intro">
-			<p class="site-info"><span class="site-info-symbol">©</span> <?php echo date('Y'); ?> <?php echo bloginfo('name'); ?>. All rights reserved.</p>
+			<p class="site-info"><span class="site-info-symbol">©</span> <?php echo date('Y'); ?>
+				<?php echo bloginfo('name'); ?>. All rights reserved.</p>
 			<?php
 			$flinks = get_field('links', 'option');
-			if ($flinks) : ?>
+			if ($flinks): ?>
 
-				<?php foreach ($flinks as $flink) :
+				<?php foreach ($flinks as $flink):
 					$permalink = get_permalink($flink->ID);
 					$title = get_the_title($flink->ID);
 
-				?>
+					?>
 					<li class="footer-end-intro-list">
-						<a class="footer-end-intro-link" href="<?php echo esc_url($permalink); ?>"><?php echo esc_html($title); ?></a>
+						<a class="footer-end-intro-link"
+							href="<?php echo esc_url($permalink); ?>"><?php echo esc_html($title); ?></a>
 					</li>
 
 				<?php endforeach;
@@ -46,6 +48,17 @@
 		</ul>
 	</div>
 </footer>
+
+<div class="popup-mail">
+	<div class="popup-inner">
+		<div class="popup-intro">
+			<p class="popup-title">Thank you!</p>
+			<p class="popup-subtitle">Your message has been successfully received. Our team will review your inquiry and
+				get back to you as soon as possible.</p>
+			<button class="go-back">Go back</button>
+		</div>
+	</div>
+</div>
 
 </main>
 <?php wp_footer(); ?>

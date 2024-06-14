@@ -5215,7 +5215,7 @@ body.no-scroll {
 @media (max-width: 767px) {
   :root {
     --paddingLeftAndRigth: 1.25rem;
-    --paddingTopAndBottom: 3.75;
+    --paddingTopAndBottom: 3.75rem;
   }
 
   .footer-rigth {
@@ -5845,7 +5845,7 @@ body.no-scroll {
   }
 
   .card.height {
-    height: 21.25rem;
+    height: 23.25rem;
   }
 
   .gallery-flex-inner {

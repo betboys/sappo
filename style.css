@@ -1238,7 +1238,7 @@ img {
 }
 
 body {
-  font: 400 22px / 110% "Noto Sans Armenian Regular";
+  font: 400 1.375rem / 110% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -1264,8 +1264,8 @@ body.no-scroll {
   width: 100%;
   padding: 0 var(--paddingLeftAndRigth);
   background: rgba(16, 16, 17, 0.6);
-  -webkit-backdrop-filter: blur(21.75px);
-  backdrop-filter: blur(21.75px);
+  -webkit-backdrop-filter: blur(1.359rem);
+  backdrop-filter: blur(1.359rem);
   position: fixed;
   left: 0;
   top: 0;
@@ -1284,18 +1284,18 @@ body.no-scroll {
 }
 
 .burger-menu-open {
-  width: 66.2px;
-  height: 47px;
+  width: 4.138rem;
+  height: 2.938rem;
   display: none;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 0.625rem;
   transition: 0.5s;
 }
 
 .lineN1 {
   width: 100%;
-  height: 2.954px;
+  height: 0.185rem;
   background: #fff;
   transition: 0.5s;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
@@ -1303,7 +1303,7 @@ body.no-scroll {
 
 .lineN2 {
   width: 75%;
-  height: 2.954px;
+  height: 0.185rem;
   background: #fff;
   margin-inline-start: auto;
   transition: 0.5s;
@@ -1311,17 +1311,17 @@ body.no-scroll {
 }
 
 .burger-menu-open.new-element {
-  width: 47px;
-  height: 47px;
+  width: 2.938rem;
+  height: 2.938rem;
 }
 
 .lineN1.new-lineN1 {
-  transform: translate3d(0px, 6px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0.375rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
 }
 
 .lineN2.new-lineN2 {
   width: 100%;
-  transform: translate3d(0px, -6px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
+  transform: translate3d(0px, -0.375rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
 }
 
 .menu-inner {
@@ -1330,14 +1330,14 @@ body.no-scroll {
 }
 
 .menu-list {
-  padding: 29px 0;
+  padding: 1.813rem 0;
   display: flex;
   align-items: center;
-  gap: 9.7px;
+  gap: 0.606rem;
 }
 
 .menu-link {
-  font: 500 20px / 150% "Noto Sans Armenian Medium";
+  font: 500 1.25rem / 150% "Noto Sans Armenian Medium";
   color: #fff;
   transition: 0.5s;
 }
@@ -1368,15 +1368,15 @@ body.no-scroll {
 }
 
 .dropdown-menu-inner {
-  padding: 62.1px 9.449vw 85px 9.449vw;
+  padding: 3.881rem 9.449vw 5.313rem 9.449vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 32px;
+  row-gap: 2rem;
 }
 
 .dropdown-menu-item-title {
-  font: 600 22px / 150% "Noto Sans Armenian SemiBold";
+  font: 600 1.375rem / 150% "Noto Sans Armenian SemiBold";
   text-transform: uppercase;
   color: #fff;
   display: -webkit-box;
@@ -1387,11 +1387,11 @@ body.no-scroll {
 
 .dropdown-menu-item-list-intro,
 .dropdown-menu-item-desc {
-  margin-top: 8px;
+  margin-top: 0.5rem;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  font: 400 14px / 150% "Noto Sans Armenian Regular";
+  gap: 0.5rem;
+  font: 400 0.875rem / 150% "Noto Sans Armenian Regular";
   color: #aaa;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -1402,7 +1402,7 @@ body.no-scroll {
 .dropdown-menu-item-list {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -1412,7 +1412,7 @@ body.no-scroll {
 
 .dropdown-menu-item-list::before {
   content: url(images/Vector-checkbox.svg);
-  padding-right: 10px;
+  padding-right: 0.625rem;
 }
 
 .dropdown-menu-item:nth-child(3) .dropdown-menu-item-text-inner .dropdown-menu-item-list-intro .dropdown-menu-item-list>svg,
@@ -1428,23 +1428,23 @@ body.no-scroll {
 }
 
 .dropdown-menu-item {
-  padding: 30px 28.76px;
-  border: 1px solid #39393e;
+  padding: 1.875rem 1.798rem;
+  border: 0.063rem solid #39393e;
   background: #1a1a1c;
-  backdrop-filter: blur(13.25px);
+  backdrop-filter: blur(0.828);
   overflow: hidden;
   transition: 0.5s;
 }
 
 .submenu-card-link {
   display: flex;
-  gap: 29.81px;
+  gap: 1.863rem;
 }
 
 .dropdown-menu-item-img {
-  width: 24.6px;
-  height: 25.9px;
-  margin-top: 8px;
+  width: 1.538rem;
+  height: 1.619rem;
+  margin-top: 0.5rem;
 }
 
 .dropdown-menu-item:nth-child(1),
@@ -1459,21 +1459,21 @@ body.no-scroll {
 }
 
 .menu-list:nth-child(4) .menu-link {
-  width: 180px;
-  height: 52px;
+  width: 11.25rem;
+  height: 3.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border-left: 0.125rem solid #fff;
+  border-bottom: 0.125rem solid #fff;
   transition: 0.5s;
 }
 
 .menu-list:nth-child(4) .menu-link::before {
   content: "";
   width: 76%;
-  height: 2px;
+  height: 0.125rem;
   background: #fff;
   position: absolute;
   left: 0;
@@ -1483,7 +1483,7 @@ body.no-scroll {
 
 .menu-list:nth-child(4) .menu-link::after {
   content: "";
-  width: 2px;
+  width: 0.125rem;
   height: 50%;
   background: #fff;
   position: absolute;
@@ -1499,16 +1499,16 @@ body.no-scroll {
 }
 
 .flag-image {
-  width: 27px;
-  height: 20px;
-  border-radius: 5px;
+  width: 1.688rem;
+  height: 1.25rem;
+  border-radius: 0.313rem;
 }
 
 .language-dropdown label,
 .language-dropdown ul li {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   cursor: pointer;
 }
 
@@ -1524,11 +1524,11 @@ body.no-scroll {
 .language-dropdown ul.lang-list {
   position: absolute;
   left: 0;
-  top: 66px;
-  padding-top: 20px;
+  top: 4.125rem;
+  padding-top: 1.25rem;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
   visibility: hidden;
   opacity: 0;
   z-index: 1;
@@ -1539,11 +1539,11 @@ body.no-scroll {
 }
 
 .flag {
-  width: 85px;
+  width: 5.313;
   display: flex;
   align-items: center;
-  gap: 13px;
-  font: 500 22px / normal "Noto Sans Armenian Regular";
+  gap: 0.813rem;
+  font: 500 1.375rem / normal "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -1596,20 +1596,20 @@ body.no-scroll {
 
 .hero-heading-text-inner {
   width: 100%;
-  max-width: 820px;
+  max-width: 51.25rem;
   margin-left: var(--paddingLeftAndRigth);
   margin-bottom: var(--paddingTopAndBottom);
   position: relative;
 }
 
 .heading {
-  font: 400 calc(160px + 5 * (100vw - 1920px) / 60) / 96% "Bebas Neue";
-  letter-spacing: 1.6px;
+  font: 400 calc(10rem + 5 * (100vw - 120rem) / 60) / 96% "Bebas Neue";
+  letter-spacing: 0.1rem;
   color: #fff;
 }
 
 .heading>.text-color-style {
-  padding-top: 25px;
+  padding-top: 1.563rem;
 }
 
 .text-color-style {
@@ -1619,36 +1619,36 @@ body.no-scroll {
 }
 
 .subtitle {
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
 .hero-subtitle {
   width: 100%;
-  max-width: 790px;
-  margin-top: 24px;
+  max-width: 49.375rem;
+  margin-top: 1.5rem;
 }
 
 .link-style {
-  width: 220px;
-  height: 52px;
-  margin-top: 40px;
+  width: 13.75rem;
+  height: 3.25;
+  margin-top: 2.5rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  font: 500 20px / 100% "Noto Sans Armenian Medium";
-  letter-spacing: 0.04px;
+  font: 500 1.25rem / 100% "Noto Sans Armenian Medium";
+  letter-spacing: 0.003rem;
   color: #fff;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border-left: 0.125rem solid #fff;
+  border-bottom: 0.125rem solid #fff;
   transition: 0.5s;
 }
 
 .link-style::before {
   content: "";
   width: 76%;
-  height: 2px;
+  height: 0.125rem;
   background: #fff;
   position: absolute;
   left: 0;
@@ -1658,7 +1658,7 @@ body.no-scroll {
 
 .link-style::after {
   content: "";
-  width: 2px;
+  width: 0.125rem;
   height: 50%;
   background: #fff;
   position: absolute;
@@ -1681,8 +1681,8 @@ body.no-scroll {
 }
 
 .headingN2 {
-  font: 400 64px / 106% "Bebas Neue";
-  letter-spacing: 0.64px;
+  font: 400 4rem / 106% "Bebas Neue";
+  letter-spacing: 0.04rem;
   color: #fff;
 }
 
@@ -1699,11 +1699,11 @@ body.no-scroll {
 
 .rigth-intro-link {
   width: max-content;
-  font: 500 20px / 100% "Noto Sans Armenian Medium";
+  font: 500 1.25rem / 100% "Noto Sans Armenian Medium";
   color: #fff;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   transition: 0.5s;
 }
 
@@ -1715,15 +1715,15 @@ body.no-scroll {
 
 .line-icon::before {
   content: "";
-  width: 52px;
-  height: 1px;
+  width: 3.25rem;
+  height: 0.063rem;
   background: #fff;
   transition: 0.5s;
 }
 
 .line-icon-svg {
   transform-origin: center;
-  transform: rotate(270deg) translate(-0.5px, -6px);
+  transform: rotate(270deg) translate(-0.031rem, -0.375rem);
 }
 
 .line-icon-svg-path {
@@ -1734,8 +1734,8 @@ body.no-scroll {
 .our-service-cards {
   width: 100%;
   /* height: calc(1076px + 34 * (100vw - 1920px) / 60); */
-  height: min(100vh - 100px);
-  margin-top: -1px;
+  height: min(100vh - 6.25rem);
+  margin-top: -0.063rem;
 }
 
 .cards-wrapper {
@@ -1773,13 +1773,13 @@ body.no-scroll {
 .card-title {
   writing-mode: vertical-rl;
   /* height: calc(800px + 29.2 * (100vw - 1920px) / 60); */
-  font: 400 calc(110px + 2.2 * (100vw - 1920px) / 60) / 92% "Bebas Neue";
+  font: 400 calc(6.875rem + 2.2 * (100vw - 120rem) / 60) / 92% "Bebas Neue";
   color: #fff;
   transform-origin: center;
   transform: rotate(180deg);
   position: absolute;
-  right: 40px;
-  bottom: 40px;
+  right: 2.5rem;
+  bottom: 2.5rem;
   z-index: 1;
   transition: 0.5s;
 }
@@ -1789,8 +1789,8 @@ body.no-scroll {
   position: absolute;
   left: 0;
   bottom: 0;
-  padding-left: 30px;
-  padding-bottom: 60.29px;
+  padding-left: 1.875rem;
+  padding-bottom: 3.768rem;
   opacity: 0;
   transition: 0.5s;
 }
@@ -1803,12 +1803,12 @@ body.no-scroll {
 }
 
 .card-title-hover {
-  font: 400 calc(85px + 2 * (100vw - 1920px) / 60) / 102% "Bebas Neue";
+  font: 400 calc(5.313rem + 2 * (100vw - 120rem) / 60) / 102% "Bebas Neue";
   color: #fff;
 }
 
 .card-info-inner {
-  margin-top: 10.24px;
+  margin-top: 0.64rem;
   display: flex;
   align-items: end;
   justify-content: space-between;
@@ -1818,7 +1818,7 @@ body.no-scroll {
 .card-info-inner>ul {
   display: flex;
   flex-direction: column;
-  gap: 10.24px;
+  gap: 0.64rem;
 }
 
 .card-info-inner ul li::before {
@@ -1830,8 +1830,8 @@ body.no-scroll {
 .card-info-inner p {
   display: flex;
   align-items: center;
-  gap: 18.11px;
-  font: 500 calc(24px + 0.3913 * (100vw - 1920px) / 60) / 150% "Noto Sans Armenian Medium";
+  gap: 1.132rem;
+  font: 500 calc(1.5rem + 0.3913 * (100vw - 120rem) / 60) / 150% "Noto Sans Armenian Medium";
   color: #fff;
 }
 
@@ -1860,7 +1860,7 @@ body.no-scroll {
 /* gallery */
 .gallery {
   width: 100%;
-  padding-top: 47.5px;
+  padding-top: 2.969rem;
   padding-bottom: var(--paddingTopAndBottom);
   background: #101011;
 }
@@ -1871,7 +1871,7 @@ body.no-scroll {
 
 .text-wrapper-list {
   width: max-content;
-  font: 400 228.526px / 82% "Bebas Neue";
+  font: 400 14.283rem / 82% "Bebas Neue";
   text-transform: uppercase;
   color: #fff;
 }
@@ -1884,11 +1884,11 @@ body.no-scroll {
   margin-inline-start: auto;
   transform: translateX(100%);
   color: #fac917;
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
 }
 
 .gallery-container {
-  padding: 47.5px var(--paddingLeftAndRigth) 0 var(--paddingLeftAndRigth);
+  padding: 2.969rem var(--paddingLeftAndRigth) 0 var(--paddingLeftAndRigth);
 }
 
 .gallery-text-and-buttons {
@@ -1898,8 +1898,8 @@ body.no-scroll {
 }
 
 .gallery-text {
-  font: 400 calc(128px + 4.75 * (100vw - 1920px) / 60) / 120% "Bebas Neue";
-  letter-spacing: 1.28px;
+  font: 400 calc(8rem + 4.75 * (100vw - 120rem) / 60) / 120% "Bebas Neue";
+  letter-spacing: 0.08rem;
   color: #fff;
 }
 
@@ -1910,12 +1910,12 @@ body.no-scroll {
 .pagination-container {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .pagination-button {
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1926,7 +1926,7 @@ body.no-scroll {
 #pagination-numbers {
   display: flex;
   align-items: center;
-  font: 400 20px / 150% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 150% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -1936,7 +1936,7 @@ body.no-scroll {
 
 .pagination-number:first-child::after {
   content: "/";
-  margin-inline: 1px;
+  margin-inline: 0.063rem;
 }
 
 .pagination-number:last-child .pagination-number.active {
@@ -1952,7 +1952,7 @@ body.no-scroll {
 }
 
 #paginated-list {
-  margin-top: 46px;
+  margin-top: 2.875rem;
 }
 
 .gallery-flex-inner {
@@ -2031,7 +2031,7 @@ body.no-scroll {
 /* sappo-security-service */
 .sappo-security-service {
   width: 100%;
-  height: calc(1100px + 28.7 * (100vw - 1920px) / 60);
+  height: calc(68.75rem + 28.7 * (100vw - 120rem) / 60);
   display: grid;
   position: relative;
 }
@@ -2046,17 +2046,17 @@ body.no-scroll {
 }
 
 .sappo-security-service-image {
-  height: calc(1100px + 28.7 * (100vw - 1920px) / 60);
+  height: calc(68.75rem + 28.7 * (100vw - 120rem) / 60);
 }
 
 .sappo-security-service-text {
-  font: 400 calc(288.117px + 15 * (100vw - 1920px) / 60) / 85% "Bebas Neue";
+  font: 400 calc(18.007rem + 15 * (100vw - 120rem) / 60) / 85% "Bebas Neue";
   color: #fff;
   width: 100%;
-  max-width: 830px;
+  max-width: 51.875rem;
   position: relative;
   margin-left: var(--paddingLeftAndRigth);
-  margin-top: 137.5px;
+  margin-top: 8.594rem;
 }
 
 .wpml-ls-legacy-dropdown {
@@ -2068,16 +2068,16 @@ body.no-scroll {
   border: none;
   background-color: transparent;
   color: #fff;
-  padding: 10px 4px;
+  padding: 0.625rem 0.25rem;
 }
 
 .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
-  margin-left: 13px !important;
-  font-size: 20px;
+  margin-left: 0.813rem !important;
+  font-size: 1.25rem;
 }
 
 .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle {
-  padding-right: 10px;
+  padding-right: 0.625rem;
 }
 
 .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:after {
@@ -2091,7 +2091,7 @@ body.no-scroll {
   top: unset;
   transform-origin: center;
   transition: 0.5s;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
@@ -2110,13 +2110,13 @@ body.no-scroll {
 }
 
 .wpml-ls-legacy-dropdown .wpml-ls-flag {
-  width: 27px;
-  height: 20px;
-  border-radius: 5px;
+  width: 1.688rem;
+  height: 1.25rem;
+  border-radius: 0.313rem;
 }
 
 .sappo-security-service-text>.text-color-style {
-  padding-top: 36px;
+  padding-top: 2.25rem;
 }
 
 .sappo-security-service>* {
@@ -2140,13 +2140,13 @@ body.no-scroll {
 }
 
 .our-trusted-partners-title {
-  font: 400 calc(128px + 4.75 * (100vw - 1920px) / 60) / 96% "Bebas Neue";
-  letter-spacing: 1.28px;
+  font: 400 calc(8rem + 4.75 * (100vw - 120rem) / 60) / 96% "Bebas Neue";
+  letter-spacing: 0.08rem;
   color: #101011;
 }
 
 .our-trusted-partners-swiper {
-  margin-left: 64px;
+  margin-left: 4rem;
 }
 
 .swiper-wrapper {
@@ -2164,12 +2164,12 @@ body.no-scroll {
 .next-prev-buttons {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .swiper-buttons {
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -2182,13 +2182,13 @@ body.no-scroll {
 }
 
 .partners-card-inner {
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 .master-master-inner {
-  margin-right: 64px;
-  width: 252px;
-  height: 188.5px;
+  margin-right: 4rem;
+  width: 15.75rem;
+  height: 11.781rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2202,8 +2202,8 @@ body.no-scroll {
 }
 
 .chief {
-  width: 144px;
-  height: 108.59px;
+  width: 9rem;
+  height: 6.787rem;
 }
 
 .card-intro {
@@ -2240,9 +2240,9 @@ body.no-scroll {
 }
 
 .partners-card-text {
-  padding: 28px 20px;
-  font: 400 16px / 137.5% "Noto Sans Armenian Regular";
-  letter-spacing: 0.16px;
+  padding: 1.75rem 1.25rem;
+  font: 400 1rem / 137.5% "Noto Sans Armenian Regular";
+  letter-spacing: 0.01rem;
   color: #fff;
   transition: 0.5s;
 }
@@ -2258,17 +2258,17 @@ body.no-scroll {
 
 .faq-text-inner {
   width: 100%;
-  max-width: 460px;
+  max-width: 28.75rem;
 }
 
 .faq-title {
-  font: 400 calc(128px + 4.75*(100vw - 1920px) / 60) / 120% "Bebas Neue";
+  font: 400 calc(8rem + 4.75*(100vw - 120rem) / 60) / 120% "Bebas Neue";
   color: #101011;
 }
 
 .faq-subtitle {
-  margin-top: 24px;
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  margin-top: 1.5rem;
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #101011;
 }
 
@@ -2276,16 +2276,16 @@ body.no-scroll {
   width: 54.167vw;
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 0.063rem;
 }
 
 .faq-container {
-  padding: 20px 0;
-  border-top: 1px solid #aaa;
+  padding: 1.25rem 0;
+  border-top: 0.063rem solid #aaa;
 }
 
 .faq-container:last-child {
-  border-bottom: 1px solid #aaa;
+  border-bottom: 0.063rem solid #aaa;
 }
 
 .faq-text {
@@ -2293,16 +2293,16 @@ body.no-scroll {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  font: 400 30px / 150% "Bebas Neue";
+  font: 400 1.875rem / 150% "Bebas Neue";
   color: #101011;
   transition: 0.5s;
 }
 
 .faq-text-hiiden {
-  padding-right: 50px;
+  padding-right: 3.125rem;
   overflow: hidden;
   grid-area: hidden;
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #101011;
   transition: 0.5s;
 }
@@ -2310,8 +2310,8 @@ body.no-scroll {
 .faq-text::after {
   content: "";
   display: block;
-  min-width: 18px;
-  min-height: 10px;
+  min-width: 1.125rem;
+  min-height: 0.625rem;
   background: url(images/faq-icon.svg) center center no-repeat;
   background-size: cover;
   transition: 0.5s;
@@ -2349,7 +2349,7 @@ body.no-scroll {
 
 .contact-us-inner {
   width: 100%;
-  padding: 60px var(--paddingLeftAndRigth);
+  padding: 3.75rem var(--paddingLeftAndRigth);
   position: relative;
 }
 
@@ -2360,18 +2360,18 @@ body.no-scroll {
 }
 
 .contact-us-title {
-  font: 400 calc(128px + 4.75 * (100vw - 1920px) /60) / 120% "Bebas Neue";
-  letter-spacing: 1.28px;
+  font: 400 calc(8rem + 4.75 * (100vw - 120rem) /60) / 120% "Bebas Neue";
+  letter-spacing: 0.08rem;
   color: #fff;
 }
 
 .contact-us-title>.text-color-style {
-  padding-top: 18px;
+  padding-top: 1.125rem;
 }
 
 .contact-us-subtitle {
-  margin-top: 3px;
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  margin-top: 0.188rem;
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -2384,27 +2384,27 @@ body.no-scroll {
 .socal-media-list {
   display: flex;
   align-items: baseline;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .socal-media-title-inner {
   display: flex;
   flex-direction: column;
-  gap: 8.21px;
+  gap: 0.513rem;
 }
 
 .socal-media-title {
-  font: 700 22px / 140% "Noto Sans Armenian Bold";
+  font: 700 1.375rem / 140% "Noto Sans Armenian Bold";
   color: #fff;
 }
 
 .socal-media-subtitle {
-  font: 400 22px / 150% "Bebas Neue";
+  font: 400 1.375rem / 150% "Bebas Neue";
   color: #fff;
 }
 
 .socal-media-link {
-  font: 400 14px / 150% "Noto Sans Armenian Regular";
+  font: 400 0.875rem / 150% "Noto Sans Armenian Regular";
   text-decoration-line: underline;
   color: #ccc;
   transition: 0.5s;
@@ -2412,13 +2412,13 @@ body.no-scroll {
 
 .socal-media-list:last-child .socal-media-title-inner .socal-media-link {
   width: max-content;
-  font: 400 16px / 150% "Noto Sans Armenian Regular";
+  font: 400 1rem / 150% "Noto Sans Armenian Regular";
   color: #fff;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 0.375rem;
   text-decoration: none;
-  margin-top: 16.41px;
+  margin-top: 1.026rem;
   transition: 0.5s;
 }
 
@@ -2429,7 +2429,7 @@ body.no-scroll {
 .socal-media-list:last-child {
   display: grid;
   gap: 0;
-  column-gap: 16px;
+  column-gap: 1rem;
   grid-template-areas:
     "address-svg address"
     "socal-address socal-address";
@@ -2449,21 +2449,21 @@ body.no-scroll {
 }
 
 .contact-us-form {
-  width: 604px;
+  width: 37.75rem;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .form-name {
-  font: 400 18px / 179.762% "Bebas Neue";
+  font: 400 1.125rem / 179.762% "Bebas Neue";
   color: #fff;
 }
 
 .form-input {
-  margin-top: 5.39px;
+  margin-top: 0.337rem;
   display: flex;
   align-items: center;
   position: relative;
@@ -2480,22 +2480,22 @@ body.no-scroll {
 .wpcf7-response-output,
 .wpcf7-not-valid-tip {
   max-width: 40.267vw;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .form-input svg {
   position: absolute;
-  left: 16px;
-  top: 22px;
+  left: 1rem;
+  top: 1.375rem;
 }
 
 .input {
   width: 100%;
-  padding: 16px 16px 16px 56px;
-  font: 400 16px / 202.232% "Noto Sans Armenian Regular";
-  letter-spacing: -0.121px;
+  padding: 1rem 1rem 1rem 3.5rem;
+  font: 400 1rem / 202.232% "Noto Sans Armenian Regular";
+  letter-spacing: -0.008rem;
   color: #fff;
-  border: 1.348px solid #48484e;
+  border: 0.084rem solid #48484e;
   opacity: 0.6;
   transition: 0.3s;
   border-radius: 0;
@@ -2523,24 +2523,24 @@ body.no-scroll {
 }
 
 .textarea {
-  height: 130px;
-  margin-top: 5.39px;
+  height: 8.125rem;
+  margin-top: 0.337rem;
   resize: none;
   overflow: hidden;
   outline: none;
   background: none;
-  padding: 16px 16px 0 16px;
-  font: 400 16px / 202.232% "Noto Sans Armenian Regular";
-  letter-spacing: -0.121px;
+  padding: 1rem 1rem 0 1rem;
+  font: 400 1rem / 202.232% "Noto Sans Armenian Regular";
+  letter-spacing: -0.008rem;
   color: #fff;
-  border: 1.348px solid #48484e;
+  border: 0.084rem solid #48484e;
   border-radius: 0;
   opacity: 0.6;
 }
 
 .valid {
-  margin-top: 8px;
-  font: 400 14px / normal "Noto Sans Armenian Regular";
+  margin-top: 0.5rem;
+  font: 400 0.875rem / normal "Noto Sans Armenian Regular";
   color: #b42318;
   display: none;
 }
@@ -2548,12 +2548,12 @@ body.no-scroll {
 .checkbox-inner>p {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .label {
-  font: 400 14px / 171.429% "Noto Sans Armenian Regular";
-  letter-spacing: -0.09px;
+  font: 400 0.875rem / 171.429% "Noto Sans Armenian Regular";
+  letter-spacing: -0.006rem;
   color: #fff;
 }
 
@@ -2567,20 +2567,20 @@ body.no-scroll {
 }
 
 .send-button {
-  margin-top: 8px;
+  margin-top: 0.5rem;
   width: 100%;
-  padding: 12px 0;
+  padding: 0.75rem 0;
   text-align: center;
   cursor: pointer;
   position: relative;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border-left: 0.125rem solid #fff;
+  border-bottom: 0.125rem solid #fff;
   transition: 0.5s;
 }
 
 .send-button input {
-  font: 400 20px / normal "Noto Sans Armenian Regular";
-  letter-spacing: 0.04px;
+  font: 400 1.25rem / normal "Noto Sans Armenian Regular";
+  letter-spacing: 0.003rem;
   color: #fff;
   cursor: pointer;
 }
@@ -2588,7 +2588,7 @@ body.no-scroll {
 .send-button::before {
   content: "";
   width: 75%;
-  height: 2px;
+  height: 0.125rem;
   background: #fff;
   position: absolute;
   left: 0;
@@ -2598,7 +2598,7 @@ body.no-scroll {
 
 .send-button::after {
   content: "";
-  width: 2px;
+  width: 0.125rem;
   height: 50%;
   background: #fff;
   position: absolute;
@@ -2616,9 +2616,9 @@ body.no-scroll {
 .footer {
   width: 100%;
   background: #101011;
-  padding-top: 54px;
-  padding-bottom: 33px;
-  margin-top: -1px;
+  padding-top: 3.375rem;
+  padding-bottom: 2.063rem;
+  margin-top: -0.063rem;
 }
 
 .footer-menu-container {
@@ -2628,17 +2628,17 @@ body.no-scroll {
 }
 
 .footer-left {
-  width: 390px;
+  width: 24.375rem;
 }
 
 .footer-text {
-  margin-top: 54px;
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  margin-top: 3.375rem;
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
 .footer-rigth {
-  width: 661px;
+  width: 41.313rem;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -2647,55 +2647,55 @@ body.no-scroll {
 .footer-menu-inner {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .footer-menu-inner .widget_nav_menu ul {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .footer-menu-inner .widget_nav_menu ul a {
-  font: 400 18px / 150% "Noto Sans Armenian Regular";
+  font: 400 1.125rem / 150% "Noto Sans Armenian Regular";
   color: #fff;
   transition: 0.5s;
 }
 
 .footer-menu-title {
-  font: 400 26px / 150% "Bebas Neue";
-  letter-spacing: 0.52px;
+  font: 400 1.625rem / 150% "Bebas Neue";
+  letter-spacing: 0.033rem;
   color: #fff;
 }
 
 .footer-menu-link {
-  font: 400 18px / 150% "Noto Sans Armenian Regular";
+  font: 400 1.125rem / 150% "Noto Sans Armenian Regular";
   color: #fff;
   transition: 0.5s;
 }
 
 .footer-menu-flex {
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .footer-end-inner {
   width: 100%;
   margin-inline: auto;
-  margin-top: 54px;
-  padding-top: 32px;
-  border-top: 1px solid #444;
+  margin-top: 3.375rem;
+  padding-top: 2rem;
+  border-top: 0.063rem solid #444;
 }
 
 .footer-end-intro {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .site-info {
-  font: 400 14px / 150% "Noto Sans Armenian Regular";
+  font: 400 0.875rem / 150% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -2704,7 +2704,7 @@ body.no-scroll {
 }
 
 .footer-end-intro-link {
-  font: 400 14px / 150% "Noto Sans Armenian Regular";
+  font: 400 0.875rem / 150% "Noto Sans Armenian Regular";
   text-decoration-line: underline;
   color: #fff;
   transition: 0.5s;
@@ -2737,11 +2737,11 @@ body.no-scroll {
 .about-hero-heading-text-inner {
   width: 100%;
   padding: 0 var(--paddingLeftAndRigth);
-  margin-top: 112px;
+  margin-top: 7rem;
 }
 
 .about-heading {
-  font-size: calc(159px + 5.1 * (100vw - 1920px) / 60);
+  font-size: calc(9.938rem + 5.1 * (100vw - 120rem) / 60);
 }
 
 .about-heading>.text-color-style {
@@ -2750,8 +2750,8 @@ body.no-scroll {
 
 .hero-subtitle-about {
   width: 100%;
-  max-width: 910px;
-  margin-top: 24px;
+  max-width: 56.875rem;
+  margin-top: 3.375rem;
   position: relative;
 }
 
@@ -2762,7 +2762,7 @@ body.no-scroll {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -1px;
+  margin-top: -0.063rem;
   padding-top: var(--paddingTopAndBottom);
 }
 
@@ -2776,8 +2776,8 @@ body.no-scroll {
 }
 
 .strength-reliability-subtitle {
-  margin-top: 30px;
-  padding-right: 22px;
+  margin-top: 1.875rem;
+  padding-right: 1.375rem;
 }
 
 /* About Our Serives */
@@ -2785,20 +2785,20 @@ body.no-scroll {
   width: 100%;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
   background: #101011;
-  margin-top: -1px;
+  margin-top: -0.063;
 }
 
 .our-serives-title {
-  font: 400 calc(128px + 4.75 * (100vw - 1920px) /60) / 83% "Bebas Neue";
+  font: 400 calc(8rem + 4.75 * (100vw - 120rem) /60) / 83% "Bebas Neue";
   color: #fff;
 }
 
 .about-our-serives-cards {
-  margin-top: 39px;
+  margin-top: 2.438rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 39px;
+  row-gap: 2.438rem
 }
 
 .about-our-serives-card-item {
@@ -2862,59 +2862,59 @@ body.no-scroll {
 .about-our-serives-card-item:nth-child(1),
 .about-our-serives-card-item:nth-child(2) {
   width: 40.833vw;
-  height: 285px;
+  height: 17.813rem;
 }
 
 .about-our-serives-card-item:nth-child(3),
 .about-our-serives-card-item:nth-child(4),
 .about-our-serives-card-item:nth-child(5) {
   width: 26.042vw;
-  height: 285px;
+  height: 17.813rem;
 }
 
 .about-our-serives-card-item:nth-child(1) .card-item-info,
 .about-our-serives-card-item:nth-child(2) .card-item-info {
   width: 100%;
-  max-width: 500px;
+  max-width: 31.25rem;
 }
 
 .about-our-serives-card-item:nth-child(3) .card-item-info,
 .about-our-serives-card-item:nth-child(4) .card-item-info,
 .about-our-serives-card-item:nth-child(5) .card-item-info {
   width: 100%;
-  max-width: 452px;
+  max-width: 28.25rem;
 }
 
 .about-our-serives-card-item:nth-child(3)>.card-item-info>.about-our-serives-card-title,
 .about-our-serives-card-item:nth-child(4)>.card-item-info>.about-our-serives-card-title,
 .about-our-serives-card-item:nth-child(5)>.card-item-info>.about-our-serives-card-title {
   width: 100%;
-  max-width: 340px;
+  max-width: 21.25rem;
 }
 
 .card-item-info {
-  padding-inline: 24px;
+  padding-inline: 1.5rem;
   position: absolute;
   left: 0;
-  bottom: -136px;
+  bottom: -8.5rem;
   z-index: 2;
   transition: 0.5s;
 }
 
 .card-item-info.top {
-  bottom: 24px;
+  bottom: 1.5rem;
 }
 
 .about-our-serives-card-title {
-  font: 400 44px / 104.545% "Bebas Neue";
-  text-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
-  letter-spacing: 1px;
+  font: 400 2.75rem / 104.545% "Bebas Neue";
+  text-shadow: 0rem 0.25rem 2.5rem rgba(0, 0, 0, 0.05);
+  letter-spacing: 0.063rem;
   color: #e3e3e3;
 }
 
 .about-our-serives-card-subtitle {
-  margin-top: 12px;
-  font: 400 14px / 150% "Noto Sans Armenian Regular";
+  margin-top: 0.75rem;
+  font: 400 0.875rem / 150% "Noto Sans Armenian Regular";
   color: #eee;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -2923,17 +2923,17 @@ body.no-scroll {
 }
 
 .about-card-link {
-  width: 180px;
-  height: 52px;
-  margin-top: 24px;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  width: 11.25rem;
+  height: 3.25rem;
+  margin-top: 1.5rem;
+  border-left: 0.125rem solid #fff;
+  border-bottom: 0.125rem solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  font: 500 20px / normal "Noto Sans Armenian Medium";
-  letter-spacing: 0.04px;
+  font: 500 1.25rem / normal "Noto Sans Armenian Medium";
+  letter-spacing: 0.003rem;
   color: #fff;
   transition: 0.5s;
 }
@@ -2941,7 +2941,7 @@ body.no-scroll {
 .about-card-link::before {
   content: "";
   width: 73%;
-  height: 2px;
+  height: 0.125rem;
   background: #fff;
   position: absolute;
   left: 0;
@@ -2951,7 +2951,7 @@ body.no-scroll {
 
 .about-card-link::after {
   content: "";
-  width: 2px;
+  width: 0.125rem;
   height: 50%;
   background: #fff;
   position: absolute;
@@ -2965,51 +2965,51 @@ body.no-scroll {
   width: 100%;
   background: #101011;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
-  margin-top: -1px;
+  margin-top: -0.063rem;
 }
 
 .our-team-title-subtitle {
   width: 100%;
-  max-width: 880px;
+  max-width: 55rem;
 }
 
 .our-team-title {
-  font: 400 calc(128px + 4.75 * (100vw - 1920px) /60) / 120% "Bebas Neue";
+  font: 400 calc(8rem + 4.75 * (100vw - 120rem) /60) / 120% "Bebas Neue";
   color: #fff;
 }
 
 .our-team-subtitle {
-  margin-top: 7px;
-  font: 400 17px / 173% "Noto Sans Armenian Regular";
+  margin-top: 0.438rem;
+  font: 400 1.063rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
 .our-team-men {
-  margin-top: 80px;
+  margin-top: 5rem;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 80px;
+  row-gap: 5rem;
 }
 
 .men-inner {
-  width: 296px;
+  width: 18.5rem;
 }
 
 .men-img {
-  height: 296px;
+  height: 18.5rem;
 }
 
 .name-surname {
-  margin-top: 24px;
-  font: 400 25px / 150% "Bebas Neue";
+  margin-top: 1.5rem;
+  font: 400 1.563rem / 150% "Bebas Neue";
   text-align: center;
   color: #fff;
 }
 
 .position {
-  font: 400 17px / 173% "Noto Sans Armenian Regular";
+  font: 400 1.063rem / 173% "Noto Sans Armenian Regular";
   text-align: center;
   color: #fff;
 }
@@ -3017,10 +3017,10 @@ body.no-scroll {
 /* Descover */
 .descover {
   width: 100%;
-  height: calc(1032px + 30 * (100vw - 1920px) / 60);
+  height: calc(64.5rem + 30 * (100vw - 120rem) / 60);
   display: grid;
   position: relative;
-  margin-top: -1px;
+  margin-top: -0.063rem;
 }
 
 .descover>* {
@@ -3029,15 +3029,15 @@ body.no-scroll {
 }
 
 .descover-image {
-  height: calc(1032px + 30 * (100vw - 1920px) / 60);
+  height: calc(64.5rem + 30 * (100vw - 120rem) / 60);
 }
 
 .descover-title {
   width: 100%;
-  max-width: calc(850px + 25 * (100vw - 1920px) / 60);
-  margin-top: calc(80px + 3 * (100vw - 1920px) / 60);
-  margin-left: calc(67px + 1 * (100vw - 1920px) / 60);
-  font: 400 calc(224px + 7 * (100vw - 1920px) / 60) / 83% "Bebas Neue";
+  max-width: calc(53.125rem + 25 * (100vw - 120rem) / 60);
+  margin-top: calc(5rem + 3 * (100vw - 120rem) / 60);
+  margin-left: calc(4.188rem + 1 * (100vw - 120rem) / 60);
+  font: 400 calc(14rem + 7 * (100vw - 120rem) / 60) / 83% "Bebas Neue";
   color: #fff;
 }
 
@@ -3046,40 +3046,40 @@ body.no-scroll {
   width: 100%;
   padding: var(--paddingTopAndBottom) 0;
   background: #101011;
-  margin-top: -1px;
+  margin-top: -0.063rem;
 }
 
 .testimonials-title {
-  font: 400 calc(128px + 2.2839 * (100vw - 1920px) / 60) / 83% "Bebas Neue";
+  font: 400 calc(8rem + 2.2839 * (100vw - 120rem) / 60) / 83% "Bebas Neue";
   color: #fff;
 }
 
 .testimonials-swiper {
   margin-left: var(--paddingLeftAndRigth);
-  margin-top: 39px;
+  margin-top: 2.438rem;
 }
 
 .testimonials-slide-inner {
-  width: 506px;
-  padding: 24px;
+  width: 31.625rem;
+  padding: 1.5rem;
   background: rgba(68, 68, 68, 0.3);
-  margin-right: 51px;
+  margin-right: 3.188rem;
 }
 
 .testimonials-name-surname {
-  font: 400 24px / 140% "Bebas Neue";
+  font: 400 1.5rem / 140% "Bebas Neue";
   color: #fac917;
 }
 
 .company-owner {
-  font: 500 16px / 150% "Noto Sans Armenian Medium";
+  font: 500 1rem / 150% "Noto Sans Armenian Medium";
   color: #666;
 }
 
 .testimonials-content {
-  margin-top: 20px;
-  font: 400 20px / 150% "Noto Sans Armenian Regular";
-  text-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  margin-top: 1.25rem;
+  font: 400 1.25rem / 150% "Noto Sans Armenian Regular";
+  text-shadow: 0rem 0.25rem 2.5rem rgba(0, 0, 0, 0.1);
   color: #eee;
 }
 
@@ -3117,7 +3117,7 @@ body.no-scroll {
 
 .physical-hero-heading-text-inner {
   width: 100%;
-  max-width: 1393px;
+  max-width: 87.063rem;
   padding-inline: var(--paddingLeftAndRigth);
   margin-bottom: var(--paddingLeftAndRigth);
   position: relative;
@@ -3125,7 +3125,7 @@ body.no-scroll {
 
 .hero-subtitle-physical {
   width: 100%;
-  max-width: 800px;
+  max-width: 50rem;
 }
 
 /* physical security services */
@@ -3139,7 +3139,7 @@ body.no-scroll {
 
 .single-content-left {
   width: 100%;
-  max-width: 648px;
+  max-width: 40.5rem;
 }
 
 .single-content-right {
@@ -3147,27 +3147,27 @@ body.no-scroll {
 }
 
 .single-content-right-title {
-  font: 400 20px / 150% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 150% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
 .single-list-inner {
-  margin-top: 24px;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .single-list {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .single-list::before {
   content: "";
-  width: 5px;
-  height: 5px;
+  width: 0.313rem;
+  height: 0.313rem;
   background: #fff;
 }
 
@@ -3186,13 +3186,13 @@ body.no-scroll {
 }
 
 .left-and-right-title {
-  font: 400 64px / 120% "Bebas Neue";
+  font: 400 4rem / 120% "Bebas Neue";
   color: #fff;
 }
 
 .left-and-right-subtitle {
-  margin-top: 30px;
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  margin-top: 1.875rem;
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3229,46 +3229,46 @@ body.no-scroll {
 
 .wcsss-right {
   width: 41.302vw;
-  font: 400 17px / 173% "Noto Sans Armenian Regular";
+  font: 400 1.063rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
 .wcsss-items-inner {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 44px;
+  row-gap: 2.75rem;
 }
 
 .wcsss-item {
   width: 41.042vw;
-  padding: 24px;
+  padding: 1.5rem;
   background: rgba(68, 68, 68, 0.3);
 }
 
 .item-icon-text {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .item-icon {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
 }
 
 .item-title {
-  font: 400 38px / normal "Bebas Neue";
-  letter-spacing: 1px;
+  font: 400 2.375rem / normal "Bebas Neue";
+  letter-spacing: 0.063rem;
   color: #e3e3e3;
 }
 
 .item-content {
-  margin-top: 16px;
-  padding-right: 25px;
-  font: 400 18px / 150% "Noto Sans Armenian Regular";
+  margin-top: 1rem;
+  padding-right: 1.563rem;
+  font: 400 1.125rem / 150% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3280,10 +3280,10 @@ body.no-scroll {
 
 .other-services {
   padding-inline: var(--paddingLeftAndRigth);
-  padding-bottom: 60px;
-  font: 400 calc(128px + 4.75 * (100vw - 1920px) / 60) / 120% "Bebas Neue";
+  padding-bottom: 3.75rem;
+  font: 400 calc(8rem + 4.75 * (100vw - 120rem) / 60) / 120% "Bebas Neue";
   color: #fff;
-  letter-spacing: 1.28px;
+  letter-spacing: 0.08rem;
 }
 
 /* Technical page */
@@ -3303,7 +3303,7 @@ body.no-scroll {
 
 .single-hero-heading-text-inner {
   width: 100%;
-  max-width: 1560px;
+  max-width: 97.5rem;
   padding-inline: var(--paddingLeftAndRigth);
   margin-bottom: var(--paddingLeftAndRigth);
   position: relative;
@@ -3311,20 +3311,20 @@ body.no-scroll {
 
 .hero-subtitle-single {
   width: 100%;
-  max-width: 880px;
-  margin-top: 24px;
+  max-width: 55rem;
+  margin-top: 1.5rem;
 }
 
 .left-and-right>.left-and-right-text-inner>ul {
-  margin-top: 40px;
-  padding-right: 39px;
+  margin-top: 2.5rem;
+  padding-right: 2.438rem;
 }
 
 .left-and-right>.left-and-right-text-inner>ul>li {
-  font: 400 17px / 173% "Noto Sans Armenian Regular";
+  font: 400 1.063rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
   list-style: disc;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 /* Carrer */
@@ -3344,7 +3344,7 @@ body.no-scroll {
 
 .carrer-hero-heading-text-inner {
   width: 100%;
-  padding: 0 var(--paddingLeftAndRigth) 156.5px var(--paddingLeftAndRigth);
+  padding: 0 var(--paddingLeftAndRigth) 9.781rem var(--paddingLeftAndRigth);
   position: relative;
   z-index: 1;
 }
@@ -3361,14 +3361,14 @@ body.no-scroll {
 }
 
 .list-group {
-  margin-top: 40px;
+  margin-top: 2.5rem;
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .list-group-item {
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
   cursor: pointer;
   transition: 0.5s;
@@ -3382,7 +3382,7 @@ body.no-scroll {
 .list-group-item.active::before {
   content: "";
   width: 100%;
-  height: 2px;
+  height: 0.125rem;
   background: #fac917;
   position: absolute;
   top: 100%;
@@ -3390,7 +3390,7 @@ body.no-scroll {
 }
 
 .current-openings-content {
-  margin-top: 71px;
+  margin-top: 4.438rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -3399,34 +3399,34 @@ body.no-scroll {
 
 .category-item {
   width: 39.582vw;
-  padding: 24px;
+  padding: 1.5rem;
   background: rgba(68, 68, 68, 0.3);
 }
 
 .category-hashtag {
-  font: 400 16px / 173% "Noto Sans Armenian Regular";
+  font: 400 1rem / 173% "Noto Sans Armenian Regular";
   color: #aaa;
 }
 
 .category-title {
-  margin-top: 5.01px;
-  font: 400 44px / normal "Bebas Neue";
+  margin-top: 0.313;
+  font: 400 2.75rem / normal "Bebas Neue";
   color: #e3e3e3;
-  letter-spacing: 1px;
+  letter-spacing: 0.063rem;
 }
 
 .location-time {
-  margin-top: 18px;
+  margin-top: 1.125rem;
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .location-time-list {
   display: flex;
   align-items: center;
-  gap: 12px;
-  font: 400 16px / 150% "Noto Sans Armenian Regular";
+  gap: 0.75rem;
+  font: 400 1rem / 150% "Noto Sans Armenian Regular";
   color: #aaa;
 }
 
@@ -3436,26 +3436,26 @@ body.no-scroll {
 }
 
 .category-item-link {
-  width: 180px;
-  height: 52px;
-  margin-top: 24px;
+  width: 11.25rem;
+  height: 3.25rem;
+  margin-top: 1.5rem;
   margin-inline-start: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  font: 500 20px / normal "Noto Sans Armenian Medium";
+  font: 500 1.25rem / normal "Noto Sans Armenian Medium";
   color: #fff;
-  letter-spacing: 0.04px;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  letter-spacing: 0.003rem;
+  border-left: 0.125rem solid #fff;
+  border-bottom: 0.125rem solid #fff;
   transition: 0.5s;
 }
 
 .category-item-link::before {
   content: "";
   width: 76%;
-  height: 2px;
+  height: 0.125rem;
   background: #fff;
   position: absolute;
   left: 0;
@@ -3465,7 +3465,7 @@ body.no-scroll {
 
 .category-item-link::after {
   content: "";
-  width: 2px;
+  width: 0.125rem;
   height: 50%;
   background: #fff;
   position: absolute;
@@ -3493,8 +3493,8 @@ body.no-scroll {
 }
 
 .se-suttitle {
-  margin-top: 32px;
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  margin-top: 2rem;
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #101011;
 }
 
@@ -3513,83 +3513,83 @@ body.no-scroll {
 
 .title-text-inner {
   width: 100%;
-  padding-top: 255px;
-  padding-bottom: 145px;
+  padding-top: 15.938rem;
+  padding-bottom: 9.063rem;
   padding-inline: var(--paddingLeftAndRigth);
   position: relative;
   z-index: 1;
 }
 
 .career-single-heading {
-  font: 400 128px / 83% "Bebas Neue";
+  font: 400 8rem / 83% "Bebas Neue";
   color: #fff;
 }
 
 .secureity-hero h1 {
-  font: 400 128px / 83% "Bebas Neue";
+  font: 400 8rem / 83% "Bebas Neue";
   color: #fff;
 }
 
 .secureity-hero h2 {
   width: 100%;
-  max-width: 735px;
-  margin-top: 14px;
-  font: 400 16px / 150% "Noto Sans Armenian Regular";
+  max-width: 45.938rem;
+  margin-top: 0.875rem;
+  font: 400 1rem / 150% "Noto Sans Armenian Regular";
 }
 
 .location-time-single {
-  margin-top: 14px;
+  margin-top: 0.875rem;
   display: flex;
   align-items: center;
-  gap: 30px;
-  font: 400 16px / 150% "Noto Sans Armenian Regular";
+  gap: 1.875rem;
+  font: 400 1rem / 150% "Noto Sans Armenian Regular";
   color: #eee;
 }
 
 .location-time-list-single {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .title-subtitle-intro {
-  margin-top: 194px;
+  margin-top: 12.125rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 39px;
+  row-gap: 2.438rem;
 }
 
 .title-subtitle-intro>h3 {
   width: 100%;
-  max-width: 600px;
-  font: 400 64px / 106% "Bebas Neue";
+  max-width: 37.5rem;
+  font: 400 4rem / 106% "Bebas Neue";
   color: #eee;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04rem;
 }
 
 .title-subtitle-intro>p {
-  width: calc(51.563vw + 16 * (100vw - 1920px) / 60);
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  width: calc(51.563vw + 16 * (100vw - 120rem) / 60);
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
 .title-subtitle-intro>ul {
-  width: calc(51.563vw + 16 * (100vw - 1920px) / 60);
+  width: calc(51.563vw + 16 * (100vw - 120rem) / 60);
   display: flex;
   flex-direction: column;
 }
 
 .title-subtitle-intro>ul>li {
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
   list-style: disc;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .title-subtitle-intro a {
   text-decoration: underline;
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3622,34 +3622,34 @@ body.no-scroll {
 }
 
 .our-benefits-title {
-  font: 400 128px / 83% "Bebas Neue";
+  font: 400 8rem / 83% "Bebas Neue";
   color: #eee;
-  letter-spacing: 1.28px;
+  letter-spacing: 0.08rem;
 }
 
 .benefits-icons-inner {
-  margin-top: 66px;
+  margin-top: 4.125rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 30px;
+  row-gap: 1.875rem;
 }
 
 .benefits-item {
-  width: 330px;
+  width: 20.625rem;
   display: flex;
   flex-direction: column;
-  gap: 21px;
+  gap: 1.313rem;
   align-items: center;
 }
 
 .benefits-icon-img {
-  width: 121px;
-  height: 129px;
+  width: 7.563rem;
+  height: 8.063rem;
 }
 
 .benefits-icon-text {
-  font: 400 40px / 100% "Bebas Neue";
+  font: 400 2.5rem / 100% "Bebas Neue";
   color: #fff;
   text-align: center;
 }
@@ -3663,18 +3663,18 @@ body.no-scroll {
 
 .interested-title-subtitle {
   width: 100%;
-  max-width: 628px;
+  max-width: 39.25rem;
 }
 
 .interested-title {
-  font: 400 128px / 83% "Bebas Neue";
-  letter-spacing: 1.28px;
+  font: 400 8rem / 83% "Bebas Neue";
+  letter-spacing: 0.08rem;
   color: #fac917;
 }
 
 .interested-subtitle {
-  margin-top: 10px;
-  font: 400 20px / 173% "Noto Sans Armenian Regular";
+  margin-top: 0.625rem;
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
 }
 
 .interested-subtitle p>a {
@@ -3685,10 +3685,10 @@ body.no-scroll {
 /* .interested-form, */
 .interested-form form {
   width: 100%;
-  margin-top: 32px;
+  margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 32px;
+  row-gap: 2rem;
   justify-content: space-between;
 }
 
@@ -3700,13 +3700,13 @@ body.no-scroll {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .label-file {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem;
   cursor: pointer;
 }
 
@@ -3715,7 +3715,7 @@ body.no-scroll {
 }
 
 .file-text {
-  font: 400 18px / 133.333% "Noto Sans Armenian Regular";
+  font: 400 1.125rem / 133.333% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3726,34 +3726,34 @@ body.no-scroll {
 
 .incidents-form-intro-textarea {
   width: 100%;
-  margin-top: 18px;
+  margin-top: 1.125rem;
 }
 
 .incidents-form-intro-textarea>.textarea {
-  height: 192px;
+  height: 12rem;
 }
 
 .send-button-inner {
-  margin-top: 12px;
+  margin-top: 0.75rem;
   width: 100%;
 }
 
 .incidents-form-button {
-  width: 212px;
-  height: 52px;
+  width: 13.25rem;
+  height: 3.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-left: 2px solid #fac917;
-  border-bottom: 2px solid #fac917;
+  border-left: 0.125rem solid #fac917;
+  border-bottom: 0.125rem solid #fac917;
 
   transition: 0.5s;
   position: relative;
 }
 
 .incidents-form-button p input {
-  font: 500 20px / normal "Noto Sans Armenian Medium";
-  letter-spacing: 0.04px;
+  font: 500 1.25rem / normal "Noto Sans Armenian Medium";
+  letter-spacing: 0.003rem;
   color: #fff;
   cursor: pointer;
 }
@@ -3770,7 +3770,7 @@ body.no-scroll {
 .incidents-form-button::before {
   content: "";
   width: 73%;
-  height: 2px;
+  height: 0.125rem;
   background: #fac917;
   position: absolute;
   top: 0;
@@ -3780,7 +3780,7 @@ body.no-scroll {
 
 .incidents-form-button::after {
   content: "";
-  width: 2px;
+  width: 0.125rem;
   height: 50%;
   background: #fac917;
   position: absolute;
@@ -3791,22 +3791,22 @@ body.no-scroll {
 
 /*Added by Andranik */
 .single-content-right-title ul {
-  margin-top: 24px;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .single-content-right-title ul li {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .single-content-right-title ul li:before {
   content: "";
-  width: 5px;
-  height: 5px;
+  width: 0.313rem;
+  height: 0.313rem;
   background: #fff;
 }
 
@@ -3825,7 +3825,7 @@ body.no-scroll {
   }
 
   .about-our-serives-card-item:hover .card-item-info {
-    bottom: 24px;
+    bottom: 1.5rem;
   }
 }
 
@@ -3871,7 +3871,7 @@ body.no-scroll {
   }
 
   .rigth-intro-link:hover .line-icon::before {
-    width: 69px;
+    width: 4.313rem;
     background: #fac917;
   }
 
@@ -3994,28 +3994,13 @@ body.no-scroll {
 /* responsive */
 @media (max-width: 1728px) {
   .our-team-title-subtitle {
-    max-width: 650px;
+    max-width: 40.625rem;
   }
 }
 
-/* @media (max-width: 1716px) and (min-width: 1101px) {
-
-  .about-our-serives-card-item:nth-child(3) .card-item-info,
-  .about-our-serives-card-item:nth-child(4) .card-item-info,
-  .about-our-serives-card-item:nth-child(5) .card-item-info {
-    bottom: -158px;
-  }
-
-  .about-our-serives-card-item:nth-child(3):hover .card-item-info,
-  .about-our-serives-card-item:nth-child(4):hover .card-item-info,
-  .about-our-serives-card-item:nth-child(5):hover .card-item-info {
-    bottom: 12px;
-  }
-} */
-
 @media (max-width: 1600px) {
   .dropdown-menu-inner {
-    padding: 60px 7.449vw 60px 7.449vw;
+    padding: 3.75rem 7.449vw 3.75rem 7.449vw;
   }
 
   .dropdown-menu-item:nth-child(1),
@@ -4030,7 +4015,7 @@ body.no-scroll {
   }
 
   .text-wrapper-list {
-    font-size: 190.526px;
+    font-size: 11.908rem;
   }
 
   .faq-info-inner {
@@ -4040,7 +4025,7 @@ body.no-scroll {
 
 @media (max-width: 1500px) {
   .dropdown-menu-inner {
-    padding: 60px 5.449vw 60px 5.449vw;
+    padding: 3.75rem 5.449vw 3.75rem 5.449vw;
   }
 
   .dropdown-menu-item:nth-child(1),
@@ -4055,7 +4040,7 @@ body.no-scroll {
   }
 
   .logo-icon {
-    width: 115px;
+    width: 7.188rem;
   }
 
   .contact-us-form {
@@ -4063,12 +4048,12 @@ body.no-scroll {
   }
 
   .text-wrapper-list {
-    font-size: 180.526px;
+    font-size: 11.283rem;
   }
 
   .title-subtitle-intro>h3 {
-    max-width: 360px;
-    font-size: 50px;
+    max-width: 22.5rem;
+    font-size: 3.125rem;
   }
 
   .title-subtitle-intro>p,
@@ -4079,35 +4064,35 @@ body.no-scroll {
 
 @media (max-width: 1440px) {
   .heading {
-    font-size: calc(120px + 4.33735 * (100vw - 1440px) / 60);
+    font-size: calc(8rem + 4.33735 * (100vw - 90rem) / 60);
   }
 
   .other-services {
-    font-size: calc(90px + 2.16 * (100vw - 1440px) / 60);
+    font-size: calc(5.625rem + 2.16 * (100vw - 90rem) / 60);
   }
 
   .item-title {
-    font-size: 35px;
+    font-size: 2.188rem;
   }
 
   .left-and-right-title {
-    font-size: calc(58px + 2.1 *(100vw - 1440px) / 60);
+    font-size: calc(3.625rem + 2.1 *(100vw - 90rem) / 60);
   }
 
   .about-our-serives-card-title {
-    font-size: calc(44px + 1 * (100vw - 1440px) / 60);
+    font-size: calc(2.75rem + 1 * (100vw - 90rem) / 60);
   }
 
   .about-card-link {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .name-surname {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .position {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .strength-reliability {
@@ -4115,12 +4100,12 @@ body.no-scroll {
   }
 
   .dropdown-menu-item-title {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .partners-card-text {
-    font-size: 14px;
-    padding: 0 15px;
+    font-size: 0.875rem;
+    padding: 0 0.938rem;
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
@@ -4141,7 +4126,7 @@ body.no-scroll {
   .our-team-subtitle,
   .subtitle,
   .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
-    font-size: calc(18px + 0.28916 * (100vw - 1440px) / 60);
+    font-size: calc(1.125rem + 0.28916 * (100vw - 90rem) / 60);
   }
 
   .about-hero-heading-text-inner {
@@ -4153,32 +4138,32 @@ body.no-scroll {
   .carrer-hero-img,
   .about-hero-img,
   .single-hero-img {
-    height: 752px;
+    height: 47rem;
   }
 
   .hero-subtitle {
-    max-width: 680px;
-    margin-top: 20px;
+    max-width: 42.5rem;
+    margin-top: 1.25rem;
   }
 
   .link-style {
-    margin-top: 30px;
-    width: 170px;
-    height: 47px;
-    font-size: 18px;
+    margin-top: 1.875rem;
+    width: 10.625rem;
+    height: 2.938rem;
+    font-size: 1.125rem;
   }
 
   .menu-inner,
   .navigation {
-    gap: calc(57px + 5 * (100vw - 1440px) / 60);
+    gap: calc(3.563rem + 5 * (100vw - 90rem) / 60);
   }
 
   .menu-list {
-    padding: 24px 0;
+    padding: 1.5rem 0;
   }
 
   .headingN2 {
-    font-size: calc(50px + 1 * (100vw - 1440px) / 60);
+    font-size: calc(3.125rem + 1 * (100vw - 90rem) / 60);
   }
 
   .rigth-intro {
@@ -4186,24 +4171,24 @@ body.no-scroll {
   }
 
   .rigth-intro-link {
-    margin-top: 24px;
+    margin-top: 1.5rem;
   }
 
   .card-title {
-    height: calc(680px + 30*(100vw - 1440px) / 60);
-    font-size: calc(92px + 4 * (100vw - 1440px) / 60);
+    height: calc(42.5 + 30*(100vw - 90rem) / 60);
+    font-size: calc(5.75rem + 4 * (100vw - 90rem) / 60);
   }
 
   .gallery-text {
-    font-size: calc(90px + 2.16 * (100vw - 1440px) / 60);
+    font-size: calc(5.75rem + 2.16 * (100vw - 90rem) / 60);
   }
 
   .hero-heading-text-inner {
-    margin-bottom: 103px;
+    margin-bottom: 6.438rem;
   }
 
   .text-wrapper-list {
-    font-size: calc(160px + 2 * (100vw - 1440px) / 60);
+    font-size: calc(10rem + 2 * (100vw - 90rem) / 60);
   }
 
   .gallery-photo-intro:nth-child(1),
@@ -4263,35 +4248,35 @@ body.no-scroll {
   }
 
   .sappo-security-service-text {
-    font-size: calc(220px + 7 * (100vw - 1440px) / 60);
+    font-size: calc(13.75rem + 7 * (100vw - 90rem) / 60);
   }
 
   .sappo-security-service,
   .sappo-security-service-image {
-    height: calc(870px + 12 * (100vw - 1440px) / 60);
+    height: calc(54.375rem + 12 * (100vw - 90rem) / 60);
   }
 
   .our-trusted-partners-title {
-    font-size: calc(90px + 2.16 * (100vw - 1440px) / 60);
+    font-size: calc(5.625rem + 2.16 * (100vw - 90rem) / 60);
   }
 
   .our-trusted-partners-swiper {
-    margin-left: 44px;
+    margin-left: 2.75rem;
   }
 
   .partners-card-inner {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
 
   .master-master-inner {
-    width: 189px;
-    height: 141px;
-    margin-right: 48px;
+    width: 11.813rem;
+    height: 8.813rem;
+    margin-right: 3rem;
   }
 
   .chief {
-    width: 108px;
-    height: 81.443px;
+    width: 6.75rem;
+    height: 5.09rem;
   }
 
   .faq-info-inner {
@@ -4299,47 +4284,47 @@ body.no-scroll {
   }
 
   .faq-title {
-    font-size: calc(90px + 2.16 * (100vw - 1440px) / 60);
+    font-size: calc(5.625rem + 2.16 * (100vw - 90rem) / 60);
   }
 
   .faq-subtitle {
-    font-size: 18px;
-    margin-top: 18px;
+    font-size: 1.125rem;
+    margin-top: 1.125rem;
   }
 
   .faq-container {
-    padding: 15px 0;
+    padding: 0.938rem 0;
   }
 
   .faq-text {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .faq-text-inner {
-    max-width: 375px;
+    max-width: 23.438rem;
   }
 
   .faq-text-hiiden {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .contact-us-inner {
-    padding: 45px var(--paddingLeftAndRigth);
+    padding: 2.813rem var(--paddingLeftAndRigth);
   }
 
   .contact-us-title {
-    font-size: calc(90px + 2.16 * (100vw - 1440px) / 60);
+    font-size: calc(5.625rem + 2.16 * (100vw - 90rem) / 60);
   }
 
   .contact-us-subtitle {
-    font-size: 18px;
-    margin-top: 2.25px;
+    font-size: 1.125rem;
+    margin-top: 0.141rem;
   }
 
   .socal-media-title,
   .socal-media-subtitle,
   .form-name {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .form-name {
@@ -4347,108 +4332,108 @@ body.no-scroll {
   }
 
   .socal-media-list>svg {
-    width: 18px;
-    height: 18px;
+    width: 1.125rem;
+    height: 1.125rem;
   }
 
   .form-input {
-    margin-top: 4.04px;
+    margin-top: 0.253rem;
   }
 
   .input {
-    font-size: 12px;
-    padding: 12px 16px 12px 42px;
+    font-size: 0.75rem;
+    padding: 0.75rem 1rem 0.75rem 2.625rem;
   }
 
   .form-input svg {
-    left: 12px;
-    top: 16px;
-    width: 18px;
-    height: 18px;
+    left: 0.75rem;
+    top: 1rem;
+    width: 1.125rem;
+    height: 1.125rem;
   }
 
   .contact-us-form {
-    gap: 18px;
+    gap: 1.125rem;
   }
 
   .textarea {
-    height: 97px;
-    margin-top: 4.04px;
-    padding: 12px 12px 0 12px;
-    font-size: 12px;
+    height: 6.063rem;
+    margin-top: 0.253rem;
+    padding: 0.75rem 0.75rem 0 0.75rem;
+    font-size: 0.75rem;
   }
 
   .send-button {
-    margin-top: 6px;
+    margin-top: 0.375rem;
   }
 
   .socal-media-title-inner {
-    gap: 6.15px;
+    gap: 0.384rem;
   }
 
   .socal-media-list:last-child .socal-media-title-inner .socal-media-link {
-    margin-top: 12.31px;
-    font-size: 14px;
+    margin-top: 0.769rem;
+    font-size: 0.875rem;
   }
 
   .label {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .send-button input {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .footer-left {
-    width: 300px;
+    width: 18.75rem;
   }
 
   .footer-menu-title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .site-info,
   .footer-end-intro-link {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .footer-rigth {
-    width: 556px;
+    width: 34.75rem;
   }
 
   .footer-menu-inner .widget_nav_menu ul a {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .footer-menu-inner,
   .footer-menu-inner .widget_nav_menu ul {
-    gap: 15px;
+    gap: 0.938rem;
   }
 
   .card-info-inner ul li,
   .card-list,
   .card-info-inner p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .card-link>svg {
-    width: 50px;
-    height: 48px;
+    width: 3.125rem;
+    height: 3rem;
   }
 
   .card-title-hover {
-    font-size: calc(80px + 2*(100vw - 1920px) / 60);
+    font-size: calc(5rem + 2*(100vw - 120rem) / 60);
   }
 
   .footer-text {
-    font-size: 16px;
-    margin-top: 40.4px;
+    font-size: 1rem;
+    margin-top: 2.525rem;
   }
 }
 
 @media (max-width: 1390px) {
   .dropdown-menu-inner {
-    padding: 60px 0;
+    padding: 3.75rem 0;
   }
 
   .dropdown-menu-item:nth-child(1),
@@ -4472,7 +4457,7 @@ body.no-scroll {
 
   .card-info-inner {
     flex-direction: column;
-    gap: 31.99px;
+    gap: 1.999rem;
     align-items: start;
   }
 
@@ -4492,12 +4477,12 @@ body.no-scroll {
   .about-our-serives-card-item:nth-child(3),
   .about-our-serives-card-item:nth-child(4),
   .about-our-serives-card-item:nth-child(5) {
-    height: 330px;
+    height: 20.625rem;
   }
 
   .card-item-info {
-    padding-left: 24px;
-    padding-right: 6px;
+    padding-left: 1.5rem;
+    padding-right: 0.375rem;
   }
 
   .se-right-img {
@@ -4506,12 +4491,12 @@ body.no-scroll {
   }
 
   .dropdown-menu-item-title {
-    font-size: 19px;
+    font-size: 1.188rem;
   }
 
   .dropdown-menu-item-list-intro,
   .dropdown-menu-item-desc {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 
@@ -4529,9 +4514,9 @@ body.no-scroll {
 @media (max-width: 1240px) {
   .left-and-right {
     flex-direction: column !important;
-    gap: 30px;
+    gap: 1.875rem;
     padding-inline: var(--paddingLeftAndRigth);
-    padding-bottom: 60px;
+    padding-bottom: 3.75rem;
   }
 
   .left-and-right:nth-child(even)>.left-and-right-text-inner {
@@ -4552,26 +4537,26 @@ body.no-scroll {
 
 @media (max-width: 1190px) {
   .socal-media-title {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .socal-media-title-inner {
-    gap: 16px;
+    gap: 1rem;
   }
 
   .socal-media-list:last-child .socal-media-title-inner .socal-media-link {
-    margin-top: 8px;
+    margin-top: 0.5rem;
   }
 }
 
 @media (max-width: 1100px) {
   .experience-unparalleled {
     flex-direction: column;
-    gap: 60px;
+    gap: 3.75rem;
   }
 
   .about-our-serives-card-title {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
 
   .experience-unparalleled-image {
@@ -4587,36 +4572,36 @@ body.no-scroll {
 
   .experience-unparalleled-right-title {
     width: 100%;
-    max-width: 730px;
-    font-size: 44px;
+    max-width: 45.625rem;
+    font-size: 2.75rem;
     padding-left: var(--paddingLeftAndRigth);
-    padding-right: 6px;
+    padding-right: 0.375rem;
   }
 
   .experience-unparalleled-right-subtitle {
     width: 100%;
-    max-width: min(540px + var(--paddingLeftAndRigth) * 2);
+    max-width: min(33.75rem + var(--paddingLeftAndRigth) * 2);
     padding: 0 var(--paddingLeftAndRigth);
   }
 
   .experience-unparalleled-info:nth-child(3) {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
 
   .experience-unparalleled-info {
     width: min(100% - var(--paddingLeftAndRigth) * 2);
     margin-inline: auto;
-    padding: 30px 24px;
+    padding: 1.875rem 1.5rem;
   }
 
   .exp-title {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .about-our-serives-cards {
     flex-direction: column;
-    row-gap: 48px;
-    margin-top: 48px;
+    row-gap: 3rem;
+    margin-top: 3rem;
   }
 
   .about-our-serives-card-item {
@@ -4633,15 +4618,11 @@ body.no-scroll {
 
   .about-our-serives-card-subtitle {
     width: 100%;
-    max-width: 500px;
+    max-width: 31.25rem;
   }
 
-  /* .card-item-info {
-      bottom: 24px !important;
-    } */
-
   .about-our-serives-card-item {
-    height: 285px !important;
+    height: 17.813rem !important;
   }
 
   .about-our-serives-card-image.grayscale {
@@ -4653,7 +4634,7 @@ body.no-scroll {
   }
 
   .wcsss-items-inner {
-    row-gap: 22px;
+    row-gap: 1.375rem;
   }
 
   .carrer-se {
@@ -4670,26 +4651,26 @@ body.no-scroll {
     order: 2;
     width: 100%;
     height: 75vw;
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
 
   .se-suttitle {
     order: 3;
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
 
   .career-single-heading {
-    font-size: 100px;
+    font-size: 6.25rem;
   }
 
   .secureity-hero h1 {
-    font-size: 100px;
+    font-size: 6.25rem;
   }
 
   .title-subtitle-intro {
     flex-direction: column;
     row-gap: 0;
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
 
   .title-subtitle-intro>h3:first-child {
@@ -4697,7 +4678,7 @@ body.no-scroll {
   }
 
   .title-subtitle-intro>h3 {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
 
   .title-subtitle-intro>p,
@@ -4706,7 +4687,7 @@ body.no-scroll {
   }
 
   .location-time-single {
-    margin-top: 32px;
+    margin-top: 2rem;
   }
 
   .career-single-hero-img-inner,
@@ -4716,11 +4697,11 @@ body.no-scroll {
 
   .our-benefits-title,
   .interested-title {
-    font-size: 100px;
+    font-size: 6.25rem;
   }
 
   .interested-title-subtitle {
-    max-width: 460px;
+    max-width: 28.75rem;
   }
 
   .incidents-form-intro {
@@ -4746,15 +4727,15 @@ body.no-scroll {
   }
 
   .item-content {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .left-and-right-title {
-    font-size: 43px;
+    font-size: 2.688rem;
   }
 
   .headingN2 {
-    font-size: 43px;
+    font-size: 2.688rem;
   }
 
   .wpml-ls-legacy-dropdown .wpml-ls-sub-menu {
@@ -4762,7 +4743,7 @@ body.no-scroll {
   }
 
   .heading {
-    font-size: calc(90px + 0.5 * (100vw - 1920px) / 60);
+    font-size: calc(5.625rem + 0.5 * (100vw - 120rem) / 60);
   }
 
   .menu-link,
@@ -4777,12 +4758,12 @@ body.no-scroll {
   .left-and-right-subtitle,
   .wcsss-right,
   .our-team-subtitle {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .current-openings-content {
     flex-direction: column;
-    gap: 50px;
+    gap: 3.125rem;
   }
 
   .category-item {
@@ -4796,7 +4777,7 @@ body.no-scroll {
   .header {
     grid-template-areas: "logo burger"
       "navigation navigation";
-    padding: 19px var(--paddingLeftAndRigth);
+    padding: 1.188rem var(--paddingLeftAndRigth);
     background: #101011e6;
   }
 
@@ -4822,7 +4803,7 @@ body.no-scroll {
     width: 100%;
     overflow-y: scroll;
     flex-direction: column;
-    gap: 50px;
+    gap: 3.125rem;
   }
 
   .menu-list {
@@ -4852,7 +4833,7 @@ body.no-scroll {
 
   .menu-list:last-child .menu-link {
     width: 100%;
-    max-width: 400px;
+    max-width: 25rem;
     justify-content: center;
   }
 
@@ -4876,8 +4857,8 @@ body.no-scroll {
   }
 
   .dropdown-icon {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -4894,7 +4875,7 @@ body.no-scroll {
   .dropdown-menu-inner {
     padding: 0;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 0.938rem;
   }
 
   .dropdown-menu-item {
@@ -4905,7 +4886,7 @@ body.no-scroll {
   .language-dropdown {
     flex-direction: column;
     align-items: start;
-    gap: 20px;
+    gap: 1.25rem;
     order: 4;
   }
 
@@ -4915,8 +4896,8 @@ body.no-scroll {
   }
 
   .hero-heading-text-inner {
-    margin-top: 188px;
-    margin-bottom: 95.63px;
+    margin-top: 11.75rem;
+    margin-bottom: 5.977rem;
     margin-left: unset;
     padding-inline: var(--paddingLeftAndRigth);
   }
@@ -4936,13 +4917,13 @@ body.no-scroll {
   .subtitle,
   .wpml-ls-legacy-dropdown .wpml-ls-flag+span,
   .link-style {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .carrer-hero-heading-text-inner {
     padding: 0 var(--paddingLeftAndRigth);
-    margin-bottom: 95.63px;
-    margin-top: 188px;
+    margin-bottom: 5.977rem;
+    margin-top: 11.75rem;
   }
 
   .single-page-hero {
@@ -4950,13 +4931,13 @@ body.no-scroll {
   }
 
   .single-hero-heading-text-inner {
-    margin-bottom: 95.63px;
-    margin-top: 188px;
+    margin-bottom: 5.977rem;
+    margin-top: 11.75rem;
   }
 
   .footer-left {
     width: 100%;
-    max-width: 320px;
+    max-width: 20rem;
   }
 
   .footer-rigth {
@@ -4968,8 +4949,8 @@ body.no-scroll {
   }
 
   .card-link>svg {
-    width: 36.621px;
-    height: 35.468px;
+    width: 2.289rem;
+    height: 2.217rem;
   }
 
   .our-service-cards {
@@ -4981,11 +4962,11 @@ body.no-scroll {
   }
 
   .card {
-    height: 300px;
+    height: 18.75rem;
   }
 
   .card.height {
-    height: 560px;
+    height: 35rem;
   }
 
   .height>.card-link-mobile {
@@ -5000,12 +4981,12 @@ body.no-scroll {
     width: 100%;
     left: 0;
     bottom: unset;
-    top: calc(13.8rem + -4.2 * (100vw - 1024px) / 60);
+    top: calc(13.8rem + -4.2 * (100vw - 64rem) / 60);
     padding-left: 0;
     padding-bottom: 0;
     padding: 0;
     padding-left: var(--paddingLeftAndRigth);
-    padding-right: 20px;
+    padding-right: 1.25rem;
     opacity: 1;
     z-index: 1;
   }
@@ -5015,7 +4996,7 @@ body.no-scroll {
   }
 
   .card-title-hover {
-    font-size: calc(70px + 4.5 * (100vw - 1024px) / 60);
+    font-size: calc(4.375rem + 4.5 * (100vw - 64rem) / 60);
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -5030,7 +5011,7 @@ body.no-scroll {
   }
 
   .card-info-inner {
-    margin-top: 7.69px;
+    margin-top: 0.481rem;
     align-items: start;
   }
 
@@ -5040,17 +5021,17 @@ body.no-scroll {
 
   .card-list {
     width: 100%;
-    max-width: 540px;
-    font-size: 18px;
+    max-width: 33.75rem;
+    font-size: 1.125rem;
   }
 
   .sappo-security-service,
   .sappo-security-service-image {
-    height: 870px;
+    height: 54.375rem;
   }
 
   .sappo-security-service-text {
-    font-size: 170px;
+    font-size: 10.625rem;
   }
 
   .footer-menu-container {
@@ -5058,7 +5039,7 @@ body.no-scroll {
   }
 
   .footer-left {
-    max-width: 390px;
+    max-width: 24.375rem;
   }
 
   .footer-rigth {
@@ -5067,9 +5048,9 @@ body.no-scroll {
   }
 
   .partners-card-text {
-    height: 88px;
-    padding: 0 12px;
-    font-size: 13px;
+    height: 5.5rem;
+    padding: 0 0.75rem;
+    font-size: 0.813rem;
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
@@ -5078,15 +5059,15 @@ body.no-scroll {
 
   .faq {
     flex-direction: column;
-    gap: 48px;
+    gap: 3rem;
   }
 
   .faq-subtitle {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .faq-text-inner {
-    max-width: 480px;
+    max-width: 30rem;
   }
 
   .faq-info-inner {
@@ -5094,24 +5075,24 @@ body.no-scroll {
   }
 
   .faq-text {
-    font-size: 25px;
+    font-size: 1.563rem;
   }
 
   .faq-text-hiiden {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .text-wrapper-list {
-    font-size: 160.526px;
+    font-size: 10.033rem;
   }
 
   #contact>.contact-us-inner {
-    padding: 145px var(--paddingLeftAndRigth) 60px var(--paddingLeftAndRigth);
+    padding: 9.063rem var(--paddingLeftAndRigth) 3.75rem var(--paddingLeftAndRigth);
   }
 
   .about-hero-heading-text-inner {
-    margin-top: 188px;
-    margin-bottom: 95.63px;
+    margin-top: 11.75rem;
+    margin-bottom: 5.977rem;
     padding: 0;
   }
 
@@ -5121,14 +5102,14 @@ body.no-scroll {
 
   .hero-subtitle-about {
     padding-left: var(--paddingLeftAndRigth);
-    padding-right: 13px;
-    max-width: 913px;
+    padding-right: 0.813rem;
+    max-width: 57.063rem;
   }
 
   .strength-reliability {
     flex-direction: column;
     align-items: start;
-    gap: 30.37px;
+    gap: 1.898rem;
     padding-inline: var(--paddingLeftAndRigth);
   }
 
@@ -5152,24 +5133,24 @@ body.no-scroll {
     order: 3;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
   }
 
   .descover-title {
-    max-width: calc(400px + 9 * (100vw - 1000px) / 60);
-    font-size: calc(100px + 2 * (100vw - 1000px) / 60);
-    margin-top: 21px;
-    margin-left: 22.05px;
+    max-width: calc(2.5rem + 9 * (100vw - 62.5rem) / 60);
+    font-size: calc(2.5rem + 2 * (100vw - 62.5rem) / 60);
+    margin-top: 1.313rem;
+    margin-left: 1.378rem;
   }
 
   .descover,
   .descover-image {
-    height: 400px;
+    height: 25rem;
   }
 
   .physical-hero-heading-text-inner {
-    margin-bottom: 95.63px;
-    margin-top: 188px;
+    margin-bottom: 5.977rem;
+    margin-top: 11.75rem;
   }
 
   .physical-page-hero {
@@ -5178,7 +5159,7 @@ body.no-scroll {
 
   .single-security-services {
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
   }
 
   .single-content-right {
@@ -5190,8 +5171,8 @@ body.no-scroll {
   }
 
   .title-text-inner {
-    padding-top: 145px;
-    padding-bottom: 120px;
+    padding-top: 9.063rem;
+    padding-bottom: 7.5rem;
   }
 }
 
@@ -5204,7 +5185,7 @@ body.no-scroll {
 
   .redefining-security {
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
   }
 
   .left-intro,
@@ -5214,12 +5195,12 @@ body.no-scroll {
   }
 
   .rigth-intro-link {
-    margin-top: 42px;
+    margin-top: 2.625rem;
   }
 
   .footer-menu-container {
     flex-direction: column;
-    gap: 54px;
+    gap: 3.375rem;
   }
 
   .footer-rigth {
@@ -5228,25 +5209,25 @@ body.no-scroll {
   }
 
   .text-wrapper-list {
-    font-size: 150.526px;
+    font-size: 9.408rem;
   }
 }
 
 @media (max-width: 767px) {
   :root {
-    --paddingLeftAndRigth: 20px;
-    --paddingTopAndBottom: 60px;
+    --paddingLeftAndRigth: 1.25rem;
+    --paddingTopAndBottom: 3.75;
   }
 
   .descover,
   .descover-image {
-    height: calc(400px + 10*(100vw - 767px) / 60);
-    object-position: calc(0% + 20*(100vw - 767px) / 60);
+    height: calc(25rem + 10*(100vw - 47.938rem) / 60);
+    object-position: calc(0% + 20*(100vw - 47.938rem) / 60);
   }
 
   .descover-title {
-    max-width: calc(400px + 10*(100vw - 1000px) / 60);
-    font-size: calc(100px + 3.75 * (100vw - 1000px) / 60);
+    max-width: calc(25rem + 10*(100vw - 62.5rem) / 60);
+    font-size: calc(6.25rem + 3.75 * (100vw - 62.5rem) / 60);
   }
 
   .hero-image-inner,
@@ -5254,49 +5235,49 @@ body.no-scroll {
   .carrer-hero-img,
   .about-hero-img,
   .single-hero-img {
-    height: 680px;
+    height: 42.5rem;
   }
 
   .page-id-288 .page-hero,
   .page-id-288 .hero-image-inner {
-    height: calc(680px + -21 * (100vw - 767px) / 60);
+    height: calc(42.5rem + -21 * (100vw - 47.938rem) / 60);
   }
 
   .postid-341 .page-hero,
   .postid-341 .single-hero-img {
-    height: calc(680px + -21 * (100vw - 767px) / 60);
+    height: calc(42.5rem + -21 * (100vw - 47.938rem) / 60);
   }
 
   .postid-339 .page-hero,
   .postid-339 .single-hero-img {
-    height: calc(680px + -10 * (100vw - 767px) / 60);
+    height: calc(42.5rem + -10 * (100vw - 47.938rem) / 60);
   }
 
   .postid-342 .page-hero,
   .postid-342 .single-hero-img {
-    height: calc(680px + -20 * (100vw - 767px) / 60);
+    height: calc(42.5rem + -20 * (100vw - 47.938rem) / 60);
   }
 
   .page-id-286 .page-hero,
   .page-id-286 .about-hero-img {
-    height: calc(680px + -20 * (100vw - 767px) / 60);
+    height: calc(42.5rem + -20 * (100vw - 47.938rem) / 60);
   }
 
   .postid-338 .page-hero,
   .postid-338 .single-hero-img {
-    height: calc(700px + -43 * (100vw - 767px) / 60);
+    height: calc(43.75rem + -43 * (100vw - 47.938rem) / 60);
   }
 
   .page-id-286 .about-hero-photo {
-    object-position: calc(93% + -10 * (100vw - 767px) / 60);
+    object-position: calc(93% + -10 * (100vw - 47.938rem) / 60);
   }
 
   .page-id-288 .hero-image {
-    object-position: calc(66% + 0 * (100vw - 767px) / 60);
+    object-position: calc(66% + 0 * (100vw - 47.938rem) / 60);
   }
 
   .postid-341 .single-hero-photo {
-    object-position: calc(93% + 5 * (100vw - 767px) / 60);
+    object-position: calc(93% + 5 * (100vw - 47.938rem) / 60);
   }
 
   .postid-338 .single-hero-photo {
@@ -5304,11 +5285,11 @@ body.no-scroll {
   }
 
   .postid-340 .single-hero-photo {
-    object-position: calc(52% + -16* (100vw - 767px) / 60);
+    object-position: calc(52% + -16* (100vw - 47.938rem) / 60);
   }
 
   .postid-342 .single-hero-photo {
-    object-position: calc(60% + 13* (100vw - 767px) / 60);
+    object-position: calc(60% + 13* (100vw - 47.938rem) / 60);
   }
 
   .carrer-hero-img::before,
@@ -5317,7 +5298,7 @@ body.no-scroll {
   }
 
   .carrer-hero-photo {
-    object-position: calc(52% + 24 * (100vw - 767px) / 60);
+    object-position: calc(52% + 24 * (100vw - 47.938rem) / 60);
   }
 
   .gallery-photo {
@@ -5333,7 +5314,7 @@ body.no-scroll {
   }
 
   .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .card-hover-visitble {
@@ -5345,7 +5326,7 @@ body.no-scroll {
   }
 
   .menu-link {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .page-hero {
@@ -5353,63 +5334,63 @@ body.no-scroll {
   }
 
   .heading {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .card-title-hover {
-    font-size: 45px;
+    font-size: 2.813rem;
   }
 
   .hero-heading-text-inner {
     margin-left: unset;
     padding-inline: var(--paddingLeftAndRigth);
-    margin-bottom: 59.63px;
+    margin-bottom: 3.727rem;
   }
 
   .subtitle {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .card {
-    height: 280px;
+    height: 17.5rem;
   }
 
   .card.height {
-    height: 510px;
+    height: 31.875rem;
   }
 
   .text-wrapper-list {
-    font-size: 140.526px;
+    font-size: 8.783rem;
   }
 
   .about-heading {
-    font-size: calc(59px + 5 * (100vw - 744px) / 60);
+    font-size: calc(3.688rem + 5 * (100vw - 46.5rem) / 60);
   }
 
   .our-team-title {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .our-team-subtitle {
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
   }
 
   .our-team-men {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
 
   .next-prev-buttons {
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 5rem;
   }
 
   .our-serives-title {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .testimonials-title {
-    font-size: 76px;
+    font-size: 4.75rem;
   }
 
   .left-and-right-img {
@@ -5419,7 +5400,7 @@ body.no-scroll {
 
   .wcsss-text-inner {
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
   }
 
   .wcsss-left,
@@ -5429,8 +5410,8 @@ body.no-scroll {
 
   .wcsss-items-inner {
     flex-direction: column;
-    margin-top: 60px;
-    row-gap: 30px;
+    margin-top: 3.75rem;
+    row-gap: 1.875rem;
   }
 
   .wcsss-item {
@@ -5442,16 +5423,16 @@ body.no-scroll {
   }
 
   .item-icon {
-    width: 27.714px;
-    height: 29.172px;
+    width: 1.732rem;
+    height: 1.823rem;
   }
 
   .other-services {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .current-openings-content {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
 
   .category-item {
@@ -5459,55 +5440,55 @@ body.no-scroll {
   }
 
   .list-group {
-    margin-top: 30px;
-    gap: 15px;
+    margin-top: 1.875rem;
+    gap: 0.938rem;
   }
 
   .category-title {
-    margin-top: 6px;
-    font-size: 30px;
+    margin-top: 0.375rem;
+    font-size: 1.875rem;
   }
 
   .location-time {
-    margin-top: 6px;
+    margin-top: 0.375rem;
   }
 
   .category-item-link {
-    margin-top: 32px;
+    margin-top: 2rem;
   }
 
   .career-single-heading,
   .our-benefits-title,
   .interested-title {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .secureity-hero h1 {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .benefits-icons-inner {
-    margin-top: 60px;
-    gap: 30px;
+    margin-top: 3.75rem;
+    gap: 1.875rem;
     justify-content: center;
   }
 
   .benefits-item {
-    width: 150px;
+    width: 9.375rem;
   }
 
   .benefits-icon-img {
-    width: 80px;
-    height: 86px;
+    width: 5rem;
+    height: 5.375rem;
   }
 
   .benefits-icon-text {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .interested-form {
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 0.625rem;
   }
 
   .incidents-form-intro {
@@ -5515,15 +5496,15 @@ body.no-scroll {
   }
 
   .chosse-file {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .incidents-form-intro-textarea {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .incidents-checkbox-inner {
-    margin-top: 15px;
+    margin-top: 0.938rem;
   }
 
   .incidents-send-btn {
@@ -5580,29 +5561,29 @@ body.no-scroll {
 
   .gallery-flex-inner {
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .pagination-container {
     justify-content: space-between;
-    margin-top: 42px;
+    margin-top: 2.625rem;
   }
 
   .gallery-text {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .sappo-security-service-text {
-    font-size: 105px;
+    font-size: 6.563rem;
     margin-left: unset;
     padding-inline: var(--paddingLeftAndRigth);
-    max-width: 530px;
-    margin-top: 79px;
+    max-width: 33.125rem;
+    margin-top: 4.938rem;
   }
 
   .sappo-security-service,
   .sappo-security-service-image {
-    height: 468px;
+    height: 29.25rem;
     width: max-content;
   }
 
@@ -5611,37 +5592,37 @@ body.no-scroll {
   }
 
   .our-trusted-partners-title {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .partners-card-inner {
-    margin-top: 41px;
+    margin-top: 2.563rem;
   }
 
   .master-master-inner {
-    width: 151px;
-    height: 113px;
-    margin-right: 39px;
+    width: 9.438rem;
+    height: 7.063rem;
+    margin-right: 2.438rem;
   }
 
   .faq-title {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .contact-us-title {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .contact-us-subtitle {
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
   }
 
   .socal-media-form {
     flex-direction: column-reverse;
     align-items: start;
-    margin-top: 32px;
-    gap: 45px;
+    margin-top: 2rem;
+    gap: 2.813rem;
   }
 
   .contact-us-form,
@@ -5650,16 +5631,16 @@ body.no-scroll {
   }
 
   .faq-subtitle {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .faq-container {
-    padding: 20px 0;
+    padding: 1.25rem 0;
   }
 
   .chief {
-    width: 86.786px;
-    height: 65.445px;
+    width: 5.424rem;
+    height: 4.09rem;
   }
 
   .our-trusted-partners-swiper {
@@ -5673,11 +5654,11 @@ body.no-scroll {
   }
 
   #paginated-list {
-    margin-top: 22px;
+    margin-top: 1.375rem;
   }
 
   .pagination-container {
-    margin-top: 42px;
+    margin-top: 2.625rem;
     justify-content: center;
   }
 }
@@ -5687,26 +5668,26 @@ body.no-scroll {
   .our-trusted-partners-title,
   .gallery-text,
   .single-our-service-title {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .partners-card-inner,
   .next-prev-buttons {
-    margin-top: 41px;
+    margin-top: 2.563rem;
   }
 
   .master-master-inner {
-    width: 151.875px;
-    height: 113.65926px;
+    width: 9.492rem;
+    height: 7.104rem;
   }
 
   .chief {
-    width: 86.786px;
-    height: 65.445px;
+    width: 5.424rem;
+    height: 4.09rem;
   }
 
   .master-master-inner {
-    margin-right: 39px;
+    margin-right: 2.438rem;
   }
 
   .our-trusted-partners-swiper {
@@ -5714,11 +5695,11 @@ body.no-scroll {
   }
 
   .text-wrapper-list {
-    font-size: 125.273px;
+    font-size: 7.83rem;
   }
 
   .single-our-service-title {
-    padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth) 16px var(--paddingLeftAndRigth);
+    padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth) 1rem var(--paddingLeftAndRigth);
   }
 }
 
@@ -5727,7 +5708,7 @@ body.no-scroll {
     display: grid;
     grid-template-areas: "info info info"
       "security1 security2 security3";
-    gap: 12px 14px;
+    gap: 0.75rem 0.875rem;
   }
 
   .site-info {
@@ -5748,11 +5729,11 @@ body.no-scroll {
   }
 
   .about-heading {
-    font-size: 50px !important;
+    font-size: 3.125rem !important;
   }
 
   .hero-subtitle-about {
-    margin-top: 9.63px;
+    margin-top: 0.602rem;
   }
 
   .our-team-men {
@@ -5765,7 +5746,7 @@ body.no-scroll {
   .heading,
   .faq-title,
   .contact-us-title {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .contact-us-title {
@@ -5778,26 +5759,26 @@ body.no-scroll {
 
   .link-style {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
 
   .footer {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
   }
 
   .footer-rigth {
     flex-direction: column;
-    gap: 54px;
+    gap: 3.375rem;
   }
 
   .footer-end-inner {
-    padding-top: 24px;
+    padding-top: 1.5rem;
   }
 
   .sappo-security-service,
   .sappo-security-service-image {
-    height: 468px;
+    height: 29.25rem;
   }
 
   .sappo-security-service {
@@ -5805,14 +5786,14 @@ body.no-scroll {
   }
 
   .sappo-security-service-text {
-    font-size: 111px;
+    font-size: 6.938rem;
     margin-left: 0;
     margin-top: 0;
     padding: 0 var(--paddingLeftAndRigth);
   }
 
   .card-title-hover {
-    font-size: 45px;
+    font-size: 2.813rem;
   }
 
   .postid-339 .card:nth-child(4)>.card-hover-visitble,
@@ -5835,20 +5816,20 @@ body.no-scroll {
   .postid-340 .card:nth-child(3)>.card-hover-visitble>.card-title-hover,
   .postid-340 .card:nth-child(4)>.card-hover-visitble>.card-title-hover {
     width: 100%;
-    max-width: 338px;
+    max-width: 21.125rem;
   }
 
   .card-list {
-    max-width: 311px;
-    font-size: 16px;
+    max-width: 19.438rem;
+    font-size: 1rem;
   }
 
   .card {
-    height: 151px;
+    height: 9.438rem;
   }
 
   .card {
-    height: 151px;
+    height: 9.438;
   }
 
   .card-hover-visitble {
@@ -5860,11 +5841,11 @@ body.no-scroll {
   }
 
   .card.height {
-    height: 340px;
+    height: 21.25rem;
   }
 
   .gallery-flex-inner {
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .gallery-photo-intro {
@@ -5873,17 +5854,17 @@ body.no-scroll {
   }
 
   .strength-reliability-img {
-    height: 460px;
+    height: 28.75rem;
   }
 
   .testimonials-slide-inner {
-    width: 380px;
-    margin-right: 42px;
+    width: 23.75rem;
+    margin-right: 2.625rem;
   }
 
   .testimonials-swiper {
-    margin-left: 6px;
-    margin-top: 60px;
+    margin-left: 0.375rem;
+    margin-top: 3.75rem;
   }
 
   .physical-hero-photo {
@@ -5891,7 +5872,7 @@ body.no-scroll {
   }
 
   .left-and-right-img {
-    height: 395px;
+    height: 24.688rem;
   }
 
   .category-item-link {
@@ -5899,24 +5880,24 @@ body.no-scroll {
   }
 
   .se-right-img {
-    height: 318px;
+    height: 19.875rem;
   }
 }
 
 @media (max-width: 477px) {
   .about-card-link {
-    margin-top: 15px;
+    margin-top: 0.938rem;
   }
 
   .sappo-security-service::before {
-    transform: translateX(calc(-38% + 25 * (100vw - 477px) / 60));
+    transform: translateX(calc(-38% + 25 * (100vw - 29.813rem) / 60));
   }
 }
 
 @media (max-width: 430px) {
   .master-master-inner {
-    width: calc(173.875px + 29*(100vw - 430px) / 60);
-    height: calc(135.65926px + 29*(100vw - 420px) / 60);
+    width: calc(10.867rem + 29*(100vw - 26.875rem) / 60);
+    height: calc(8.479rem + 29*(100vw - 26.25rem) / 60);
   }
 }
 
@@ -5926,7 +5907,7 @@ body.no-scroll {
   }
 
   .hero-subtitle {
-    max-width: 360px;
+    max-width: 22.5rem;
   }
 
   .pagination-container {
@@ -5934,18 +5915,18 @@ body.no-scroll {
   }
 
   .experience-unparalleled-image {
-    height: 460px;
+    height: 28.75rem;
   }
 }
 
 @media (max-width: 400px) {
   .headingN2-home {
-    font-size: calc(42px + 5 * (100vw - 400px) / 60);
+    font-size: calc(2.625rem + 5 * (100vw - 25rem) / 60);
   }
 
   .rigth-intro {
     width: 100%;
-    max-width: 335px;
+    max-width: 20.938rem;
   }
 
   .contact-us-subtitle {
@@ -5967,6 +5948,6 @@ body.no-scroll {
   .heading,
   .faq-title,
   .contact-us-title {
-    font-size: 70px;
+    font-size: 4.375rem;
   }
 }

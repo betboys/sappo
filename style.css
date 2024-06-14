@@ -2604,6 +2604,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .send-button input {
+  width: 100%;
+  height: 100%;
   font: 400 1.25rem / normal "Noto Sans Armenian Regular";
   letter-spacing: 0.003rem;
   color: #fff;
@@ -3791,6 +3793,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .wpcf7-spinner {
   position: absolute;
+  left: 45%;
 }
 
 .incidents-form-button::before {

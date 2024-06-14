@@ -42,7 +42,7 @@ $(document).ready(function () {
     });
   }
   $(".wpml-ls-item-toggle").click(function () {
-    $(".wpml-ls-item-toggle").toggleClass("icon-rotate");
+    // $(".wpml-ls-item-toggle").toggleClass("icon-rotate");
     let subWpml = document.querySelector(".wpml-ls-sub-menu");
     if (subWpml.style.visibility != "visible") {
       subWpml.style.visibility = "visible";

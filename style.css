@@ -1642,7 +1642,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .subtitle {
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -2293,7 +2293,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .faq-subtitle {
   margin-top: 1.5rem;
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
   color: #101011;
 }
 
@@ -2327,7 +2327,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   padding-right: 3.125rem;
   overflow: hidden;
   grid-area: hidden;
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
   color: #101011;
   transition: 0.5s;
 }
@@ -2396,7 +2396,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .contact-us-subtitle {
   margin-top: 0.188rem;
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -2445,6 +2445,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   text-decoration: none;
   margin-top: 1.026rem;
   transition: 0.5s;
+}
+
+.socal-media-list:last-child>.socal-media-title-inner>.socal-media-subtitle:nth-child(2) {
+  letter-spacing: 0.063rem;
 }
 
 .socal-media-list:last-child .socal-media-title-inner .socal-media-link>svg>path {
@@ -2660,7 +2664,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .footer-text {
   margin-top: 3.375rem;
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -2835,7 +2839,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   inset: 0;
   background: linear-gradient(0deg,
-      rgba(0, 0, 0, 0.75) 20%,
+      rgba(0, 0, 0, 0.75) 0%,
       rgba(0, 0, 0, 0) 100%);
 }
 
@@ -3085,7 +3089,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .our-team-subtitle {
   margin-top: 0.438rem;
-  font: 400 1.063rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.063rem / 158% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3114,7 +3118,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .position {
-  font: 400 1.063rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.063rem / 158% "Noto Sans Armenian Regular";
   text-align: center;
   color: #fff;
 }
@@ -3298,7 +3302,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .left-and-right-subtitle {
   margin-top: 1.875rem;
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3335,7 +3339,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .wcsss-right {
   width: 41.302vw;
-  font: 400 1.063rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.063rem / 158% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3403,7 +3407,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   inset: 0;
   background: linear-gradient(0deg,
-      rgba(0, 0, 0, 0.75) 20%,
+      rgba(0, 0, 0, 0.75) 0%,
       rgba(0, 0, 0, 0) 100%);
 }
 
@@ -3427,7 +3431,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .left-and-right>.left-and-right-text-inner>ul>li {
-  font: 400 1.063rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.063rem / 158% "Noto Sans Armenian Regular";
   color: #fff;
   list-style: disc;
   margin-left: 1.25rem;
@@ -3444,7 +3448,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   inset: 0;
   background: linear-gradient(0deg,
-      rgba(0, 0, 0, 0.75) 20%,
+      rgba(0, 0, 0, 0.75) 0%,
       rgba(0, 0, 0, 0) 100%);
 }
 
@@ -3474,7 +3478,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .list-group-item {
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
   color: #fff;
   cursor: pointer;
   transition: 0.5s;
@@ -3510,7 +3514,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .category-hashtag {
-  font: 400 1rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1rem / 158% "Noto Sans Armenian Regular";
   color: #aaa;
 }
 
@@ -3600,7 +3604,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .se-suttitle {
   margin-top: 2rem;
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
   color: #101011;
 }
 
@@ -3676,7 +3680,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .title-subtitle-intro>p {
   width: calc(51.563vw + 16 * (100vw - 120rem) / 60);
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3687,7 +3691,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .title-subtitle-intro>ul>li {
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
   color: #fff;
   list-style: disc;
   margin-left: 1.25rem;
@@ -3695,7 +3699,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .title-subtitle-intro a {
   text-decoration: underline;
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -3780,7 +3784,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .interested-subtitle {
   margin-top: 0.625rem;
-  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
 }
 
 .interested-subtitle p>a {

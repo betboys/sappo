@@ -781,6 +781,7 @@ if (document.getElementById("career-single")) {
       labelDefault = $labelText.text();
     // on file change
     $file.on("change", function (event) {
+      console.log(12)
       var fileName = $file.val().split("\\").pop();
       if (fileName) {
         $labelText.text(fileName);

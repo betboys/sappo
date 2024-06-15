@@ -2510,6 +2510,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .wpcf7-not-valid-tip {
   max-width: 40.267vw;
   font-size: 0.875rem;
+  display: none !important;
 }
 
 .form-input svg {

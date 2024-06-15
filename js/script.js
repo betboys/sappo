@@ -352,6 +352,9 @@ function form() {
       if(ind.value != "") {
         sendButton.disabled = false;
       }
+      else {
+        sendButton.disabled = true;
+      }
     })
   }
 }

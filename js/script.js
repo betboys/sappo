@@ -782,9 +782,13 @@ if (document.getElementById("career-single")) {
     // on file change
 
 
-    $("input[type=file]").change(function (e) {
-      $(this).parents(".label-file").find(".file-text").text(e.target.files[0].name);
+    $(function () {
+      $("#file-input").change(function (event) {
+        var x = event.target.files[0].name;
+        $(".file-text").text(x);
+      });
     });
+    
 
 
 

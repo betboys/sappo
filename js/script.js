@@ -344,31 +344,9 @@ function faq() {
   });
 }
 /* form */
-// function form() {
-//   let sendButton = document.getElementById("send-btn");
-//   let inputs = document.querySelectorAll(".input");
-//   let valid = document.querySelectorAll(".valid");
-//   if (sendButton) {
-//     sendButton.addEventListener("click", function (e) {
-//       e.preventDefault();
-//       for (let i = 0; i < inputs.length; i++) {
-//         if (inputs[i].value == "") {
-//           valid[i].style.display = "block";
-//           inputs[i].required = true;
-//         }
-//         if (valid[i].style.display == "block") {
-//           inputs[i].addEventListener("input", function () {
-//             valid[i].style.display = "none";
-//             inputs[i].required = false;
-//           });
-//         }
-//       }
-//       setInterval(() => {
-//         sendButton.disabled = false;
-//       }, 3000);
-//     });
-//   }
-// }
+function form() {
+
+}
 /* Home */
 if (document.getElementById("home")) {
   // title text animation

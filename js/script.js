@@ -682,31 +682,31 @@ if (document.getElementById("career-single")) {
     });
   });
   // form
-  let sendButton = document.querySelector(".incidents-form-button");
-  let inputs = document.querySelectorAll(".input");
-  let sendBtn = document.querySelector(".wpcf7-submit");
-  let popup = document.querySelector(".popup-mail");
-  let goBack = document.querySelector(".go-back");
-  for (ind of inputs) {
-    ind.addEventListener("input", function () {
-      if (ind.value != "") {
-        sendButton.disabled = false;
-        sendBtn.addEventListener("click", function () {
-          popup.style.display = "flex";
-        });
-        goBack.addEventListener("click", function () {
-          $("html, body").animate({ scrollTop: "0" }, 0);
-          window.location.reload();
-        });
-      }
-      else {
-        sendButton.disabled = true;
-        sendBtn.addEventListener("click", function () {
-          popup.style.display = "none";
-        });
-      }
-    })
-  }
+  // let sendButton = document.querySelector(".incidents-form-button");
+  // let inputs = document.querySelectorAll(".input");
+  // let sendBtn = document.querySelector(".wpcf7-submit");
+  // let popup = document.querySelector(".popup-mail");
+  // let goBack = document.querySelector(".go-back");
+  // for (ind of inputs) {
+  //   ind.addEventListener("input", function () {
+  //     if (ind.value != "") {
+  //       sendButton.disabled = false;
+  //       sendBtn.addEventListener("click", function () {
+  //         popup.style.display = "flex";
+  //       });
+  //       goBack.addEventListener("click", function () {
+  //         $("html, body").animate({ scrollTop: "0" }, 0);
+  //         window.location.reload();
+  //       });
+  //     }
+  //     else {
+  //       sendButton.disabled = true;
+  //       sendBtn.addEventListener("click", function () {
+  //         popup.style.display = "none";
+  //       });
+  //     }
+  //   })
+  // }
   // footer
   footer();
 }

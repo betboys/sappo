@@ -296,6 +296,9 @@ function form() {
       }
       else {
         sendButton.disabled = true;
+        sendBtn.addEventListener("click", function () {
+          popup.style.display = "none";
+        });
       }
     })
   }

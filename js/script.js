@@ -790,9 +790,8 @@ if (document.getElementById("career-single")) {
         $(".file-text").text(x);
         $labelRemove.show();
       } else {
-        var x = event.target.files[0].name;
-        $(".file-text").text(labelDefault);
         $labelText.text(labelDefault);
+        $(".file-text").text(labelDefault);
         $labelRemove.hide();
       }
     });
@@ -800,6 +799,7 @@ if (document.getElementById("career-single")) {
     $labelRemove.on("click", function (event) {
       $file.val("");
       $labelText.text(labelDefault);
+      $(".file-text").text(labelDefault);
       $labelRemove.hide();
     });
   });

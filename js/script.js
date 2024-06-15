@@ -780,8 +780,15 @@ if (document.getElementById("career-single")) {
       $labelRemove = $(".remove"),
       labelDefault = $labelText.text();
     // on file change
+
+
+    $("input[type=file]").change(function (e) {
+      $(this).parents(".label-file").find(".file-text").text(e.target.files[0].name);
+    });
+
+
+
     $file.on("change", function (event) {
-      console.log(12)
       var fileName = $file.val().split("\\").pop();
       if (fileName) {
         $labelText.text(fileName);

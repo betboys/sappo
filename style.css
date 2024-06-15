@@ -3806,11 +3806,15 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   width: 39.688vw;
 }
 
-.chosse-file {
+.chosse-file>p {
   width: 100%;
   display: flex;
   align-items: center;
   gap: 0.75rem;
+}
+
+.chosse-file>p>span {
+  display: none;
 }
 
 .label-file {

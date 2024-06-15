@@ -784,12 +784,12 @@ if (document.getElementById("career-single")) {
     // on file change
 
 
-    $(function () {
-      $("#file-input").change(function (event) {
-        var x = event.target.files[0].name;
-        $(".file-text").text(x);
-      });
-    });
+    // $(function () {
+    //   $("#file-input").change(function (event) {
+    //     var x = event.target.files[0].name;
+    //     $(".file-text").text(x);
+    //   });
+    // });
 
 
 
@@ -797,9 +797,10 @@ if (document.getElementById("career-single")) {
     $file.on("change", function (event) {
       var fileName = $file.val().split("\\").pop();
       if (fileName) {
-        $labelText.text(fileName);
-        $labelText.text(labelDefault);
-
+        // $labelText.text(fileName);
+        // $labelText.text(labelDefault);
+        var x = event.target.files[0].name;
+        $(".file-text").text(x);
         $labelRemove.show();
       } else {
         $labelText.text(labelDefault);

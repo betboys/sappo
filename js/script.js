@@ -347,10 +347,10 @@ function faq() {
 function form() {
 let sendButton = document.querySelector(".send-button");
 let inputs = document.querySelectorAll(".input");
-for (ind of inputs) {
-  ind.addEventListener("input", function() {
+for (let i = 0; i < inputs.length; i++) {
+  if(inputs[i].value != "") {
     sendButton.disabled = false;
-  })
+  }
 }
 }
 /* Home */

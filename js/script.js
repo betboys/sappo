@@ -345,13 +345,15 @@ function faq() {
 }
 /* form */
 function form() {
-let sendButton = document.querySelector(".send-button");
-let inputs = document.querySelectorAll(".input");
-for (let i = 0; i < inputs.length; i++) {
-  if(inputs[i].value != "") {
-    sendButton.disabled = false;
+  let sendButton = document.querySelector(".send-button");
+  let inputs = document.querySelectorAll(".input");
+  for (let i = 0; i < inputs.length; i++) {
+    inputs[i].addEventListener("input", function () {
+      if (inputs[i].value != "") {
+        sendButton.disabled = false;
+      }
+    })
   }
-}
 }
 /* Home */
 if (document.getElementById("home")) {

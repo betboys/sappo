@@ -783,13 +783,13 @@ if (document.getElementById("career-single")) {
     $file.on("change", function (event) {
       console.log(12)
       var fileName = $file.val().split("\\").pop();
-      if (fileName) {
-        $labelText.text(fileName);
-        $labelRemove.show();
-      } else {
-        $labelText.text(labelDefault);
-        $labelRemove.hide();
-      }
+      // if (fileName) {
+      //   $labelText.text(fileName);
+      //   $labelRemove.show();
+      // } else {
+      //   $labelText.text(labelDefault);
+      //   $labelRemove.hide();
+      // }
     });
     // Remove file
     $labelRemove.on("click", function (event) {

@@ -798,7 +798,7 @@ if (document.getElementById("career-single")) {
     $labelRemove.on("click", function (event) {
       $file.val("");
       // $labelText.text(labelDefault);
-      $(".file-text").text(labelDefault);
+      $(".file-text").text("asassas");
       $labelRemove.hide();
     });
   });

@@ -806,9 +806,10 @@ if (document.getElementById("career-single")) {
     });
     // Remove file
     $labelRemove.on("click", function (event) {
-      $file.val("");
-      $labelText.text(labelDefault);
-      $labelRemove.hide();
+      // $file.val("");
+      // $labelText.text(labelDefault);
+      // $labelRemove.hide();
+      $(".file-text").text("asjdhasjdb")
     });
   });
   // form

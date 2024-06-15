@@ -682,7 +682,7 @@ if (document.getElementById("career-single")) {
     });
   });
   // form
-  let sendButton = document.querySelector(".interested-form");
+  let sendButton = document.querySelector(".incidents-form-button");
   let inputs = document.querySelectorAll(".input");
   let sendBtn = document.querySelector(".wpcf7-submit");
   let popup = document.querySelector(".popup-mail");

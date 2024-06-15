@@ -2641,13 +2641,13 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .send-button:disabled,
-.interested-form {
+.incidents-form-button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
 .send-button:disabled>input,
-.interested-form>input {
+.incidents-form-button:disabled>input {
   cursor: not-allowed;
 }
 

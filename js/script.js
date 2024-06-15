@@ -591,7 +591,7 @@ if (document.getElementById("contact")) {
   // header
   headerSubmenu();
   // form
-  // form();
+  form();
   // footer
   footer();
 }

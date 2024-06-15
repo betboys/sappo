@@ -809,7 +809,7 @@ if (document.getElementById("career-single")) {
       // $file.val("");
       // $labelText.text(labelDefault);
       // $labelRemove.hide();
-      $(".file-text").text("asjdhasjdb")
+      $(".file-text").text(labelDefault)
     });
   });
   // form

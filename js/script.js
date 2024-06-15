@@ -347,9 +347,9 @@ function faq() {
 function form() {
   let sendButton = document.querySelector(".send-button");
   let inputs = document.querySelectorAll(".input");
-  for (let i = 0; i < inputs.length; i++) {
-    inputs[i].addEventListener("input", function () {
-      if (inputs[i].value != "") {
+  for (ind of inputs) {
+    ind.addEventListener("input", function () {
+      if(ind.value != "") {
         sendButton.disabled = false;
       }
     })

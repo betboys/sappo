@@ -784,7 +784,7 @@ if (document.getElementById("career-single")) {
       console.log(12)
       var fileName = $file.val().split("\\").pop();
       if (fileName) {
-        // $labelText.text(fileName);
+        $labelText.text(fileName);
         $labelText.text(labelDefault);
 
         $labelRemove.show();

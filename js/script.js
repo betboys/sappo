@@ -345,7 +345,13 @@ function faq() {
 }
 /* form */
 function form() {
-
+let sendButton = document.querySelector(".send-button");
+let inputs = document.querySelectorAll(".input");
+for (ind of inputs) {
+  ind.addEventListener("input", function() {
+    sendButton.disabled = false;
+  })
+}
 }
 /* Home */
 if (document.getElementById("home")) {

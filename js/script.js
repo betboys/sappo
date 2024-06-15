@@ -780,29 +780,18 @@ if (document.getElementById("career-single")) {
       fileText = document.querySelector(".file-text");
     $labelRemove = $(".remove"),
       labelDefault = $labelText.text();
-    let fileTextInner = fileText.innerHTML;
     // on file change
-
-
-    // $(function () {
-    //   $("#file-input").change(function (event) {
-    //     var x = event.target.files[0].name;
-    //     $(".file-text").text(x);
-    //   });
-    // });
-
-
-
-
     $file.on("change", function (event) {
       var fileName = $file.val().split("\\").pop();
       if (fileName) {
-        // $labelText.text(fileName);
-        // $labelText.text(labelDefault);
+        $labelText.text(fileName);
+        $labelText.text(labelDefault);
         var x = event.target.files[0].name;
         $(".file-text").text(x);
         $labelRemove.show();
       } else {
+        var x = event.target.files[0].name;
+        $(".file-text").text(labelDefault);
         $labelText.text(labelDefault);
         $labelRemove.hide();
       }

@@ -777,8 +777,10 @@ if (document.getElementById("career-single")) {
     var $file = $("#file-input"),
       $label = $file.next(".label-file"),
       $labelText = $label.find(".file-text"),
-      $labelRemove = $(".remove"),
+      fileText = document.querySelector(".file-text");
+    $labelRemove = $(".remove"),
       labelDefault = $labelText.text();
+    let fileTextInner = fileText.innerHTML;
     // on file change
 
 
@@ -788,7 +790,7 @@ if (document.getElementById("career-single")) {
         $(".file-text").text(x);
       });
     });
-    
+
 
 
 
@@ -809,7 +811,7 @@ if (document.getElementById("career-single")) {
       // $file.val("");
       // $labelText.text(labelDefault);
       // $labelRemove.hide();
-      $(".file-text").text(labelDefault)
+      fileText.innerHTML = fileTextInner;
     });
   });
   // form

@@ -777,20 +777,19 @@ if (document.getElementById("career-single")) {
     var $file = $("#file-input"),
       $label = $file.next(".label-file"),
       $labelText = $label.find(".file-text"),
-      fileText = document.querySelector(".file-text");
-    $labelRemove = $(".remove"),
+      $labelRemove = $(".remove"),
       labelDefault = $labelText.text();
     // on file change
     $file.on("change", function (event) {
       var fileName = $file.val().split("\\").pop();
       if (fileName) {
-        $labelText.text(fileName);
-        $labelText.text(labelDefault);
+        // $labelText.text(fileName);
+        // $labelText.text(labelDefault);
         var x = event.target.files[0].name;
         $(".file-text").text(x);
         $labelRemove.show();
       } else {
-        $labelText.text(labelDefault);
+        // $labelText.text(labelDefault);
         $(".file-text").text(labelDefault);
         $labelRemove.hide();
       }
@@ -798,7 +797,7 @@ if (document.getElementById("career-single")) {
     // Remove file
     $labelRemove.on("click", function (event) {
       $file.val("");
-      $labelText.text(labelDefault);
+      // $labelText.text(labelDefault);
       $(".file-text").text(labelDefault);
       $labelRemove.hide();
     });

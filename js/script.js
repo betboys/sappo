@@ -798,7 +798,7 @@ if (document.getElementById("career-single")) {
     $labelRemove.on("click", function (event) {
       $file.val("");
       // $labelText.text(labelDefault);
-      $(".file-text").text("asassas");
+      $(".file-text").text("Attach your CV");
       $labelRemove.hide();
     });
   });

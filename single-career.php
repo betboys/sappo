@@ -31,7 +31,7 @@
         <h3 class="interested-title" data-aos="fade-up"><?= the_field('career_form_title', 'option'); ?></h3>
         <div class="interested-subtitle"><?= the_field('career_form_description', 'option'); ?></div>
     </div>
-    <button class="interested-form send-button" disabled="true">
+    <button class="interested-form" disabled="true">
         <?php echo do_shortcode('[contact-form-7 id="a7a071b" title="Career form"]'); ?>
     </button>
     <!-- <form class="interested-form" action="">

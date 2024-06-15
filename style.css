@@ -2640,12 +2640,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transition: 0.5s;
 }
 
-.send-button:disabled {
+.send-button:disabled,
+.interested-form {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.send-button:disabled>input {
+.send-button:disabled>input,
+.interested-form>input {
   cursor: not-allowed;
 }
 

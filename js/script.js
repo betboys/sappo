@@ -774,7 +774,7 @@ if (document.getElementById("career-single")) {
   headerSubmenu();
   // form choose file
   $("document").ready(function () {
-    var $file = $("#file-input"),
+    var $file = $(".file-input"),
       $label = $file.next(".label-file"),
       $labelText = $label.find(".file-text"),
       $labelRemove = $(".remove"),

@@ -1,16 +1,16 @@
 var $ = jQuery;
 const windowWidth = window.innerWidth;
 // contact submit
-let sendBtn = document.querySelector(".wpcf7-submit");
-let popup = document.querySelector(".popup-mail");
-let goBack = document.querySelector(".go-back");
-sendBtn.addEventListener("click", function () {
-  popup.style.display = "flex";
-});
-goBack.addEventListener("click", function () {
-  $("html, body").animate({ scrollTop: "0" }, 0);
-  window.location.reload();
-});
+// let sendBtn = document.querySelector(".wpcf7-submit");
+// let popup = document.querySelector(".popup-mail");
+// let goBack = document.querySelector(".go-back");
+// sendBtn.addEventListener("click", function () {
+//   popup.style.display = "flex";
+// });
+// goBack.addEventListener("click", function () {
+//   $("html, body").animate({ scrollTop: "0" }, 0);
+//   window.location.reload();
+// });
 /* language select */
 $(document).ready(function () {
   // title animation fide up
@@ -347,10 +347,20 @@ function faq() {
 function form() {
   let sendButton = document.querySelector(".send-button");
   let inputs = document.querySelectorAll(".input");
+  let sendBtn = document.querySelector(".wpcf7-submit");
+  let popup = document.querySelector(".popup-mail");
+  let goBack = document.querySelector(".go-back");
   for (ind of inputs) {
     ind.addEventListener("input", function () {
-      if(ind.value != "") {
+      if (ind.value != "") {
         sendButton.disabled = false;
+        sendBtn.addEventListener("click", function () {
+          popup.style.display = "flex";
+        });
+        goBack.addEventListener("click", function () {
+          $("html, body").animate({ scrollTop: "0" }, 0);
+          window.location.reload();
+        });
       }
       else {
         sendButton.disabled = true;

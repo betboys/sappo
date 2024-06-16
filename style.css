@@ -2408,8 +2408,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .socal-media-list {
   display: flex;
-  align-items: baseline;
   gap: 1rem;
+}
+
+.socal-media-list:first-child>svg {
+  margin-top: 0.3rem;
 }
 
 .socal-media-title-inner {
@@ -5379,6 +5382,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .socal-media-list:first-child>svg {
+    margin-top: 0.11rem;
   }
 
   .carrer-hero-heading-text-inner {

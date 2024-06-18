@@ -55,18 +55,18 @@
                 $card_title = get_field('card_title');
                 $card_image = get_field('card_image', get_the_ID());
                 $card_description = get_field('card_description');
-                $terms = get_the_terms(get_the_ID(), 'career_category');
+                $cats = get_the_terms(get_the_ID(), 'career_category');
                 ?>
-                <article class="category-item" data-cat="<?php if ($terms && !is_wp_error($terms)) {
-                    foreach ($terms as $term) {
-                        echo $term->name . ' ';
+                <article class="category-item" data-cat="<?php if ($cats && !is_wp_error($cats)) {
+                    foreach ($cats as $cat) {
+                        echo $cat->name . ' ';
                     }
                 } ?>">
                     <?php
-                    if ($terms && !is_wp_error($terms)) {
+                    if ($cats && !is_wp_error($cats)) {
                         echo '<p class="category-hashtag">';
-                        foreach ($terms as $term) {
-                            echo '#' . $term->name . ' ';
+                        foreach ($cats as $cat) {
+                            echo '#' . $cat->name . ' ';
                         }
                         echo '</p>';
                     }

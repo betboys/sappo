@@ -88,7 +88,7 @@
                     </ul>
                     <a class="category-item-link" href="<?php echo get_permalink(); ?>">Apply now</a>
                 </article>
-            <?Php }
+            <?php }
             wp_reset_postdata();
         } ?>
     </div>

@@ -50,7 +50,7 @@ function Translate() {
         menuLink[i].style.fontFamily = fontMedium;
         dropdownMenuItemTitle[i].style.fontFamily = fontSemiBold;
         // dropdownMenuItemList[i].style.fontFamily = fontRegular;
-        // dropdownMenuItemDesc[i].style.fontFamily = fontRegular;
+        dropdownMenuItemDesc[i].style.fontFamily = fontRegular;
       }
 
 

@@ -725,7 +725,9 @@ if (document.getElementById("career-single")) {
       if (lang === 'hy-AM') {
         $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
       }
-      $(".file-text").text("Attach your CV");
+      if (lang === 'en-US') {
+        $(".file-text").text("Attach your CV");
+      }
       $labelRemove.hide();
     });
   });

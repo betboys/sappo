@@ -11,6 +11,11 @@ $(document).ready(function ($) {
   var lang = $('html').attr('lang');
   if (lang === 'hy-AM') {
     socalMediaTitle1.innerHTML = "Էլեկտրոնային հասցե";
+    socalMediaTitle2.innerHTML = "Հեռախոսահամար";
+    socalMediaTitle3.innerHTML = "Հասցե";
+    socalMediaSubTitle1.innerHTML = "ուղարկեք նամակ";
+    socalMediaSubTitle2.innerHTML = "Զանգահարեք մեզ";
+    socalMediaSubTitle3.innerHTML = "Ուղղություն";
   }
 });
 /* language select */

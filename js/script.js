@@ -32,6 +32,21 @@ function Translate() {
       input2.placeholder = "Էլեկտրոնային Հասցե";
       input3.placeholder = "Ձեր Հաղորդագրությունը . . . ";
     }
+    if (lang === 'ru-RU') {
+      socalMediaTitle1.innerHTML = "Электронная почта";
+      socalMediaTitle2.innerHTML = "Номер телефона";
+      socalMediaTitle3.innerHTML = "Адрес";
+      socalMediaSubTitle1.innerHTML = "Отправиты письмо";
+      socalMediaSubTitle2.innerHTML = "Позвоните нам";
+      socalMediaSubTitle3.innerHTML = "Направление";
+      formName1.innerHTML = "Имя Фамилия";
+      formName2.innerHTML = "Электронная почта";
+      formName3.innerHTML = "письмо";
+      sumbitInput.value = "Отправить";
+      input1.placeholder = "Имя Фамилия";
+      input2.placeholder = "Электронная почта";
+      input3.placeholder = "Ваше сообщение. . .";
+    }
   });
 }
 /* language select */
@@ -224,6 +239,11 @@ function footer() {
       footerMenuTitle[0].innerHTML = "Ծառայություննեռ";
       footerMenuTitle[1].innerHTML = "մեր մասին";
       footerMenuTitle[2].innerHTML = "Մենք սոց. ցանցերում";
+    }
+    if (lang === 'ru-RU') {
+      footerMenuTitle[0].innerHTML = "Обслуживание";
+      footerMenuTitle[1].innerHTML = "о нас";
+      footerMenuTitle[2].innerHTML = "МЬ В соц. сетях";
     }
   });
 }

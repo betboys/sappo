@@ -48,7 +48,7 @@ function Translate() {
       body.style.fontFamily = fontRegular;
       for (let i = 0; i < menuLink.length; i++) {
         menuLink[i].style.fontFamily = fontMedium;
-        // dropdownMenuItemTitle[i].style.fontFamily = fontSemiBold;
+        dropdownMenuItemTitle[i].style.fontFamily = fontSemiBold;
         // dropdownMenuItemList[i].style.fontFamily = fontRegular;
         // dropdownMenuItemDesc[i].style.fontFamily = fontRegular;
       }

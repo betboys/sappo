@@ -35,7 +35,7 @@ function Translate() {
     if (lang === 'ru-RU') {
       let fontBold = "Noto Sans Bold";
       let title1 = document.querySelector(".socal-media-title1");
-      title1.fontFamily = fontBold
+      title1.style.fontFamily = fontBold
       socalMediaTitle1.innerHTML = "Электронная почта";
       socalMediaTitle2.innerHTML = "Номер телефона";
       socalMediaTitle3.innerHTML = "Адрес";

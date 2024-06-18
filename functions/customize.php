@@ -1,5 +1,5 @@
 <?php
-/* WYSIWYG defaults */
+
 
 /** change tinymce's paste-as-text functionality */
 function paste_as_text($mceInit, $editor_id)

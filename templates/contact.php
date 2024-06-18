@@ -14,8 +14,8 @@
 						<path d="M1.06049 4.11499L12 10.6787L22.9395 4.11499" stroke="white" stroke-width="1.5" />
 					</svg>
 					<div class="socal-media-title-inner">
-						<p class="socal-media-title">Email</p>
-						<p class="socal-media-subtitle">Send us an email</p>
+						<p class="socal-media-title socal-media-title1">Email</p>
+						<p class="socal-media-subtitle socal-media-subtitle1">Send us an email</p>
 						<a class="socal-media-link"
 							href="mailto:<?= the_field('email', 'option'); ?>"><?= the_field('email', 'option'); ?></a>
 					</div>
@@ -31,8 +31,8 @@
 							stroke="white" stroke-width="1.5" />
 					</svg>
 					<div class="socal-media-title-inner">
-						<p class="socal-media-title">Phone</p>
-						<p class="socal-media-subtitle">Give us a call</p>
+						<p class="socal-media-title socal-media-title2">Phone</p>
+						<p class="socal-media-subtitle socal-media-subtitle2">Give us a call</p>
 						<a class="socal-media-link"
 							href="tel:<?= the_field('phone', 'option'); ?>"><?= the_field('phone', 'option'); ?></a>
 					</div>
@@ -47,11 +47,11 @@
 						<path d="M10.3423 6.49414H14.1218V10.2735H10.3423V6.49414Z" stroke="white" stroke-width="1.5" />
 					</svg>
 					<div class="socal-media-title-inner">
-						<p class="socal-media-title">Office</p>
+						<p class="socal-media-title socal-media-title3">Office</p>
 						<p class="socal-media-subtitle"><?= the_field('office_location', 'option'); ?></p>
 						<a class="socal-media-link"
 							href="https://www.google.com/maps/search/<?= the_field('office_location', 'option'); ?>">
-							Get Directions
+							<span class="socal-media-subtitle3">Get Directions</span>
 							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26"
 								fill="none">
 								<path

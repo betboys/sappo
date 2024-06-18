@@ -1,5 +1,18 @@
 var $ = jQuery;
 const windowWidth = window.innerWidth;
+/* Translate Language */
+$(document).ready(function ($) {
+  let socalMediaTitle1 = document.querySelector(".socal-media-title1");
+  let socalMediaTitle2 = document.querySelector(".socal-media-title2");
+  let socalMediaTitle3 = document.querySelector(".socal-media-title3");
+  let socalMediaSubTitle1 = document.querySelector(".socal-media-subtitle1");
+  let socalMediaSubTitle2 = document.querySelector(".socal-media-subtitle2");
+  let socalMediaSubTitle3 = document.querySelector(".socal-media-subtitle3");
+  var lang = $('html').attr('lang');
+  if (lang === 'hy-AM') {
+    socalMediaTitle1.innerHTML = "Էլեկտրոնային հասցե";
+  }
+});
 /* language select */
 $(document).ready(function () {
   // title animation fide up

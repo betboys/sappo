@@ -59,7 +59,7 @@ function Translate() {
       $(".send-button input").css("font-family", fontRegular);
       $(".footer-menu-inner .widget_nav_menu ul a").css("font-family", fontRegular);
       $(".site-info").css("font-family", fontRegular);
-      $(". about-our-serives-card-subtitle").css("font-family", fontRegular);
+      $(".about-our-serives-card-subtitle").css("font-family", fontRegular);
       $(".about-card-link").css("font-family", fontMedium);
       $(".our-team-subtitle").css("font-family", fontRegular);
       $(".position").css("font-family", fontRegular);

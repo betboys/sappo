@@ -721,6 +721,10 @@ if (document.getElementById("career-single")) {
     });
     $labelRemove.on("click", function (event) {
       $file.val("");
+      var lang = $('html').attr('lang');
+      if (lang === 'hy-AM') {
+        $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
+      }
       $(".file-text").text("Attach your CV");
       $labelRemove.hide();
     });

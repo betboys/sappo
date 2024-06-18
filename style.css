@@ -1199,6 +1199,21 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 /* Standart Noto Sans font */
 @font-face {
+  font-family: "Noto Sans Regular";
+  src: url(fonts/Noto-Sans/NotoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Noto Sans Medium";
+  src: url(fonts/Noto-Sans/NotoSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Noto Sans SemiBold";
+  src: url(fonts/Noto-Sans/NotoSans-SemiBold.ttf);
+}
+
+@font-face {
   font-family: "Noto Sans Bold";
   src: url(fonts/Noto-Sans/NotoSans-Bold.ttf);
 }

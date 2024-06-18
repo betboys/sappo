@@ -33,9 +33,37 @@ function Translate() {
       input3.placeholder = "Ձեր Հաղորդագրությունը . . . ";
     }
     if (lang === 'ru-RU') {
+      // fonts
+      let fontRegular = "Noto Sans Regular";
+      let fontMedium = "Noto Sans Medium";
+      let fontSemiBold = "Noto Sans SemiBold";
       let fontBold = "Noto Sans Bold";
-      let title1 = document.querySelector(".socal-media-title1");
-      title1.style.fontFamily = fontBold
+      // all class`s
+      let menuLink = document.querySelectorAll(".menu-link");
+      let dropdownMenuItemTitle = document.querySelectorAll(".dropdown-menu-item-title");
+      let dropdownMenuItemList = document.querySelectorAll(".dropdown-menu-item-list");
+      let dropdownMenuItemDesc = document.querySelectorAll(".dropdown-menu-item-desc");
+      // all elements fonts change
+      body.style.fontFamily = fontRegular;
+      for (let i = 0; i < menuLink.length; i++) {
+        menuLink[i].style.fontFamily = fontMedium;
+        dropdownMenuItemTitle[i].style.fontFamily = fontSemiBold;
+        dropdownMenuItemList[i].style.fontFamily = fontRegular;
+        dropdownMenuItemDesc[i].style.fontFamily = fontRegular;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
       socalMediaTitle1.innerHTML = "Электронная почта";
       socalMediaTitle2.innerHTML = "Номер телефона";
       socalMediaTitle3.innerHTML = "Адрес";

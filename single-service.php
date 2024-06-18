@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="page-hero single-page-hero" id="single">
+<section class="page-hero single-page-hero postid-340 postid-342 postid-339 postid-338 postid-341" id="single">
     <div class="single-hero-img">
         <?php
         $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full'); // 'full' for full size, change as needed

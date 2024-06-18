@@ -1,4 +1,4 @@
-<section class="contact-us" <?php if (is_page_template('page-contact.php')) {
+<section class="contact-us page-id-291" <?php if (is_page_template('page-contact.php')) {
 	echo 'id="contact"';
 } ?>>
 	<img class="contact-us-image" src="<?= the_field('contact_image', 'option'); ?>" alt="">

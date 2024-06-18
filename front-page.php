@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="page-hero" id="home">
+<section class="page-hero page-id-288" id="home">
 	<div class="hero-image-inner">
 		<img class="hero-image" src="<?= the_field('video_poster'); ?>" alt="">
 	</div>

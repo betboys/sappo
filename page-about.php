@@ -3,7 +3,7 @@
 
 
 
-<section class="page-hero" id="about">
+<section class="page-hero page-id-286" id="about">
     <div class="about-hero-img">
         <?php
         $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full'); // 'full' for full size, change as needed

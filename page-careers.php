@@ -1,7 +1,7 @@
 <?php get_header();
 /* Template Name: Careers Template */
 ?>
-<section class="page-hero" id="carrer">
+<section class="page-hero page-id-290" id="carrer">
     <div class="carrer-hero-img">
         <?php
         $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full'); // 'full' for full size, change as needed

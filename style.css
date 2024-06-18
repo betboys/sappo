@@ -2680,10 +2680,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   padding: 0 var(--paddingLeftAndRigth);
 }
 
-.footer-left {
-  width: 24.375rem;
-}
-
 .footer-text {
   margin-top: 3.375rem;
   font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
@@ -4244,8 +4240,17 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 10rem;
   }
 
+  .footer-menu-inner:nth-child(2),
+  .footer-menu-inner:nth-child(3) {
+    margin-left: 0;
+  }
+
   .title-text-inner {
     padding-top: 10rem;
+  }
+
+  .footer-rigth {
+    gap: 1.625rem;
   }
 
   .other-services {
@@ -4576,10 +4581,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: 1rem;
   }
 
-  .footer-left {
-    width: 18.75rem;
-  }
-
   .footer-menu-title {
     font-size: 1.25rem;
   }
@@ -4587,10 +4588,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .site-info,
   .footer-end-intro-link {
     font-size: 0.75rem;
-  }
-
-  .footer-rigth {
-    width: 34.75rem;
   }
 
   .footer-menu-inner .widget_nav_menu ul a {
@@ -4641,10 +4638,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .footer-menu-flex {
     gap: 1.727vw;
-  }
-
-  .footer-rigth {
-    width: 47.554vw;
   }
 
   .card-info-inner {

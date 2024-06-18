@@ -1,29 +1,33 @@
 var $ = jQuery;
 const windowWidth = window.innerWidth;
 /* Translate Language */
-// $(document).ready(function ($) {
-//   let socalMediaTitle1 = document.querySelector(".socal-media-title1");
-//   let socalMediaTitle2 = document.querySelector(".socal-media-title2");
-//   let socalMediaTitle3 = document.querySelector(".socal-media-title3");
-//   let socalMediaSubTitle1 = document.querySelector(".socal-media-subtitle1");
-//   let socalMediaSubTitle2 = document.querySelector(".socal-media-subtitle2");
-//   let socalMediaSubTitle3 = document.querySelector(".socal-media-subtitle3");
-//   let formName1 = document.querySelector(".form-name1");
-//   let formName2 = document.querySelector(".form-name2");
-//   let formName3 = document.querySelector(".form-name3");
-//   var lang = $('html').attr('lang');
-//   if (lang === 'hy-AM') {
-//     socalMediaTitle1.innerHTML = "Էլեկտրոնային հասցե";
-//     socalMediaTitle2.innerHTML = "Հեռախոսահամար";
-//     socalMediaTitle3.innerHTML = "Հասցե";
-//     socalMediaSubTitle1.innerHTML = "ուղարկեք նամակ";
-//     socalMediaSubTitle2.innerHTML = "Զանգահարեք մեզ";
-//     socalMediaSubTitle3.innerHTML = "Ուղղություն";
-//     formName1.innerHTML = "Անուն Ազգանուն";
-//     formName2.innerHTML = "էլեկտրոնային հասցե";
-//     formName3.innerHTML = "նամակ";
-//   }
-// });
+$(document).ready(function ($) {
+  let socalMediaTitle1 = document.querySelector(".socal-media-title1");
+  let socalMediaTitle2 = document.querySelector(".socal-media-title2");
+  let socalMediaTitle3 = document.querySelector(".socal-media-title3");
+  let socalMediaSubTitle1 = document.querySelector(".socal-media-subtitle1");
+  let socalMediaSubTitle2 = document.querySelector(".socal-media-subtitle2");
+  let socalMediaSubTitle3 = document.querySelector(".socal-media-subtitle3");
+  let formName1 = document.querySelector(".form-name1");
+  let formName2 = document.querySelector(".form-name2");
+  let formName3 = document.querySelector(".form-name3");
+  let label1 = document.querySelector(".label1");
+  let sumbitInput = document.querySelector(".wpcf7-submit");
+  var lang = $('html').attr('lang');
+  if (lang === 'hy-AM') {
+    socalMediaTitle1.innerHTML = "Էլեկտրոնային հասցե";
+    socalMediaTitle2.innerHTML = "Հեռախոսահամար";
+    socalMediaTitle3.innerHTML = "Հասցե";
+    socalMediaSubTitle1.innerHTML = "ուղարկեք նամակ";
+    socalMediaSubTitle2.innerHTML = "Զանգահարեք մեզ";
+    socalMediaSubTitle3.innerHTML = "Ուղղություն";
+    formName1.innerHTML = "Անուն Ազգանուն";
+    formName2.innerHTML = "էլեկտրոնային հասցե";
+    formName3.innerHTML = "նամակ";
+    label1.innerHTML = "Համաձայն եմ";
+    sumbitInput.value = "Ուղարկել";
+  }
+});
 /* language select */
 $(document).ready(function () {
   // title animation fide up

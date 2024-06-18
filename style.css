@@ -2462,6 +2462,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .socal-media-list:last-child>.socal-media-title-inner>.socal-media-subtitle:nth-child(2) {
   letter-spacing: 0.063rem;
+  width: 20rem;
 }
 
 .socal-media-list:last-child .socal-media-title-inner .socal-media-link>svg>path {

@@ -536,7 +536,7 @@ if (document.getElementById("home")) {
   // Translate
   Translate();
   // footer
-  footer();
+  // footer();
 }
 /* Contact Us */
 if (document.getElementById("contact")) {
@@ -545,7 +545,7 @@ if (document.getElementById("contact")) {
   // form
   form();
   // footer
-  footer();
+  // footer();
 }
 /* About Us */
 if (document.getElementById("about")) {
@@ -614,7 +614,7 @@ if (document.getElementById("about")) {
   // Translate
   Translate();
   // footer
-  footer();
+  // footer();
 }
 /* Serives Single Pages */
 if (document.getElementById("single")) {
@@ -642,7 +642,7 @@ if (document.getElementById("single")) {
   // Translate
   Translate();
   // footer
-  footer();
+  // footer();
 }
 /* Carrer */
 if (document.getElementById("carrer")) {
@@ -695,7 +695,7 @@ if (document.getElementById("carrer")) {
   // Translate
   Translate();
   // footer
-  footer();
+  // footer();
 }
 /* Career Single */
 if (document.getElementById("career-single")) {
@@ -783,12 +783,12 @@ if (document.getElementById("career-single")) {
     }
   });
   // footer
-  footer();
+  // footer();
 }
 /* secureity */
 if (document.getElementById("secureity")) {
   // header
   headerSubmenu();
   // footer
-  footer();
+  // footer();
 }

@@ -219,18 +219,15 @@ function headerSubmenu() {
 }
 /* footer navigation */
 function footer() {
-  let footerNav = document.querySelector(".footer-rigth");
-  let footerMenuInner = document.querySelectorAll(".footer-menu-inner");
-  let footerMenuFlex = document.createElement("div");
-  footerMenuFlex.className = "footer-menu-flex";
-  footerMenuFlex.append(footerMenuInner[0], footerMenuInner[1]);
-  footerNav.appendChild(footerMenuFlex);
-  if (windowWidth <= 1024) {
-    for (let i = 0; i < footerMenuInner.length; i++) {
-      footerNav.append(footerMenuInner[i]);
+  let footerMenuTitle = document.querySelectorAll(".footer-menu-title");
+  $(document).ready(function ($) {
+    var lang = $('html').attr('lang');
+    if (lang === 'hy-AM') {
+      footerMenuTitle[0].innerHTML = "Ծառայություննեռ";
+      footerMenuTitle[1].innerHTML = "մեր մասին";
+      footerMenuTitle[2].innerHTML = "Մենք սոց. ցանցերում";
     }
-    footerMenuFlex.remove();
-  }
+  });
 }
 /* our service card */
 function ourServiceCards() {
@@ -536,7 +533,7 @@ if (document.getElementById("home")) {
   // Translate
   Translate();
   // footer
-  // footer();
+  footer();
 }
 /* Contact Us */
 if (document.getElementById("contact")) {
@@ -545,7 +542,7 @@ if (document.getElementById("contact")) {
   // form
   form();
   // footer
-  // footer();
+  footer();
 }
 /* About Us */
 if (document.getElementById("about")) {
@@ -614,7 +611,7 @@ if (document.getElementById("about")) {
   // Translate
   Translate();
   // footer
-  // footer();
+  footer();
 }
 /* Serives Single Pages */
 if (document.getElementById("single")) {
@@ -642,7 +639,7 @@ if (document.getElementById("single")) {
   // Translate
   Translate();
   // footer
-  // footer();
+  footer();
 }
 /* Carrer */
 if (document.getElementById("carrer")) {
@@ -695,7 +692,7 @@ if (document.getElementById("carrer")) {
   // Translate
   Translate();
   // footer
-  // footer();
+  footer();
 }
 /* Career Single */
 if (document.getElementById("career-single")) {
@@ -783,12 +780,12 @@ if (document.getElementById("career-single")) {
     }
   });
   // footer
-  // footer();
+  footer();
 }
 /* secureity */
 if (document.getElementById("secureity")) {
   // header
   headerSubmenu();
   // footer
-  // footer();
+  footer();
 }

@@ -33,6 +33,9 @@ function Translate() {
       input3.placeholder = "Ձեր Հաղորդագրությունը . . . ";
     }
     if (lang === 'ru-RU') {
+      let fontBold = "Noto Sans Bold";
+      let title1 = document.querySelector(".socal-media-title1");
+      title1.fontFamily = fontBold
       socalMediaTitle1.innerHTML = "Электронная почта";
       socalMediaTitle2.innerHTML = "Номер телефона";
       socalMediaTitle3.innerHTML = "Адрес";

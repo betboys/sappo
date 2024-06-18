@@ -2687,16 +2687,21 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .footer-rigth {
-  width: 41.313rem;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
 }
 
 .footer-menu-inner {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+}
+
+.footer-menu-inner:nth-child(2) {
+  margin-left: 1.625rem;
+}
+
+.footer-menu-inner:nth-child(3) {
+  margin-left: 11.25rem;
 }
 
 .footer-menu-inner .widget_nav_menu ul {

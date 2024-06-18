@@ -595,7 +595,7 @@ if (document.getElementById("home")) {
   // form
   form();
   // Translate
-  Translate();
+  // Translate();
   // footer
   footer();
 }
@@ -673,7 +673,7 @@ if (document.getElementById("about")) {
   // form
   form();
   // Translate
-  Translate();
+  // Translate();
   // footer
   footer();
 }
@@ -701,7 +701,7 @@ if (document.getElementById("single")) {
   // form
   form();
   // Translate
-  Translate();
+  // Translate();
   // footer
   footer();
 }
@@ -754,7 +754,7 @@ if (document.getElementById("carrer")) {
   // form
   form();
   // Translate
-  Translate();
+  // Translate();
   // footer
   footer();
 }

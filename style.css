@@ -3150,7 +3150,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .descover {
   width: 100%;
   height: calc(64.5rem + 30 * (100vw - 120rem) / 60);
-  display: grid;
+  /* display: grid; */
+  display: none;
   position: relative;
   margin-top: -0.063rem;
 }
@@ -5223,7 +5224,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .sappo-security-service-text {
-    font-size: 10.625rem;
+    font-size: calc(10.625rem + 10 * (100vw - 64rem) / 60);
   }
 
   .footer-menu-container {
@@ -5553,7 +5554,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .heading {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .card-title-hover {
@@ -5591,7 +5592,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .our-team-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .our-team-subtitle {
@@ -5609,7 +5610,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .our-serives-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .testimonials-title {
@@ -5651,7 +5652,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .other-services {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .current-openings-content {
@@ -5683,11 +5684,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .career-single-heading,
   .our-benefits-title,
   .interested-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .secureity-hero h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .benefits-icons-inner {
@@ -5797,11 +5798,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .gallery-text {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .sappo-security-service-text {
-    font-size: 6.563rem;
     margin-left: unset;
     padding-inline: var(--paddingLeftAndRigth);
     max-width: 33.125rem;
@@ -5823,7 +5823,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .our-trusted-partners-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .partners-card-inner {
@@ -5837,11 +5837,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .faq-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .contact-us-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .contact-us-subtitle {
@@ -5899,7 +5899,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .our-trusted-partners-title,
   .gallery-text,
   .single-our-service-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .partners-card-inner,
@@ -5974,10 +5974,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 @media (max-width: 520px) {
 
+  .hero-heading-text-inner>.heading {
+    width: 100%;
+  }
+
   .heading,
   .faq-title,
   .contact-us-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .contact-us-title {
@@ -6017,7 +6021,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .sappo-security-service-text {
-    font-size: 6.938rem;
     margin-left: 0;
     margin-top: 0;
     padding: 0 var(--paddingLeftAndRigth);

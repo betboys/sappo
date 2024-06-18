@@ -30,6 +30,8 @@ $(document).ready(function ($) {
     label1.innerHTML = "Համաձայն եմ";
     sumbitInput.value = "Ուղարկել";
     input1.placeholder = "Անուն Ազգանուն";
+    input2.placeholder = "Էլեկտրոնային Հասցե";
+    input3.placeholder = "Ձեր Հաղորդագրությունը . . . ";
   }
 });
 /* language select */

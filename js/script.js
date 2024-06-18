@@ -39,6 +39,7 @@ function Translate() {
       let fontSemiBold = "Noto Sans SemiBold";
       let fontBold = "Noto Sans Bold";
       // all class`s
+      let body = document.querySelector("body");
       let menuLink = document.querySelectorAll(".menu-link");
       let dropdownMenuItemTitle = document.querySelectorAll(".dropdown-menu-item-title");
       let dropdownMenuItemList = document.querySelectorAll(".dropdown-menu-item-list");

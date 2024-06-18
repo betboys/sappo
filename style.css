@@ -3332,6 +3332,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .left-and-right-subtitle>ul>li {
   margin-left: 1.25rem;
+  list-style: disc;
 }
 
 .left-and-right:nth-child(odd) {
@@ -3441,7 +3442,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .single-hero-heading-text-inner {
   width: 100%;
-  max-width: 1209.5rem;
+  max-width: 120.5rem;
   padding-inline: var(--paddingLeftAndRigth);
   margin-bottom: var(--paddingLeftAndRigth);
   position: relative;

@@ -12,6 +12,9 @@ $(document).ready(function ($) {
   let formName2 = document.querySelector(".form-name2");
   let formName3 = document.querySelector(".form-name3");
   let label1 = document.querySelector(".label1");
+  let input1 = document.querySelector(".input1");
+  let input2 = document.querySelector(".input2");
+  let input3 = document.querySelector(".input3");
   let sumbitInput = document.querySelector(".wpcf7-submit");
   var lang = $('html').attr('lang');
   if (lang === 'hy-AM') {
@@ -26,6 +29,7 @@ $(document).ready(function ($) {
     formName3.innerHTML = "նամակ";
     label1.innerHTML = "Համաձայն եմ";
     sumbitInput.value = "Ուղարկել";
+    input1.placeholder = "Անուն Ազգանուն";
   }
 });
 /* language select */

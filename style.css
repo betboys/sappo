@@ -3646,7 +3646,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   width: 100%;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
   background: #fff;
-  display: flex;
+  /* display: flex; */
+  display: none;
   align-items: center;
   justify-content: space-between;
 }

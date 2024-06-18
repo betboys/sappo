@@ -4365,7 +4365,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .hero-heading-text-inner {
-    width: calc(66rem + 35 * (100vw - 90rem) / 60);
+    max-width: calc(66rem + 35 * (100vw - 90rem) / 60);
     margin-bottom: unset;
     margin-top: 10rem;
   }
@@ -5100,7 +5100,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .hero-heading-text-inner {
-    width: calc(53rem + 19 * (100vw - 64rem) / 60);
+    max-width: calc(53rem + 19 * (100vw - 64rem) / 60);
     margin-top: 11.75rem;
     margin-left: unset;
     padding-inline: var(--paddingLeftAndRigth);

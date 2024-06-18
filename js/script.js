@@ -38,20 +38,16 @@ function Translate() {
       let fontMedium = "Noto Sans Medium";
       let fontSemiBold = "Noto Sans SemiBold";
       let fontBold = "Noto Sans Bold";
-      // all class`s
-      let body = document.querySelector("body");
-      let menuLink = document.querySelectorAll(".menu-link");
-      let dropdownMenuItemTitle = document.querySelectorAll(".dropdown-menu-item-title");
-      let dropdownMenuItemList = document.querySelectorAll(".dropdown-menu-item-list-intro");
-      let dropdownMenuItemDesc = document.querySelectorAll(".dropdown-menu-item-desc");
       // all elements fonts change
-      body.style.fontFamily = fontRegular;
-      for (let i = 0; i < dropdownMenuItemList.length; i++) {
-        menuLink[i].style.fontFamily = fontMedium;
-        dropdownMenuItemTitle[i].style.fontFamily = fontSemiBold;
-        dropdownMenuItemList[i].style.fontFamily = fontRegular;
-        dropdownMenuItemDesc[i].style.fontFamily = fontRegular;
-      }
+      $("body").css("font-family", fontRegular);
+      $(".menu-link").css("font-family", fontMedium);
+      $(".dropdown-menu-item-title").css("font-family", fontSemiBold);
+      $(".dropdown-menu-item-list-intro").css("font-family", fontRegular);
+      $(".dropdown-menu-item-desc").css("font-family", fontRegular);
+
+
+
+
 
 
 

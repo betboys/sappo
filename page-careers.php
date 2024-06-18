@@ -55,7 +55,7 @@
                 $card_title = get_field('card_title');
                 $card_image = get_field('card_image', get_the_ID());
                 $card_description = get_field('card_description');
-                $cats = get_the_terms(get_the_ID(), 'career_category');
+                $cats =  wp_get_post_terms(get_the_ID(), 'career_category');
                 ?>
                 <article class="category-item" data-cat="<?php if ($cats && !is_wp_error($cats)) {
                     foreach ($cats as $cat) {

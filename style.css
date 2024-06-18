@@ -3835,6 +3835,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   width: 39.688vw;
 }
 
+.chosse-file {
+  width: 100%;
+}
+
 .chosse-file>p {
   width: 100%;
   display: flex;

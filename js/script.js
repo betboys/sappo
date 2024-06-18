@@ -751,6 +751,31 @@ if (document.getElementById("career-single")) {
       }
     })
   }
+  $(document).ready(function ($) {
+    let formName1 = document.querySelector(".form-name1");
+    let formName2 = document.querySelector(".form-name2");
+    let formName3 = document.querySelector(".form-name3");
+    let formName4 = document.querySelector(".form-name4");
+    let input1 = document.querySelector(".input1");
+    let input2 = document.querySelector(".input2");
+    let input3 = document.querySelector(".input3");
+    let fileText = document.querySelector(".file-text");
+    let label1 = document.querySelector(".label1");
+    let sumbitInput = document.querySelector(".wpcf7-submit");
+    var lang = $('html').attr('lang');
+    if (lang === 'hy-AM') {
+      formName1.innerHTML = "Անուն ազգանուն";
+      formName2.innerHTML = "պաշտոն";
+      formName3.innerHTML = "էլեկտռոնայի հասցե";
+      formName4.innerHTML = "հեռախոսահամար";
+      input1.placeholder = "Անուն ազգանուն";
+      input2.placeholder = "Պահնորդ";
+      input3.placeholder = "էլեկտրոնային հասցե";
+      fileText.innerHTML = "Կցեք Ձեր ինքնակենսագրականը (CV)";
+      label1.innerHTML = "Համաձայն եմ";
+      sumbitInput.value = "Դիմել հիմա";
+    }
+  });
   // footer
   footer();
 }

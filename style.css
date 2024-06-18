@@ -2925,7 +2925,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .strength-reliability-text-inner {
-  width: 43.4;
+  width: 43.4vw;
   padding-right: var(--paddingLeftAndRigth);
 }
 

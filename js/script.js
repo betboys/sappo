@@ -44,7 +44,6 @@ function Translate() {
       $(".dropdown-menu-item-title").css("font-family", fontSemiBold);
       $(".dropdown-menu-item-list-intro").css("font-family", fontRegular);
       $(".dropdown-menu-item-desc").css("font-family", fontRegular);
-
       $(".subtitle").css("font-family", fontRegular);
       $(".link-style").css("font-family", fontMedium);
       $(".card-info-inner p").css("font-family", fontMedium);
@@ -54,29 +53,31 @@ function Translate() {
       $(".faq-subtitle").css("font-family", fontRegular);
       $(".faq-text-hiiden").css("font-family", fontRegular);
       $(".contact-us-subtitle").css("font-family", fontRegular);
-      $(".socal-media-title").css("font-family", fontBold );
+      $(".socal-media-title").css("font-family", fontBold);
       $(".socal-media-subtitle3").css("font-family", fontRegular);
       $(".input").css("font-family", fontRegular);
       $(".send-button input").css("font-family", fontRegular);
       $(".footer-menu-inner .widget_nav_menu ul a").css("font-family", fontRegular);
       $(".site-info").css("font-family", fontRegular);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      $(". about-our-serives-card-subtitle").css("font-family", fontRegular);
+      $(".about-card-link").css("font-family", fontMedium);
+      $(".our-team-subtitle").css("font-family", fontRegular);
+      $(".position").css("font-family", fontRegular);
+      $(".list-group-item").css("font-family", fontRegular);
+      $(".category-hashtag").css("font-family", fontRegular);
+      $(".location-time-list").css("font-family", fontRegular);
+      $(".category-item-link").css("font-family", fontMedium);
+      $(".se-suttitle").css("font-family", fontRegular);
+      $(".location-time-single").css("font-family", fontRegular);
+      $(".title-subtitle-intro>p").css("font-family", fontRegular);
+      $(".title-subtitle-intro>ul>li").css("font-family", fontRegular);
+      $(".interested-subtitle").css("font-family", fontRegular);
+      $(".file-text").css("font-family", fontRegular);
+      $(".incidents-form-button input").css("font-family", fontRegular);
+      $(".single-content-right-title").css("font-family", fontRegular);
+      $(".left-and-right-subtitle").css("font-family", fontRegular);
+      $(".wcsss-right").css("font-family", fontRegular);
+      $(".item-content").css("font-family", fontRegular);
       socalMediaTitle1.innerHTML = "Электронная почта";
       socalMediaTitle2.innerHTML = "Номер телефона";
       socalMediaTitle3.innerHTML = "Адрес";

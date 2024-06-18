@@ -48,9 +48,9 @@
 					</svg>
 					<div class="socal-media-title-inner">
 						<p class="socal-media-title socal-media-title3">Office</p>
-						<p class="socal-media-subtitle"><?= the_field('office_location', 'option'); ?></p>
+						<p class="socal-media-subtitle"><?= the_field('office_location_title', 'option'); ?></p>
 						<a class="socal-media-link"
-							href="https://www.google.com/maps/search/<?= the_field('office_location', 'option'); ?>">
+							href="<?= the_field('office_location_map', 'option'); ?>" target="_blank">
 							<span class="socal-media-subtitle3">Get Directions</span>
 							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26"
 								fill="none">

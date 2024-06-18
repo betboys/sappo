@@ -1802,7 +1802,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .card-title {
   writing-mode: vertical-rl;
   /* height: calc(800px + 29.2 * (100vw - 1920px) / 60); */
-  font: 400 calc(6.875rem + 2.2 * (100vw - 120rem) / 60) / 92% "Bebas Neue";
+  font: 400 calc(6rem + 2.2 * (100vw - 120rem) / 60) / 92% "Bebas Neue";
   color: #fff;
   transform-origin: center;
   transform: rotate(180deg);

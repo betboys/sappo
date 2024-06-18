@@ -31,6 +31,7 @@ function Translate() {
       input1.placeholder = "Անուն Ազգանուն";
       input2.placeholder = "Էլեկտրոնային Հասցե";
       input3.placeholder = "Ձեր Հաղորդագրությունը . . . ";
+      $(".other-services").text("այլ ծառայություններ");
     }
     if (lang === 'ru-RU') {
       // fonts

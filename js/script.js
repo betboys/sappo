@@ -42,7 +42,7 @@ function Translate() {
       let body = document.querySelector("body");
       let menuLink = document.querySelectorAll(".menu-link");
       let dropdownMenuItemTitle = document.querySelectorAll(".dropdown-menu-item-title");
-      let dropdownMenuItemList = document.querySelectorAll(".dropdown-menu-item-list");
+      let dropdownMenuItemList = document.querySelectorAll(".dropdown-menu-item-list-intro");
       let dropdownMenuItemDesc = document.querySelectorAll(".dropdown-menu-item-desc");
       // all elements fonts change
       body.style.fontFamily = fontRegular;

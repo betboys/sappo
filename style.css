@@ -6061,9 +6061,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 @media (max-width: 690px) {
-  .gallery-container {
-    margin-top: var(--paddingTopAndBottom);
-  }
 
   #paginated-list {
     margin-top: 1.375rem;

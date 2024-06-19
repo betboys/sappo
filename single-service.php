@@ -107,7 +107,10 @@ if ($feture_sec == 'yes'): ?>
     </section>
 <?php endif; ?>
 <section class="other-services-wraper">
-    <h3 class="other-services" data-aos="fade-up"><span class="other-services1">Other</spanspan> <span class="other-services2" style="color: #fac917;">services</span></h3>
+    <h3 class="other-services" data-aos="fade-up">
+        <span class="other-services1">Other</span>
+        <span class="other-services2" style="color: #fac917;">services</span>
+    </h3>
     <div class="our-service-cards">
         <div class="cards-wrapper">
             <?php $current_post_id = get_the_ID();
@@ -133,7 +136,7 @@ if ($feture_sec == 'yes'): ?>
                         <img class="card-image" src="<?php echo $card_image['url']; ?>" alt="">
                         <p class="card-title"><?= $card_title ?></p>
                         <div class="card-hover-visitble">
-                        <a class="card-title-hover" href="<?php the_permalink(); ?>"></a>
+                            <a class="card-title-hover" href="<?php the_permalink(); ?>"></a>
                             <div class="card-info-inner">
                                 <?= $card_description ?>
 

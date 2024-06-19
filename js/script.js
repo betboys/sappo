@@ -625,6 +625,13 @@ if (document.getElementById("single")) {
   if (windowWidth <= 744) {
     ourTrustedPartners.appendChild(swiperButtons);
   }
+  $(document).ready(function ($) {
+    var lang = $('html').attr('lang');
+    if (lang === 'hy-AM') {
+      $(".other-services").text("այլ");
+      $(".other-services span").text("ծառայություններ");
+    }
+  })
   partners();
   // form
   form();

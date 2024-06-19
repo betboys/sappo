@@ -4269,6 +4269,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 40.625rem;
   }
 
+  .postid-340 .card-title {
+    height: 500px;
+  }
+
   .page-id-293 .card-title {
     height: calc(560px + 0*(100vw - 1728px) / 60);
   }
@@ -5609,6 +5613,16 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .postid-340 .card-title-hover {
+    width: 300px;
+  }
+
+  .postid-340 .card:nth-child(2) .card-title-hover,
+  .postid-340 .card:nth-child(3) .card-title-hover,
+  .postid-340 .card:nth-child(4) .card-title-hover {
+    top: 11.1rem;
   }
 
   .page-id-293 .card-title-hover {

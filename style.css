@@ -1188,9 +1188,9 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 @font-face {
   font-display: swap;
   font-family: "Noto Sans Armenian Medium";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Medium.ttf) format("ttf"),
-    url("fonts/Noto-Sans/NotoSans-Medium.woff") format("woff"),
-    url("fonts/Noto-Sans/NotoSans-Medium.woff2") format("woff2");
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Medium.ttf),
+    url("fonts/Noto-Sans/NotoSans-Medium.woff"),
+    url("fonts/Noto-Sans/NotoSans-Medium.woff2");
 }
 
 @font-face {

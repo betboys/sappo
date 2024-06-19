@@ -1860,6 +1860,18 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transition: 0.5s;
 }
 
+.page-id-288 .card:nth-child(3) .card-title {
+  height: calc(800px + 0 * (100vw - 1920px) / 60);
+}
+
+.page-id-288 .card:nth-child(4) .card-title {
+  height: calc(800px + 0 * (100vw - 1920px) / 60);
+}
+
+.page-id-288 .card:nth-child(5) .card-title {
+  height: calc(800px + 0 * (100vw - 1920px) / 60);
+}
+
 .card-hover-visitble {
   width: 34.583vw;
   position: absolute;

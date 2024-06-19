@@ -1397,7 +1397,7 @@ body.no-scroll {
 }
 
 .dropdown-menu-item-title {
-  font: 600 1.125rem  / 150% "Noto Sans Armenian SemiBold";
+  font: 600 1.125rem / 150% "Noto Sans Armenian SemiBold";
   text-transform: uppercase;
   color: #fff;
   display: -webkit-box;
@@ -4196,31 +4196,35 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 /* responsive */
-@media (max-width: 1728px) {
-  .our-team-title-subtitle {
-    max-width: 40.625rem;
-  }
-
-  .menu-link {
-    font-size: 1.125rem;
-  }
-}
-
-@media (max-width: 1600px) {
+@media (max-width: 1730px) {
   .dropdown-menu-inner {
-    padding: 3.75rem 7.449vw 3.75rem 7.449vw;
+    padding: 3.881rem calc(5.449vw + 14* (100vw - 1730px) / 60) 5.313rem calc(5.449vw + 14* (100vw - 1730px) / 60);
   }
 
   .dropdown-menu-item:nth-child(1),
   .dropdown-menu-item:nth-child(2) {
-    width: 33.875vw;
+    width: calc(35.875vw + -13 * (100vw - 1730px) / 60);
   }
 
   .dropdown-menu-item:nth-child(3),
   .dropdown-menu-item:nth-child(4),
   .dropdown-menu-item:nth-child(5) {
-    width: 21.677vw;
+    width: calc(23vw + -9 * (100vw - 1730px) / 60);
   }
+}
+
+@media (max-width: 1728px) {
+  .our-team-title-subtitle {
+    max-width: 40.625rem;
+  }
+
+  .menu-link,
+  .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 1600px) {
 
   .text-wrapper-list {
     font-size: 11.908rem;
@@ -4232,20 +4236,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 @media (max-width: 1500px) {
-  .dropdown-menu-inner {
-    padding: 3.75rem 5.449vw 3.75rem 5.449vw;
-  }
-
-  .dropdown-menu-item:nth-child(1),
-  .dropdown-menu-item:nth-child(2) {
-    width: 35.875vw;
-  }
-
-  .dropdown-menu-item:nth-child(3),
-  .dropdown-menu-item:nth-child(4),
-  .dropdown-menu-item:nth-child(5) {
-    width: 23.2vw;
-  }
 
   .logo-icon {
     width: 7.188rem;

@@ -4222,6 +4222,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 49.375rem;
   }
 
+  .our-serives-title,
+  .our-team-title {
+    font-size: 5rem;
+  }
+
   .gallery-text,
   .our-trusted-partners-title,
   .faq-title,

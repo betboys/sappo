@@ -1860,6 +1860,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transition: 0.5s;
 }
 
+.postid-39 .card-title {
+  height: calc(740px + 29.2 * (100vw - 1920px) / 60);
+}
+
 .postid-342 .card-title {
   height: calc(700px + 29.2*(100vw - 1920px) / 60);
 }
@@ -4293,6 +4297,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 40.625rem;
   }
 
+  .postid-39 .card-title {
+    height: 590px;
+  }
+
   .postid-425 .card-title {
     height: 600px;
   }
@@ -5256,6 +5264,12 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 @media (max-width: 1024px) {
+  
+  .postid-39 .card:nth-child(1) .card-hover-visitble,
+  .postid-39 .card:nth-child(2) .card-hover-visitble,
+  .postid-39 .card:nth-child(4) .card-hover-visitble {
+    top: calc(9.3rem + -9.2 * (100vw - 64rem) / 60);
+  }
 
   .postid-85 .card:nth-child(4) .card-hover-visitble {
     top: calc(9.3rem + -8.1 * (100vw - 64rem) / 60);

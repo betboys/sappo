@@ -1179,22 +1179,26 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 @font-face {
   font-family: "Noto Sans Armenian Regular";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Regular.ttf);
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Regular.ttf) format("ttf"),
+    url("fonts/Noto-Sans/NotoSans-Regular.woff") format("woff"),
+    url("fonts/Noto-Sans/NotoSans-Regular.woff2") format("woff");
 }
 
 @font-face {
   font-family: "Noto Sans Armenian Medium";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Medium.ttf);
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Medium.ttf) format("ttf"),
+    url("fonts/Noto-Sans/NotoSans-Medium.woff") format("woff"),
+    url("fonts/Noto-Sans/NotoSans-Medium.woff2") format("woff");
 }
 
 @font-face {
   font-family: "Noto Sans Armenian SemiBold";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-SemiBold.ttf);
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-SemiBold.ttf) format("ttf");
 }
 
 @font-face {
   font-family: "Noto Sans Armenian Bold";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Bold.ttf);
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Bold.ttf) format("ttf");
 }
 
 /* Standart Noto Sans font */
@@ -5716,7 +5720,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .single-hero-heading-text-inner {
     margin-top: 5.313rem;
     padding-block: 0;
-}
+  }
 
   .postid-340,
   .postid-340 .single-hero-img {

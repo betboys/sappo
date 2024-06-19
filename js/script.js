@@ -617,6 +617,9 @@ if (document.getElementById("about")) {
     if (lang === 'hy-AM') {
       $(".about-card-link").text("Իմանալ ավելին");
     }
+    if (lang === 'ru-RU') {
+      $(".about-card-link").text("Узнать больше");
+    }
   })
   partners();
   // form

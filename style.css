@@ -3429,7 +3429,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .item-icon-text {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.75rem;
 }
 

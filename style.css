@@ -1389,7 +1389,7 @@ body.no-scroll {
 }
 
 .dropdown-menu-inner {
-  padding: 3.881rem 7.449vw 5.313rem 7.449vw;
+  padding: 5.313rem 7.449vw 5.313rem 7.449vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

@@ -19,6 +19,21 @@ function Translate() {
       $(".input3").attr("placeholder", "Ձեր Հաղորդագրությունը . . . ");
       $(".wpcf7-submit").attr("value", "Ուղարկել");
     }
+    if (lang === 'hy-AM') {
+      $(".socal-media-title1").text("Электронная почта");
+      $(".socal-media-subtitle1").text("Отправиты письмо");
+      $(".socal-media-title2").text("Номер телефона");
+      $(".socal-media-subtitle2").text("Позвоните нам");
+      $(".socal-media-title3").text("Адрес");
+      $(".socal-media-subtitle3").text("Направление");
+      $(".form-name1").text("Имя Фамилия");
+      $(".input1").attr("placeholder", "Имя Фамилия");
+      $(".form-name2").text("Электронная почта");
+      $(".input2").attr("placeholder", "Электронная почта");
+      $(".form-name3").text("письмо");
+      $(".input3").attr("placeholder", "Ваше сообщение. . .");
+      $(".wpcf7-submit").attr("value", "Отправить");
+    }
   });
 }
 /* language select */

@@ -4411,6 +4411,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: unset;
   }
 
+  .hero-subtitle-single {
+    max-width: 39.688rem;
+  }
+
   .page-hero {
     align-items: center;
   }

@@ -5746,7 +5746,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .hero-heading-text-inner {
     margin-left: unset;
     padding-inline: var(--paddingLeftAndRigth);
-    margin-bottom: 3.727rem;
   }
 
   .hero-heading-text-inner>.heading {
@@ -6356,14 +6355,5 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-  }
-}
-
-@media (max-width: 380px) {
-
-  .heading,
-  .faq-title,
-  .contact-us-title {
-    font-size: 4.375rem;
   }
 }

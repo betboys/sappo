@@ -3107,7 +3107,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .about-card-link {
-  width: 11.25rem;
+  width: max-content;
+  padding: 0 44px;
   height: 3.25rem;
   margin-top: 1.5rem;
   border-left: 0.125rem solid #fff;

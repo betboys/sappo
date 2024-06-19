@@ -597,6 +597,12 @@ if (document.getElementById("about")) {
       swiperContainer[i].appendChild(nextPrevButtons[i]);
     }
   }
+  $(document).ready(function ($) {
+    var lang = $('html').attr('lang');
+    if (lang === 'hy-AM') {
+      $(".about-card-link").text("Իմանալ ավելին");
+    }
+  })
   partners();
   // form
   form();

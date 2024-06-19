@@ -1622,7 +1622,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   height: 100vh;
   overflow: hidden;
   display: grid;
-  align-items: end;
+  align-items: center;
 }
 
 .hero-image-inner {
@@ -1647,7 +1647,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   width: 100%;
   max-width: calc(77.25rem + 31 * (100vw - 120rem) / 60);
   margin-left: var(--paddingLeftAndRigth);
-  margin-bottom: var(--paddingTopAndBottom);
+  margin-top: 6.875rem;
   position: relative;
 }
 
@@ -1668,7 +1668,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .subtitle {
-  font: 400 1.25rem / 158% "Noto Sans Armenian Regular";
+  font: 400 1.25rem / 173% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -4247,6 +4247,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .headingN2  {
     font-size: 2.938rem;
   }
+
+  .left-intro {
+    width: 30.719vw;
+}
 }
 
 @media (max-width: 1600px) {

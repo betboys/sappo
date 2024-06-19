@@ -4218,6 +4218,13 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 40.625rem;
   }
 
+  .gallery-text,
+  .our-trusted-partners-title,
+  .faq-title,
+  .contact-us-title {
+    font-size: 5rem;
+  }
+
   .card-title {
     font-size: 4.375rem;
   }

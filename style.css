@@ -4409,10 +4409,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: 2.188rem;
   }
 
-  .about-our-serives-card-title {
-    font-size: calc(2.75rem + 1 * (100vw - 90rem) / 60);
-  }
-
   .about-card-link {
     font-size: 1.125rem;
   }

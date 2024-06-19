@@ -682,6 +682,7 @@ if (document.getElementById("carrer")) {
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'hy-AM') {
+      $(".list-group-item:first-child").text("Բոլորը");
       $(".category-item-link").text("Դիմել հիմա");
     }
   });

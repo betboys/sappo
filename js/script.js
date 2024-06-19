@@ -531,6 +531,8 @@ if (document.getElementById("contact")) {
   headerSubmenu();
   // form
   form();
+  // Translate
+  Translate();
   // footer
   footer();
 }

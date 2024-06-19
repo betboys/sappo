@@ -628,8 +628,8 @@ if (document.getElementById("single")) {
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'hy-AM') {
-      $(".other-services").text("այլ");
-      $(".other-services span").text("ծառայություններ");
+      $(".other-services1").text("այլ");
+      $(".other-services2").text("ծառայություններ");
     }
   })
   partners();

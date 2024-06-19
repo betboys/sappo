@@ -3164,9 +3164,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   font: 400 1.563rem / 150% "Bebas Neue";
   text-align: center;
   color: #fff;
+  letter-spacing: 0.063rem;
 }
 
 .position {
+  width: 95%;
   font: 400 1.063rem / 158% "Noto Sans Armenian Regular";
   text-align: center;
   color: #fff;

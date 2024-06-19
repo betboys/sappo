@@ -4241,6 +4241,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 40.625rem;
   }
 
+  .item-icon {
+    margin-top: 5px;
+  }
+
   .item-title {
     font-size: 1.875rem;
   }

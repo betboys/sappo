@@ -1,4 +1,25 @@
 var $ = jQuery;
+ $(document).ready(function () {
+   $.get(
+    "https://ipinfo.io",
+    function (response) {
+      var ip_country = response.country;
+      localStorage.setItem("ipcountry", ip_country);
+      ip_country = localStorage.getItem("ipcountry");
+    console.log(ip_country);
+		 if (ip_country == "AM" ) {
+			
+			  switchLanguage('hy');
+				   } else {
+				    switchLanguage('en');
+				   }
+		function switchLanguage(languageCode) {
+ console.log(ip_country);
+}
+    },
+    "jsonp"
+  );  
+ });
 // $(document).ready(function () {
 // $(".send-btn-form-cust").click(function (e) {
 //   e.preventDefault();

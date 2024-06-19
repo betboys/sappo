@@ -6318,13 +6318,16 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .postid-340 .card:nth-child(2) .card-hover-visitble,
-  .postid-340 .card:nth-child(3) .card-hover-visitble,
+  .postid-340 .card:nth-child(3) .card-hover-visitble {
+    top: 6.7rem;
+  }
+
   .postid-340 .card:nth-child(4) .card-hover-visitble {
     top: 4.3rem;
   }
 
   .postid-340 .card-title-hover {
-    width: 260px;
+    width: 265px;
   }
 
   .card-list {

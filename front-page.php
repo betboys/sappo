@@ -21,7 +21,7 @@
 		<p class="subtitle rigth-intro-subtitle"><?= the_field('right_text'); ?></p>
 		<?php if (get_field('right_link')): ?>
 
-			<a class="rigth-intro-link" href="<?= get_field('right_link')['url']; ?>">
+			<!-- <a class="rigth-intro-link" href="<?= get_field('right_link')['url']; ?>">
 				<?= get_field('right_link')['title']; ?>
 				<span class="line-icon">
 					<svg class="line-icon-svg" xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 14 8"
@@ -31,7 +31,7 @@
 							fill="white" />
 					</svg>
 				</span>
-			</a>
+			</a> -->
 		<?php endif; ?>
 
 	</article>

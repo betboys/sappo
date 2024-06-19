@@ -5627,6 +5627,16 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     --paddingTopAndBottom: 3.75rem;
   }
 
+  .postid-85 .card-title-hover {
+    width: 426px;
+  }
+
+  .postid-85 .card:nth-child(1) .card-hover-visitble,
+  .postid-85 .card:nth-child(3) .card-hover-visitble,
+  .postid-85 .card:nth-child(4) .card-hover-visitble {
+    top: 11rem;
+  }
+
   .postid-340 .card-title-hover {
     width: 300px;
   }

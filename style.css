@@ -1178,31 +1178,34 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Noto Sans Armenian Regular";
-  /* src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Regular.ttf) format("ttf"), */
-  src: url(fonts/Noto-Sans/NotoSans-Regular.woff) format("woff"),
-    url(fonts/Noto-Sans/NotoSans-Regular.woff2) format("woff2");
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Regular.ttf);
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Noto Sans Armenian Medium";
-  /* src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Medium.ttf) format("ttf"), */
-  src: url(fonts/Noto-Sans/NotoSans-Medium.woff) format("woff"),
-    url(fonts/Noto-Sans/NotoSans-Medium.woff2) format("woff2");
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Noto Sans Armenian Medium";
+  src: url(fonts/Noto-Sans/NotoSans-Medium.woff);
+}
+
+@font-face {
+  font-family: "Noto Sans Armenian Medium";
+  src: url(fonts/Noto-Sans/NotoSans-Medium.woff2);
 }
 
 @font-face {
   font-display: swap;
   font-family: "Noto Sans Armenian SemiBold";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-SemiBold.ttf) format("ttf");
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-SemiBold.ttf);
 }
 
 @font-face {
-  font-display: swap;
   font-family: "Noto Sans Armenian Bold";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Bold.ttf) format("ttf");
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Bold.ttf);
 }
 
 /* Standart Noto Sans font */

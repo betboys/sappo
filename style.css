@@ -4260,11 +4260,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .page-id-288 .card:nth-child(3) .card-title {
     height: calc(500px + 0 * (100vw - 1728px) / 60);
   }
-  
+
   .page-id-288 .card:nth-child(4) .card-title {
     height: calc(500px + 0 * (100vw - 1728px) / 60);
   }
-  
+
   .page-id-288 .card:nth-child(5) .card-title {
     height: calc(500px + 0 * (100vw - 1728px) / 60);
   }
@@ -5615,6 +5615,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     --paddingTopAndBottom: 3.75rem;
   }
 
+  .page-id-288 .card:nth-child(5) .card-title-hover {
+    width: calc(320px + 0 * (100vw - 767px) / 60);
+  }
+
   .about-our-serives-card-item:nth-child(1) .card-item-info {
     bottom: -4.5rem;
   }
@@ -5780,10 +5784,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .card-hover-visitble {
     top: 14.1rem;
-  }
-
-  .home-cards-wrapper>.card:last-child>.card-hover-visitble {
-    top: 11.1rem;
   }
 
   .menu-link {
@@ -6295,10 +6295,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     top: 4.4rem;
   }
 
-  .home-cards-wrapper>.card:last-child>.card-hover-visitble {
-    top: 4.4rem;
-  }
-
   .postid-339 .card:nth-child(4)>.card-hover-visitble,
   .postid-338 .card:nth-child(4)>.card-hover-visitble,
   .postid-341 .card:nth-child(3)>.card-hover-visitble,
@@ -6333,10 +6329,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .card {
     height: 9.438;
-  }
-
-  .card-hover-visitble {
-    top: 6.1rem;
   }
 
   .card.height {

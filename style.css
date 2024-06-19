@@ -1860,6 +1860,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transition: 0.5s;
 }
 
+.postid-340 .card-title {
+  height: calc(700px + 29.2 * (100vw - 1920px) / 60);
+}
+
 .page-id-293 .card-title {
   height: calc(720px + 24 * (100vw - 1920px) / 60);
 }

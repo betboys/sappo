@@ -655,6 +655,10 @@ if (document.getElementById("single")) {
       $(".other-services1").text("այլ");
       $(".other-services2").text("ծառայություններ");
     }
+    if (lang === 'ru-RU') {
+      $(".other-services1").text("другие");
+      $(".other-services2").text("услуги");
+    }
   })
   partners();
   // form

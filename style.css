@@ -4242,6 +4242,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .contact-us-subtitle {
     font-size: 1.125rem;
   }
+
+
+  .headingN2  {
+    font-size: 2.938rem;
+  }
 }
 
 @media (max-width: 1600px) {

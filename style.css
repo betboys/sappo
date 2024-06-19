@@ -4988,6 +4988,17 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     display: flex;
   }
 
+  .redefining-security {
+    flex-direction: column;
+    gap: 0.625rem;
+    align-items: start;
+  }
+
+  .left-intro,
+  .rigth-intro {
+    width: 90%;
+  }
+
   .hero-image-inner,
   .page-hero,
   .carrer-hero-img,

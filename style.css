@@ -4786,6 +4786,19 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 @media (max-width: 1320px) {
+
+  .dropdown-menu-item:nth-child(3)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title,
+  .dropdown-menu-item:nth-child(4)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title,
+  .dropdown-menu-item:nth-child(5)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title {
+    width: 100%;
+    max-width: 18rem;
+  }
+
+  .dropdown-menu-item-desc {
+    width: 100%;
+    max-width: 14rem;
+  }
+
   .header {
     grid-template-areas: "logo burger"
       "navigation navigation";

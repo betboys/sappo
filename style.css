@@ -4218,6 +4218,20 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 40.625rem;
   }
 
+  .card-title {
+    font-size: 4.375rem;
+  }
+
+  .card-title-hover {
+    font-size: 3.75rem;
+  }
+
+  .card-info-inner ul li,
+  .card-list,
+  .card-info-inner p {
+    font-size: 1rem;
+  }
+
   .menu-link,
   .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
     font-size: 1.125rem;

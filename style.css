@@ -4244,13 +4244,13 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
 
-  .headingN2  {
+  .headingN2 {
     font-size: 2.938rem;
   }
 
   .left-intro {
     width: 30.719vw;
-}
+  }
 }
 
 @media (max-width: 1600px) {
@@ -4290,9 +4290,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 @media (max-width: 1440px) {
-  .heading {
-    font-size: calc(8rem + 4.33735 * (100vw - 90rem) / 60);
-  }
 
   .carrer-hero-heading-text-inner {
     padding: 0 var(--paddingLeftAndRigth);
@@ -4376,14 +4373,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .about-hero-heading-text-inner {
     margin-top: 0;
-  }
-
-  .hero-image-inner,
-  .page-hero,
-  .carrer-hero-img,
-  .about-hero-img,
-  .single-hero-img {
-    height: 47rem;
   }
 
   .hero-subtitle {
@@ -4980,6 +4969,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     display: flex;
   }
 
+  .hero-image-inner,
+  .page-hero,
+  .carrer-hero-img,
+  .about-hero-img,
+  .single-hero-img {
+    height: -webkit-fill-available;
+  }
+
   .carrer-hero-heading-text-inner {
     margin-top: 11.75rem;
   }
@@ -5174,6 +5171,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 11.75rem;
     margin-left: unset;
     padding-inline: var(--paddingLeftAndRigth);
+    padding-bottom: 6.438rem;
   }
 
   .menu-link,

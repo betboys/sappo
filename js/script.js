@@ -679,6 +679,12 @@ if (document.getElementById("carrer")) {
     let seSuttitle = document.querySelector(".se-suttitle");
     carrerSe.appendChild(seSuttitle);
   }
+  $(document).ready(function ($) {
+    var lang = $('html').attr('lang');
+    if (lang === 'hy-AM') {
+      $(".category-item-link").text("Դիմել հիմա");
+    }
+  });
   // form
   form();
   // Translate
@@ -749,7 +755,6 @@ if (document.getElementById("career-single")) {
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'hy-AM') {
-      $(".category-item-link").text("Դիմել հիմա");
       $(".form-name1").text("Անուն Ազգանուն");
       $(".input1").attr("placeholder", "Անուն Ազգանուն");
       $(".form-name2").text("պաշտոն");

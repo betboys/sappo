@@ -3636,8 +3636,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .category-item-link {
-  width: 11.25rem;
+  width: max-content;
   height: 3.25rem;
+  padding: 0 59px;
   margin-top: 1.5rem;
   margin-inline-start: auto;
   display: flex;

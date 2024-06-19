@@ -4746,11 +4746,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .single-content-left {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .single-content-right {
-    width: 100%;
+    width: 80%;
   }
 
   .left-and-right:nth-child(even)>.left-and-right-text-inner {

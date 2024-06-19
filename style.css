@@ -1397,7 +1397,7 @@ body.no-scroll {
 }
 
 .dropdown-menu-item-title {
-  font: 600 1.375rem / 150% "Noto Sans Armenian SemiBold";
+  font: 600 1.125rem  / 150% "Noto Sans Armenian SemiBold";
   text-transform: uppercase;
   color: #fff;
   display: -webkit-box;

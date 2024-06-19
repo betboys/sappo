@@ -6185,6 +6185,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     width: 100%;
   }
 
+  .page-id-37 .card:nth-child(4) .card-hover-visitble {
+    top: 6.4rem;
+  }
+
   .faq-subtitle,
   .contact-us-subtitle {
     font-size: 1rem;

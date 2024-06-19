@@ -3,95 +3,21 @@ const windowWidth = window.innerWidth;
 /* Translate Language */
 function Translate() {
   $(document).ready(function ($) {
-    let socalMediaTitle1 = document.querySelector(".socal-media-title1");
-    let socalMediaTitle2 = document.querySelector(".socal-media-title2");
-    let socalMediaTitle3 = document.querySelector(".socal-media-title3");
-    let socalMediaSubTitle1 = document.querySelector(".socal-media-subtitle1");
-    let socalMediaSubTitle2 = document.querySelector(".socal-media-subtitle2");
-    let socalMediaSubTitle3 = document.querySelector(".socal-media-subtitle3");
-    let formName1 = document.querySelector(".form-name1");
-    let formName2 = document.querySelector(".form-name2");
-    let formName3 = document.querySelector(".form-name3");
-    let input1 = document.querySelector(".input1");
-    let input2 = document.querySelector(".input2");
-    let input3 = document.querySelector(".input3");
-    let sumbitInput = document.querySelector(".wpcf7-submit");
     var lang = $('html').attr('lang');
     if (lang === 'hy-AM') {
-      socalMediaTitle1.innerHTML = "Էլեկտրոնային հասցե";
-      socalMediaTitle2.innerHTML = "Հեռախոսահամար";
-      socalMediaTitle3.innerHTML = "Հասցե";
-      socalMediaSubTitle1.innerHTML = "ուղարկեք նամակ";
-      socalMediaSubTitle2.innerHTML = "Զանգահարեք մեզ";
-      socalMediaSubTitle3.innerHTML = "Ուղղություն";
-      formName1.innerHTML = "Անուն Ազգանուն";
-      formName2.innerHTML = "էլեկտրոնային հասցե";
-      formName3.innerHTML = "նամակ";
-      sumbitInput.value = "Ուղարկել";
-      input1.placeholder = "Անուն Ազգանուն";
-      input2.placeholder = "Էլեկտրոնային Հասցե";
-      input3.placeholder = "Ձեր Հաղորդագրությունը . . . ";
-      $(".other-services").text("այլ ծառայություններ");
-    }
-    if (lang === 'ru-RU') {
-      // fonts
-      let fontRegular = "Noto Sans Regular";
-      let fontMedium = "Noto Sans Medium";
-      let fontSemiBold = "Noto Sans SemiBold";
-      let fontBold = "Noto Sans Bold";
-      // all elements fonts change
-      $("body").css("font-family", fontRegular);
-      $(".menu-link").css("font-family", fontMedium);
-      $(".dropdown-menu-item-title").css("font-family", fontSemiBold);
-      $(".dropdown-menu-item-list-intro").css("font-family", fontRegular);
-      $(".dropdown-menu-item-desc").css("font-family", fontRegular);
-      $(".subtitle").css("font-family", fontRegular);
-      $(".link-style").css("font-family", fontMedium);
-      $(".card-info-inner p").css("font-family", fontMedium);
-      $(".card-info-inner ul li").css("font-family", fontMedium);
-      $("#pagination-numbers").css("font-family", fontRegular);
-      $(".partners-card-text").css("font-family", fontRegular);
-      $(".faq-subtitle").css("font-family", fontRegular);
-      $(".faq-text-hiiden").css("font-family", fontRegular);
-      $(".contact-us-subtitle").css("font-family", fontRegular);
-      $(".socal-media-title").css("font-family", fontBold);
-      $(".socal-media-subtitle3").css("font-family", fontRegular);
-      $(".input").css("font-family", fontRegular);
-      $(".send-button input").css("font-family", fontRegular);
-      $(".footer-menu-inner .widget_nav_menu ul a").css("font-family", fontRegular);
-      $(".site-info").css("font-family", fontRegular);
-      $(".about-our-serives-card-subtitle").css("font-family", fontRegular);
-      $(".about-card-link").css("font-family", fontMedium);
-      $(".our-team-subtitle").css("font-family", fontRegular);
-      $(".position").css("font-family", fontRegular);
-      $(".list-group-item").css("font-family", fontRegular);
-      $(".category-hashtag").css("font-family", fontRegular);
-      $(".location-time-list").css("font-family", fontRegular);
-      $(".category-item-link").css("font-family", fontMedium);
-      $(".se-suttitle").css("font-family", fontRegular);
-      $(".location-time-single").css("font-family", fontRegular);
-      $(".title-subtitle-intro>p").css("font-family", fontRegular);
-      $(".title-subtitle-intro>ul>li").css("font-family", fontRegular);
-      $(".interested-subtitle").css("font-family", fontRegular);
-      $(".file-text").css("font-family", fontRegular);
-      $(".incidents-form-button input").css("font-family", fontRegular);
-      $(".single-content-right-title").css("font-family", fontRegular);
-      $(".left-and-right-subtitle").css("font-family", fontRegular);
-      $(".wcsss-right").css("font-family", fontRegular);
-      $(".item-content").css("font-family", fontRegular);
-      socalMediaTitle1.innerHTML = "Электронная почта";
-      socalMediaTitle2.innerHTML = "Номер телефона";
-      socalMediaTitle3.innerHTML = "Адрес";
-      socalMediaSubTitle1.innerHTML = "Отправиты письмо";
-      socalMediaSubTitle2.innerHTML = "Позвоните нам";
-      socalMediaSubTitle3.innerHTML = "Направление";
-      formName1.innerHTML = "Имя Фамилия";
-      formName2.innerHTML = "Электронная почта";
-      formName3.innerHTML = "письмо";
-      sumbitInput.value = "Отправить";
-      input1.placeholder = "Имя Фамилия";
-      input2.placeholder = "Электронная почта";
-      input3.placeholder = "Ваше сообщение. . .";
+      $(".socal-media-title1").text("Էլեկտրոնային հասցե");
+      $(".socal-media-subtitle1").text("ուղարկեք նամակ");
+      $(".socal-media-title2").text("Հեռախոսահամար");
+      $(".socal-media-subtitle2").text("Զանգահարեք մեզ");
+      $(".socal-media-title3").text("Հասցե");
+      $(".socal-media-subtitle3").text("Ուղղություն");
+      $(".form-name1").text("Անուն Ազգանուն");
+      $(".input1").placeholder("Անուն Ազգանուն");
+      $(".form-name2").text("էլեկտրոնային հասցե");
+      $(".input2").text("Էլեկտրոնային Հասցե");
+      $(".form-name3").text("նամակ");
+      $(".input3").text("Ձեր Հաղորդագրությունը . . . ");
+      $(".wpcf7-submit").value("Ուղարկել");
     }
   });
 }
@@ -595,7 +521,7 @@ if (document.getElementById("home")) {
   // form
   form();
   // Translate
-  // Translate();
+  Translate();
   // footer
   footer();
 }
@@ -673,7 +599,7 @@ if (document.getElementById("about")) {
   // form
   form();
   // Translate
-  // Translate();
+  Translate();
   // footer
   footer();
 }
@@ -701,7 +627,7 @@ if (document.getElementById("single")) {
   // form
   form();
   // Translate
-  // Translate();
+  Translate();
   // footer
   footer();
 }
@@ -754,7 +680,7 @@ if (document.getElementById("carrer")) {
   // form
   form();
   // Translate
-  // Translate();
+  Translate();
   // footer
   footer();
 }

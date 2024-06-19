@@ -6315,10 +6315,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     top: 6.1rem;
   }
 
-  .home-cards-wrapper>.card:last-child>.card-hover-visitble {
-    top: 3.1rem;
-  }
-
   .card.height {
     height: 23.25rem;
   }

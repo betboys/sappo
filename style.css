@@ -5710,7 +5710,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .carrer-hero-photo {
-    object-position: calc(63% + 23 * (100vw - 47.938rem) / 60);
+    object-position: calc(63% + 20 * (100vw - 47.938rem) / 60);
   }
 
   .gallery-photo {

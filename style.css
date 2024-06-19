@@ -4232,6 +4232,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: 1rem;
   }
 
+  .card:nth-child(3) .card-title {
+    height: 76%;
+  }
+
+  .card:nth-child(4) .card-title {
+    height: 60%;
+  }
+
   .menu-link,
   .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
     font-size: 1.125rem;

@@ -2660,9 +2660,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .send-button {
   margin-top: 0.5rem;
-  width: 100%;
   display: flex;
-  padding: 0.75rem 0;
+  padding: 0.688rem 3.313rem;
   text-align: center;
   cursor: pointer;
   position: relative;

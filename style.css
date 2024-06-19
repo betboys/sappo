@@ -4739,6 +4739,20 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     padding-bottom: 3.75rem;
   }
 
+  .single-security-services {
+    flex-direction: column;
+    gap: 1.875rem;
+    align-items: start;
+  }
+
+  .single-content-left {
+    max-width: 100%;
+  }
+
+  .single-content-right {
+    width: 100%;
+  }
+
   .left-and-right:nth-child(even)>.left-and-right-text-inner {
     width: 100%;
     padding-right: 0;

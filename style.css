@@ -4245,8 +4245,17 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .our-serives-title,
-  .our-team-title {
+  .our-team-title,
+  .other-services {
     font-size: 5rem;
+  }
+
+  .left-and-right-title {
+    font-size: 2.938rem;
+  }
+
+  .left-and-right-subtitle {
+    font-size: 1.125rem;
   }
 
   .gallery-text,

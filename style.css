@@ -3096,6 +3096,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   color: #e3e3e3;
 }
 
+.page-id-5 .about-our-serives-card-item:last-child .card-item-info {
+  max-width: 24.25rem;
+}
+
 .about-our-serives-card-subtitle {
   margin-top: 0.75rem;
   font: 400 0.875rem / 150% "Noto Sans Armenian Regular";

@@ -1860,6 +1860,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transition: 0.5s;
 }
 
+.page-id-37 .card-title {
+  height: calc(720px + 30 * (100vw - 1920px) / 60);
+}
+
 .page-id-288 .card:nth-child(3) .card-title {
   height: calc(700px + 15 * (100vw - 1920px) / 60);
 }
@@ -4330,10 +4334,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .card:nth-child(3) .card-title {
     height: 76%;
-  }
-
-  .card:nth-child(4) .card-title {
-    height: 60%;
   }
 
   .menu-link,

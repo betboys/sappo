@@ -4408,11 +4408,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .single-hero-heading-text-inner {
     margin-bottom: unset;
-    margin-top: 10rem;
+    margin-top: unset;
   }
 
   .page-hero {
-    align-items: start;
+    align-items: center;
   }
 
   .text-wrapper-list {

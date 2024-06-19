@@ -763,6 +763,9 @@ if (document.getElementById("career-single")) {
       if (lang === 'en-US') {
         $(".file-text").text("Attach your CV");
       }
+      if (lang === 'ru-RU') {
+        $(".file-text").text("Прикрепите свое резюме (CV)");
+      }
       $labelRemove.hide();
     });
   });
@@ -804,6 +807,17 @@ if (document.getElementById("career-single")) {
       $(".form-name4").text("հեռախոսահամար");
       $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
       $(".wpcf7-submit").attr("value", "Դիմել հիմա");
+    }
+    if (lang === 'ru-RU') {
+      $(".form-name1").text("Имя Фамилия");
+      $(".input1").attr("placeholder", "Имя Фамилия");
+      $(".form-name2").text("позиция");
+      $(".input2").attr("placeholder", "Напр. Старший Java-разработчик");
+      $(".form-name3").text("Электронная почта");
+      $(".input3").attr("placeholder", "Электронная почта");
+      $(".form-name4").text("номер телефона");
+      $(".file-text").text("Прикрепите свое резюме (CV)");
+      $(".wpcf7-submit").attr("value", "Применить сейчас");
     }
   });
   // footer

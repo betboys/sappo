@@ -4423,6 +4423,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .position {
     font-size: 0.875rem;
+    padding-inline: 15px;
   }
 
   .strength-reliability {
@@ -5799,12 +5800,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .our-team-title {
-    font-size: 4rem;
+    font-size: 50px;
   }
 
   .our-team-subtitle {
     margin-top: 1.25rem;
-    font-size: 1.25rem;
   }
 
   .our-team-men {
@@ -5817,7 +5817,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .our-serives-title {
-    font-size: 4rem;
+    font-size: 40px;
   }
 
   .testimonials-title {

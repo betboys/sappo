@@ -5701,7 +5701,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .postid-342 .single-hero-photo {
-    object-position: calc(0% + 37* (100vw - 47.938rem) / 60);
+    object-position: calc(22% + 50* (100vw - 47.938rem) / 60);
   }
 
   .carrer-hero-img::before,
@@ -5711,6 +5711,16 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .carrer-hero-photo {
     object-position: calc(63% + 20 * (100vw - 47.938rem) / 60);
+  }
+
+  .single-hero-heading-text-inner {
+    margin-top: 5.313rem;
+    padding-block: 0;
+}
+
+  .postid-340,
+  .postid-340 .single-hero-img {
+    height: 100vh !important;
   }
 
   .gallery-photo {

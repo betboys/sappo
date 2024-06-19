@@ -1,5 +1,5 @@
 var $ = jQuery;
- $(document).ready(function () {
+$(document).ready(function () {
    $.get(
     "https://ipinfo.io",
     function (response) {
@@ -8,14 +8,31 @@ var $ = jQuery;
       ip_country = localStorage.getItem("ipcountry");
     console.log(ip_country);
 		 if (ip_country == "AM" ) {
-			
-			  switchLanguage('hy');
+			 if (!sessionStorage.getItem('redirected_to_AM')) {
+        // Mark that we have redirected
+        sessionStorage.setItem('redirected_to_AM', 'true');
+        
+        // Construct the new URL
+        var newUrl = 'https://sappo.am/hy/';
+        
+        // Redirect to the new URL
+        window.location.href = newUrl;
+    }
+				   } else if (ip_country == "RU") {
+					   	 if (!sessionStorage.getItem('redirected_to_ru')) {
+        // Mark that we have redirected
+        sessionStorage.setItem('redirected_to_ru', 'true');
+        
+        // Construct the new URL
+        var newUrl = 'https://sappo.am/ru/';
+        
+        // Redirect to the new URL
+        window.location.href = newUrl;
+    }
 				   } else {
-				    switchLanguage('en');
+					   
 				   }
-		function switchLanguage(languageCode) {
- console.log(ip_country);
-}
+		
     },
     "jsonp"
   );  

@@ -2965,7 +2965,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   width: 100%;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
   background: #101011;
-  margin-top: -0.063;
+  margin-top: -0.063rem;
 }
 
 .our-serives-title {
@@ -3066,7 +3066,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .about-our-serives-card-item:nth-child(4) .card-item-info,
 .about-our-serives-card-item:nth-child(5) .card-item-info {
   width: 100%;
-  max-width: 28.25rem;
+  max-width: 23.25rem;
 }
 
 .about-our-serives-card-item:nth-child(3)>.card-item-info>.about-our-serives-card-title,
@@ -3090,7 +3090,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .about-our-serives-card-title {
-  font: 400 2.75rem / 104.545% "Bebas Neue";
+  font: 400 41px / 104.545% "Bebas Neue";
   text-shadow: 0rem 0.25rem 2.5rem rgba(0, 0, 0, 0.05);
   letter-spacing: 0.063rem;
   color: #e3e3e3;

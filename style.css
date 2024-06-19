@@ -5608,7 +5608,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .page-id-293 .card-title-hover {
-    height: calc(470px + 0*(100vw - 520px) / 60);
+    width: calc(470px + 0*(100vw - 767px) / 60);
   }
 
   .page-id-37 .card .card-hover-visitble .card-title-hover {

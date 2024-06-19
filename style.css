@@ -1872,6 +1872,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   height: calc(800px + 29.2 * (100vw - 1920px) / 60);
 }
 
+.postid-36 .card-title {
+  height: calc(800px + 29.2 * (100vw - 1920px) / 60);
+}
+
 .postid-340 .card-title {
   height: calc(700px + 29.2 * (100vw - 1920px) / 60);
 }
@@ -4289,6 +4293,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     height: 588px;
   }
 
+  .postid-36 .card-title {
+    height: 588px;
+  }
+
   .postid-340 .card-title {
     height: 500px;
   }
@@ -5241,6 +5249,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     top: calc(9.3rem + -9.1 * (100vw - 64rem) / 60);
   }
 
+  .postid-36 .card:nth-child(4) .card-hover-visitble {
+    top: calc(9.3rem + -8.1 * (100vw - 64rem) / 60);
+  }
+
+  .postid-36 .card:nth-child(1) .card-hover-visitble {
+    top: calc(9.3rem + -9.1 * (100vw - 64rem) / 60);
+  }
+
   .about-hero-heading-text-inner {
     width: 100%;
   }
@@ -5655,9 +5671,19 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     width: 426px;
   }
 
+  .postid-36 .card-title-hover {
+    width: 426px;
+  }
+
   .postid-85 .card:nth-child(1) .card-hover-visitble,
   .postid-85 .card:nth-child(3) .card-hover-visitble,
   .postid-85 .card:nth-child(4) .card-hover-visitble {
+    top: 11.2rem;
+  }
+
+  .postid-36 .card:nth-child(1) .card-hover-visitble,
+  .postid-36 .card:nth-child(3) .card-hover-visitble,
+  .postid-36 .card:nth-child(4) .card-hover-visitble {
     top: 11.2rem;
   }
 
@@ -6287,9 +6313,19 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     width: 370px;
   }
 
+  .postid-36 .card-title-hover {
+    width: 370px;
+  }
+
   .postid-85 .card:nth-child(1) .card-hover-visitble,
   .postid-85 .card:nth-child(3) .card-hover-visitble,
   .postid-85 .card:nth-child(4) .card-hover-visitble {
+    top: 4.5rem;
+  }
+
+  .postid-36 .card:nth-child(1) .card-hover-visitble,
+  .postid-36 .card:nth-child(3) .card-hover-visitble,
+  .postid-36 .card:nth-child(4) .card-hover-visitble {
     top: 4.5rem;
   }
 

@@ -4225,6 +4225,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: 5rem;
   }
 
+  .about-hero-heading-text-inner {
+    width: 83%;
+  }
+
   .faq-text {
     font-size: 1.375rem;
   }
@@ -4324,6 +4328,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .carrer-hero-heading-text-inner {
     padding: 0 var(--paddingLeftAndRigth);
     margin-top: 10rem;
+  }
+
+  .about-hero-heading-text-inner {
+    width: 98%;
   }
 
   .footer-menu-inner:nth-child(2),
@@ -5001,6 +5009,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .page-id-37 .card .card-hover-visitble .card-title-hover {
     width: 90%;
+  }
+
+  .about-hero-heading-text-inner {
+    width: 100%;
   }
 
   .page-id-37 .card:nth-child(3) .card-hover-visitble .card-title-hover {

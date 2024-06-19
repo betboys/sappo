@@ -5218,7 +5218,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 @media (max-width: 1024px) {
 
   .postid-85 .card:nth-child(4) .card-hover-visitble {
-    top: calc(9.3rem + -4.2 * (100vw - 64rem) / 60);
+    top: calc(9.3rem + -8.1 * (100vw - 64rem) / 60);
+  }
+
+  .postid-85 .card:nth-child(1) .card-hover-visitble {
+    top: calc(9.3rem + -9.1 * (100vw - 64rem) / 60);
   }
 
   .about-hero-heading-text-inner {

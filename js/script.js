@@ -12,11 +12,11 @@ function Translate() {
       $(".socal-media-title3").text("Հասցե");
       $(".socal-media-subtitle3").text("Ուղղություն");
       $(".form-name1").text("Անուն Ազգանուն");
-      $(".input1").placeholder("Անուն Ազգանուն");
+      $(".input1").attr("placeholder", "Անուն Ազգանուն");
       $(".form-name2").text("էլեկտրոնային հասցե");
-      $(".input2").text("Էլեկտրոնային Հասցե");
+      $(".input2").attr("placeholder", "Էլեկտրոնային Հասցե");
       $(".form-name3").text("նամակ");
-      $(".input3").text("Ձեր Հաղորդագրությունը . . . ");
+      $(".input3").attr("placeholder", "Ձեր Հաղորդագրությունը . . . ");
       $(".wpcf7-submit").value("Ուղարկել");
     }
   });

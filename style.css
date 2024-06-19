@@ -3523,7 +3523,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .carrer-hero-heading-text-inner {
   width: 100%;
-  padding: 0 var(--paddingLeftAndRigth) 9.781rem var(--paddingLeftAndRigth);
+  padding-inline: var(--paddingLeftAndRigth);
+  margin-top: 6.875rem;
   position: relative;
   z-index: 1;
 }

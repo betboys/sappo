@@ -4265,6 +4265,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 40.625rem;
   }
 
+  .page-id-293 .card-title {
+    height: calc(560px + 0*(100vw - 1728px) / 60);
+  }
+
   .page-id-288 .card:nth-child(3) .card-title {
     height: calc(500px + 0 * (100vw - 1728px) / 60);
   }
@@ -5601,6 +5605,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .page-id-293 .card-title-hover {
+    height: calc(470px + 0*(100vw - 520px) / 60);
   }
 
   .page-id-37 .card .card-hover-visitble .card-title-hover {

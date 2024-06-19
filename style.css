@@ -4906,6 +4906,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     position: unset;
     padding-top: 0;
   }
+
+  .burger-menu-open {
+    display: flex;
+  }
 }
 
 @media (max-width: 1260px) {
@@ -5136,9 +5140,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 @media (max-width: 1024px) {
-  .burger-menu-open {
-    display: flex;
-  }
 
   .page-id-37 .card .card-hover-visitble .card-title-hover {
     width: 90%;

@@ -1181,16 +1181,16 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   font-display: swap;
   font-family: "Noto Sans Armenian Regular";
   src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Regular.ttf) format("ttf"),
-    url("fonts/Noto-Sans/NotoSans-Regular.woff") format("woff"),
-    url("fonts/Noto-Sans/NotoSans-Regular.woff2") format("woff2");
+    url(fonts/Noto-Sans/NotoSans-Regular.woff) format("woff"),
+    url(fonts/Noto-Sans/NotoSans-Regular.woff2) format("woff2");
 }
 
 @font-face {
   font-display: swap;
   font-family: "Noto Sans Armenian Medium";
-  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Medium.ttf),
-    url("fonts/Noto-Sans/NotoSans-Medium.woff"),
-    url("fonts/Noto-Sans/NotoSans-Medium.woff2");
+  src: url(fonts/Noto-Sans-Armenian/NotoSansArmenian-Medium.ttf) format("ttf"),
+    url(fonts/Noto-Sans/NotoSans-Medium.woff) format("woff"),
+    url(fonts/Noto-Sans/NotoSans-Medium.woff2) format("woff2");
 }
 
 @font-face {

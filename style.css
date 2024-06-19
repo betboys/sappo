@@ -3086,7 +3086,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .top>.card-item-info {
-  bottom: 1.5rem;
+  bottom: 1.5rem !important;
 }
 
 .about-our-serives-card-title {

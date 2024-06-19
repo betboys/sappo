@@ -3449,13 +3449,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .item-icon-text {
   display: flex;
-  align-items: baseline;
+  align-items: start;
   gap: 0.75rem;
 }
 
 .item-icon {
   width: 2rem;
-  height: 2rem;
+  height: unset;
+  margin-top: 4px;
 }
 
 .item-title {
@@ -5854,7 +5855,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .item-icon {
     width: 1.732rem;
-    height: 1.823rem;
   }
 
   .other-services {

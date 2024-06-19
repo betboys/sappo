@@ -17,7 +17,7 @@ function Translate() {
       $(".input2").attr("placeholder", "Էլեկտրոնային Հասցե");
       $(".form-name3").text("նամակ");
       $(".input3").attr("placeholder", "Ձեր Հաղորդագրությունը . . . ");
-      $(".wpcf7-submit").value("Ուղարկել");
+      $(".wpcf7-submit").attr("value", "Ուղարկել");
     }
   });
 }

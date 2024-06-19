@@ -4334,7 +4334,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .page-id-37 .card-title {
     height: calc(530px + 0*(100vw - 1728px) / 60);
-}
+  }
 
   .menu-link,
   .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
@@ -5201,18 +5201,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     width: 100%;
   }
 
-  .page-id-37 .card:nth-child(3) .card-hover-visitble .card-title-hover {
-    width: calc(81% + 3 * (100vw - 64rem) / 60);
-  }
-
-  .page-id-37 .card:nth-child(4) .card-hover-visitble .card-title-hover {
-    width: calc(64% + 2 * (100vw - 64rem) / 60);
-  }
-
-  .page-id-37 .card-hover-visitble {
-    top: calc(9.2rem + -9.2*(100vw - 64rem) / 60);
-  }
-
   .redefining-security {
     flex-direction: column;
     gap: 0.625rem;
@@ -5609,6 +5597,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .page-id-37 .card .card-hover-visitble .card-title-hover {
+    width: 430px;
   }
 
   .page-id-288 .card:nth-child(5) .card-title-hover {
@@ -6267,10 +6259,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     width: calc(66% + -30*(100vw - 520px) / 60);
   }
 
-  .page-id-37 .card:nth-child(4) .card-hover-visitble .card-title-hover {
-    width: calc(53% + -30*(100vw - 520px) / 60);
-  }
-
   .page-id-37 .card-hover-visitble {
     top: 4.4rem;
   }
@@ -6314,7 +6302,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .page-id-288 .card-hover-visitble {
     top: 6.7rem;
   }
- 
+
   .page-id-288 .card:nth-child(5) .card-hover-visitble {
     top: 4.2rem;
   }

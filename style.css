@@ -4198,18 +4198,18 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 /* responsive */
 @media (max-width: 1730px) {
   .dropdown-menu-inner {
-    padding: 3.881rem calc(5.449vw + 14* (100vw - 1730px) / 60) 5.313rem calc(5.449vw + 14* (100vw - 1730px) / 60);
+    padding: 3.881rem calc(5.449vw + 14* (100vw - 108.125rem) / 60) 5.313rem calc(5.449vw + 14* (100vw - 1730px) / 60);
   }
 
   .dropdown-menu-item:nth-child(1),
   .dropdown-menu-item:nth-child(2) {
-    width: calc(35.875vw + -13 * (100vw - 1730px) / 60);
+    width: calc(35.875vw + -13 * (100vw - 108.125rem) / 60);
   }
 
   .dropdown-menu-item:nth-child(3),
   .dropdown-menu-item:nth-child(4),
   .dropdown-menu-item:nth-child(5) {
-    width: calc(23vw + -9 * (100vw - 1730px) / 60);
+    width: calc(23vw + -9 * (100vw - 108.125rem) / 60);
   }
 }
 
@@ -4220,6 +4220,22 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .menu-link,
   .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
+    font-size: 1.125rem;
+  }
+
+  .heading {
+    font-size: 6.25rem;
+  }
+
+  .subtitle,
+  .link-style,
+  .rigth-intro-link,
+  .card-info-inner ul li,
+  .card-list,
+  .card-info-inner p,
+  .faq-subtitle,
+  .faq-text-hiiden,
+  .contact-us-subtitle {
     font-size: 1.125rem;
   }
 }

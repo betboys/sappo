@@ -4217,6 +4217,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .our-team-title-subtitle {
     max-width: 40.625rem;
   }
+  
+  .hero-subtitle-about {
+    max-width: 49.375rem;
+  }
 
   .gallery-text,
   .our-trusted-partners-title,

@@ -1389,7 +1389,7 @@ body.no-scroll {
 }
 
 .dropdown-menu-inner {
-  padding: 3.881rem 9.449vw 5.313rem 9.449vw;
+  padding: 3.881rem 7.449vw 5.313rem 7.449vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -1470,13 +1470,13 @@ body.no-scroll {
 
 .dropdown-menu-item:nth-child(1),
 .dropdown-menu-item:nth-child(2) {
-  width: 31.875vw;
+  width: 33.875vw;
 }
 
 .dropdown-menu-item:nth-child(3),
 .dropdown-menu-item:nth-child(4),
 .dropdown-menu-item:nth-child(5) {
-  width: 20.677vw;
+  width: 21.977vw;
 }
 
 .menu-list:nth-child(4) .menu-link {

@@ -5576,6 +5576,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     --paddingTopAndBottom: 3.75rem;
   }
 
+  .hero-heading-text-inner {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .page-id-37 .card .card-hover-visitble .card-title-hover {
     width: 85%;
   }
@@ -5622,11 +5627,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .descover-title {
     max-width: calc(25rem + 10*(100vw - 62.5rem) / 60);
     font-size: calc(6.25rem + 3.75 * (100vw - 62.5rem) / 60);
-  }
-
-  .single-hero-heading-text-inner {
-    margin-bottom: 3.727rem;
-    margin-top: 11.75rem;
   }
 
   .hero-image-inner,
@@ -6163,7 +6163,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .heading,
   .faq-title,
   .contact-us-title {
-    font-size: 4rem;
+    font-size: 3.125rem;
   }
 
   .page-id-37 .card-hover-visitble {

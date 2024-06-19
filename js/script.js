@@ -19,7 +19,7 @@ function Translate() {
       $(".input3").attr("placeholder", "Ձեր Հաղորդագրությունը . . . ");
       $(".wpcf7-submit").attr("value", "Ուղարկել");
     }
-    if (lang === 'hy-AM') {
+    if (lang === 'ru-RU') {
       $(".socal-media-title1").text("Электронная почта");
       $(".socal-media-subtitle1").text("Отправиты письмо");
       $(".socal-media-title2").text("Номер телефона");

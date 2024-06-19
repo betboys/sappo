@@ -720,6 +720,10 @@ if (document.getElementById("carrer")) {
       $(".list-group-item:first-child").text("Բոլորը");
       $(".category-item-link").text("Դիմել հիմա");
     }
+    if (lang === 'ru-RU') {
+      $(".list-group-item:first-child").text("Все");
+      $(".category-item-link").text("Применить сейчас");
+    }
   });
   // form
   form();

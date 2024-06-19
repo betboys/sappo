@@ -4223,6 +4223,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: 1.125rem;
   }
 
+  .hero-heading-text-inner {
+    width: 52rem;
+  }
+
   .heading {
     font-size: 6.25rem;
   }

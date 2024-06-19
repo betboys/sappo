@@ -1504,7 +1504,8 @@ body.no-scroll {
 }
 
 .menu-list:nth-child(4) .menu-link {
-  width: 11.25rem;
+  /* width: 11.25rem; */
+  padding: 0 24px;
   height: 3.25rem;
   display: flex;
   align-items: center;
@@ -1698,7 +1699,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .link-style {
-  width: 13.75rem;
+  /* width: 13.75rem; */
+  padding: 0 24px;
   height: 3.25rem;
   margin-top: 2.5rem;
   display: inline-flex;

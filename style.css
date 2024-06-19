@@ -2522,6 +2522,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .form-name {
+  letter-spacing: 0.063rem;
   font: 400 1.125rem / 179.762% "Bebas Neue";
   color: #fff;
 }

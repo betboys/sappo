@@ -282,7 +282,7 @@ function footer() {
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'hy-AM') {
-      footerMenuTitle[0].innerHTML = "Ծառայություննեռ";
+      footerMenuTitle[0].innerHTML = "Ծառայություններ";
       footerMenuTitle[1].innerHTML = "մեր մասին";
       footerMenuTitle[2].innerHTML = "Մենք սոց. ցանցերում";
     }

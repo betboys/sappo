@@ -4910,6 +4910,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .burger-menu-open {
     display: flex;
   }
+
+  .wpml-ls-legacy-dropdown {
+    order: 4;
+}
 }
 
 @media (max-width: 1260px) {
@@ -5242,10 +5246,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .category-item {
     width: 100%;
-  }
-
-  .wpml-ls-legacy-dropdown {
-    order: 4;
   }
 
   .hero-heading-text-inner {

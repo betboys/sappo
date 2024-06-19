@@ -5264,7 +5264,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 @media (max-width: 1024px) {
-  
+
   .postid-39 .card:nth-child(1) .card-hover-visitble,
   .postid-39 .card:nth-child(2) .card-hover-visitble,
   .postid-39 .card:nth-child(4) .card-hover-visitble {
@@ -5687,6 +5687,18 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .postid-39 .card:nth-child(1) .card-title-hover,
+  .postid-39 .card:nth-child(2) .card-title-hover,
+  .postid-39 .card:nth-child(4) .card-title-hover {
+    width: 426px;
+  }
+
+  .postid-39 .card:nth-child(1) .card-hover-visitble,
+  .postid-39 .card:nth-child(2) .card-hover-visitble,
+  .postid-39 .card:nth-child(4) .card-hover-visitble {
+    top: 11.2rem;
   }
 
   .postid-425 .card-title-hover {

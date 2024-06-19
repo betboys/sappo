@@ -6260,11 +6260,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .page-id-37 .card:nth-child(3) .card-hover-visitble .card-title-hover {
-    width: 100%;
+    width: calc(66% + -30*(100vw - 520px) / 60);
   }
 
   .page-id-37 .card:nth-child(4) .card-hover-visitble .card-title-hover {
-    width: 85%;
+    width: calc(53% + -30*(100vw - 520px) / 60);
   }
 
   .page-id-37 .card-hover-visitble {

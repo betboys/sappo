@@ -5163,6 +5163,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 @media (max-width: 1024px) {
 
+  .postid-85 .card:nth-child(4) .card-hover-visitble {
+    top: calc(9.3rem + -4.2 * (100vw - 64rem) / 60);
+  }
+
   .page-id-37 .card .card-hover-visitble .card-title-hover {
     width: 90%;
   }

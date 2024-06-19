@@ -178,7 +178,7 @@ function headerSubmenu() {
   dropdownToggle.addEventListener("click", function (e) {
     e.preventDefault();
   });
-  if (windowWidth >= 1025 && windowWidth <= 3840) {
+  if (windowWidth >= 1321 && windowWidth <= 3840) {
     let dropdownMenu = document.querySelector(".dropdown-menu");
     let header = document.querySelector(".header");
     header.appendChild(dropdownMenu);
@@ -233,7 +233,7 @@ function headerSubmenu() {
     }
   }
   // responsive header mobile
-  if (windowWidth <= 1024) {
+  if (windowWidth <= 1320) {
     let menuOpen = document.querySelector(".burger-menu-open");
     let lineN1 = document.querySelector(".lineN1");
     let lineN2 = document.querySelector(".lineN2");

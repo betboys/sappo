@@ -4325,6 +4325,20 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 40.625rem;
   }
 
+  .interested-title,
+  .career-single-heading {
+    font-size: 80px;
+  }
+
+  .title-subtitle-intro>p,
+  .title-subtitle-intro>ul>li {
+    font-size: 18px;
+  }
+
+  .title-subtitle-intro>h3 {
+    font-size: 50px;
+  }
+
   .postid-426 .card-title {
     height: 500px;
   }
@@ -5764,6 +5778,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .title-subtitle-intro>h3 {
+    font-size: 45px;
   }
 
   #carrer,

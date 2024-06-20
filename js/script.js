@@ -798,12 +798,24 @@ if (document.getElementById("career-single")) {
   for (ind of inputs) {
     ind.addEventListener("input", function () {
       if (ind.value != "") {
-        if (remove.style.display == "inline") {
-          sendBtn.addEventListener("click", function () {
-            popup.style.display = "flex";
-          });
-        }
+        sendBtn.addEventListener("click", function () {
+          popup.style.display = "flex";
+        });
       }
+      $(document).ready(function () {
+        $("#file-input").click(function () {
+          $("#file-input").trigger('click');
+        });
+        $('#file-input').change(function () {
+          var value = this.value;
+          var fileName = typeof value == 'string' ? value.match(/[^\/\\]+$/)[0] : value[0]
+          if (fileName != "") {
+            sendBtn.addEventListener("click", function () {
+              popup.style.display = "flex";
+            });
+          }
+        })
+      });
     })
   }
   $(document).ready(function ($) {

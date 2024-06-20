@@ -2659,6 +2659,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   margin-top: 10px;
 }
 
+.wpcf7-response-output {
+  display: none !important;
+}
+
 .form-input svg {
   position: absolute;
   left: 1rem;

@@ -788,12 +788,6 @@ if (document.getElementById("career-single")) {
     });
   });
   // form
-  let subInp = document.querySelector(".wpcf7-submit");
-  let suBBtn = document.querySelector(".incidents-form-button");
-  let subInpW = subInp.offsetWidth;
-  let newW = subInpW + 24;
-  suBBtn.setAttribute("style", `width: ${newW}px`);
-
   // let inputs = document.querySelectorAll(".input");
   // let sendBtn = document.querySelector(".wpcf7-submit");
   // let popup = document.querySelector(".popup-mail");

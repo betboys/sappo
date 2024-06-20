@@ -4987,7 +4987,13 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .dropdown-menu-item-title {
-    font-size: 1.188rem;
+    font-size: 1rem;
+  }
+
+  .dropdown-menu-item:nth-child(3)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title,
+  .dropdown-menu-item:nth-child(4)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title,
+  .dropdown-menu-item:nth-child(5)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title {
+    width: 100%;
   }
 
   .dropdown-menu-item-list-intro,

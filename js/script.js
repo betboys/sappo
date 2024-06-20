@@ -802,10 +802,10 @@ if (document.getElementById("career-single")) {
       //     popup.style.display = "flex";
       //   });
       // }
-      $(document).ready(function () {
-        $("#file-input").click(function () {
-          $("#file-input").trigger('click');
-        });
+      // $(document).ready(function () {
+        // $("#file-input").click(function () {
+        //   $("#file-input").trigger('click');
+        // });
         // $('#file-input').change(function () {
           var value = this.value;
           var fileName = typeof value == 'string' ? value.match(/[^\/\\]+$/)[0] : value[0]
@@ -815,7 +815,7 @@ if (document.getElementById("career-single")) {
             });
           }
         // })
-      });
+      // });
     // })
   }
   $(document).ready(function ($) {

@@ -4635,7 +4635,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .partners-card-text {
-    font-size: 0.875rem;
     padding: 0 0.938rem;
     display: -webkit-box;
     -webkit-line-clamp: 6;
@@ -5656,7 +5655,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .partners-card-text {
     height: 5.5rem;
     padding: 0 0.75rem;
-    font-size: 0.813rem;
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;

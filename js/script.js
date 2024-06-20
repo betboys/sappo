@@ -807,7 +807,8 @@ if (document.getElementById("career-single")) {
   // }
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
-    $(".incidents-form-button").addEventListener("click", function () {
+    let btns = document.querySelector(".incidents-form-button")
+    btns.addEventListener("click", function () {
 
       if (lang === 'en-US') {
         $(".wpcf7-not-valid-tip").text("This field is required");

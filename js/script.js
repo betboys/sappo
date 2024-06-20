@@ -21,7 +21,7 @@ function Translate() {
     }
     if (lang === 'ru-RU') {
       $(".socal-media-title1").text("Электронная почта");
-      $(".socal-media-subtitle1").text("Отправиты письмо");
+      $(".socal-media-subtitle1").text("Отправить письмо");
       $(".socal-media-title2").text("Номер телефона");
       $(".socal-media-subtitle2").text("Позвоните нам");
       $(".socal-media-title3").text("Адрес");

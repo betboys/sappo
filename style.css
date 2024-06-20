@@ -2758,7 +2758,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transition: 0.5s;
 }
 
-.incidents-form-button input {
+.send-button input {
   position: absolute;
   inset: 0;
 }

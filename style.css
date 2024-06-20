@@ -2656,6 +2656,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .wpcf7-not-valid-tip {
   max-width: 40.267vw;
   font-size: 0.875rem;
+  margin-top: 10px;
 }
 
 .form-input svg {
@@ -3992,6 +3993,13 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .chosse-file>p {
   width: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column-reverse;
+  gap: 0.75rem;
+}
+
+.label-span {
   display: flex;
   align-items: center;
   gap: 0.75rem;

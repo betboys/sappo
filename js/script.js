@@ -424,46 +424,46 @@ if (document.getElementById("home")) {
     two.innerHTML = 2;
     slideNum();
   }
-  if (listItems.length > 8 && listItems.length <= 12) {
-    one.innerHTML = 1;
-    two.innerHTML = 3;
-    slideNum();
-  }
-  if (listItems.length > 12 && listItems.length <= 15) {
-    one.innerHTML = 1;
-    two.innerHTML = 4;
-    slideNum();
-  }
-  if (listItems.length > 16 && listItems.length <= 20) {
-    one.innerHTML = 1;
-    two.innerHTML = 5;
-    slideNum();
-  }
-  if (listItems.length > 20 && listItems.length <= 24) {
-    one.innerHTML = 1;
-    two.innerHTML = 6;
-    slideNum();
-  }
-  if (listItems.length > 24 && listItems.length <= 28) {
-    one.innerHTML = 1;
-    two.innerHTML = 7;
-    slideNum();
-  }
-  if (listItems.length > 32 && listItems.length <= 36) {
-    one.innerHTML = 1;
-    two.innerHTML = 8;
-    slideNum();
-  }
-  if (listItems.length > 36 && listItems.length <= 40) {
-    one.innerHTML = 1;
-    two.innerHTML = 9;
-    slideNum();
-  }
-  if (listItems.length > 40 && listItems.length <= 44) {
-    one.innerHTML = 1;
-    two.innerHTML = 10;
-    slideNum();
-  }
+  // if (listItems.length > 8 && listItems.length <= 12) {
+  //   one.innerHTML = 1;
+  //   two.innerHTML = 3;
+  //   slideNum();
+  // }
+  // if (listItems.length > 12 && listItems.length <= 15) {
+  //   one.innerHTML = 1;
+  //   two.innerHTML = 4;
+  //   slideNum();
+  // }
+  // if (listItems.length > 16 && listItems.length <= 20) {
+  //   one.innerHTML = 1;
+  //   two.innerHTML = 5;
+  //   slideNum();
+  // }
+  // if (listItems.length > 20 && listItems.length <= 24) {
+  //   one.innerHTML = 1;
+  //   two.innerHTML = 6;
+  //   slideNum();
+  // }
+  // if (listItems.length > 24 && listItems.length <= 28) {
+  //   one.innerHTML = 1;
+  //   two.innerHTML = 7;
+  //   slideNum();
+  // }
+  // if (listItems.length > 32 && listItems.length <= 36) {
+  //   one.innerHTML = 1;
+  //   two.innerHTML = 8;
+  //   slideNum();
+  // }
+  // if (listItems.length > 36 && listItems.length <= 40) {
+  //   one.innerHTML = 1;
+  //   two.innerHTML = 9;
+  //   slideNum();
+  // }
+  // if (listItems.length > 40 && listItems.length <= 44) {
+  //   one.innerHTML = 1;
+  //   two.innerHTML = 10;
+  //   slideNum();
+  // }
   const paginationLimit = 4;
   const pageCount = Math.ceil(listItems.length / paginationLimit);
   let currentPage = 1;

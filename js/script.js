@@ -339,30 +339,18 @@ function form() {
       }
     })
   }
+  $(document).ready(function ($) {
+    var lang = $('html').attr('lang');
+    if (lang === 'en-US') {
+      $(".popup-title").text("Thank you!");
+      $(".popup-subtitle").text("Your message has been successfully received. Our team will review your inquiry and get back to you as soon as possible.");
+      $(".go-back").text("Go back");
+    }
+  });
   goBack.addEventListener("click", function () {
     $("html, body").animate({ scrollTop: "0" }, 0);
     window.location.reload();
   });
-  // for (ind of inputs) {
-  //   ind.addEventListener("input", function () {
-  //     if (ind.value != "") {
-  //       sendButton.disabled = false;
-  //       sendBtn.addEventListener("click", function () {
-  //         popup.style.display = "flex";
-  //       });
-  //       goBack.addEventListener("click", function () {
-  //         $("html, body").animate({ scrollTop: "0" }, 0);
-  //         window.location.reload();
-  //       });
-  //     }
-  //     else {
-  //       sendButton.disabled = true;
-  //       sendBtn.addEventListener("click", function () {
-  //         popup.style.display = "none";
-  //       });
-  //     }
-  //   })
-  // }
 }
 /* Home */
 if (document.getElementById("home")) {

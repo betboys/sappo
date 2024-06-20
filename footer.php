@@ -52,10 +52,9 @@
 <div class="popup-mail">
 	<div class="popup-inner">
 		<div class="popup-intro">
-			<p class="popup-title">Thank you!</p>
-			<p class="popup-subtitle">Your message has been successfully received. Our team will review your inquiry and
-				get back to you as soon as possible.</p>
-			<button class="go-back">Go back</button>
+			<p class="popup-title"></p>
+			<p class="popup-subtitle"></p>
+			<button class="go-back"></button>
 		</div>
 	</div>
 </div>

@@ -346,6 +346,16 @@ function form() {
       $(".popup-subtitle").text("Your message has been successfully received. Our team will review your inquiry and get back to you as soon as possible.");
       $(".go-back").text("Go back");
     }
+    if (lang === 'hy-AM') {
+      $(".popup-title").text("Շնորհակալություն");
+      $(".popup-subtitle").text("Ձեր հաղորդագրությունը հաջողությամբ ստացվել է: Մեր թիմը կուսումնասիրի ձեր հարցումը և կկապվի ձեզ հետ հնարավորինս շուտ:");
+      $(".go-back").text("Վերադառնալ");
+    }
+    if (lang === 'ru-RU') {
+      $(".popup-title").text("Спасибо!");
+      $(".popup-subtitle").text("Ваше сообщение успешно получено. Наша команда рассмотрит ваш запрос и свяжется с вами в ближайшее время.");
+      $(".go-back").text("Вернуться назад");
+    }
   });
   goBack.addEventListener("click", function () {
     $("html, body").animate({ scrollTop: "0" }, 0);

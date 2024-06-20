@@ -6347,6 +6347,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-right: 2.438rem;
   }
 
+  .master-master-inner.toggle-class {
+    position: relative;
+  }
+
+  .toggle-class .side-2 {
+    opacity: 1;
+  }
+
   .faq-title {
     font-size: 4rem;
   }

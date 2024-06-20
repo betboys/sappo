@@ -794,9 +794,10 @@ if (document.getElementById("career-single")) {
   let sendBtn = document.querySelector(".wpcf7-submit");
   let popup = document.querySelector(".popup-mail");
   let goBack = document.querySelector(".go-back");
+  let remove = document.querySelector(".remove");
   for (ind of inputs) {
     ind.addEventListener("input", function () {
-      if (ind.value != "") {
+      if (ind.value != "" && remove.style.display != "inline") {
         sendBtn.addEventListener("click", function () {
           popup.style.display = "flex";
         });

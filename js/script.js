@@ -407,23 +407,23 @@ if (document.getElementById("home")) {
   if (windowWidth <= 767) {
     paginatedList.appendChild(paginationContainer);
   }
-  if (listItems.length > 1 && listItems.length <= 4) {
-    one.innerHTML = 1;
-    two.innerHTML = 1;
-  }
-  function slideNum() {
-    nextButton.addEventListener("click", function () {
-      one.innerHTML = +one.innerHTML + 1;
-    });
-    prevButton.addEventListener("click", function () {
-      one.innerHTML = +one.innerHTML - 1;
-    });
-  }
-  if (listItems.length > 4 && listItems.length <= 8) {
-    one.innerHTML = 1;
-    two.innerHTML = 2;
-    slideNum();
-  }
+  // if (listItems.length > 1 && listItems.length <= 4) {
+  //   one.innerHTML = 1;
+  //   two.innerHTML = 1;
+  // }
+  // function slideNum() {
+  //   nextButton.addEventListener("click", function () {
+  //     one.innerHTML = +one.innerHTML + 1;
+  //   });
+  //   prevButton.addEventListener("click", function () {
+  //     one.innerHTML = +one.innerHTML - 1;
+  //   });
+  // }
+  // if (listItems.length > 4 && listItems.length <= 8) {
+  //   one.innerHTML = 1;
+  //   two.innerHTML = 2;
+  //   slideNum();
+  // }
   // if (listItems.length > 8 && listItems.length <= 12) {
   //   one.innerHTML = 1;
   //   two.innerHTML = 3;

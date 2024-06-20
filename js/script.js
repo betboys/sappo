@@ -487,18 +487,18 @@ if (document.getElementById("home")) {
       enableButton(nextButton);
     }
   };
-  // const handleActivePageNumber = () => {
-  //   document.querySelectorAll(".pagination-number").forEach((button) => {
-  //     button.classList.remove("active");
-  //     const pageIndex = Number(button.getAttribute("page-index"));
-  //     if (pageIndex == currentPage) {
-  //       button.classList.add("active");
-  //     }
-  //   });
-  // };
+  const handleActivePageNumber = () => {
+    document.querySelectorAll(".pagination-number").forEach((button) => {
+      button.classList.remove("active");
+      const pageIndex = Number(button.getAttribute("page-index"));
+      if (pageIndex == currentPage) {
+        button.classList.add("active");
+      }
+    });
+  };
   const setCurrentPage = (pageNum) => {
     currentPage = pageNum;
-    // handleActivePageNumber();
+    handleActivePageNumber();
     handlePageButtonsStatus();
     const prevRange = (pageNum - 1) * paginationLimit;
     const currRange = pageNum * paginationLimit;

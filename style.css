@@ -2764,42 +2764,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   letter-spacing: 0.003rem;
   color: #fff;
   cursor: pointer;
-  /* position: absolute; */
-  /* inset: 0; */
-}
-
-.incidents-form-button input {
-  padding-inline: 24px;
-  height: 3.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-left: 0.125rem solid #fac917;
-  border-bottom: 0.125rem solid #fac917;
-  transition: 0.5s;
-  position: relative;
-}
-
-.incidents-form-button input::before {
-  content: "";
-  width: 73%;
-  height: 0.125rem;
-  background: #fac917;
   position: absolute;
-  top: 0;
-  left: 0;
-  transition: 0.5s;
-}
-
-.incidents-form-button input::after {
-  content: "";
-  width: 0.125rem;
-  height: 50%;
-  background: #fac917;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  transition: 0.5s;
+  inset: 0;
 }
 
 .send-button::before {
@@ -4086,7 +4052,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   width: 100%;
 }
 
-/* .incidents-form-button {
+.incidents-form-button {
   padding-inline: 7.313rem;
   height: 3.25rem;
   display: flex;
@@ -4094,9 +4060,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   justify-content: center;
   border-left: 0.125rem solid #fac917;
   border-bottom: 0.125rem solid #fac917;
+
   transition: 0.5s;
   position: relative;
-} */
+}
 
 .incidents-form-button p input {
   font: 500 1.25rem / normal "Noto Sans Armenian Medium";
@@ -4115,7 +4082,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   left: 45%;
 }
 
-/* .incidents-form-button::before {
+.incidents-form-button::before {
   content: "";
   width: 73%;
   height: 0.125rem;
@@ -4135,7 +4102,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   right: 0;
   bottom: 0;
   transition: 0.5s;
-} */
+}
 
 /*Added by Andranik */
 .single-content-right-title ul {

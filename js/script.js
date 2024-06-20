@@ -544,7 +544,7 @@ if (document.getElementById("home")) {
   // faq
   faq();
   // form
-  form();
+  // form();
   // Translate
   Translate();
   // footer
@@ -555,7 +555,7 @@ if (document.getElementById("contact")) {
   // header
   headerSubmenu();
   // form
-  form();
+  // form();
   // Translate
   Translate();
   // footer
@@ -633,7 +633,7 @@ if (document.getElementById("about")) {
   })
   partners();
   // form
-  form();
+  // form();
   // Translate
   Translate();
   // footer
@@ -672,7 +672,7 @@ if (document.getElementById("single")) {
   })
   partners();
   // form
-  form();
+  // form();
   // Translate
   Translate();
   // footer
@@ -736,7 +736,7 @@ if (document.getElementById("carrer")) {
     }
   });
   // form
-  form();
+  // form();
   // Translate
   Translate();
   // footer
@@ -785,26 +785,26 @@ if (document.getElementById("career-single")) {
   let sendBtn = document.querySelector(".wpcf7-submit");
   let popup = document.querySelector(".popup-mail");
   let goBack = document.querySelector(".go-back");
-  for (ind of inputs) {
-    ind.addEventListener("input", function () {
-      if (ind.value != "") {
-        sendButton.disabled = false;
-        sendBtn.addEventListener("click", function () {
-          popup.style.display = "flex";
-        });
-        goBack.addEventListener("click", function () {
-          $("html, body").animate({ scrollTop: "0" }, 0);
-          window.location.reload();
-        });
-      }
-      else {
-        sendButton.disabled = true;
-        sendBtn.addEventListener("click", function () {
-          popup.style.display = "none";
-        });
-      }
-    })
-  }
+  // for (ind of inputs) {
+  //   ind.addEventListener("input", function () {
+  //     if (ind.value != "") {
+  //       sendButton.disabled = false;
+  //       sendBtn.addEventListener("click", function () {
+  //         popup.style.display = "flex";
+  //       });
+  //       goBack.addEventListener("click", function () {
+  //         $("html, body").animate({ scrollTop: "0" }, 0);
+  //         window.location.reload();
+  //       });
+  //     }
+  //     else {
+  //       sendButton.disabled = true;
+  //       sendBtn.addEventListener("click", function () {
+  //         popup.style.display = "none";
+  //       });
+  //     }
+  //   })
+  // }
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'hy-AM') {

@@ -1860,6 +1860,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transition: 0.5s;
 }
 
+.postid-426 .card-title {
+  height: calc(700px + 29.2 * (100vw - 1920px) / 60);
+}
+
 .postid-91 .card-title {
   height: calc(700px + 29.2 * (100vw - 1920px) / 60);
 }
@@ -4321,6 +4325,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 40.625rem;
   }
 
+  .postid-426 .card-title {
+    height: 500px;
+  }
+
   .postid-91 .card-title {
     height: 500px;
   }
@@ -5312,6 +5320,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 @media (max-width: 1024px) {
+  .postid-426 .card-hover-visitble {
+    top: calc(9.3rem + -9.2 * (100vw - 64rem) / 60);
+  }
+
+  .postid-426 .card-title-hover {
+    width: calc(566px + 35 * (100vw - 1024px) / 60);
+  }
+
   .postid-427 .card-title-hover {
     width: calc(570px + 10 *(100vw - 1024px) / 60);
   }
@@ -6460,7 +6476,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .postid-91 .card-title-hover {
     width: 331px;
-}
+  }
 
   .postid-91 .card:nth-child(1) .card-hover-visitble,
   .postid-91 .card:nth-child(2) .card-hover-visitble,

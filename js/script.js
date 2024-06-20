@@ -797,10 +797,12 @@ if (document.getElementById("career-single")) {
   let remove = document.querySelector(".remove");
   for (ind of inputs) {
     ind.addEventListener("input", function () {
-      if (ind.value != "" || remove.style.display == "inline") {
-        sendBtn.addEventListener("click", function () {
-          popup.style.display = "flex";
-        });
+      if (ind.value != "") {
+        if (remove.style.display == "inline") {
+          sendBtn.addEventListener("click", function () {
+            popup.style.display = "flex";
+          });
+        }
       }
     })
   }

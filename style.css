@@ -3176,6 +3176,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   bottom: 1.5rem !important;
 }
 
+.page-id-398 .about-our-serives-card-item:nth-child(3) .card-item-info {
+  max-width: 25.25rem;
+}
+
+.page-id-398 .about-our-serives-card-item:nth-child(3) .about-our-serives-card-title {
+  max-width: 100%;
+}
+
 .about-our-serives-card-title {
   font: 400 41px / 104.545% "Bebas Neue";
   text-shadow: 0rem 0.25rem 2.5rem rgba(0, 0, 0, 0.05);

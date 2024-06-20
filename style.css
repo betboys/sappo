@@ -5771,6 +5771,15 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     height: 100vh;
   }
 
+  .postid-425 .single-page-hero,
+  .single-hero-img {
+    height: 100vh;
+  }
+
+  .carrer-hero-photo {
+    object-position: calc(65% + 20 * (100vw - 767px) / 60);
+  }
+
   .page-id-37 .hero-image,
   .page-id-288 .hero-image,
   .page-id-293 .hero-image  {

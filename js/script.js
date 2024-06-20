@@ -277,6 +277,7 @@ function ourServiceCards() {
 function partners() {
   let partnersCard = document.querySelectorAll(".side-2");
   let masterInner = document.querySelectorAll(".master-master-inner");
+  let cardIntro = document.querySelectorAll(".card-intro");
   for (let i = 0; i < partnersCard.length; i++) {
     if (windowWidth > 1001 && windowWidth <= 3840) {
       masterInner[i].addEventListener("mouseover", function () {
@@ -287,12 +288,12 @@ function partners() {
       });
     }
     if (windowWidth <= 1001) {
-      masterInner[i].addEventListener("click", function () {
-        partnersCard[i].classList.toggle("click");
-      });
-      masterInner.forEach((acc) => acc.addEventListener("click", toggleAcc));
+      // masterInner[i].addEventListener("click", function () {
+      //   partnersCard[i].classList.toggle("click");
+      // });
+      cardIntro.forEach((acc) => acc.addEventListener("click", toggleAcc));
       function toggleAcc() {
-        masterInner.forEach((item) =>
+        cardIntro.forEach((item) =>
           item != this ? item.classList.remove("click") : null
         );
         if (this.classList != "click") {

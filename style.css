@@ -1237,6 +1237,20 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   src: url(fonts/Noto-Sans/NotoSans-Bold.woff2);
 }
 
+/* line brack */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+li {
+  line-break: anywhere;
+}
+
 /* * */
 a {
   text-decoration: none;

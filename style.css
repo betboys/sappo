@@ -2391,7 +2391,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   opacity: 0;
 }
 
-.click {
+.card-intro .click {
   opacity: 1;
 }
 

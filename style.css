@@ -4359,6 +4359,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 40.625rem;
   }
 
+  .dropdown-menu-item:nth-child(3)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title, .dropdown-menu-item:nth-child(4)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title, .dropdown-menu-item:nth-child(5)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title {
+    width: 100%;
+  }
+
   .interested-title,
   .career-single-heading {
     font-size: 80px;

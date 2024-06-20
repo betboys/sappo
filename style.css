@@ -1174,6 +1174,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 /* fonts */
 @font-face {
   font-family: "Bebas Neue";
+  src: url(fonts/Bebas-Neue/BebasNeueArm.TTF);
+}
+
+@font-face {
+  font-family: "Bebas Neue";
   src: url(fonts/Bebas-Neue/Bebas-Neue-Cyrillic-Regular.ttf);
 }
 

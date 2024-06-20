@@ -5954,97 +5954,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: calc(6.25rem + 3.75 * (100vw - 62.5rem) / 60);
   }
 
-  .hero-image-inner,
-  .page-hero,
-  .carrer-hero-img,
-  .about-hero-img,
-  .single-hero-img {
-    /* height: 42.5rem; */
-    height: 100%;
-  }
-
-  .page-id-288 .page-hero,
-  .page-id-288 .hero-image-inner {
-    /* height: calc(42.5rem + -21 * (100vw - 47.938rem) / 60); */
-    height: 100%;
-  }
-
-  #carrer,
-  .carrer-hero-img {
-    height: 100vh !important;
-  }
-
-  .postid-341 .page-hero,
-  .postid-341 .single-hero-img {
-    /* height: calc(42.5rem + -21 * (100vw - 47.938rem) / 60); */
-    height: 100%;
-  }
-
-  .postid-339 .page-hero,
-  .postid-339 .single-hero-img {
-    /* height: calc(42.5rem + -10 * (100vw - 47.938rem) / 60); */
-    height: 100%;
-  }
-
-  .postid-342 .page-hero,
-  .postid-342 .single-hero-img {
-    /* height: calc(42.5rem + -20 * (100vw - 47.938rem) / 60); */
-    height: 100%;
-  }
-
-  .page-id-286 .page-hero,
-  .page-id-286 .about-hero-img {
-    /* height: calc(42.5rem + -20 * (100vw - 47.938rem) / 60); */
-    height: 100%;
-  }
-
-  .postid-338 .page-hero,
-  .postid-338 .single-hero-img {
-    /* height: calc(43.75rem + -43 * (100vw - 47.938rem) / 60); */
-    height: 100%;
-  }
-
-  .page-id-286 .about-hero-photo {
-    object-position: calc(93% + -10 * (100vw - 47.938rem) / 60);
-  }
-
-  .page-id-288 .hero-image {
-    object-position: calc(66% + 0 * (100vw - 47.938rem) / 60);
-  }
-
-  .postid-341 .single-hero-photo {
-    object-position: calc(93% + 5 * (100vw - 47.938rem) / 60);
-  }
-
-  .postid-338 .single-hero-photo {
-    object-position: 54%;
-  }
-
-  .postid-340 .single-hero-photo {
-    object-position: calc(52% + -16* (100vw - 47.938rem) / 60);
-  }
-
-  .postid-342 .single-hero-photo {
-    object-position: calc(22% + 50* (100vw - 47.938rem) / 60);
-  }
-
   .carrer-hero-img::before,
   .single-hero-img::before {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 38%, rgba(0, 0, 0, 0) 100%);
   }
 
-  .carrer-hero-photo {
-    object-position: calc(63% + 20 * (100vw - 47.938rem) / 60);
-  }
-
   .single-hero-heading-text-inner {
     margin-top: 5.313rem;
     padding-block: 0;
-  }
-
-  .postid-340 .page-hero,
-  .postid-340 .single-hero-img {
-    height: 100vh !important;
   }
 
   .gallery-photo {

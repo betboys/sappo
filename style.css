@@ -2765,7 +2765,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   color: #fff;
   cursor: pointer;
   position: absolute;
-  inset: 0;
+  left: 0;
+  height: 100%;
 }
 
 .send-button::before {

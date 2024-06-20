@@ -5780,9 +5780,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     height: 100vh;
   }
 
-  .postid-425,
-  .postid-85,
-  .postid-340 {
+  .postid-425 .single-hero-photo,
+  .postid-85 .single-hero-photo,
+  .postid-340 .single-hero-photo {
     object-position: calc(20% + 50 * (100vw - 767px) / 60);
   }
 

@@ -5766,6 +5766,21 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     --paddingTopAndBottom: 3.75rem;
   }
 
+  #carrer,
+  .carrer-hero-img {
+    height: 100vh;
+  }
+
+  .page-id-37 .hero-image,
+  .page-id-288 .hero-image,
+  .page-id-293 .hero-image  {
+    object-position: calc(50% + 32 * (100vw - 767px) / 60);
+  }
+
+  .about-hero-photo {
+    object-position: calc(100% + -40 * (100vw - 767px) / 60);
+  }
+
   .postid-39 h1 {
     line-break: anywhere;
   }

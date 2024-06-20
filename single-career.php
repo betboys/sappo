@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="career-single-hero postid-584" id="career-single">
+<section class="career-single-hero" id="career-single">
     <div class="title-text-inner">
         <h1 class="career-single-heading" data-aos="fade-up"><?php the_title(); ?></h1>
         <ul class="location-time-single">

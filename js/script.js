@@ -807,8 +807,6 @@ if (document.getElementById("career-single")) {
         //   $("#file-input").trigger('click');
         // });
         // $('#file-input').change(function () {
-          var value = this.value;
-          var fileName = typeof value == 'string' ? value.match(/[^\/\\]+$/)[0] : value[0]
           if (fileName != "" && ind != "") {
             sendBtn.addEventListener("click", function () {
               popup.style.display = "flex";

@@ -332,24 +332,37 @@ function form() {
   let goBack = document.querySelector(".go-back");
   for (ind of inputs) {
     ind.addEventListener("input", function () {
-      if (ind.value != "") {
-        sendButton.disabled = false;
+      if (ind.ariaRequired = false) {
         sendBtn.addEventListener("click", function () {
           popup.style.display = "flex";
-        });
-        goBack.addEventListener("click", function () {
-          $("html, body").animate({ scrollTop: "0" }, 0);
-          window.location.reload();
-        });
-      }
-      else {
-        sendButton.disabled = true;
-        sendBtn.addEventListener("click", function () {
-          popup.style.display = "none";
         });
       }
     })
   }
+  goBack.addEventListener("click", function () {
+    $("html, body").animate({ scrollTop: "0" }, 0);
+    window.location.reload();
+  });
+  // for (ind of inputs) {
+  //   ind.addEventListener("input", function () {
+  //     if (ind.value != "") {
+  //       sendButton.disabled = false;
+  //       sendBtn.addEventListener("click", function () {
+  //         popup.style.display = "flex";
+  //       });
+  //       goBack.addEventListener("click", function () {
+  //         $("html, body").animate({ scrollTop: "0" }, 0);
+  //         window.location.reload();
+  //       });
+  //     }
+  //     else {
+  //       sendButton.disabled = true;
+  //       sendBtn.addEventListener("click", function () {
+  //         popup.style.display = "none";
+  //       });
+  //     }
+  //   })
+  // }
 }
 /* Home */
 if (document.getElementById("home")) {
@@ -544,7 +557,7 @@ if (document.getElementById("home")) {
   // faq
   faq();
   // form
-  // form();
+  form();
   // Translate
   Translate();
   // footer

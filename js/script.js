@@ -790,7 +790,7 @@ if (document.getElementById("career-single")) {
   // form
   let subInp = document.querySelector(".wpcf7-submit");
   let suBBtn = document.querySelector(".incidents-form-button");
-  let subInpW = subInp.width;
+  let subInpW = subInp.offsetWidth;
   let newW = subInpW + 24;
   suBBtn.setAttribute("style", `width: ${newW}px`);
 

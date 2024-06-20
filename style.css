@@ -1237,20 +1237,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   src: url(fonts/Noto-Sans/NotoSans-Bold.woff2);
 }
 
-/* line brack */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span,
-a,
-li {
-  line-break: anywhere;
-}
-
 /* * */
 a {
   text-decoration: none;
@@ -5778,6 +5764,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .postid-39 h1 {
+    line-break: anywhere;
   }
 
   .postid-426 .card-hover-visitble {

@@ -5297,7 +5297,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 @media (max-width: 1024px) {
   .postid-427 .card-title-hover {
-    height: calc(570px + 10 *(100vw - 1024px) / 60);
+    width: calc(570px + 10 *(100vw - 1024px) / 60);
   }
 
   .postid-427 .card-hover-visitble {

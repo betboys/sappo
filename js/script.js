@@ -417,7 +417,10 @@ if (document.getElementById("home")) {
   if (windowWidth <= 767) {
     paginatedList.appendChild(paginationContainer);
   }
-  $(document).ready(function () {
+
+  window.addEventListener("load", function () {
+
+
     if (listItems.length > 1 && listItems.length <= 4) {
       one.innerHTML = 1;
       two.innerHTML = 1;
@@ -520,23 +523,25 @@ if (document.getElementById("home")) {
         }
       });
     };
-    window.addEventListener("load", () => {
-      setCurrentPage(1);
-      prevButton.addEventListener("click", () => {
-        setCurrentPage(currentPage - 1);
-      });
-      nextButton.addEventListener("click", () => {
-        setCurrentPage(currentPage + 1);
-      });
-      document.querySelectorAll(".pagination-number").forEach((button) => {
-        const pageIndex = Number(button.getAttribute("page-index"));
-        if (pageIndex) {
-          button.addEventListener("click", () => {
-            setCurrentPage(pageIndex);
-          });
-        }
-      });
+    // window.addEventListener("load", () => {
+    setCurrentPage(1);
+    prevButton.addEventListener("click", () => {
+      setCurrentPage(currentPage - 1);
     });
+    nextButton.addEventListener("click", () => {
+      setCurrentPage(currentPage + 1);
+    });
+    document.querySelectorAll(".pagination-number").forEach((button) => {
+      const pageIndex = Number(button.getAttribute("page-index"));
+      if (pageIndex) {
+        button.addEventListener("click", () => {
+          setCurrentPage(pageIndex);
+        });
+      }
+    });
+    // });
+
+
   })
   // Our trusted partners
   const swiper = new Swiper(".swiper", {

@@ -418,7 +418,7 @@ if (document.getElementById("home")) {
     paginatedList.appendChild(paginationContainer);
   }
 
-  window.addEventListener("load", function () {
+
 
 
     if (listItems.length > 1 && listItems.length <= 4) {
@@ -542,7 +542,6 @@ if (document.getElementById("home")) {
     // });
 
 
-  })
   // Our trusted partners
   const swiper = new Swiper(".swiper", {
     slidesPerView: "auto",

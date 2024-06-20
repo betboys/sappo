@@ -5994,8 +5994,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .single-hero-heading-text-inner {
-    margin-top: 5.313rem;
+    margin-top: 10.625rem;
     padding-block: 0;
+    padding-bottom: 5.313rem;
   }
 
   .gallery-photo {

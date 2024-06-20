@@ -788,34 +788,34 @@ if (document.getElementById("career-single")) {
       }
       $labelRemove.hide();
     });
-  });
-  // form
-  let inputs = document.querySelectorAll(".input");
-  let sendBtn = document.querySelector(".wpcf7-submit");
-  let popup = document.querySelector(".popup-mail");
-  let goBack = document.querySelector(".go-back");
-  let remove = document.querySelector(".remove");
-  for (ind of inputs) {
-    // ind.addEventListener("input", function () {
+    // form
+    let inputs = document.querySelectorAll(".input");
+    let sendBtn = document.querySelector(".wpcf7-submit");
+    let popup = document.querySelector(".popup-mail");
+    let goBack = document.querySelector(".go-back");
+    let remove = document.querySelector(".remove");
+    for (ind of inputs) {
+      // ind.addEventListener("input", function () {
       // if (ind.value != "") {
       //   sendBtn.addEventListener("click", function () {
       //     popup.style.display = "flex";
       //   });
       // }
       // $(document).ready(function () {
-        // $("#file-input").click(function () {
-        //   $("#file-input").trigger('click');
-        // });
-        // $('#file-input').change(function () {
-          if (fileName != "" && ind != "") {
-            sendBtn.addEventListener("click", function () {
-              popup.style.display = "flex";
-            });
-          }
-        // })
+      // $("#file-input").click(function () {
+      //   $("#file-input").trigger('click');
       // });
-    // })
-  }
+      // $('#file-input').change(function () {
+      if (fileName != "" && ind != "") {
+        sendBtn.addEventListener("click", function () {
+          popup.style.display = "flex";
+        });
+      }
+      // })
+      // });
+      // })
+    }
+  });
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'en-US') {

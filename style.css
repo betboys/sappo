@@ -4054,7 +4054,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .incidents-form-button {
-  padding-inline: 7.313rem;
   height: 3.25rem;
   display: flex;
   align-items: center;

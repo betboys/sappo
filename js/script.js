@@ -287,18 +287,18 @@ function partners() {
         partnersCard[i].classList.remove("click");
       });
     }
-    if (windowWidth <= 1001) {
-      // masterInner[i].addEventListener("click", function () {
-      //   partnersCard[i].classList.toggle("click");
-      // });
-      cardIntro.forEach((acc) => acc.addEventListener("click", toggleAcc));
-      function toggleAcc() {
-        cardIntro.forEach((item) =>
-          item != this ? item.classList.remove("click") : null
-        );
-        if (this.classList != "click") {
-          this.classList.toggle("click");
-        }
+  }
+  if (windowWidth <= 1001) {
+    // masterInner[i].addEventListener("click", function () {
+    //   partnersCard[i].classList.toggle("click");
+    // });
+    cardIntro.forEach((acc) => acc.addEventListener("click", toggleAcc));
+    function toggleAcc() {
+      cardIntro.forEach((item) =>
+        item != this ? item.classList.remove("click") : null
+      );
+      if (this.classList != "click") {
+        this.classList.toggle("click");
       }
     }
   }

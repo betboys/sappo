@@ -325,7 +325,6 @@ function faq() {
 }
 /* form */
 function form() {
-  let sendButton = document.querySelector(".send-button");
   let inputs = document.querySelectorAll(".input");
   let sendBtn = document.querySelector(".wpcf7-submit");
   let popup = document.querySelector(".popup-mail");
@@ -566,7 +565,7 @@ if (document.getElementById("contact")) {
   // header
   headerSubmenu();
   // form
-  // form();
+  form();
   // Translate
   Translate();
   // footer
@@ -644,7 +643,7 @@ if (document.getElementById("about")) {
   })
   partners();
   // form
-  // form();
+  form();
   // Translate
   Translate();
   // footer
@@ -683,7 +682,7 @@ if (document.getElementById("single")) {
   })
   partners();
   // form
-  // form();
+  form();
   // Translate
   Translate();
   // footer
@@ -747,7 +746,7 @@ if (document.getElementById("carrer")) {
     }
   });
   // form
-  // form();
+  form();
   // Translate
   Translate();
   // footer
@@ -791,31 +790,41 @@ if (document.getElementById("career-single")) {
     });
   });
   // form
-  let sendButton = document.querySelector(".incidents-form-button");
   let inputs = document.querySelectorAll(".input");
   let sendBtn = document.querySelector(".wpcf7-submit");
   let popup = document.querySelector(".popup-mail");
   let goBack = document.querySelector(".go-back");
-  // for (ind of inputs) {
-  //   ind.addEventListener("input", function () {
-  //     if (ind.value != "") {
-  //       sendButton.disabled = false;
-  //       sendBtn.addEventListener("click", function () {
-  //         popup.style.display = "flex";
-  //       });
-  //       goBack.addEventListener("click", function () {
-  //         $("html, body").animate({ scrollTop: "0" }, 0);
-  //         window.location.reload();
-  //       });
-  //     }
-  //     else {
-  //       sendButton.disabled = true;
-  //       sendBtn.addEventListener("click", function () {
-  //         popup.style.display = "none";
-  //       });
-  //     }
-  //   })
-  // }
+  for (ind of inputs) {
+    ind.addEventListener("input", function () {
+      if (ind.value != "") {
+        sendBtn.addEventListener("click", function () {
+          popup.style.display = "flex";
+        });
+      }
+    })
+  }
+  $(document).ready(function ($) {
+    var lang = $('html').attr('lang');
+    if (lang === 'en-US') {
+      $(".popup-title").text("Thank you!");
+      $(".popup-subtitle").text("Your message has been successfully received. Our team will review your inquiry and get back to you as soon as possible.");
+      $(".go-back").text("Go back");
+    }
+    if (lang === 'hy-AM') {
+      $(".popup-title").text("Շնորհակալություն");
+      $(".popup-subtitle").text("Ձեր հաղորդագրությունը հաջողությամբ ստացվել է: Մեր թիմը կուսումնասիրի ձեր հարցումը և կկապվի ձեզ հետ հնարավորինս շուտ:");
+      $(".go-back").text("Վերադառնալ");
+    }
+    if (lang === 'ru-RU') {
+      $(".popup-title").text("Спасибо!");
+      $(".popup-subtitle").text("Ваше сообщение успешно получено. Наша команда рассмотрит ваш запрос и свяжется с вами в ближайшее время.");
+      $(".go-back").text("Вернуться назад");
+    }
+  });
+  goBack.addEventListener("click", function () {
+    $("html, body").animate({ scrollTop: "0" }, 0);
+    window.location.reload();
+  });
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'hy-AM') {

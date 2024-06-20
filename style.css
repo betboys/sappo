@@ -2749,13 +2749,18 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .send-button {
   margin-top: 0.5rem;
   display: flex;
-  padding: 0.688rem 3.313rem;
+  padding: 0.688rem 5.313rem;
   text-align: center;
   cursor: pointer;
   position: relative;
   border-left: 0.125rem solid #fff;
   border-bottom: 0.125rem solid #fff;
   transition: 0.5s;
+}
+
+.incidents-form-button input {
+  position: absolute;
+  inset: 0;
 }
 
 .incidents-form-button input,
@@ -2925,7 +2930,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .popup-intro {
-  width: 20.563rem;
+  width: 24.563rem;
 }
 
 .popup-title {

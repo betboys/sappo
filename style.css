@@ -3997,10 +3997,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   gap: 0.75rem;
 }
 
-.chosse-file>p>span {
-  display: none;
-}
-
 .label-file {
   display: flex;
   align-items: center;

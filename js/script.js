@@ -287,7 +287,7 @@ function partners() {
       });
     }
     if (windowWidth <= 1001) {
-      masterInner[i].addEventListener("click", function () {
+      // masterInner[i].addEventListener("click", function () {
         // partnersCard[i].classList.toggle("click");
         masterInner.forEach((acc) => acc.addEventListener("click", toggleAcc));
         function toggleAcc() {
@@ -298,7 +298,7 @@ function partners() {
             this.classList.toggle("toggle-class");
           }
         }
-      });
+      // });
     }
   }
 }

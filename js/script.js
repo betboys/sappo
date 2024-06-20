@@ -807,9 +807,12 @@ if (document.getElementById("career-single")) {
   // }
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
-    if (lang === 'en-US') {
-      $(".wpcf7-not-valid-tip").text("This field is required");
-    }
+    $(".incidents-form-button").addEventListener("click", function () {
+
+      if (lang === 'en-US') {
+        $(".wpcf7-not-valid-tip").text("This field is required");
+      }
+    })
     if (lang === 'hy-AM') {
       $(".form-name1").text("Անուն Ազգանուն");
       $(".input1").attr("placeholder", "Անուն Ազգանուն");

@@ -332,7 +332,7 @@ function form() {
   let goBack = document.querySelector(".go-back");
   for (ind of inputs) {
     ind.addEventListener("input", function () {
-      if (ind.ariaRequired = false) {
+      if (ind.value != "") {
         sendBtn.addEventListener("click", function () {
           popup.style.display = "flex";
         });

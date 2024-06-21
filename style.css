@@ -1163,6 +1163,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 .aos-animate span {
   display: inline-block;
+  padding-top: 26px;
 }
 
 * {

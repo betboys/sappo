@@ -5398,7 +5398,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .career-single-hero-img-inner,
   .secureity-hero-img {
-    height: 200vh;
+    height: 100%;
   }
 
   .our-benefits-title,

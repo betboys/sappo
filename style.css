@@ -2839,6 +2839,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   display: flex;
   justify-content: space-between;
   padding: 0 var(--paddingLeftAndRigth);
+  gap: 70px;
 }
 
 .footer-text {

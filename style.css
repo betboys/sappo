@@ -5036,6 +5036,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 18rem;
   }
 
+  .dropdown-menu-item-title {
+    height: unset;
+  }
+
   .dropdown-menu-item-desc {
     width: 100%;
     max-width: 14rem;
@@ -5820,6 +5824,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     --paddingTopAndBottom: 3.75rem;
   }
 
+  .hero-image-inner::before {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) -0.04%, #000 91.63%);
+  }
+
   .carrer-hero-heading-text-inner {
     max-width: calc(29rem + 14 *(100vw - 767px) / 60);
   }
@@ -5919,7 +5927,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .carrer-hero-img::before,
   .single-hero-img::before {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 38%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) -0.04%, #000 91.63%);
   }
 
   .single-hero-heading-text-inner {

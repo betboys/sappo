@@ -242,6 +242,7 @@ function ourServiceCards() {
   let cardHoverVisitble = document.querySelectorAll(".card-hover-visitble");
   let cardImages = document.querySelectorAll(".card-image");
   let cardMobile = document.querySelectorAll(".card-link-mobile");
+  let cardInfoInner = document.querySelectorAll(".card-info-inner")
   let cardLength = cards.length;
   for (let i = 0; i < cards.length; i++) {
     cards[i].style.width = 100 / cardLength + "%";
@@ -257,9 +258,15 @@ function ourServiceCards() {
     if (windowWidth <= 1024) {
       cards[i].style.width = 100 + "%";
     }
-    if (windowWidth <= 520) {
+    if (windowWidth <= 1024) {
+      let cardInfoInnerH = cardInfoInner[i].clientHeight;
+      let cardsH = cards[i].clientHeight;
+      let newCardsH = cardsH + cardInfoInnerH;
+      cardInfoInner[i].setAttribute("style", "height: 0; margin-top: 0");
       cards[i].addEventListener("click", function () {
-        cardHoverVisitble[i].classList.toggle("bottom");
+        // cardHoverVisitble[i].classList.toggle("bottom");
+        cardInfoInner[i].setAttribute("style", `height: ${cardInfoInnerH}px; margin-top: 7.69px`);
+        cards[i].setAttribute("style", `height: ${newCardsH}px`);
       });
     }
   }

@@ -21,8 +21,12 @@
         </div>
     </div>
     <div class="career-single-hero-img-inner">
-        <img class="career-single-hero-img"
-            src="<?php echo get_template_directory_uri(); ?>/images/career-single-hero-img.webp" alt="">
+        <?php
+        $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full'); // 'full' for full size, change as needed
+        ?>
+        <img class="career-single-hero-img" src="<?php echo $featured_image_url; ?>" alt="">
+        <!-- <img class="career-single-hero-img"
+            src="<?php echo get_template_directory_uri(); ?>/images/career-single-hero-img.webp" alt=""> -->
     </div>
 </section>
 

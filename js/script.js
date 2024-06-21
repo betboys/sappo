@@ -424,122 +424,124 @@ if (document.getElementById("home")) {
   if (windowWidth <= 767) {
     paginatedList.appendChild(paginationContainer);
   }
-  if (listItems.length > 1 && listItems.length <= 4) {
-    one.innerHTML = 1;
-    two.innerHTML = 1;
-  }
-  function slideNum() {
-    nextButton.addEventListener("click", function () {
-      one.innerHTML = +one.innerHTML + 1;
-    });
-    prevButton.addEventListener("click", function () {
-      one.innerHTML = +one.innerHTML - 1;
-    });
-  }
-  if (listItems.length > 4 && listItems.length <= 8) {
-    one.innerHTML = 1;
-    two.innerHTML = 2;
-    slideNum();
-  }
-  if (listItems.length > 8 && listItems.length <= 12) {
-    one.innerHTML = 1;
-    two.innerHTML = 3;
-    slideNum();
-  }
-  if (listItems.length > 12 && listItems.length <= 15) {
-    one.innerHTML = 1;
-    two.innerHTML = 4;
-    slideNum();
-  }
-  if (listItems.length > 16 && listItems.length <= 20) {
-    one.innerHTML = 1;
-    two.innerHTML = 5;
-    slideNum();
-  }
-  if (listItems.length > 20 && listItems.length <= 24) {
-    one.innerHTML = 1;
-    two.innerHTML = 6;
-    slideNum();
-  }
-  if (listItems.length > 24 && listItems.length <= 28) {
-    one.innerHTML = 1;
-    two.innerHTML = 7;
-    slideNum();
-  }
-  if (listItems.length > 32 && listItems.length <= 36) {
-    one.innerHTML = 1;
-    two.innerHTML = 8;
-    slideNum();
-  }
-  if (listItems.length > 36 && listItems.length <= 40) {
-    one.innerHTML = 1;
-    two.innerHTML = 9;
-    slideNum();
-  }
-  if (listItems.length > 40 && listItems.length <= 44) {
-    one.innerHTML = 1;
-    two.innerHTML = 10;
-    slideNum();
-  }
-  const paginationLimit = 4;
-  const pageCount = Math.ceil(listItems.length / paginationLimit);
-  let currentPage = 1;
-  const disableButton = (button) => {
-    button.classList.add("disabled");
-    button.setAttribute("disabled", true);
-  };
-  const enableButton = (button) => {
-    button.classList.remove("disabled");
-    button.removeAttribute("disabled");
-  };
-  const handlePageButtonsStatus = () => {
-    if (currentPage === 1) {
-      disableButton(prevButton);
-    } else {
-      enableButton(prevButton);
+  document.addEventListener('DOMContentLoaded', (event) => {
+    if (listItems.length > 1 && listItems.length <= 4) {
+      one.innerHTML = 1;
+      two.innerHTML = 1;
     }
-    if (pageCount === currentPage) {
-      disableButton(nextButton);
-    } else {
-      enableButton(nextButton);
-    }
-  };
-  const handleActivePageNumber = () => {
-    document.querySelectorAll(".pagination-number").forEach((button) => {
-      button.classList.remove("active");
-      const pageIndex = Number(button.getAttribute("page-index"));
-      if (pageIndex == currentPage) {
-        button.classList.add("active");
-      }
-    });
-  };
-  const setCurrentPage = (pageNum) => {
-    currentPage = pageNum;
-    handleActivePageNumber();
-    handlePageButtonsStatus();
-    const prevRange = (pageNum - 1) * paginationLimit;
-    const currRange = pageNum * paginationLimit;
-    listItems.forEach((item, index) => {
-      item.classList.add("hidden-intro");
-      if (index >= prevRange && index < currRange) {
-        item.classList.remove("hidden-intro");
-      }
-    });
-  };
-  setCurrentPage(1);
-  prevButton.addEventListener("click", () => {
-    setCurrentPage(currentPage - 1);
-  });
-  nextButton.addEventListener("click", () => {
-    setCurrentPage(currentPage + 1);
-  });
-  document.querySelectorAll(".pagination-number").forEach((button) => {
-    const pageIndex = Number(button.getAttribute("page-index"));
-    if (pageIndex) {
-      button.addEventListener("click", () => {
-        setCurrentPage(pageIndex);
+    function slideNum() {
+      nextButton.addEventListener("click", function () {
+        one.innerHTML = +one.innerHTML + 1;
+      });
+      prevButton.addEventListener("click", function () {
+        one.innerHTML = +one.innerHTML - 1;
       });
     }
+    if (listItems.length > 4 && listItems.length <= 8) {
+      one.innerHTML = 1;
+      two.innerHTML = 2;
+      slideNum();
+    }
+    if (listItems.length > 8 && listItems.length <= 12) {
+      one.innerHTML = 1;
+      two.innerHTML = 3;
+      slideNum();
+    }
+    if (listItems.length > 12 && listItems.length <= 15) {
+      one.innerHTML = 1;
+      two.innerHTML = 4;
+      slideNum();
+    }
+    if (listItems.length > 16 && listItems.length <= 20) {
+      one.innerHTML = 1;
+      two.innerHTML = 5;
+      slideNum();
+    }
+    if (listItems.length > 20 && listItems.length <= 24) {
+      one.innerHTML = 1;
+      two.innerHTML = 6;
+      slideNum();
+    }
+    if (listItems.length > 24 && listItems.length <= 28) {
+      one.innerHTML = 1;
+      two.innerHTML = 7;
+      slideNum();
+    }
+    if (listItems.length > 32 && listItems.length <= 36) {
+      one.innerHTML = 1;
+      two.innerHTML = 8;
+      slideNum();
+    }
+    if (listItems.length > 36 && listItems.length <= 40) {
+      one.innerHTML = 1;
+      two.innerHTML = 9;
+      slideNum();
+    }
+    if (listItems.length > 40 && listItems.length <= 44) {
+      one.innerHTML = 1;
+      two.innerHTML = 10;
+      slideNum();
+    }
+    const paginationLimit = 4;
+    const pageCount = Math.ceil(listItems.length / paginationLimit);
+    let currentPage = 1;
+    const disableButton = (button) => {
+      button.classList.add("disabled");
+      button.setAttribute("disabled", true);
+    };
+    const enableButton = (button) => {
+      button.classList.remove("disabled");
+      button.removeAttribute("disabled");
+    };
+    const handlePageButtonsStatus = () => {
+      if (currentPage === 1) {
+        disableButton(prevButton);
+      } else {
+        enableButton(prevButton);
+      }
+      if (pageCount === currentPage) {
+        disableButton(nextButton);
+      } else {
+        enableButton(nextButton);
+      }
+    };
+    const handleActivePageNumber = () => {
+      document.querySelectorAll(".pagination-number").forEach((button) => {
+        button.classList.remove("active");
+        const pageIndex = Number(button.getAttribute("page-index"));
+        if (pageIndex == currentPage) {
+          button.classList.add("active");
+        }
+      });
+    };
+    const setCurrentPage = (pageNum) => {
+      currentPage = pageNum;
+      handleActivePageNumber();
+      handlePageButtonsStatus();
+      const prevRange = (pageNum - 1) * paginationLimit;
+      const currRange = pageNum * paginationLimit;
+      listItems.forEach((item, index) => {
+        item.classList.add("hidden-intro");
+        if (index >= prevRange && index < currRange) {
+          item.classList.remove("hidden-intro");
+        }
+      });
+    };
+    setCurrentPage(1);
+    prevButton.addEventListener("click", () => {
+      setCurrentPage(currentPage - 1);
+    });
+    nextButton.addEventListener("click", () => {
+      setCurrentPage(currentPage + 1);
+    });
+    document.querySelectorAll(".pagination-number").forEach((button) => {
+      const pageIndex = Number(button.getAttribute("page-index"));
+      if (pageIndex) {
+        button.addEventListener("click", () => {
+          setCurrentPage(pageIndex);
+        });
+      }
+    });
   });
   // Our trusted partners
   const swiper = new Swiper(".swiper", {

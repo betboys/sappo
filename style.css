@@ -4619,10 +4619,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     height: 740px;
   }
 
-  .hero-heading-text-inner {
-    margin-top: 100px;
-  }
-
 
   .sappo-security-service-text {
     font-size: calc(170px + 0 * (100vw - 1440px) / 60);
@@ -4735,7 +4731,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .hero-heading-text-inner {
     max-width: calc(66rem + 35 * (100vw - 90rem) / 60);
     margin-bottom: unset;
-    margin-top: 10rem;
+    margin-top: 100px;
   }
 
   .single-hero-heading-text-inner {

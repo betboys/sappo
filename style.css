@@ -1978,7 +1978,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .card-link-mobile {
   position: absolute;
   inset: 0;
-  z-index: 1;
+  z-index: 10;
   display: none;
 }
 

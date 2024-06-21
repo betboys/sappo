@@ -4611,7 +4611,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .carrer-hero-heading-text-inner {
     padding: 0 var(--paddingLeftAndRigth);
-    margin-top: 10rem;
+    margin-top: 100px;
   }
 
   .page-hero,
@@ -4695,7 +4695,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .about-hero-heading-text-inner {
-    margin-top: 0;
+    margin-top: 100px;
   }
 
   .hero-subtitle {
@@ -4738,7 +4738,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .single-hero-heading-text-inner {
     margin-bottom: unset;
-    margin-top: unset;
+    margin-top: 100px;
   }
 
   .hero-subtitle-single {

@@ -1663,7 +1663,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 /* home hero section */
 .page-hero {
   width: 100%;
-  height: 100vh;
+  height: 985px;
   overflow: hidden;
   display: grid;
   align-items: center;
@@ -1671,7 +1671,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .hero-image-inner {
   width: 100%;
-  height: 100vh;
+  height: 985px;
   position: relative;
 }
 
@@ -3016,7 +3016,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .about-hero-img {
-  height: 100vh;
+  height: 985px;
   position: relative;
 }
 
@@ -3615,7 +3615,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 /* Technical page */
 .single-hero-img {
-  height: 100vh;
+  height: 985px;
   position: relative;
 }
 
@@ -3656,7 +3656,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 /* Carrer */
 .carrer-hero-img {
-  height: 100vh;
+  height: 985px;
   position: relative;
 }
 

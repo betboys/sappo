@@ -5825,6 +5825,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     --paddingTopAndBottom: 3.75rem;
   }
 
+  .send-button {
+    width: 100%;
+    padding-inline: 0;
+  }
+
   .popup-inner {
     max-width: 20rem;
   }
@@ -6170,6 +6175,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .incidents-form-button {
     width: 100%;
+    padding-inline: 0;
   }
 
   .gallery-photo-intro:nth-child(1),

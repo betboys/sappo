@@ -3670,6 +3670,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .carrer-hero-heading-text-inner {
   width: 100%;
+  max-width: calc(83rem + 41 *(100vw - 1920px) / 60);
   padding-inline: var(--paddingLeftAndRigth);
   margin-top: 6.875rem;
   position: relative;
@@ -4368,6 +4369,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 @media (max-width: 1728px) {
   .our-team-title-subtitle {
     max-width: 40.625rem;
+  }
+
+  .carrer-hero-heading-text-inner {
+    max-width: calc(57.6rem + 10 *(100vw - 1728px) / 60);
   }
 
   .dropdown-menu-item:nth-child(3)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title,
@@ -5402,6 +5407,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     gap: 2.813rem;
   }
 
+  .carrer-hero-heading-text-inner {
+    max-width: calc(43.9rem + 13 *(100vw - 1024px) / 60);
+  }
+
   .contact-us-form,
   .wpcf7 {
     width: 100%;
@@ -5809,6 +5818,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .carrer-hero-heading-text-inner {
+    max-width: calc(29rem + 14 *(100vw - 767px) / 60);
   }
 
   .title-subtitle-intro>h3 {

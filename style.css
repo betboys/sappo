@@ -6114,6 +6114,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     overflow-x: scroll;
     justify-content: start;
     white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
   }
 
   .list-group-item {

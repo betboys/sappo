@@ -4365,7 +4365,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 40.625rem;
   }
 
-  .dropdown-menu-item:nth-child(3)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title, .dropdown-menu-item:nth-child(4)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title, .dropdown-menu-item:nth-child(5)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title {
+  .dropdown-menu-item:nth-child(3)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title,
+  .dropdown-menu-item:nth-child(4)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title,
+  .dropdown-menu-item:nth-child(5)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title {
     width: 100%;
   }
 
@@ -5391,6 +5393,18 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     top: calc(9.3rem + -9.2 * (100vw - 64rem) / 60);
   }
 
+  .socal-media-form {
+    flex-direction: column-reverse;
+    align-items: start;
+    margin-top: 2rem;
+    gap: 2.813rem;
+  }
+
+  .contact-us-form,
+  .wpcf7 {
+    width: 100%;
+  }
+
   .postid-426 .card-title-hover {
     width: calc(566px + 35 * (100vw - 1024px) / 60);
   }
@@ -5660,6 +5674,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .footer-rigth {
     width: 100%;
+    flex-direction: column;
   }
 
   .partners-card-text {

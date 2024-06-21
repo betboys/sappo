@@ -4597,6 +4597,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 10rem;
   }
 
+  .sappo-security-service-text {
+    font-size: calc(170px + 0 * (100vw - 1440px) / 60);
+  }
+
   .about-our-serives-card-title {
     font-size: 32px;
   }

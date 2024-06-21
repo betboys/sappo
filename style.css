@@ -2942,7 +2942,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .popup-inner {
-  width: 29.935rem;
+  width: 100%;
+  max-width: 29.935rem;
   background: #1A1A1C;
   padding-block: 4.813rem;
   display: flex;
@@ -5822,6 +5823,25 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .popup-inner {
+    max-width: 20rem;
+  }
+
+  .popup-title {
+    font-size: 44px;
+  }
+
+  .popup-subtitle {
+    font-size: 14px;
+    padding-inline: 20px;
+  }
+
+  .go-back {
+    font-size: 16px;
+    width: 80%;
+    margin-inline: auto;
   }
 
   .hero-image-inner::before {

@@ -5569,7 +5569,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     width: 100%;
     left: 0;
     bottom: 24px;
-    top: unset;    
+    top: unset;
     /* bottom: unset;
     top: calc(13.8rem + -4.2 * (100vw - 64rem) / 60); */
     padding-left: 0;
@@ -6420,7 +6420,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 0;
     padding: 0 var(--paddingLeftAndRigth);
     font-size: 100px;
-    line-break: anywhere;
+  }
+
+  .page-id-37 .sappo-security-service-text {
+    font-size: 67px;
+  }
+
+  .page-id-293 .sappo-security-service-text {
+    font-size: 74px;
   }
 
   .card-title-hover {

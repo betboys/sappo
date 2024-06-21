@@ -5424,6 +5424,12 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     gap: 2.813rem;
   }
 
+  .career-single-heading,
+  .our-benefits-title,
+  .interested-title {
+    font-size: 50px;
+  }
+
   .carrer-hero-heading-text-inner {
     max-width: calc(43.9rem + 13 *(100vw - 1024px) / 60);
   }

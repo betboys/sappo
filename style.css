@@ -6120,6 +6120,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     -webkit-overflow-scrolling: touch;
   }
 
+  .list-group-item.active::before {
+    display: none;
+  }
+
   .list-group-item {
     display: inline-block;
   }

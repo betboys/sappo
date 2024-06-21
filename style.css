@@ -4614,6 +4614,16 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 10rem;
   }
 
+  .page-hero,
+  .hero-image-inner {
+    height: 740px;
+  }
+
+  .hero-heading-text-inner {
+    margin-top: 100px;
+  }
+
+
   .sappo-security-service-text {
     font-size: calc(170px + 0 * (100vw - 1440px) / 60);
   }

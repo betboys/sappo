@@ -4374,7 +4374,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .single-content-left>.headingN2 {
     width: 80%;
-  } 
+  }
 
   .carrer-hero-heading-text-inner {
     max-width: calc(57.6rem + 10 *(100vw - 1728px) / 60);
@@ -6114,6 +6114,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     overflow-x: scroll;
     justify-content: start;
     white-space: nowrap;
+    scrollbar-width: none;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
     -webkit-overflow-scrolling: touch;
   }
 

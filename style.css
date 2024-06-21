@@ -4615,7 +4615,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .page-hero,
-  .hero-image-inner {
+  .hero-image-inner,
+  .carrer-hero-img,
+  .about-hero-img,
+  .single-hero-img {
     height: 740px;
   }
 

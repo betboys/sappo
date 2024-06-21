@@ -2539,6 +2539,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .socal-media-form {
+  margin-top: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -4521,7 +4522,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .page-id-37 .card-title {
-    height: calc(530px + 0*(100vw - 1728px) / 60);
+    height: calc(670px + 0*(100vw - 1728px) / 60);
   }
 
   .menu-link,

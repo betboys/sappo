@@ -5678,7 +5678,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .partners-card-text {
-    height: 5.5rem;
     padding: 0 0.75rem;
     display: -webkit-box;
     -webkit-line-clamp: 5;

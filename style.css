@@ -4372,6 +4372,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 40.625rem;
   }
 
+  .single-content-left>.headingN2 {
+    width: 80%;
+  } 
+
   .carrer-hero-heading-text-inner {
     max-width: calc(57.6rem + 10 *(100vw - 1728px) / 60);
   }
@@ -6123,6 +6127,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .our-benefits-title,
   .interested-title {
     font-size: 50px;
+  }
+
+  .logo-icon {
+    width: 100px;
   }
 
   .secureity-hero h1 {

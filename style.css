@@ -1163,6 +1163,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 .aos-animate span {
   display: inline-block;
+}
+
+.hero-heading-text-inner span,
+.sappo-security-service-text span,
+.contact-us-title span {
   padding-top: 26px;
 }
 

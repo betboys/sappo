@@ -265,12 +265,12 @@ function ourServiceCards() {
       let cardInfoInnerH = cardInfoInner[i].clientHeight;
       let cardsH = cards[i].clientHeight;
       let newCardsH = cardsH + cardInfoInnerH;
-      cardInfoInner[i].setAttribute("style", "height: 0; margin-top: 0");
-      cards[i].addEventListener("click", function () {
-        // cardHoverVisitble[i].classList.toggle("bottom");
-        cardInfoInner[i].setAttribute("style", `height: ${cardInfoInnerH}px; margin-top: 7.69px`);
-        cards[i].setAttribute("style", `height: ${newCardsH}px`);
-      });
+      // cardInfoInner[i].setAttribute("style", "height: 0; margin-top: 0");
+      // cards[i].addEventListener("click", function () {
+      //   // cardHoverVisitble[i].classList.toggle("bottom");
+      //   cardInfoInner[i].setAttribute("style", `height: ${cardInfoInnerH}px; margin-top: 7.69px`);
+      //   cards[i].setAttribute("style", `height: ${newCardsH}px`);
+      // });
     }
   }
   cards.forEach((acc) => acc.addEventListener("click", toggleAcc));

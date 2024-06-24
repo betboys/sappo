@@ -4666,13 +4666,13 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     align-items: start;
   }
 
-  .partners-card-text {
+  /* .partners-card-text {
     padding: 0 0.938rem;
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
     overflow: hidden;
-  }
+  } */
 
   .menu-link,
   .rigth-intro-link,
@@ -4819,16 +4819,16 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 3.75rem;
   }
 
-  .master-master-inner {
+  /* .master-master-inner {
     width: 11.813rem;
     height: 8.813rem;
     margin-right: 3rem;
-  }
+  } */
 
-  .chief {
+  /* .chief {
     width: 6.75rem;
     height: 5.09rem;
-  }
+  } */
 
   .faq-info-inner {
     width: 54.167vw;
@@ -5690,13 +5690,13 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     flex-direction: column;
   }
 
-  .partners-card-text {
+  /* .partners-card-text {
     padding: 0 0.75rem;
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
-  }
+  } */
 
   .faq {
     flex-direction: column;
@@ -6334,11 +6334,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 2.563rem;
   }
 
-  .master-master-inner {
+  /* .master-master-inner {
     width: 9.438rem;
     height: 7.063rem;
     margin-right: 2.438rem;
-  }
+  } */
 
   .faq-title {
     font-size: 4rem;
@@ -6373,10 +6373,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     padding: 1.25rem 0;
   }
 
-  .chief {
+  /* .chief {
     width: 5.424rem;
     height: 4.09rem;
-  }
+  } */
 
   .our-trusted-partners-swiper {
     margin-left: var(--paddingLeftAndRigth);
@@ -6408,15 +6408,15 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 2.563rem;
   }
 
-  .master-master-inner {
+  /* .master-master-inner {
     width: 9.492rem;
     height: 7.104rem;
-  }
+  } */
 
-  .chief {
+  /* .chief {
     width: 5.424rem;
     height: 4.09rem;
-  }
+  } */
 
   .master-master-inner {
     margin-right: 2.438rem;
@@ -6614,12 +6614,12 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 }
 
-@media (max-width: 430px) {
+/* @media (max-width: 430px) {
   .master-master-inner {
     width: calc(10.867rem + 29*(100vw - 26.875rem) / 60);
     height: calc(8.479rem + 29*(100vw - 26.25rem) / 60);
   }
-}
+} */
 
 @media (max-width: 420px) {
   .hero-heading-text-inner {

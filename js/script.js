@@ -855,6 +855,8 @@ if (document.getElementById("career-single")) {
     let positionInner = position.innerHTML;
     let inputPosition = document.querySelector(".input2");
     inputPosition.placeholder = positionInner;
+    const placeholder = inputPosition.getAttribute("placeholder");
+    inputPosition.setAttribute('placeholder', placeholder[0].toUpperCase() + placeholder.substring(1));
     var lang = $('html').attr('lang');
     if (lang === 'hy-AM') {
       $(".form-name1").text("Անուն Ազգանուն");

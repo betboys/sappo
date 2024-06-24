@@ -2709,10 +2709,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   text-transform: lowercase;
 }
 
-.input2::placeholder::first-letter {
-  text-transform: uppercase;
-}
-
 .input:focus,
 .input:hover {
   border-color: #eee;

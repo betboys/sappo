@@ -805,8 +805,6 @@ if (document.getElementById("career-single")) {
   let popup = document.querySelector(".popup-mail");
   let goBack = document.querySelector(".go-back");
   let remove = document.querySelector(".remove");
-  var $file = $("#file-input");
-  var fileName = $file.val().split("\\").pop();
   // for (ind of inputs) {
   //   ind.addEventListener("input", function () {
   //     if (ind.value != "") {
@@ -816,14 +814,15 @@ if (document.getElementById("career-single")) {
   //     }
   //   })
   // }
+  var $file = $("#file-input");
   $file.on("change", function (event) {
-    if (fileName != "") {
+    var fileName = $file.val().split("\\").pop();
+    if(fileName != "") {
       sendBtn.addEventListener("click", function () {
         popup.style.display = "flex";
       });
     }
   })
-
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'en-US') {

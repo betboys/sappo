@@ -851,12 +851,16 @@ if (document.getElementById("career-single")) {
     window.location.reload();
   });
   $(document).ready(function ($) {
+    let position = document.querySelector(".position-input");
+    let positionInner = position.innerHTML;
+    let inputPosition = document.querySelector(".input2");
+    inputPosition.placeholder = positionInner;
     var lang = $('html').attr('lang');
     if (lang === 'hy-AM') {
       $(".form-name1").text("Անուն Ազգանուն");
       $(".input1").attr("placeholder", "Անուն Ազգանուն");
       $(".form-name2").text("պաշտոն");
-      $(".input2").attr("placeholder", "Պահնորդ");
+      // $(".input2").attr("placeholder", "Պահնորդ");
       $(".form-name3").text("էլեկտրոնային հասցե");
       $(".input3").attr("placeholder", "էլեկտրոնային հասցե");
       $(".form-name4").text("հեռախոսահամար");
@@ -867,7 +871,7 @@ if (document.getElementById("career-single")) {
       $(".form-name1").text("Имя Фамилия");
       $(".input1").attr("placeholder", "Имя Фамилия");
       $(".form-name2").text("позиция");
-      $(".input2").attr("placeholder", "Напр. Старший Java-разработчик");
+      // $(".input2").attr("placeholder", "Напр. Старший Java-разработчик");
       $(".form-name3").text("Электронная почта");
       $(".input3").attr("placeholder", "Электронная почта");
       $(".form-name4").text("номер телефона");

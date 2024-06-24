@@ -807,15 +807,15 @@ if (document.getElementById("career-single")) {
   let remove = document.querySelector(".remove");
   var $file = $("#file-input");
   var fileName = $file.val().split("\\").pop();
-  for (ind of inputs) {
-    ind.addEventListener("input", function () {
-      if (ind.value != "") {
-        sendBtn.addEventListener("click", function () {
-          popup.style.display = "flex";
-        });
-      }
-    })
-  }
+  // for (ind of inputs) {
+  //   ind.addEventListener("input", function () {
+  //     if (ind.value != "") {
+  //       sendBtn.addEventListener("click", function () {
+  //         popup.style.display = "flex";
+  //       });
+  //     }
+  //   })
+  // }
   $file.on("change", function (event) {
     if (fileName != "") {
       sendBtn.addEventListener("click", function () {

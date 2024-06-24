@@ -114,8 +114,8 @@ $(document).ready(function () {
   });
 });
 /* header submenu  */
-$(document).ready(function () {
-  function headerSubmenu() {
+function headerSubmenu() {
+  $(document).ready(function () {
     let dropdownMenuItemTitle = document.querySelectorAll(".dropdown-menu-item-title");
     for (let i = 0; i < dropdownMenuItemTitle.length; i++) {
       let dropdownMenuItemTitleH = dropdownMenuItemTitle[2].clientHeight;
@@ -222,8 +222,8 @@ $(document).ready(function () {
         }
       });
     }
-  }
-})
+  })
+}
 /* footer navigation */
 function footer() {
   let footerMenuTitle = document.querySelectorAll(".footer-menu-title");

@@ -4370,10 +4370,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 @media (max-width: 1728px) {
-  .our-team-title-subtitle {
-    max-width: 40.625rem;
-  }
-
   .single-content-left>.headingN2 {
     width: 80%;
   }

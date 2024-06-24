@@ -4001,6 +4001,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   font: 400 8rem / 83% "Bebas Neue";
   letter-spacing: 0.08rem;
   color: #fac917;
+  padding-top: 26px;
 }
 
 .interested-subtitle {

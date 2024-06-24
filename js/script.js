@@ -114,72 +114,72 @@ $(document).ready(function () {
   });
 });
 /* header submenu  */
-function headerSubmenu() {
-  let dropdownMenuItemTitle = document.querySelectorAll(".dropdown-menu-item-title");
-  for (let i = 0; i < dropdownMenuItemTitle.length; i++) {
-    let dropdownMenuItemTitleH = dropdownMenuItemTitle[2].clientHeight;
-    dropdownMenuItemTitle[i].setAttribute("style", `height: ${dropdownMenuItemTitleH}px`);
-  }
-  let dropdownToggle = document.querySelector(".dropdown-toggle");
-  dropdownToggle.addEventListener("click", function (e) {
-    e.preventDefault();
-  });
-  if (windowWidth >= 1321 && windowWidth <= 3840) {
-    let dropdownMenu = document.querySelector(".dropdown-menu");
-    let header = document.querySelector(".header");
-    header.appendChild(dropdownMenu);
-    let dropdown = document.querySelector(".dropdown");
-    let dropdownIcon = document.querySelector(".dropdown-icon");
-    let dropdownIconFill = document.querySelector(".dropdown-icon-fill");
-    let submenuInner = document.querySelector(".dropdown-menu-inner");
-    let submenuInnerH = submenuInner.clientHeight + "px";
-    dropdown.addEventListener("mouseover", function () {
-      document.querySelector("body").classList.add("no-scroll");
-      dropdownMenu.style.height = submenuInnerH;
-      dropdownToggle.style.color = "#FAC917";
-      dropdownIcon.style.transform = "rotate(180deg)";
-      dropdownIconFill.style.fill = "#FAC917";
+$(document).ready(function () {
+  function headerSubmenu() {
+    let dropdownMenuItemTitle = document.querySelectorAll(".dropdown-menu-item-title");
+    for (let i = 0; i < dropdownMenuItemTitle.length; i++) {
+      let dropdownMenuItemTitleH = dropdownMenuItemTitle[2].clientHeight;
+      dropdownMenuItemTitle[i].setAttribute("style", `height: ${dropdownMenuItemTitleH}px`);
+    }
+    let dropdownToggle = document.querySelector(".dropdown-toggle");
+    dropdownToggle.addEventListener("click", function (e) {
+      e.preventDefault();
     });
-    dropdownMenu.addEventListener("mouseover", function () {
-      document.querySelector("body").classList.add("no-scroll");
-      dropdownMenu.style.height = submenuInnerH;
-      dropdownToggle.style.color = "#FAC917";
-      dropdownIcon.style.transform = "rotate(180deg)";
-      dropdownIconFill.style.fill = "#FAC917";
-    });
-    dropdown.addEventListener("mouseout", function () {
-      document.querySelector("body").classList.remove("no-scroll");
-      dropdownMenu.style.height = "0";
-      dropdownToggle.style.color = "#fff";
-      dropdownIcon.style.transform = "rotate(0deg)";
-      dropdownIconFill.style.fill = "#fff";
-    });
-    dropdownMenu.addEventListener("mouseout", function () {
-      document.querySelector("body").classList.remove("no-scroll");
-      dropdownMenu.style.height = "0";
-      dropdownToggle.style.color = "#fff";
-      dropdownIcon.style.transform = "rotate(0deg)";
-      dropdownIconFill.style.fill = "#fff";
-    });
-    if (windowWidth >= 1025 && windowWidth <= 1240) {
+    if (windowWidth >= 1321 && windowWidth <= 3840) {
+      let dropdownMenu = document.querySelector(".dropdown-menu");
+      let header = document.querySelector(".header");
+      header.appendChild(dropdownMenu);
+      let dropdown = document.querySelector(".dropdown");
+      let dropdownIcon = document.querySelector(".dropdown-icon");
+      let dropdownIconFill = document.querySelector(".dropdown-icon-fill");
+      let submenuInner = document.querySelector(".dropdown-menu-inner");
+      let submenuInnerH = submenuInner.clientHeight + "px";
       dropdown.addEventListener("mouseover", function () {
         document.querySelector("body").classList.add("no-scroll");
-        dropdownMenu.style.height = "640px";
+        dropdownMenu.style.height = submenuInnerH;
         dropdownToggle.style.color = "#FAC917";
         dropdownIcon.style.transform = "rotate(180deg)";
         dropdownIconFill.style.fill = "#FAC917";
       });
       dropdownMenu.addEventListener("mouseover", function () {
         document.querySelector("body").classList.add("no-scroll");
-        dropdownMenu.style.height = "640px";
+        dropdownMenu.style.height = submenuInnerH;
         dropdownToggle.style.color = "#FAC917";
         dropdownIcon.style.transform = "rotate(180deg)";
         dropdownIconFill.style.fill = "#FAC917";
       });
+      dropdown.addEventListener("mouseout", function () {
+        document.querySelector("body").classList.remove("no-scroll");
+        dropdownMenu.style.height = "0";
+        dropdownToggle.style.color = "#fff";
+        dropdownIcon.style.transform = "rotate(0deg)";
+        dropdownIconFill.style.fill = "#fff";
+      });
+      dropdownMenu.addEventListener("mouseout", function () {
+        document.querySelector("body").classList.remove("no-scroll");
+        dropdownMenu.style.height = "0";
+        dropdownToggle.style.color = "#fff";
+        dropdownIcon.style.transform = "rotate(0deg)";
+        dropdownIconFill.style.fill = "#fff";
+      });
+      if (windowWidth >= 1025 && windowWidth <= 1240) {
+        dropdown.addEventListener("mouseover", function () {
+          document.querySelector("body").classList.add("no-scroll");
+          dropdownMenu.style.height = "640px";
+          dropdownToggle.style.color = "#FAC917";
+          dropdownIcon.style.transform = "rotate(180deg)";
+          dropdownIconFill.style.fill = "#FAC917";
+        });
+        dropdownMenu.addEventListener("mouseover", function () {
+          document.querySelector("body").classList.add("no-scroll");
+          dropdownMenu.style.height = "640px";
+          dropdownToggle.style.color = "#FAC917";
+          dropdownIcon.style.transform = "rotate(180deg)";
+          dropdownIconFill.style.fill = "#FAC917";
+        });
+      }
     }
-  }
-  // responsive header mobile
-  $(window).resize(function () {
+    // responsive header mobile
     if (windowWidth <= 1320) {
       let menuOpen = document.querySelector(".burger-menu-open");
       let lineN1 = document.querySelector(".lineN1");
@@ -222,8 +222,8 @@ function headerSubmenu() {
         }
       });
     }
-  })
-}
+  }
+})
 /* footer navigation */
 function footer() {
   let footerMenuTitle = document.querySelectorAll(".footer-menu-title");

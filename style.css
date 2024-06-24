@@ -3941,9 +3941,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(0deg,
-      rgba(0, 0, 0, 0.75) 0%,
-      rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(114deg, rgba(0, 0, 0, 0.00) 53.52%, #000 98%), linear-gradient(255deg, rgba(0, 0, 0, 0.00) -0.07%, #000 53.94%);
 }
 
 /* Our Benefits */
@@ -5853,9 +5851,15 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     --paddingTopAndBottom: 3.75rem;
   }
 
+  .career-single-hero-img {
+    height: 50rem;
+    object-position: 73%;
+    transform: translateY(-6rem);
+  }
+
   .interested-subtitle {
     width: 100%;
-}
+  }
 
   .send-button {
     width: 100%;
@@ -6512,9 +6516,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     align-items: start;
   }
 
-.sappo-security-service-text span {
-  padding-top: 0;
-}
+  .sappo-security-service-text span {
+    padding-top: 0;
+  }
 
   .sappo-security-service-text {
     margin-left: 0;

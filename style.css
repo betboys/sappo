@@ -3693,7 +3693,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .list-group {
   margin-top: 2.5rem;
-  display: flex;
+  display: none;
   align-items: center;
   gap: 1.5rem;
 }
@@ -3735,6 +3735,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .category-hashtag {
+  display: none;
   font: 400 1rem / 158% "Noto Sans Armenian Regular";
   color: #aaa;
 }

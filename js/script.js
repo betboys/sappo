@@ -805,15 +805,23 @@ if (document.getElementById("career-single")) {
   let popup = document.querySelector(".popup-mail");
   let goBack = document.querySelector(".go-back");
   let remove = document.querySelector(".remove");
-  for (ind of inputs) {
-    ind.addEventListener("input", function () {
-      if (ind.value != "") {
-        sendBtn.addEventListener("click", function () {
-          popup.style.display = "flex";
-        });
-      }
-    })
-  }
+  // for (ind of inputs) {
+  //   ind.addEventListener("input", function () {
+  //     if (ind.value != "") {
+  //       sendBtn.addEventListener("click", function () {
+  //         popup.style.display = "flex";
+  //       });
+  //     }
+  //   })
+  // }
+  $("#file-input").on("change", function (event) {
+    var fileName = $file.val().split("\\").pop();
+    if(fileName != "") {
+      sendBtn.addEventListener("click", function () {
+        popup.style.display = "flex";
+      });
+    }
+  })
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'en-US') {

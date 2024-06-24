@@ -5642,7 +5642,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .card-info-inner {
-    /* margin-top: 0.481rem; */
+    margin-top: 0;
     align-items: start;
     overflow: hidden;
     transition: .5s;
@@ -6562,10 +6562,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .card {
     height: 9.438rem;
-  }
-
-  .card {
-    height: 9.438;
   }
 
   .gallery-flex-inner {

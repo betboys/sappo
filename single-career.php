@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <section class="career-single-hero" id="career-single">
+<p class="interested-title" style="display: none;"><?= the_field('input_position'); ?></p>
     <div class="title-text-inner">
         <h1 class="career-single-heading" data-aos="fade-up"><?php the_title(); ?></h1>
         <ul class="location-time-single">

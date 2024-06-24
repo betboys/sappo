@@ -6296,11 +6296,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .sappo-security-service,
   .sappo-security-service-image {
     height: 29.25rem;
-    object-position: calc(100% + -14 * (100vw - 47.938rem) / 60);
+    object-position: calc(100% + -10 * (100vw - 47.938rem) / 60);
   }
 
   .sappo-security-service::before {
-    background-position: calc(100% + -14 * (100vw - 47.938rem) / 60);
+    background-position: calc(100% + -10 * (100vw - 47.938rem) / 60);
   }
 
   .our-trusted-partners-title {
@@ -6509,7 +6509,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .sappo-security-service {
-    align-items: center;
+    align-items: start;
   }
 
 .sappo-security-service-text span {
@@ -6525,6 +6525,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .page-id-37 .sappo-security-service-text {
     font-size: 62px;
+    margin-top: 5rem;
   }
 
   .page-id-293 .sappo-security-service-text {

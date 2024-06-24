@@ -3172,10 +3172,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   max-width: 31.25rem;
 }
 
-.about-our-serives-card-item:nth-child(1) .card-item-info {
-  bottom: -5rem;
-}
-
 .about-our-serives-card-item:nth-child(3) .card-item-info,
 .about-our-serives-card-item:nth-child(4) .card-item-info,
 .about-our-serives-card-item:nth-child(5) .card-item-info {
@@ -3642,7 +3638,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   margin-top: 1.5rem;
 }
 
-.postid-340 .single-hero-heading-text-inner>.hero-subtitle-single {
+.postid-340 .single-hero-heading-text-inner>.hero-subtitle-single,
+.postid-85 .single-hero-heading-text-inner>.hero-subtitle-single,
+.postid-425 .single-hero-heading-text-inner>.hero-subtitle-single {
   display: none;
 }
 
@@ -5943,10 +5941,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .postid-39 h1 {
     line-break: anywhere;
-  }
-
-  .about-our-serives-card-item:nth-child(1) .card-item-info {
-    bottom: -4.5rem;
   }
 
   .hero-heading-text-inner {

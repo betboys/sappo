@@ -117,7 +117,7 @@ $(document).ready(function () {
 function headerSubmenu() {
   let dropdownMenuItemTitle = document.querySelectorAll(".dropdown-menu-item-title");
   for (let i = 0; i < dropdownMenuItemTitle.length; i++) {
-    let dropdownMenuItemTitleH = dropdownMenuItemTitle[0].clientHeight;
+    let dropdownMenuItemTitleH = dropdownMenuItemTitle[2].clientHeight;
     dropdownMenuItemTitle[i].setAttribute("style", `height: ${dropdownMenuItemTitleH}px`);
   }
   let dropdownToggle = document.querySelector(".dropdown-toggle");

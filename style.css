@@ -5859,6 +5859,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 20px;
   }
 
+  .left-and-right {
+    padding-bottom: 20px;
+  }
+
   .career-single-hero-img {
     height: 50rem;
     object-position: 73%;

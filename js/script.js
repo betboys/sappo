@@ -814,7 +814,8 @@ if (document.getElementById("career-single")) {
   //     }
   //   })
   // }
-  $("#file-input").on("change", function (event) {
+  var $file = $("#file-input");
+  $file.on("change", function (event) {
     var fileName = $file.val().split("\\").pop();
     if(fileName != "") {
       sendBtn.addEventListener("click", function () {

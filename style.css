@@ -2705,10 +2705,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   border-radius: 0;
 }
 
-.input2::placeholder {
-  text-transform: lowercase;
-}
-
 .input:focus,
 .input:hover {
   border-color: #eee;

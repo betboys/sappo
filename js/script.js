@@ -808,23 +808,22 @@ if (document.getElementById("career-single")) {
   var $file = $("#file-input");
   var fileName = $file.val().split("\\").pop();
   for (ind of inputs) {
-    ind.addEventListener("input change", function () {
-      if (ind.value != "" && fileName != "") {
+    ind.addEventListener("input", function () {
+      if (ind.value != "") {
         sendBtn.addEventListener("click", function () {
           popup.style.display = "flex";
         });
       }
     })
   }
-  // var $file = $("#file-input");
-  // $file.on("change", function (event) {
-  //   var fileName = $file.val().split("\\").pop();
-  //   if(fileName != "") {
-  //     sendBtn.addEventListener("click", function () {
-  //       popup.style.display = "flex";
-  //     });
-  //   }
-  // })
+  $file.on("change", function (event) {
+    if (fileName != "") {
+      sendBtn.addEventListener("click", function () {
+        popup.style.display = "flex";
+      });
+    }
+  })
+
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'en-US') {

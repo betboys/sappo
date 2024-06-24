@@ -6505,12 +6505,16 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .sappo-security-service,
   .sappo-security-service-image {
-    height: 27.25rem;
+    height: 447px;
   }
 
   .sappo-security-service {
     align-items: center;
   }
+
+.sappo-security-service-text span {
+  padding-top: 0;
+}
 
   .sappo-security-service-text {
     margin-left: 0;

@@ -51,9 +51,7 @@
 </footer>
 
 <div class="preloader">
-	<!-- <video class="preloader-video" src="<?php echo get_template_directory_uri(); ?>/video/Preloader\ animation.gif"
-		type="video/mp4" autoplay="" loop="" playsinline="" webkit-playsinline="" muted=""></video> -->
-		<img src="https://sappo.am/oockyghi/2024/06/Preloader-animation.gif" alt="">
+		<img class="preloader-gif" src="https://sappo.am/oockyghi/2024/06/Preloader-animation.gif" alt="">
 </div>
 
 <div class="popup-mail">

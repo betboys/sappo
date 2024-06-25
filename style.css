@@ -5068,6 +5068,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .header {
+    height: 80px;
+    align-items: center;
     grid-template-areas: "logo burger"
       "navigation navigation";
     padding: 1.188rem var(--paddingLeftAndRigth);

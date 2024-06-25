@@ -192,18 +192,20 @@ function headerSubmenu() {
       menuOpen.classList.toggle("new-element");
       lineN1.classList.toggle("new-lineN1");
       lineN2.classList.toggle("new-lineN2");
-      if (navigation.style.height != "100vh") {
+      if (header.style.height != "100vh") {
         document.querySelector("body").classList.add("no-scroll");
-        navigation.setAttribute(
-          "style",
-          "height: 100vh; margin-top: 49.63px;display:flex;"
-        );
+        header.style.height = "100vh"
+        // header.setAttribute(
+        //   "style",
+        //   "height: 100vh; margin-top: 49.63px;display:flex;"
+        // );
       } else {
         document.querySelector("body").classList.remove("no-scroll");
-        navigation.setAttribute(
-          "style",
-          "height: 0; margin-top: 0;display:none;"
-        );
+        header.style.height = headerH + "px"
+        // header.setAttribute(
+        //   "style",
+        //   "height: 0; margin-top: 0;display:none;"
+        // );
       }
     });
     dropdown.addEventListener("click", function () {

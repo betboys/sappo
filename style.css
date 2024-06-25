@@ -6035,7 +6035,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .ttile-and-slide-buttons {
-    justify-content: center;
+    justify-content: start;
   }
 
   .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
@@ -6092,8 +6092,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .next-prev-buttons {
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 5rem;
+    padding-inline: var(--paddingLeftAndRigth);
   }
 
   .our-serives-title {

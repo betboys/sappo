@@ -3578,7 +3578,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .item-icon {
   width: 1.875rem;
   height: 1.875rem;
-  margin-top: 8px;
 }
 
 .item-title {
@@ -4472,10 +4471,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .page-id-288 .card:nth-child(5) .card-title {
     height: calc(500px + 0 * (100vw - 1728px) / 60);
-  }
-
-  .item-icon {
-    margin-top: 5px;
   }
 
   .item-title {

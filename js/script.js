@@ -842,13 +842,13 @@ if (document.getElementById("career-single")) {
       if (!$fileInput.val()) {
         var lang = $('html').attr('lang');
         if (lang === 'en-US') {
-          $fileInput.after('<span class="wpcf7-not-valid-tip">EBG.</span>');
+          $fileInput.after('<span class="wpcf7-not-valid-tip">Please attach your CV</span>');
         }
         if (lang === 'hy-AM') {
-          $fileInput.after('<span class="wpcf7-not-valid-tip">ARM</span>');
+          $fileInput.after('<span class="wpcf7-not-valid-tip">Խնդրում ենք կցել ձեր ռեզյումեն</span>');
         }
         if (lang === 'ru-RU') {
-          $fileInput.after('<span class="wpcf7-not-valid-tip">RUS</span>');
+          $fileInput.after('<span class="wpcf7-not-valid-tip">Пожалуйста, прикрепите свое резюме</span>');
         }
       }
     }, false);

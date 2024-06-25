@@ -22,13 +22,13 @@ function Translate() {
       $(".socal-media-subtitle2").text("Զանգահարեք մեզ");
       $(".socal-media-title3").text("Հասցե");
       $(".socal-media-subtitle3").text("Ուղղություն");
-      $(".form-name1").text("Անուն Ազգանուն");
-      $(".input1").attr("placeholder", "Անուն Ազգանուն");
-      $(".form-name2").text("էլեկտրոնային հասցե");
-      $(".input2").attr("placeholder", "Էլեկտրոնային Հասցե");
-      $(".form-name3").text("նամակ");
-      $(".input3").attr("placeholder", "Ձեր Հաղորդագրությունը . . . ");
-      $(".wpcf7-submit").attr("value", "Ուղարկել");
+      // $(".form-name1").text("Անուն Ազգանուն");
+      // $(".input1").attr("placeholder", "Անուն Ազգանուն");
+      // $(".form-name2").text("էլեկտրոնային հասցե");
+      // $(".input2").attr("placeholder", "Էլեկտրոնային Հասցե");
+      // $(".form-name3").text("նամակ");
+      // $(".input3").attr("placeholder", "Ձեր Հաղորդագրությունը . . . ");
+      // $(".wpcf7-submit").attr("value", "Ուղարկել");
     }
     if (lang === 'ru-RU') {
       $(".socal-media-title1").text("Электронная почта");
@@ -37,13 +37,13 @@ function Translate() {
       $(".socal-media-subtitle2").text("Позвоните нам");
       $(".socal-media-title3").text("Адрес");
       $(".socal-media-subtitle3").text("Направление");
-      $(".form-name1").text("Имя Фамилия");
-      $(".input1").attr("placeholder", "Имя Фамилия");
-      $(".form-name2").text("Электронная почта");
-      $(".input2").attr("placeholder", "Электронная почта");
-      $(".form-name3").text("письмо");
-      $(".input3").attr("placeholder", "Ваше сообщение. . .");
-      $(".wpcf7-submit").attr("value", "Отправить");
+      // $(".form-name1").text("Имя Фамилия");
+      // $(".input1").attr("placeholder", "Имя Фамилия");
+      // $(".form-name2").text("Электронная почта");
+      // $(".input2").attr("placeholder", "Электронная почта");
+      // $(".form-name3").text("письмо");
+      // $(".input3").attr("placeholder", "Ваше сообщение. . .");
+      // $(".wpcf7-submit").attr("value", "Отправить");
     }
   });
 }
@@ -577,7 +577,7 @@ if (document.getElementById("home")) {
   // form
   form();
   // Translate
-  // Translate();
+  Translate();
   // footer
   footer();
 }
@@ -588,7 +588,7 @@ if (document.getElementById("contact")) {
   // form
   form();
   // Translate
-  // Translate();
+  Translate();
   // footer
   footer();
 }
@@ -666,7 +666,7 @@ if (document.getElementById("about")) {
   // form
   form();
   // Translate
-  // Translate();
+  Translate();
   // footer
   footer();
 }
@@ -705,7 +705,7 @@ if (document.getElementById("single")) {
   // form
   form();
   // Translate
-  // Translate();
+  Translate();
   // footer
   footer();
 }
@@ -769,7 +769,7 @@ if (document.getElementById("carrer")) {
   // form
   form();
   // Translate
-  // Translate();
+  Translate();
   // footer
   footer();
 }

@@ -797,16 +797,16 @@ if (document.getElementById("career-single")) {
     });
     $labelRemove.on("click", function (event) {
       $file.val("");
-      var lang = $('html').attr('lang');
-      if (lang === 'hy-AM') {
-        $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
-      }
-      if (lang === 'en-US') {
-        $(".file-text").text("Attach your CV");
-      }
-      if (lang === 'ru-RU') {
-        $(".file-text").text("Прикрепите свое резюме (CV)");
-      }
+      // var lang = $('html').attr('lang');
+      // if (lang === 'hy-AM') {
+      //   $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
+      // }
+      // if (lang === 'en-US') {
+      //   $(".file-text").text("Attach your CV");
+      // }
+      // if (lang === 'ru-RU') {
+      //   $(".file-text").text("Прикрепите свое резюме (CV)");
+      // }
       $labelRemove.hide();
     });
   });

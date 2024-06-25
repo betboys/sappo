@@ -135,39 +135,42 @@ function headerSubmenu() {
     let navigation = document.querySelector(".navigation");
     let menuUl = document.querySelector(".menu-inner");
     let languageWpml = document.querySelector(".wpml-ls-statics-shortcode_actions");
-    if (windowWidth >= 1321) {
-      dropdown.addEventListener("mouseover", function () {
-        document.querySelector("body").classList.add("no-scroll");
-        header.style.height = newHeaderH + "px";
-        dropdownToggle.style.color = "#FAC917";
-        dropdownIcon.style.transform = "rotate(180deg)";
-        dropdownIconFill.style.fill = "#FAC917";
-      });
-      dropdownMenu.addEventListener("mouseover", function () {
-        document.querySelector("body").classList.add("no-scroll");
-        header.style.height = newHeaderH + "px";
-        dropdownToggle.style.color = "#FAC917";
-        dropdownIcon.style.transform = "rotate(180deg)";
-        dropdownIconFill.style.fill = "#FAC917";
-      });
-      dropdown.addEventListener("mouseout", function () {
-        document.querySelector("body").classList.remove("no-scroll");
-        header.style.height = headerH + "px";
-        dropdownToggle.style.color = "#fff";
-        dropdownIcon.style.transform = "rotate(0deg)";
-        dropdownIconFill.style.fill = "#fff";
-      });
-      dropdownMenu.addEventListener("mouseout", function () {
-        document.querySelector("body").classList.remove("no-scroll");
-        header.style.height = headerH + "px";
-        dropdownToggle.style.color = "#fff";
-        dropdownIcon.style.transform = "rotate(0deg)";
-        dropdownIconFill.style.fill = "#fff";
-      });
-    }
+    window.addEventListener("resize", function () {
+      dropdown.classList.add("dropdown-class");
+      if (windowWidth >= 1321) {
+        dropdown.addEventListener("mouseover", function () {
+          document.querySelector("body").classList.add("no-scroll");
+          header.style.height = newHeaderH + "px";
+          dropdownToggle.style.color = "#FAC917";
+          dropdownIcon.style.transform = "rotate(180deg)";
+          dropdownIconFill.style.fill = "#FAC917";
+        });
+        dropdownMenu.addEventListener("mouseover", function () {
+          document.querySelector("body").classList.add("no-scroll");
+          header.style.height = newHeaderH + "px";
+          dropdownToggle.style.color = "#FAC917";
+          dropdownIcon.style.transform = "rotate(180deg)";
+          dropdownIconFill.style.fill = "#FAC917";
+        });
+        dropdown.addEventListener("mouseout", function () {
+          document.querySelector("body").classList.remove("no-scroll");
+          header.style.height = headerH + "px";
+          dropdownToggle.style.color = "#fff";
+          dropdownIcon.style.transform = "rotate(0deg)";
+          dropdownIconFill.style.fill = "#fff";
+        });
+        dropdownMenu.addEventListener("mouseout", function () {
+          document.querySelector("body").classList.remove("no-scroll");
+          header.style.height = headerH + "px";
+          dropdownToggle.style.color = "#fff";
+          dropdownIcon.style.transform = "rotate(0deg)";
+          dropdownIconFill.style.fill = "#fff";
+        });
+      }
+    })
     // responsive header mobile
     window.addEventListener("resize", function () {
-      dropdown.classList.remove("dropdown-class")
+      dropdown.classList.remove("dropdown-class");
       if (windowWidth >= 1320) {
         menuOpen.addEventListener("click", function () {
           menuOpen.classList.toggle("new-element");

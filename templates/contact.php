@@ -66,7 +66,7 @@
 					</div>
 				</li>
 			</ul>
-			<?php echo do_shortcode('[contact-form-7 id="a94ab7c" title="Contact form Arm"]'); ?>
+			<?php echo do_shortcode('[contact-form-7 id="a94ab7c" title="Contact form"]'); ?>
 
 		</div>
 	</div>

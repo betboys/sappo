@@ -135,14 +135,6 @@ function headerSubmenu() {
     let navigation = document.querySelector(".navigation");
     let menuUl = document.querySelector(".menu-inner");
     let languageWpml = document.querySelector(".wpml-ls-statics-shortcode_actions");
-    window.addEventListener("resize", function () {
-      if (windowWidth <= 1321 && windowWidth >= 1920) {
-        dropdown.classList.add("dropdown-class");
-      }
-      if (windowWidth <= 360 && windowWidth >= 1320) {
-        dropdown.classList.remove("dropdown-class");
-      }
-    })
     if (windowWidth >= 1321) {
       dropdown.addEventListener("mouseover", function () {
         document.querySelector("body").classList.add("no-scroll");
@@ -174,9 +166,6 @@ function headerSubmenu() {
       });
     }
     // responsive header mobile
-    // window.addEventListener("resize", function () {
-    //   dropdown.classList.remove("dropdown-class");
-    // })
     if (windowWidth >= 1320) {
       menuOpen.addEventListener("click", function () {
         menuOpen.classList.toggle("new-element");

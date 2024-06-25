@@ -114,86 +114,86 @@ $(document).ready(function () {
   });
 });
 /* header submenu  */
-function headerSubmenu() {
-  let dropdownToggle = document.querySelector(".dropdown-toggle");
-  dropdownToggle.addEventListener("click", function (e) {
-    e.preventDefault();
-  });
-  document.addEventListener('DOMContentLoaded', (event) => {
-    let dropdownMenu = document.querySelector(".dropdown-menu");
-    let header = document.querySelector(".header");
-    let dropdown = document.querySelector(".dropdown");
-    let dropdownIcon = document.querySelector(".dropdown-icon");
-    let dropdownIconFill = document.querySelector(".dropdown-icon-fill");
-    let submenuInner = document.querySelector(".dropdown-menu-inner");
-    let submenuInnerH = submenuInner.clientHeight;
-    let headerH = header.clientHeight;
-    let newHeaderH = headerH + submenuInnerH;
-    let menuOpen = document.querySelector(".burger-menu-open");
-    let lineN1 = document.querySelector(".lineN1");
-    let lineN2 = document.querySelector(".lineN2");
-    let navigation = document.querySelector(".navigation");
-    let menuUl = document.querySelector(".menu-inner");
-    let languageWpml = document.querySelector(".wpml-ls-statics-shortcode_actions");
-    if (windowWidth >= 1321) {
-      dropdown.addEventListener("mouseover", function () {
-        document.querySelector("body").classList.add("no-scroll");
-        header.style.height = newHeaderH + "px";
-        dropdownToggle.style.color = "#FAC917";
-        dropdownIcon.style.transform = "rotate(180deg)";
-        dropdownIconFill.style.fill = "#FAC917";
-      });
-      dropdownMenu.addEventListener("mouseover", function () {
-        document.querySelector("body").classList.add("no-scroll");
-        header.style.height = newHeaderH + "px";
-        dropdownToggle.style.color = "#FAC917";
-        dropdownIcon.style.transform = "rotate(180deg)";
-        dropdownIconFill.style.fill = "#FAC917";
-      });
-      dropdown.addEventListener("mouseout", function () {
-        document.querySelector("body").classList.remove("no-scroll");
-        header.style.height = headerH + "px";
-        dropdownToggle.style.color = "#fff";
-        dropdownIcon.style.transform = "rotate(0deg)";
-        dropdownIconFill.style.fill = "#fff";
-      });
-      dropdownMenu.addEventListener("mouseout", function () {
-        document.querySelector("body").classList.remove("no-scroll");
-        header.style.height = headerH + "px";
-        dropdownToggle.style.color = "#fff";
-        dropdownIcon.style.transform = "rotate(0deg)";
-        dropdownIconFill.style.fill = "#fff";
-      });
-    }
-    // responsive header mobile
-    if (windowWidth >= 1320) {
-      menuOpen.addEventListener("click", function () {
-        menuOpen.classList.toggle("new-element");
-        lineN1.classList.toggle("new-lineN1");
-        lineN2.classList.toggle("new-lineN2");
-        if (header.style.height != "100vh") {
-          document.querySelector("body").classList.add("no-scroll");
-          header.style.height = "100vh";
-        } else {
-          document.querySelector("body").classList.remove("no-scroll");
-          header.style.height = "auto";
-        }
-      });
-      dropdown.addEventListener("click", function () {
-        if (dropdownMenu.style.height != "max-content") {
-          dropdownMenu.setAttribute(
-            "style",
-            "height: max-content; margin-top: 20.3px"
-          );
-          dropdownIcon.style.transform = "rotate(180deg)";
-        } else {
-          dropdownMenu.setAttribute("style", "height: 0; margin-top: 0");
-          dropdownIcon.style.transform = "rotate(0deg)";
-        }
-      });
-    }
-  })
-}
+// function headerSubmenu() {
+//   let dropdownToggle = document.querySelector(".dropdown-toggle");
+//   dropdownToggle.addEventListener("click", function (e) {
+//     e.preventDefault();
+//   });
+//   document.addEventListener('DOMContentLoaded', (event) => {
+//     let dropdownMenu = document.querySelector(".dropdown-menu");
+//     let header = document.querySelector(".header");
+//     let dropdown = document.querySelector(".dropdown");
+//     let dropdownIcon = document.querySelector(".dropdown-icon");
+//     let dropdownIconFill = document.querySelector(".dropdown-icon-fill");
+//     let submenuInner = document.querySelector(".dropdown-menu-inner");
+//     let submenuInnerH = submenuInner.clientHeight;
+//     let headerH = header.clientHeight;
+//     let newHeaderH = headerH + submenuInnerH;
+//     let menuOpen = document.querySelector(".burger-menu-open");
+//     let lineN1 = document.querySelector(".lineN1");
+//     let lineN2 = document.querySelector(".lineN2");
+//     let navigation = document.querySelector(".navigation");
+//     let menuUl = document.querySelector(".menu-inner");
+//     let languageWpml = document.querySelector(".wpml-ls-statics-shortcode_actions");
+//     if (windowWidth >= 1321) {
+//       dropdown.addEventListener("mouseover", function () {
+//         document.querySelector("body").classList.add("no-scroll");
+//         header.style.height = newHeaderH + "px";
+//         dropdownToggle.style.color = "#FAC917";
+//         dropdownIcon.style.transform = "rotate(180deg)";
+//         dropdownIconFill.style.fill = "#FAC917";
+//       });
+//       dropdownMenu.addEventListener("mouseover", function () {
+//         document.querySelector("body").classList.add("no-scroll");
+//         header.style.height = newHeaderH + "px";
+//         dropdownToggle.style.color = "#FAC917";
+//         dropdownIcon.style.transform = "rotate(180deg)";
+//         dropdownIconFill.style.fill = "#FAC917";
+//       });
+//       dropdown.addEventListener("mouseout", function () {
+//         document.querySelector("body").classList.remove("no-scroll");
+//         header.style.height = headerH + "px";
+//         dropdownToggle.style.color = "#fff";
+//         dropdownIcon.style.transform = "rotate(0deg)";
+//         dropdownIconFill.style.fill = "#fff";
+//       });
+//       dropdownMenu.addEventListener("mouseout", function () {
+//         document.querySelector("body").classList.remove("no-scroll");
+//         header.style.height = headerH + "px";
+//         dropdownToggle.style.color = "#fff";
+//         dropdownIcon.style.transform = "rotate(0deg)";
+//         dropdownIconFill.style.fill = "#fff";
+//       });
+//     }
+//     // responsive header mobile
+//     if (windowWidth >= 1320) {
+//       menuOpen.addEventListener("click", function () {
+//         menuOpen.classList.toggle("new-element");
+//         lineN1.classList.toggle("new-lineN1");
+//         lineN2.classList.toggle("new-lineN2");
+//         if (header.style.height != "100vh") {
+//           document.querySelector("body").classList.add("no-scroll");
+//           header.style.height = "100vh";
+//         } else {
+//           document.querySelector("body").classList.remove("no-scroll");
+//           header.style.height = "auto";
+//         }
+//       });
+//       dropdown.addEventListener("click", function () {
+//         if (dropdownMenu.style.height != "max-content") {
+//           dropdownMenu.setAttribute(
+//             "style",
+//             "height: max-content; margin-top: 20.3px"
+//           );
+//           dropdownIcon.style.transform = "rotate(180deg)";
+//         } else {
+//           dropdownMenu.setAttribute("style", "height: 0; margin-top: 0");
+//           dropdownIcon.style.transform = "rotate(0deg)";
+//         }
+//       });
+//     }
+//   })
+// }
 /* footer navigation */
 function footer() {
   let footerMenuTitle = document.querySelectorAll(".footer-menu-title");
@@ -351,7 +351,7 @@ function form() {
 /* Home */
 if (document.getElementById("home")) {
   // header
-  headerSubmenu();
+  // headerSubmenu();
   // our serive cards
   ourServiceCards();
   // scrolling text slide
@@ -550,7 +550,7 @@ if (document.getElementById("home")) {
 /* Contact Us */
 if (document.getElementById("contact")) {
   // header
-  headerSubmenu();
+  // headerSubmenu();
   // form
   form();
   // Translate
@@ -564,7 +564,7 @@ if (document.getElementById("about")) {
   let swiperButtonNext = document.querySelectorAll(".swiper-button-next");
   let swiperButtonprev = document.querySelectorAll(".swiper-button-prev");
   // header
-  headerSubmenu();
+  // headerSubmenu();
   // strength and reliability
   if (windowWidth <= 1024) {
     let aboutImage = document.querySelector(".strength-reliability-img");
@@ -639,7 +639,7 @@ if (document.getElementById("about")) {
 /* Serives Single Pages */
 if (document.getElementById("single")) {
   // header
-  headerSubmenu();
+  // headerSubmenu();
   // our serive cards
   ourServiceCards();
   // Our trusted partners
@@ -678,7 +678,7 @@ if (document.getElementById("single")) {
 /* Carrer */
 if (document.getElementById("carrer")) {
   // header
-  headerSubmenu();
+  // headerSubmenu();
   // select category
   function addClassElementEvent(element, className, event) {
     let elements = document.querySelectorAll(element);
@@ -742,7 +742,7 @@ if (document.getElementById("carrer")) {
 /* Career Single */
 if (document.getElementById("career-single")) {
   // header
-  headerSubmenu();
+  // headerSubmenu();
   // form choose file
   $("document").ready(function () {
     var $file = $("#file-input"),
@@ -860,7 +860,7 @@ if (document.getElementById("career-single")) {
 /* secureity */
 if (document.getElementById("secureity")) {
   // header
-  headerSubmenu();
+  // headerSubmenu();
   // footer
   footer();
 }

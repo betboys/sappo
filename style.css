@@ -1419,7 +1419,7 @@ body.no-scroll {
   height: 0;
   position: fixed;
   left: 0;
-  top: 0;
+  top: 100%;
   background: rgba(16, 16, 17, 0.6);
   -webkit-backdrop-filter: blur(1.359rem);
   backdrop-filter: blur(1.359rem);

@@ -3575,9 +3575,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   gap: 0.75rem;
 }
 
+.item-icon-inner {
+  padding: 6px;
+  border: 1px solid #FAC917;
+}
+
 .item-icon {
-  width: 1.875rem;
-  height: 1.875rem;
+  width: 17px;
+  height: unset;
 }
 
 .item-title {
@@ -6131,10 +6136,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .item-content {
     padding-right: 0;
-  }
-
-  .item-icon {
-    width: 1.732rem;
   }
 
   .other-services {

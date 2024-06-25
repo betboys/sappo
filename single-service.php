@@ -88,7 +88,9 @@ if ($feture_sec == 'yes'): ?>
 
                     <article class="wcsss-item">
                         <div class="item-icon-text">
-                            <img class="item-icon" src="<?php echo $text_image; ?>" alt="">
+                            <div class="item-icon-inner">
+                                <img class="item-icon" src="<?php echo $text_image; ?>" alt="">
+                            </div>
                             <p class="item-title"><?= $text_title ?></p>
                         </div>
                         <p class="item-content"> <?= $text_description ?></p>

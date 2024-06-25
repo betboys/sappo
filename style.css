@@ -1331,21 +1331,15 @@ body.no-scroll {
   left: 0;
   top: 0;
   z-index: 100;
-  display: flex;
-  justify-content: space-between;
-  /* display: grid;
+  display: grid;
   grid-template-areas:
     "logo nav "
     "subMenu subMenu";
-  grid-template-columns: 1fr; */
-  align-items: start;
-  height: 110px;
-  transition: .5s;
-  overflow: hidden;
+  grid-template-columns: 1fr;
+  align-items: center;
 }
 
 .logo-icon {
-  padding-block: 1.813rem;
   width: unset;
   height: unset;
 }
@@ -1420,10 +1414,7 @@ body.no-scroll {
   width: 100%;
   overflow: hidden;
   transition: 0.5s;
-  /* height: 0; */
-  position: fixed;
-  left: 0;
-  top: 110px;
+  height: 0;
 }
 
 .logo {
@@ -2250,8 +2241,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .wpml-ls-legacy-dropdown {
   width: unset;
   max-width: unset;
-  display: flex;
-  align-items: center;
 }
 
 .wpml-ls-legacy-dropdown a {
@@ -5068,17 +5057,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .header {
-    height: 80px;
-    align-items: start;
     grid-template-areas: "logo burger"
       "navigation navigation";
     padding: 1.188rem var(--paddingLeftAndRigth);
     background: #101011e6;
-    overflow: scroll;
-  }
-
-  .logo-icon {
-    padding-block: 0;
   }
 
   .logo {
@@ -5094,15 +5076,13 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .navigation {
-    /* height: 0; */
+    height: 0;
     grid-area: navigation;
     flex-direction: column;
     align-items: start;
-    /* display: none; */
+    display: none;
     min-width: unset;
     max-width: 100%;
-    position: fixed;
-    top: 100px;
   }
 
   .menu-inner {

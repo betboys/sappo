@@ -284,7 +284,7 @@ function ourServiceCards() {
       item != this ? item.classList.remove("height") : null
     );
     if (this.classList != "height") {
-      this.classList.toggle("height");
+      this.classList.add("height");
     }
   }
 }

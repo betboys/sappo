@@ -1345,6 +1345,7 @@ body.no-scroll {
 }
 
 .logo-icon {
+  padding-block: 1.813rem;
   width: unset;
   height: unset;
 }

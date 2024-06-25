@@ -174,7 +174,8 @@ function headerSubmenu() {
     }
   }
   // responsive header mobile
-  // if (windowWidth <= 1320) {
+  jQuery(window).resize(function(){
+  if ((window.matchMedia("(max-width: 1320px)").matchescontainersRemoved)) {
     let menuOpen = document.querySelector(".burger-menu-open");
     let lineN1 = document.querySelector(".lineN1");
     let lineN2 = document.querySelector(".lineN2");
@@ -215,7 +216,8 @@ function headerSubmenu() {
         dropdownIcon.style.transform = "rotate(0deg)";
       }
     });
-  // }
+  }
+})
 }
 /* footer navigation */
 function footer() {

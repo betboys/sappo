@@ -3579,6 +3579,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   width: 32px;
   height: 32px;
   border: 1px solid #FAC917;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .item-icon {

@@ -2707,6 +2707,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   margin-top: 10px;
 }
 
+.wpcf7-form-control-wrap>.wpcf7-not-valid-tip:last-child {
+  display: none;
+}
+
 .wpcf7-response-output {
   display: none !important;
 }

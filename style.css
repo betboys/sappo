@@ -2241,6 +2241,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .wpml-ls-legacy-dropdown {
   width: unset;
   max-width: unset;
+  display: flex;
+  align-items: center;
 }
 
 .wpml-ls-legacy-dropdown a {

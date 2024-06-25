@@ -26,7 +26,8 @@
 	<div class="footer-end-inner">
 		<ul class="footer-end-intro">
 			<p class="site-info"><span class="site-info-symbol">©</span> <?php echo date('Y'); ?>
-				<?php echo bloginfo('name'); ?>. All rights reserved.</p>
+				<?php echo bloginfo('name'); ?>. All rights reserved.
+			</p>
 			<?php
 			$flinks = get_field('links', 'option');
 			if ($flinks): ?>
@@ -61,6 +62,60 @@
 
 </main>
 <?php wp_footer(); ?>
+
+
+<script>
+	function handleResize() {
+		const windowWidth = window.innerWidth;
+		const dropdownMenu = document.querySelector(".dropdown-menu");
+		const header = document.querySelector(".header");
+		const servicesMenu = document.querySelector(".services-menu");
+		const dropdownToggle = document.querySelector(".dropdown-toggle");
+		const burgerMenuOpen = document.querySelector(".burger-menu-open");
+
+		function enableHover() {
+			servicesMenu.classList.add("hover-enabled");
+		}
+
+		function disableHover() {
+			servicesMenu.classList.remove("hover-enabled");
+		}
+
+		if (windowWidth < 1321) {
+			disableHover();
+
+			// Add event listeners for click on smaller screens
+			dropdownToggle.addEventListener("click", function () {
+				if (dropdownMenu.style.height !== "max-content") {
+					dropdownMenu.classList.add("dropdown-expanded");
+					dropdownMenu.classList.remove("dropdown-collapsed");
+				} else {
+					dropdownMenu.classList.add("dropdown-collapsed");
+					dropdownMenu.classList.remove("dropdown-expanded");
+				}
+			});
+
+			burgerMenuOpen.addEventListener("click", function () {
+				if (header.style.height !== "100vh") {
+					document.body.classList.add("no-scroll");
+					header.classList.add("expanded-header");
+					header.classList.remove("collapsed-header");
+				} else {
+					document.body.classList.remove("no-scroll");
+					header.classList.add("collapsed-header");
+					header.classList.remove("expanded-header");
+				}
+			});
+
+		} else {
+			enableHover();
+		}
+	}
+
+	window.addEventListener("resize", handleResize);
+	document.addEventListener("DOMContentLoaded", handleResize);
+</script>
+
 </body>
 
 </html>

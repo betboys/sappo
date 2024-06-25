@@ -201,7 +201,7 @@ function headerSubmenu() {
         // );
       } else {
         document.querySelector("body").classList.remove("no-scroll");
-        header.style.height = headerH + "px"
+        header.style.height = "auto"
         // header.setAttribute(
         //   "style",
         //   "height: 0; margin-top: 0;display:none;"

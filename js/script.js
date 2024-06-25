@@ -284,7 +284,7 @@ function ourServiceCards() {
       item != this ? item.classList.remove("height") : null
     );
     if (this.classList != "height") {
-      this.classList.add("height");
+      this.classList.toggle("height");
     }
   }
 }
@@ -569,9 +569,9 @@ if (document.getElementById("home")) {
   // faq
   faq();
   // form
-  // form();
+  form();
   // Translate
-  Translate();
+  // Translate();
   // footer
   footer();
 }
@@ -580,9 +580,9 @@ if (document.getElementById("contact")) {
   // header
   headerSubmenu();
   // form
-  // form();
+  form();
   // Translate
-  Translate();
+  // Translate();
   // footer
   footer();
 }
@@ -658,9 +658,9 @@ if (document.getElementById("about")) {
   })
   partners();
   // form
-  // form();
+  form();
   // Translate
-  Translate();
+  // Translate();
   // footer
   footer();
 }
@@ -697,9 +697,9 @@ if (document.getElementById("single")) {
   })
   partners();
   // form
-  // form();
+  form();
   // Translate
-  Translate();
+  // Translate();
   // footer
   footer();
 }
@@ -761,9 +761,9 @@ if (document.getElementById("carrer")) {
     }
   });
   // form
-  // form();
+  form();
   // Translate
-  Translate();
+  // Translate();
   // footer
   footer();
 }

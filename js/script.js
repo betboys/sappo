@@ -122,7 +122,7 @@ function headerSubmenu() {
   document.addEventListener('DOMContentLoaded', (event) => {
     let dropdownMenu = document.querySelector(".dropdown-menu");
     let header = document.querySelector(".header");
-    let dropdown = document.querySelector(".dropdown-class");
+    let dropdown = document.querySelector(".dropdown");
     let dropdownIcon = document.querySelector(".dropdown-icon");
     let dropdownIconFill = document.querySelector(".dropdown-icon-fill");
     let submenuInner = document.querySelector(".dropdown-menu-inner");

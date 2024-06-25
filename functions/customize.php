@@ -162,7 +162,7 @@ class Custom_Menu_Walker extends Walker_Nav_Menu
 		// Add your custom class here
 
 		if ($depth === 0 && $args->walker->has_children) {
-			$class = 'menu-list dropdown dropdown-class';
+			$class = 'menu-list dropdown';
 		} elseif ($depth === 0) {
 			$class = 	'menu-list';
 		} else {

@@ -834,6 +834,16 @@ if (document.getElementById("career-single")) {
       });
     }
   })
+  document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('wpcf7invalid', function (event) {
+      var $form = jQuery(event.target);
+      var $fileInput = $form.find('#file-input');
+
+      if (!$fileInput.val()) {
+        $fileInput.after('<span class="wpcf7-not-valid-tip">You must attach your CV in PDF format.</span>');
+      }
+    }, false);
+  });
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'en-US') {

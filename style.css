@@ -6091,7 +6091,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .next-prev-buttons {
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 5rem;
     padding-inline: var(--paddingLeftAndRigth);
   }

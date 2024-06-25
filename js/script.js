@@ -120,8 +120,8 @@ function headerSubmenu() {
     e.preventDefault();
   });
 
-  window.addEventListener("resize", function () {
   document.addEventListener('DOMContentLoaded', (event) => {
+  window.addEventListener("resize", function () {
     let dropdownMenu = document.querySelector(".dropdown-menu");
     let header = document.querySelector(".header");
     // header.appendChild(dropdownMenu);

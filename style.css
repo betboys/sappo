@@ -5075,10 +5075,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 18rem;
   }
 
-  .dropdown-menu-item-title {
-    height: unset;
-  }
-
   .dropdown-menu-item-desc {
     width: 100%;
     max-width: 14rem;

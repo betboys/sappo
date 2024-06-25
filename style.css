@@ -5596,6 +5596,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .card {
+    width: 100%;
     height: 18.75rem;
   }
 

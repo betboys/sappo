@@ -260,9 +260,9 @@ function ourServiceCards() {
         cards[i].style.width = 100 / cardLength + "%";
       });
     }
-    if (windowWidth <= 1024) {
-      cards[i].style.width = 100 + "%";
-    }
+    // if (windowWidth <= 1024) {
+    //   cards[i].style.width = 100 + "%";
+    // }
     if (windowWidth <= 1024) {
       cardTitleHover[i].addEventListener("click", function (e) {
         e.preventDefault();

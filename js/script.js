@@ -834,6 +834,7 @@ if (document.getElementById("career-single")) {
       });
     }
   })
+  $(".wpcf7-not-valid-tip").text("skdjfhjshdfjshgf")
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'en-US') {

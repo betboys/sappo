@@ -569,7 +569,7 @@ if (document.getElementById("home")) {
   // faq
   faq();
   // form
-  form();
+  // form();
   // Translate
   Translate();
   // footer
@@ -580,7 +580,7 @@ if (document.getElementById("contact")) {
   // header
   headerSubmenu();
   // form
-  form();
+  // form();
   // Translate
   Translate();
   // footer
@@ -658,7 +658,7 @@ if (document.getElementById("about")) {
   })
   partners();
   // form
-  form();
+  // form();
   // Translate
   Translate();
   // footer
@@ -697,7 +697,7 @@ if (document.getElementById("single")) {
   })
   partners();
   // form
-  form();
+  // form();
   // Translate
   Translate();
   // footer
@@ -761,7 +761,7 @@ if (document.getElementById("carrer")) {
     }
   });
   // form
-  form();
+  // form();
   // Translate
   Translate();
   // footer

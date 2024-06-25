@@ -120,7 +120,7 @@ function headerSubmenu() {
     e.preventDefault();
   });
 
-  // window.addEventListener("resize", function () {
+  window.addEventListener("resize", function () {
   document.addEventListener('DOMContentLoaded', (event) => {
     let dropdownMenu = document.querySelector(".dropdown-menu");
     let header = document.querySelector(".header");
@@ -209,7 +209,7 @@ function headerSubmenu() {
       });
     }
   })
-  // })
+  })
 
 
 }

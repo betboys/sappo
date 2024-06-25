@@ -168,33 +168,33 @@ function headerSubmenu() {
     // responsive header mobile
     window.addEventListener("resize", function () {
       dropdown.classList.remove("dropdown-class")
+      if (windowWidth >= 1320) {
+        menuOpen.addEventListener("click", function () {
+          menuOpen.classList.toggle("new-element");
+          lineN1.classList.toggle("new-lineN1");
+          lineN2.classList.toggle("new-lineN2");
+          if (header.style.height != "100vh") {
+            document.querySelector("body").classList.add("no-scroll");
+            header.style.height = "100vh";
+          } else {
+            document.querySelector("body").classList.remove("no-scroll");
+            header.style.height = "auto";
+          }
+        });
+        dropdown.addEventListener("click", function () {
+          if (dropdownMenu.style.height != "max-content") {
+            dropdownMenu.setAttribute(
+              "style",
+              "height: max-content; margin-top: 20.3px"
+            );
+            dropdownIcon.style.transform = "rotate(180deg)";
+          } else {
+            dropdownMenu.setAttribute("style", "height: 0; margin-top: 0");
+            dropdownIcon.style.transform = "rotate(0deg)";
+          }
+        });
+      }
     })
-    if (windowWidth >= 1320) {
-      menuOpen.addEventListener("click", function () {
-        menuOpen.classList.toggle("new-element");
-        lineN1.classList.toggle("new-lineN1");
-        lineN2.classList.toggle("new-lineN2");
-        if (header.style.height != "100vh") {
-          document.querySelector("body").classList.add("no-scroll");
-          header.style.height = "100vh";
-        } else {
-          document.querySelector("body").classList.remove("no-scroll");
-          header.style.height = "auto";
-        }
-      });
-      dropdown.addEventListener("click", function () {
-        if (dropdownMenu.style.height != "max-content") {
-          dropdownMenu.setAttribute(
-            "style",
-            "height: max-content; margin-top: 20.3px"
-          );
-          dropdownIcon.style.transform = "rotate(180deg)";
-        } else {
-          dropdownMenu.setAttribute("style", "height: 0; margin-top: 0");
-          dropdownIcon.style.transform = "rotate(0deg)";
-        }
-      });
-    }
   })
 }
 /* footer navigation */

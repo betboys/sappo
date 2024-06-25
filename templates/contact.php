@@ -34,7 +34,11 @@
 						<p class="socal-media-title socal-media-title2">Phone</p>
 						<p class="socal-media-subtitle socal-media-subtitle2">Give us a call</p>
 						<a class="socal-media-link"
-							href="tel:<?= the_field('phone', 'option'); ?>"><?= the_field('phone', 'option'); ?></a>
+							href="tel:<?= the_field('phone1', 'option'); ?>"><?= the_field('phone1', 'option'); ?></a>
+							<a class="socal-media-link"
+							href="tel:<?= the_field('phone2', 'option'); ?>"><?= the_field('phone2', 'option'); ?></a>
+							<a class="socal-media-link"
+							href="tel:<?= the_field('phone3', 'option'); ?>"><?= the_field('phone3', 'option'); ?></a>
 					</div>
 				</li>
 				<li class="socal-media-list">

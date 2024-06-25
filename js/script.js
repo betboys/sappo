@@ -115,11 +115,6 @@ $(document).ready(function () {
 });
 /* header submenu  */
 function headerSubmenu() {
-  let dropdownMenuItemTitle = document.querySelectorAll(".dropdown-menu-item-title");
-  for (let i = 0; i < dropdownMenuItemTitle.length; i++) {
-    let dropdownMenuItemTitleH = dropdownMenuItemTitle[2].clientHeight;
-    dropdownMenuItemTitle[i].setAttribute("style", `height: ${dropdownMenuItemTitleH}px`);
-  }
   let dropdownToggle = document.querySelector(".dropdown-toggle");
   dropdownToggle.addEventListener("click", function (e) {
     e.preventDefault();

@@ -136,10 +136,10 @@ function headerSubmenu() {
     let menuUl = document.querySelector(".menu-inner");
     let languageWpml = document.querySelector(".wpml-ls-statics-shortcode_actions");
     window.addEventListener("resize", function () {
-      if (windowWidth < 1321) {
+      if (windowWidth <= 1321 && windowWidth >= 1920) {
         dropdown.classList.add("dropdown-class");
       }
-      else {
+      if (windowWidth <= 360 && windowWidth >= 1320) {
         dropdown.classList.remove("dropdown-class");
       }
     })

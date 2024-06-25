@@ -119,10 +119,10 @@ function headerSubmenu() {
   dropdownToggle.addEventListener("click", function (e) {
     e.preventDefault();
   });
-  if (windowWidth >= 1321 && windowWidth <= 3840) {
+  // if (windowWidth >= 1321 && windowWidth <= 3840) {
     let dropdownMenu = document.querySelector(".dropdown-menu");
     let header = document.querySelector(".header");
-    header.appendChild(dropdownMenu);
+    // header.appendChild(dropdownMenu);
     let dropdown = document.querySelector(".dropdown");
     let dropdownIcon = document.querySelector(".dropdown-icon");
     let dropdownIconFill = document.querySelector(".dropdown-icon-fill");
@@ -172,10 +172,10 @@ function headerSubmenu() {
         dropdownIconFill.style.fill = "#FAC917";
       });
     }
-  }
+  // }
   // responsive header mobile
-  
-  // if (windowWidth <= 1320) {
+
+  if (windowWidth <= 1320) {
     let menuOpen = document.querySelector(".burger-menu-open");
     let lineN1 = document.querySelector(".lineN1");
     let lineN2 = document.querySelector(".lineN2");
@@ -216,7 +216,7 @@ function headerSubmenu() {
         dropdownIcon.style.transform = "rotate(0deg)";
       }
     });
-  // }
+  } 
 }
 /* footer navigation */
 function footer() {

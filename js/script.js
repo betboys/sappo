@@ -1,16 +1,16 @@
 var $ = jQuery;
 const windowWidth = window.innerWidth;
 // preloader
-// $(document).ready(function () {
-//   window.setTimeout('fadeout();', 3000);
-//   document.querySelector('body').classList.add('hidden');
-// });
-// function fadeout() {
-//   $('.preloader').delay(3000).fadeOut('slow', function () {
-//     $('.notLoaded').removeClass('notLoaded');
-//     document.querySelector('body').classList.remove('hidden');
-//   });
-// }
+$(document).ready(function () {
+  window.setTimeout('fadeout();', 3000);
+  document.querySelector('body').classList.add('hidden');
+});
+function fadeout() {
+  $('.preloader').delay(3000).fadeOut('slow', function () {
+    $('.notLoaded').removeClass('notLoaded');
+    document.querySelector('body').classList.remove('hidden');
+  });
+}
 /* Translate Language */
 function Translate() {
   $(document).ready(function ($) {

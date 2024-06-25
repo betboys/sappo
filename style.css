@@ -1326,7 +1326,7 @@ body.no-scroll {
   inset: 0;
   background: #010101;
   z-index: 1000;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
 }

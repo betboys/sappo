@@ -1338,7 +1338,10 @@ body.no-scroll {
     "logo nav "
     "subMenu subMenu";
   grid-template-columns: 1fr; */
-  align-items: center;
+  align-items: start;
+  height: 110px;
+  transition: .5s;
+  overflow: hidden;
 }
 
 .logo-icon {
@@ -1416,13 +1419,10 @@ body.no-scroll {
   width: 100%;
   overflow: hidden;
   transition: 0.5s;
-  height: 0;
+  /* height: 0; */
   position: fixed;
   left: 0;
-  top: 100%;
-  background: rgba(16, 16, 17, 0.6);
-  -webkit-backdrop-filter: blur(1.359rem);
-  backdrop-filter: blur(1.359rem);
+  top: 110px;
 }
 
 .logo {

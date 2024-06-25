@@ -139,6 +139,9 @@ function headerSubmenu() {
       if (windowWidth < 1321) {
         dropdown.classList.add("dropdown-class");
       }
+      else {
+        dropdown.classList.remove("dropdown-class");
+      }
     })
     if (windowWidth >= 1321) {
       dropdown.addEventListener("mouseover", function () {

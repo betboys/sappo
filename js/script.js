@@ -840,7 +840,16 @@ if (document.getElementById("career-single")) {
       var $fileInput = $form.find('#file-input');
 
       if (!$fileInput.val()) {
-        $fileInput.after('<span class="wpcf7-not-valid-tip">You must attach your CV in PDF format.</span>');
+        var lang = $('html').attr('lang');
+        if (lang === 'en-US') {
+          $fileInput.after('<span class="wpcf7-not-valid-tip">EBG.</span>');
+        }
+        if (lang === 'hy-AM') {
+          $fileInput.after('<span class="wpcf7-not-valid-tip">ARM</span>');
+        }
+        if (lang === 'ru-RU') {
+          $fileInput.after('<span class="wpcf7-not-valid-tip">RUS</span>');
+        }
       }
     }, false);
   });

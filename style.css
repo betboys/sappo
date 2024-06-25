@@ -2702,7 +2702,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .wpcf7-response-output,
 .wpcf7-not-valid-tip {
-  max-width: 40.267vw;
+  max-width: 100%;
   font-size: 0.875rem;
   margin-top: 10px;
 }
@@ -4081,6 +4081,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
 .label-file {

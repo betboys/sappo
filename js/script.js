@@ -122,7 +122,7 @@ function headerSubmenu() {
   document.addEventListener('DOMContentLoaded', (event) => {
     let dropdownMenu = document.querySelector(".dropdown-menu");
     let header = document.querySelector(".header");
-    let dropdown = document.querySelector(".remove");
+    let dropdown = document.querySelector(".dropdown-class");
     let dropdownIcon = document.querySelector(".dropdown-icon");
     let dropdownIconFill = document.querySelector(".dropdown-icon-fill");
     let submenuInner = document.querySelector(".dropdown-menu-inner");
@@ -167,7 +167,7 @@ function headerSubmenu() {
     }
     // responsive header mobile
     window.addEventListener("resize", function () {
-      dropdown.classList.remove("remove")
+      dropdown.classList.remove("dropdown-class")
     })
     if (windowWidth >= 1320) {
       menuOpen.addEventListener("click", function () {

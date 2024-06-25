@@ -26,7 +26,8 @@
 	<div class="footer-end-inner">
 		<ul class="footer-end-intro">
 			<p class="site-info"><span class="site-info-symbol">©</span> <?php echo date('Y'); ?>
-				<?php echo bloginfo('name'); ?>. All rights reserved.</p>
+				<?php echo bloginfo('name'); ?>. All rights reserved.
+			</p>
 			<?php
 			$flinks = get_field('links', 'option');
 			if ($flinks): ?>
@@ -48,6 +49,11 @@
 		</ul>
 	</div>
 </footer>
+
+<div class="preloader">
+	<video class="preloader-video" src="<?php echo get_template_directory_uri(); ?>/video/Preloader\ animation.gif"
+		type="video/mp4" autoplay="" loop="" playsinline="" webkit-playsinline="" muted=""></video>
+</div>
 
 <div class="popup-mail">
 	<div class="popup-inner">

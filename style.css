@@ -1320,6 +1320,26 @@ body.no-scroll {
   --paddingLeftAndRigth: 7.813vw;
 }
 
+/* Preloader */
+.preloader {
+  position: fixed;
+  inset: 0;
+  background: rgba(16, 16, 17, 0.6);
+  -webkit-backdrop-filter: blur(1.359rem);
+  backdrop-filter: blur(1.359rem);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notLoaded {
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  margin: 0px;
+}
+
 /* header */
 .header {
   width: 100%;

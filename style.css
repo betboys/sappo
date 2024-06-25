@@ -5139,6 +5139,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .menu-list:nth-child(4) {
     order: 5;
     margin-block: auto;
+    padding-bottom: 15rem;
   }
 
   .menu-list:last-child .menu-link {

@@ -3516,7 +3516,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .left-and-right-img {
   width: 50vw;
-  height: 55.885vw;
+  height: calc(55.885vw + -30 *(100vw - 1920px) / 60);
 }
 
 .left-and-right-title {

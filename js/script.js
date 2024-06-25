@@ -176,54 +176,51 @@ function headerSubmenu() {
   // }
   // }
   // responsive header mobile
-window.addEventListener("resize", function() {
 
-  if (windowWidth <= 1320) {
-    let menuOpen = document.querySelector(".burger-menu-open");
-    let lineN1 = document.querySelector(".lineN1");
-    let lineN2 = document.querySelector(".lineN2");
-    let navigation = document.querySelector(".navigation");
-    // let dropdownIcon = document.querySelector(".dropdown-icon");
-    // let dropdownMenu = document.querySelector(".dropdown-menu");
-    // let dropdown = document.querySelector(".dropdown");
-    let menuUl = document.querySelector(".menu-inner");
-    let languageWpml = document.querySelector(".wpml-ls-statics-shortcode_actions");
-    menuUl.append(languageWpml);
-    menuOpen.addEventListener("click", function () {
-      menuOpen.classList.toggle("new-element");
-      lineN1.classList.toggle("new-lineN1");
-      lineN2.classList.toggle("new-lineN2");
-      if (header.style.height != "100vh") {
-        document.querySelector("body").classList.add("no-scroll");
-        header.style.height = "100vh"
-        // header.setAttribute(
-        //   "style",
-        //   "height: 100vh; margin-top: 49.63px;display:flex;"
-        // );
-      } else {
-        document.querySelector("body").classList.remove("no-scroll");
-        header.style.height = "auto"
-        // header.setAttribute(
-        //   "style",
-        //   "height: 0; margin-top: 0;display:none;"
-        // );
-      }
-    });
-    dropdown.addEventListener("click", function () {
-      if (dropdownMenu.style.height != "max-content") {
-        dropdownMenu.setAttribute(
-          "style",
-          "height: max-content; margin-top: 20.3px"
-        );
-        dropdownIcon.style.transform = "rotate(180deg)";
-      } else {
-        dropdownMenu.setAttribute("style", "height: 0; margin-top: 0");
-        dropdownIcon.style.transform = "rotate(0deg)";
-      }
-    });
-  }
-})
-
+  // if (windowWidth <= 1320) {
+  let menuOpen = document.querySelector(".burger-menu-open");
+  let lineN1 = document.querySelector(".lineN1");
+  let lineN2 = document.querySelector(".lineN2");
+  let navigation = document.querySelector(".navigation");
+  // let dropdownIcon = document.querySelector(".dropdown-icon");
+  // let dropdownMenu = document.querySelector(".dropdown-menu");
+  // let dropdown = document.querySelector(".dropdown");
+  let menuUl = document.querySelector(".menu-inner");
+  let languageWpml = document.querySelector(".wpml-ls-statics-shortcode_actions");
+  menuUl.append(languageWpml);
+  menuOpen.addEventListener("click", function () {
+    menuOpen.classList.toggle("new-element");
+    lineN1.classList.toggle("new-lineN1");
+    lineN2.classList.toggle("new-lineN2");
+    if (header.style.height != "100vh") {
+      document.querySelector("body").classList.add("no-scroll");
+      header.style.height = "100vh"
+      // header.setAttribute(
+      //   "style",
+      //   "height: 100vh; margin-top: 49.63px;display:flex;"
+      // );
+    } else {
+      document.querySelector("body").classList.remove("no-scroll");
+      header.style.height = "auto"
+      // header.setAttribute(
+      //   "style",
+      //   "height: 0; margin-top: 0;display:none;"
+      // );
+    }
+  });
+  dropdown.addEventListener("click", function () {
+    if (dropdownMenu.style.height != "max-content") {
+      dropdownMenu.setAttribute(
+        "style",
+        "height: max-content; margin-top: 20.3px"
+      );
+      dropdownIcon.style.transform = "rotate(180deg)";
+    } else {
+      dropdownMenu.setAttribute("style", "height: 0; margin-top: 0");
+      dropdownIcon.style.transform = "rotate(0deg)";
+    }
+  });
+  // }
 }
 /* footer navigation */
 function footer() {

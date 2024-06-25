@@ -176,6 +176,7 @@ function headerSubmenu() {
   // }
   // }
   // responsive header mobile
+window.addEventListener("resize", function() {
 
   if (windowWidth <= 1320) {
     let menuOpen = document.querySelector(".burger-menu-open");
@@ -221,6 +222,8 @@ function headerSubmenu() {
       }
     });
   }
+})
+
 }
 /* footer navigation */
 function footer() {

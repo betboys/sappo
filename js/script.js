@@ -767,38 +767,38 @@ if (document.getElementById("career-single")) {
   // header
   headerSubmenu();
   // form choose file
-  $("document").ready(function () {
-    var $file = $("#file-input"),
-      $label = $file.next(".label-file"),
-      $labelText = $label.find(".file-text"),
-      $labelRemove = $(".remove"),
-      labelDefault = $labelText.text();
-    $file.on("change", function (event) {
-      var fileName = $file.val().split("\\").pop();
-      if (fileName) {
-        var x = event.target.files[0].name;
-        $(".file-text").text(x);
-        $labelRemove.show();
-      } else {
-        $(".file-text").text(labelDefault);
-        $labelRemove.hide();
-      }
-    });
-    $labelRemove.on("click", function (event) {
-      $file.val("");
-      var lang = $('html').attr('lang');
-      if (lang === 'hy-AM') {
-        $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
-      }
-      if (lang === 'en-US') {
-        $(".file-text").text("Attach your CV");
-      }
-      if (lang === 'ru-RU') {
-        $(".file-text").text("Прикрепите свое резюме (CV)");
-      }
-      $labelRemove.hide();
-    });
-  });
+  // $("document").ready(function () {
+  //   var $file = $("#file-input"),
+  //     $label = $file.next(".label-file"),
+  //     $labelText = $label.find(".file-text"),
+  //     $labelRemove = $(".remove"),
+  //     labelDefault = $labelText.text();
+  //   $file.on("change", function (event) {
+  //     var fileName = $file.val().split("\\").pop();
+  //     if (fileName) {
+  //       var x = event.target.files[0].name;
+  //       $(".file-text").text(x);
+  //       $labelRemove.show();
+  //     } else {
+  //       $(".file-text").text(labelDefault);
+  //       $labelRemove.hide();
+  //     }
+  //   });
+  //   $labelRemove.on("click", function (event) {
+  //     $file.val("");
+  //     var lang = $('html').attr('lang');
+  //     if (lang === 'hy-AM') {
+  //       $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
+  //     }
+  //     if (lang === 'en-US') {
+  //       $(".file-text").text("Attach your CV");
+  //     }
+  //     if (lang === 'ru-RU') {
+  //       $(".file-text").text("Прикрепите свое резюме (CV)");
+  //     }
+  //     $labelRemove.hide();
+  //   });
+  // });
   // form
   let inputs = document.querySelectorAll(".input");
   let sendBtn = document.querySelector(".wpcf7-submit");
@@ -845,38 +845,38 @@ if (document.getElementById("career-single")) {
     $("html, body").animate({ scrollTop: "0" }, 0);
     window.location.reload();
   });
-  $(document).ready(function ($) {
-    let position = document.querySelector(".position-input");
-    let positionInner = position.innerHTML;
-    let inputPosition = document.querySelector(".input2");
-    inputPosition.placeholder = positionInner;
-    let text = inputPosition.innerHTML;
-    let capitalizedText = text.charAt(0).toUpperCase() + text.slice(1);
-    inputPosition.innerHTML = capitalizedText;
-    var lang = $('html').attr('lang');
-    if (lang === 'hy-AM') {
-      $(".form-name1").text("Անուն Ազգանուն");
-      $(".input1").attr("placeholder", "Անուն Ազգանուն");
-      $(".form-name2").text("պաշտոն");
-      // $(".input2").attr("placeholder", "Պահնորդ");
-      $(".form-name3").text("էլեկտրոնային հասցե");
-      $(".input3").attr("placeholder", "էլեկտրոնային հասցե");
-      $(".form-name4").text("հեռախոսահամար");
-      $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
-      $(".wpcf7-submit").attr("value", "Դիմել հիմա");
-    }
-    if (lang === 'ru-RU') {
-      $(".form-name1").text("Имя Фамилия");
-      $(".input1").attr("placeholder", "Имя Фамилия");
-      $(".form-name2").text("позиция");
-      // $(".input2").attr("placeholder", "Напр. Старший Java-разработчик");
-      $(".form-name3").text("Электронная почта");
-      $(".input3").attr("placeholder", "Электронная почта");
-      $(".form-name4").text("номер телефона");
-      $(".file-text").text("Прикрепите свое резюме (CV)");
-      $(".wpcf7-submit").attr("value", "Применить сейчас");
-    }
-  });
+  // $(document).ready(function ($) {
+  //   let position = document.querySelector(".position-input");
+  //   let positionInner = position.innerHTML;
+  //   let inputPosition = document.querySelector(".input2");
+  //   inputPosition.placeholder = positionInner;
+  //   let text = inputPosition.innerHTML;
+  //   let capitalizedText = text.charAt(0).toUpperCase() + text.slice(1);
+  //   inputPosition.innerHTML = capitalizedText;
+  //   var lang = $('html').attr('lang');
+  //   // if (lang === 'hy-AM') {
+  //   //   $(".form-name1").text("Անուն Ազգանուն");
+  //   //   $(".input1").attr("placeholder", "Անուն Ազգանուն");
+  //   //   $(".form-name2").text("պաշտոն");
+  //   //   // $(".input2").attr("placeholder", "Պահնորդ");
+  //   //   $(".form-name3").text("էլեկտրոնային հասցե");
+  //   //   $(".input3").attr("placeholder", "էլեկտրոնային հասցե");
+  //   //   $(".form-name4").text("հեռախոսահամար");
+  //   //   $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
+  //   //   $(".wpcf7-submit").attr("value", "Դիմել հիմա");
+  //   // }
+  //   // if (lang === 'ru-RU') {
+  //   //   $(".form-name1").text("Имя Фамилия");
+  //   //   $(".input1").attr("placeholder", "Имя Фамилия");
+  //   //   $(".form-name2").text("позиция");
+  //   //   // $(".input2").attr("placeholder", "Напр. Старший Java-разработчик");
+  //   //   $(".form-name3").text("Электронная почта");
+  //   //   $(".input3").attr("placeholder", "Электронная почта");
+  //   //   $(".form-name4").text("номер телефона");
+  //   //   $(".file-text").text("Прикрепите свое резюме (CV)");
+  //   //   $(".wpcf7-submit").attr("value", "Применить сейчас");
+  //   // }
+  // });
   // footer
   footer();
 }

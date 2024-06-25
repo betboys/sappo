@@ -119,7 +119,7 @@ function headerSubmenu() {
   dropdownToggle.addEventListener("click", function (e) {
     e.preventDefault();
   });
-  if (windowWidth >= 1321 && windowWidth <= 3840) {
+  if (windowWidth >= 1321 && windowWidth <= 1920) {
     let dropdownMenu = document.querySelector(".dropdown-menu");
     let header = document.querySelector(".header");
     header.appendChild(dropdownMenu);
@@ -767,38 +767,38 @@ if (document.getElementById("career-single")) {
   // header
   headerSubmenu();
   // form choose file
-  // $("document").ready(function () {
-  //   var $file = $("#file-input"),
-  //     $label = $file.next(".label-file"),
-  //     $labelText = $label.find(".file-text"),
-  //     $labelRemove = $(".remove"),
-  //     labelDefault = $labelText.text();
-  //   $file.on("change", function (event) {
-  //     var fileName = $file.val().split("\\").pop();
-  //     if (fileName) {
-  //       var x = event.target.files[0].name;
-  //       $(".file-text").text(x);
-  //       $labelRemove.show();
-  //     } else {
-  //       $(".file-text").text(labelDefault);
-  //       $labelRemove.hide();
-  //     }
-  //   });
-  //   $labelRemove.on("click", function (event) {
-  //     $file.val("");
-  //     var lang = $('html').attr('lang');
-  //     if (lang === 'hy-AM') {
-  //       $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
-  //     }
-  //     if (lang === 'en-US') {
-  //       $(".file-text").text("Attach your CV");
-  //     }
-  //     if (lang === 'ru-RU') {
-  //       $(".file-text").text("Прикрепите свое резюме (CV)");
-  //     }
-  //     $labelRemove.hide();
-  //   });
-  // });
+  $("document").ready(function () {
+    var $file = $("#file-input"),
+      $label = $file.next(".label-file"),
+      $labelText = $label.find(".file-text"),
+      $labelRemove = $(".remove"),
+      labelDefault = $labelText.text();
+    $file.on("change", function (event) {
+      var fileName = $file.val().split("\\").pop();
+      if (fileName) {
+        var x = event.target.files[0].name;
+        $(".file-text").text(x);
+        $labelRemove.show();
+      } else {
+        $(".file-text").text(labelDefault);
+        $labelRemove.hide();
+      }
+    });
+    $labelRemove.on("click", function (event) {
+      $file.val("");
+      var lang = $('html').attr('lang');
+      if (lang === 'hy-AM') {
+        $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
+      }
+      if (lang === 'en-US') {
+        $(".file-text").text("Attach your CV");
+      }
+      if (lang === 'ru-RU') {
+        $(".file-text").text("Прикрепите свое резюме (CV)");
+      }
+      $labelRemove.hide();
+    });
+  });
   // form
   let inputs = document.querySelectorAll(".input");
   let sendBtn = document.querySelector(".wpcf7-submit");
@@ -814,37 +814,37 @@ if (document.getElementById("career-single")) {
   //     }
   //   })
   // }
-  var $file = $("#file-input");
-  $file.on("change", function (event) {
-    var fileName = $file.val().split("\\").pop();
-    if (fileName != "") {
-      sendBtn.addEventListener("click", function () {
-        popup.style.display = "flex";
-      });
-    }
-  })
-  $(document).ready(function ($) {
-    var lang = $('html').attr('lang');
-    if (lang === 'en-US') {
-      $(".popup-title").text("Thank you!");
-      $(".popup-subtitle").text("Your message has been successfully received. Our team will review your inquiry and get back to you as soon as possible.");
-      $(".go-back").text("Go back");
-    }
-    if (lang === 'hy-AM') {
-      $(".popup-title").text("Շնորհակալություն");
-      $(".popup-subtitle").text("Մեր թիմը կուսումնասիրի ձեր հարցումը և կապ կհաստատի ձեզ հետ հնարավորինս շուտ:");
-      $(".go-back").text("Վերադառնալ");
-    }
-    if (lang === 'ru-RU') {
-      $(".popup-title").text("Спасибо!");
-      $(".popup-subtitle").text("Ваше сообщение успешно получено. Наша команда рассмотрит ваш запрос и свяжется с вами в ближайшее время.");
-      $(".go-back").text("Вернуться назад");
-    }
-  });
-  goBack.addEventListener("click", function () {
-    $("html, body").animate({ scrollTop: "0" }, 0);
-    window.location.reload();
-  });
+  // var $file = $("#file-input");
+  // $file.on("change", function (event) {
+  //   var fileName = $file.val().split("\\").pop();
+  //   if (fileName != "") {
+  //     sendBtn.addEventListener("click", function () {
+  //       popup.style.display = "flex";
+  //     });
+  //   }
+  // })
+  // $(document).ready(function ($) {
+  //   var lang = $('html').attr('lang');
+  //   if (lang === 'en-US') {
+  //     $(".popup-title").text("Thank you!");
+  //     $(".popup-subtitle").text("Your message has been successfully received. Our team will review your inquiry and get back to you as soon as possible.");
+  //     $(".go-back").text("Go back");
+  //   }
+  //   if (lang === 'hy-AM') {
+  //     $(".popup-title").text("Շնորհակալություն");
+  //     $(".popup-subtitle").text("Մեր թիմը կուսումնասիրի ձեր հարցումը և կապ կհաստատի ձեզ հետ հնարավորինս շուտ:");
+  //     $(".go-back").text("Վերադառնալ");
+  //   }
+  //   if (lang === 'ru-RU') {
+  //     $(".popup-title").text("Спасибо!");
+  //     $(".popup-subtitle").text("Ваше сообщение успешно получено. Наша команда рассмотрит ваш запрос и свяжется с вами в ближайшее время.");
+  //     $(".go-back").text("Вернуться назад");
+  //   }
+  // });
+  // goBack.addEventListener("click", function () {
+  //   $("html, body").animate({ scrollTop: "0" }, 0);
+  //   window.location.reload();
+  // });
   // $(document).ready(function ($) {
   //   let position = document.querySelector(".position-input");
   //   let positionInner = position.innerHTML;

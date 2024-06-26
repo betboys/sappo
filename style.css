@@ -1369,7 +1369,7 @@ body.no-scroll {
 
 .logo-icon {
   width: unset;
-  height: max-content;
+  height: unset;
 }
 
 .burger-menu-open {

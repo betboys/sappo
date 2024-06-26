@@ -128,6 +128,8 @@ $(document).ready(function () {
 function headerSubmenu() {
   const copy = document.querySelector(".header").cloneNode(true);
   document.querySelector(".main").appendChild(copy);
+  let headers= document.querySelectorAll(".header");
+  headers[1].setAttribute("class", "header-mobile");
   let dropdownToggle = document.querySelector(".dropdown-toggle");
   dropdownToggle.addEventListener("click", function (e) {
     e.preventDefault();

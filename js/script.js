@@ -260,9 +260,11 @@ function ourServiceCards() {
   let cardMobile = document.querySelectorAll(".card-link-mobile");
   let cardInfoInner = document.querySelectorAll(".card-info-inner")
   let cardLength = cards.length;
+  for (let i = 0; i < cardTitleHover.length; i++) {
+    cardTitleHover[i].textContent = cardTitle[i].textContent;
+  }
   // for (let i = 0; i < cards.length; i++) {
   //   cards[i].style.width = 100 / cardLength + "%";
-  //   cardTitleHover[i].textContent = cardTitle[i].textContent;
   //   if (windowWidth >= 1025 && windowWidth <= 3840) {
   //     cards[i].addEventListener("mouseover", function () {
   //       cards[i].style.width = 100 / 2 + "%";

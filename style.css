@@ -4251,10 +4251,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 @media (min-width: 1025px) {
-  .card:hover  {
+  .card:hover {
     width: 50%;
   }
-  
+
   .card:hover .card-title {
     opacity: 0;
     z-index: 0;
@@ -5127,7 +5127,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     display: grid;
     grid-template-areas: "logo burger"
       "navigation navigation";
-    background: #101011e6;
+    background: rgba(16, 16, 17, 0.6);
+    -webkit-backdrop-filter: blur(1.359rem);
+    backdrop-filter: blur(1.359rem);
     padding: 1.188rem var(--paddingLeftAndRigth);
     position: fixed;
     left: 0;
@@ -5940,8 +5942,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     --paddingTopAndBottom: 3.75rem;
   }
 
+  h1,
   h3 {
-    line-height: 96%;
+    line-height: 96% !important;
   }
 
   .about-hero-img::before {

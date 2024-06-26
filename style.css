@@ -1871,6 +1871,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   display: flex;
 }
 
+.home-cards-wrapper .card {
+  width: 20%;
+}
+
 .card {
   height: 100%;
   position: relative;

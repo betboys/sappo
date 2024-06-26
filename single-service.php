@@ -139,6 +139,7 @@ if ($feture_sec == 'yes'): ?>
                         <p class="card-title"><?= $card_title ?></p>
                         <div class="card-hover-visitble">
                             <a class="card-title-hover" href="<?php the_permalink(); ?>"></a>
+                            <p class="card-title-hover-mobile"><?= $card_title ?></p>
                             <div class="card-info-inner">
                                 <?= $card_description ?>
 

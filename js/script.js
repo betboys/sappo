@@ -137,7 +137,7 @@ function headerSubmenu() {
   // if (windowWidth >= 1321 && windowWidth <= 1920) {
     let dropdownMenu = document.querySelectorAll(".dropdown-menu");
     let header = document.querySelectorAll(".header");
-    header[0].appendChild(dropdownMenu);
+    header[0].appendChild(dropdownMenu[0]);
     let dropdown = document.querySelectorAll(".dropdown");
     let dropdownIcon = document.querySelectorAll(".dropdown-icon");
     let dropdownIconFill = document.querySelectorAll(".dropdown-icon-fill");
@@ -198,7 +198,7 @@ function headerSubmenu() {
     let dropdown2 = document.querySelectorAll(".dropdown");
     let menuUl = document.querySelectorAll(".menu-inner");
     let languageWpml = document.querySelectorAll(".wpml-ls-statics-shortcode_actions");
-    menuUl[1].append(languageWpml);
+    menuUl[1].append(languageWpml[1]);
     menuOpen[1].addEventListener("click", function () {
       menuOpen[1].classList.toggle("new-element");
       lineN1[1].classList.toggle("new-lineN1");

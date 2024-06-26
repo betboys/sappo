@@ -1301,6 +1301,7 @@ img {
 body {
   font: 400 1.375rem / 110% "Noto Sans Armenian Regular";
   color: #fff;
+  background: #101011;
 }
 
 body.no-scroll {

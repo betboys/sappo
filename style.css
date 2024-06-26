@@ -1345,6 +1345,10 @@ body.no-scroll {
 }
 
 /* header */
+.header-mobile {
+  display: none;
+}
+
 .header {
   width: 100%;
   padding: 0 var(--paddingLeftAndRigth);
@@ -2708,7 +2712,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .wpcf7-not-valid-tip-el {
-margin-top: 0;
+  margin-top: 0;
 }
 
 .chosse-file .wpcf7-form-control-wrap>.wpcf7-not-valid-tip:last-child {
@@ -5090,10 +5094,17 @@ margin-top: 0;
   }
 
   .header {
-    grid-template-areas: "logo burger"
+    display: none;
+    /* grid-template-areas: "logo burger"
       "navigation navigation";
     padding: 1.188rem var(--paddingLeftAndRigth);
+    background: #101011e6; */
+  }
+
+  .header-mobile {
+    display: flex;
     background: #101011e6;
+    padding: 1.188rem var(--paddingLeftAndRigth);
   }
 
   .logo {

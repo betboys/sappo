@@ -5940,6 +5940,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     --paddingTopAndBottom: 3.75rem;
   }
 
+  h3 {
+    line-height: 96%;
+  }
+
   .about-hero-img::before {
     background: linear-gradient(179deg, rgba(0, 0, 0, 0.50) 0.65%, #000 83.79%);
   }

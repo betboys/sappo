@@ -375,9 +375,9 @@ if (document.getElementById("home")) {
   const two = document.querySelector(".two");
   const paginationContainer = document.querySelector(".pagination-container");
   const paginatedList = document.getElementById("paginated-list");
-  if (windowWidth <= 767) {
-    paginatedList.appendChild(paginationContainer);
-  }
+  // if (windowWidth <= 767) {
+  //   paginatedList.appendChild(paginationContainer);
+  // }
   document.addEventListener('DOMContentLoaded', (event) => {
     if (listItems.length > 1 && listItems.length <= 4) {
       one.innerHTML = 1;
@@ -508,9 +508,9 @@ if (document.getElementById("home")) {
   });
   let swiperButtons = document.querySelector(".next-prev-buttons");
   let ourTrustedPartners = document.querySelector(".our-trusted-partners");
-  if (windowWidth <= 767) {
-    ourTrustedPartners.appendChild(swiperButtons);
-  }
+  // if (windowWidth <= 767) {
+  //   ourTrustedPartners.appendChild(swiperButtons);
+  // }
   partners();
   // faq
   faq();

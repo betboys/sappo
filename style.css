@@ -1765,7 +1765,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   color: #fff;
   border-left: 0.125rem solid #fff;
   border-bottom: 0.125rem solid #fff;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 .link-style::before {
@@ -1776,7 +1776,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   left: 0;
   top: 0;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 .link-style::after {
@@ -1787,7 +1787,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   right: 0;
   bottom: 0;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 /* redefining-security */
@@ -2833,7 +2833,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: relative;
   border-left: 0.125rem solid #fff;
   border-bottom: 0.125rem solid #fff;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 .incidents-form-button input,
@@ -2854,7 +2854,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   left: 0;
   top: 0;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 .send-button::after {
@@ -2865,7 +2865,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   right: 0;
   bottom: 0;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 .send-button:disabled,
@@ -3295,7 +3295,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   font: 500 1.25rem / normal "Noto Sans Armenian Medium";
   letter-spacing: 0.003rem;
   color: #fff;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 .about-card-link::before {
@@ -3306,7 +3306,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   left: 0;
   top: 0;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 .about-card-link::after {
@@ -3317,7 +3317,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   right: 0;
   bottom: 0;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 /* Our Team */
@@ -3846,7 +3846,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   letter-spacing: 0.003rem;
   border-left: 0.125rem solid #fff;
   border-bottom: 0.125rem solid #fff;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 .category-item-link::before {
@@ -3857,7 +3857,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   left: 0;
   top: 0;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 .category-item-link::after {
@@ -3868,7 +3868,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   right: 0;
   bottom: 0;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 /* carrer se */
@@ -4156,8 +4156,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   justify-content: center;
   border-left: 0.125rem solid #fac917;
   border-bottom: 0.125rem solid #fac917;
-
-  transition: 0.5s;
+  transition: 0.3s ease;
   position: relative;
 }
 
@@ -4186,7 +4185,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   top: 0;
   left: 0;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 .incidents-form-button::after {
@@ -4197,7 +4196,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   position: absolute;
   right: 0;
   bottom: 0;
-  transition: 0.5s;
+  transition: 0.3s ease;
 }
 
 /*Added by Andranik */

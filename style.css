@@ -4234,6 +4234,26 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 }
 
+@media (min-width: 1025px) {
+  .card:hover  {
+    width: 50%;
+  }
+  
+  .card:hover .card-title {
+    opacity: 0;
+    z-index: 0;
+  }
+
+  .card:hover .card-hover-visitble {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .card:hover .card-image {
+    filter: unset;
+  }
+}
+
 @media (min-width: 1001px) {
   .menu-link:hover {
     color: #fac917;
@@ -4334,20 +4354,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .footer-end-intro-link:hover {
     color: #fac917;
-  }
-
-  .card:hover .card-title {
-    opacity: 0;
-    z-index: 0;
-  }
-
-  .card:hover .card-hover-visitble {
-    opacity: 1;
-    z-index: 1;
-  }
-
-  .card:hover .card-image {
-    filter: unset;
   }
 
   .card-link:hover .card-link-icon {

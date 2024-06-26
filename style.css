@@ -3128,7 +3128,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .our-serives-title {
-  font: 400 calc(8rem + 4.75 * (100vw - 120rem) /60) / 83% "Bebas Neue";
+  font: 400 calc(8rem + 4.75 * (100vw - 120rem) /60) / 106% "Bebas Neue";
   color: #fff;
 }
 

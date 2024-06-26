@@ -1,3 +1,6 @@
+<div class="preloader">
+	<img class="preloader-gif" src="https://sappo.am/oockyghi/2024/06/Preloader-animation.gif" alt="">
+</div>
 <?php get_header(); ?>
 <section class="page-hero page-id-288" id="home">
 	<div class="hero-image-inner">
@@ -144,7 +147,3 @@
 <?php get_template_part('templates/contact'); ?>
 
 <?php get_footer(); ?>
-
-<div class="preloader">
-	<img class="preloader-gif" src="https://sappo.am/oockyghi/2024/06/Preloader-animation.gif" alt="">
-</div>

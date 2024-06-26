@@ -22,13 +22,6 @@ function Translate() {
       $(".socal-media-subtitle2").text("Զանգահարեք մեզ");
       $(".socal-media-title3").text("Հասցե");
       $(".socal-media-subtitle3").text("Ուղղություն");
-      // $(".form-name1").text("Անուն Ազգանուն");
-      // $(".input1").attr("placeholder", "Անուն Ազգանուն");
-      // $(".form-name2").text("էլեկտրոնային հասցե");
-      // $(".input2").attr("placeholder", "Էլեկտրոնային Հասցե");
-      // $(".form-name3").text("նամակ");
-      // $(".input3").attr("placeholder", "Ձեր Հաղորդագրությունը . . . ");
-      // $(".wpcf7-submit").attr("value", "Ուղարկել");
     }
     if (lang === 'ru-RU') {
       $(".socal-media-title1").text("Электронная почта");
@@ -37,13 +30,6 @@ function Translate() {
       $(".socal-media-subtitle2").text("Позвоните нам");
       $(".socal-media-title3").text("Адрес");
       $(".socal-media-subtitle3").text("Направление");
-      // $(".form-name1").text("Имя Фамилия");
-      // $(".input1").attr("placeholder", "Имя Фамилия");
-      // $(".form-name2").text("Электронная почта");
-      // $(".input2").attr("placeholder", "Электронная почта");
-      // $(".form-name3").text("письмо");
-      // $(".input3").attr("placeholder", "Ваше сообщение. . .");
-      // $(".wpcf7-submit").attr("value", "Отправить");
     }
   });
 }
@@ -174,23 +160,6 @@ function headerSubmenu() {
     dropdownIcon[0].style.transform = "rotate(0deg)";
     dropdownIconFill[0].style.fill = "#fff";
   });
-  // if (windowWidth >= 1025 && windowWidth <= 1240) {
-  //   dropdown.addEventListener("mouseover", function () {
-  //     document.querySelector("body").classList.add("no-scroll");
-  //     dropdownMenu.style.height = "640px";
-  //     dropdownToggle.style.color = "#FAC917";
-  //     dropdownIcon.style.transform = "rotate(180deg)";
-  //     dropdownIconFill.style.fill = "#FAC917";
-  //   });
-  //   dropdownMenu.addEventListener("mouseover", function () {
-  //     document.querySelector("body").classList.add("no-scroll");
-  //     dropdownMenu.style.height = "640px";
-  //     dropdownToggle.style.color = "#FAC917";
-  //     dropdownIcon.style.transform = "rotate(180deg)";
-  //     dropdownIconFill.style.fill = "#FAC917";
-  //   });
-  // }
-  // }
   // responsive header mobile
   let menuOpen = document.querySelectorAll(".burger-menu-open");
   let lineN1 = document.querySelectorAll(".lineN1");
@@ -255,33 +224,9 @@ function ourServiceCards() {
   let cards = document.querySelectorAll(".card");
   let cardTitle = document.querySelectorAll(".card-title");
   let cardTitleHover = document.querySelectorAll(".card-title-hover");
-  let cardHoverVisitble = document.querySelectorAll(".card-hover-visitble");
-  let cardImages = document.querySelectorAll(".card-image");
-  let cardMobile = document.querySelectorAll(".card-link-mobile");
-  let cardInfoInner = document.querySelectorAll(".card-info-inner")
-  let cardLength = cards.length;
   for (let i = 0; i < cardTitleHover.length; i++) {
     cardTitleHover[i].textContent = cardTitle[i].textContent;
   }
-  // for (let i = 0; i < cards.length; i++) {
-  //   cards[i].style.width = 100 / cardLength + "%";
-  //   if (windowWidth >= 1025 && windowWidth <= 3840) {
-  //     cards[i].addEventListener("mouseover", function () {
-  //       cards[i].style.width = 100 / 2 + "%";
-  //     });
-  //     cards[i].addEventListener("mouseout", function () {
-  //       cards[i].style.width = 100 / cardLength + "%";
-  //     });
-  //   }
-  //   if (windowWidth <= 1024) {
-  //     cardTitleHover[i].addEventListener("click", function (e) {
-  //       e.preventDefault();
-  //     })
-  //     let cardInfoInnerH = cardInfoInner[i].clientHeight;
-  //     let cardsH = cards[i].clientHeight;
-  //     let newCardsH = cardsH + cardInfoInnerH;
-  //   }
-  // }
   cards.forEach((acc) => acc.addEventListener("click", toggleAcc));
   function toggleAcc() {
     cards.forEach((item) =>
@@ -308,9 +253,6 @@ function partners() {
     }
   }
   if (windowWidth <= 1001) {
-    // masterInner[i].addEventListener("click", function () {
-    //   partnersCard[i].classList.toggle("click");
-    // });
     cardIntro.forEach((acc) => acc.addEventListener("click", toggleAcc));
     function toggleAcc() {
       cardIntro.forEach((item) =>
@@ -809,20 +751,9 @@ if (document.getElementById("career-single")) {
     });
   });
   // form
-  let inputs = document.querySelectorAll(".input");
   let sendBtn = document.querySelector(".wpcf7-submit");
   let popup = document.querySelector(".popup-mail");
   let goBack = document.querySelector(".go-back");
-  let remove = document.querySelector(".remove");
-  // for (ind of inputs) {
-  //   ind.addEventListener("input", function () {
-  //     if (ind.value != "") {
-  //       sendBtn.addEventListener("click", function () {
-  //         popup.style.display = "flex";
-  //       });
-  //     }
-  //   })
-  // }
   var $file = $("#file-input");
   $file.on("change", function (event) {
     var fileName = $file.val().split("\\").pop();
@@ -881,29 +812,6 @@ if (document.getElementById("career-single")) {
     let text = inputPosition.innerHTML;
     let capitalizedText = text.charAt(0).toUpperCase() + text.slice(1);
     inputPosition.innerHTML = capitalizedText;
-    // var lang = $('html').attr('lang');
-    // if (lang === 'hy-AM') {
-    //   $(".form-name1").text("Անուն Ազգանուն");
-    //   $(".input1").attr("placeholder", "Անուն Ազգանուն");
-    //   $(".form-name2").text("պաշտոն");
-    //   // $(".input2").attr("placeholder", "Պահնորդ");
-    //   $(".form-name3").text("էլեկտրոնային հասցե");
-    //   $(".input3").attr("placeholder", "էլեկտրոնային հասցե");
-    //   $(".form-name4").text("հեռախոսահամար");
-    //   $(".file-text").text("Կցեք Ձեր ինքնակենսագրականը (CV)");
-    //   $(".wpcf7-submit").attr("value", "Դիմել հիմա");
-    // }
-    // if (lang === 'ru-RU') {
-    //   $(".form-name1").text("Имя Фамилия");
-    //   $(".input1").attr("placeholder", "Имя Фамилия");
-    //   $(".form-name2").text("позиция");
-    //   // $(".input2").attr("placeholder", "Напр. Старший Java-разработчик");
-    //   $(".form-name3").text("Электронная почта");
-    //   $(".input3").attr("placeholder", "Электронная почта");
-    //   $(".form-name4").text("номер телефона");
-    //   $(".file-text").text("Прикрепите свое резюме (CV)");
-    //   $(".wpcf7-submit").attr("value", "Применить сейчас");
-    // }
   });
   // footer
   footer();

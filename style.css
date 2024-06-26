@@ -2133,10 +2133,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   gap: 2rem;
 }
 
-.pagination-container-mobile {
-  display: none;
-}
-
 .pagination-button {
   width: 4rem;
   height: 4rem;
@@ -2389,6 +2385,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+.next-prev-buttons-mobile {
+  display: none;
 }
 
 .swiper-buttons {
@@ -6188,6 +6188,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .next-prev-buttons {
+    display: none;
+  }
+  
+  .next-prev-buttons-mobile {
     display: flex;
     justify-content: center;
     margin-top: 5rem;
@@ -6397,11 +6401,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .pagination-container {
-    display: none;
-  }
-
-  .pagination-container-mobile {
-    display: flex;
     justify-content: space-between;
     margin-top: 2.625rem;
   }
@@ -6490,7 +6489,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 1.375rem;
   }
 
-  .pagination-container-mobile {
+  .pagination-container {
     margin-top: 2.625rem;
     justify-content: center;
   }
@@ -6505,7 +6504,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .partners-card-inner,
-  .next-prev-buttons {
+  .next-prev-buttons-mobile {
     margin-top: 2.563rem;
   }
 
@@ -6732,7 +6731,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 22.5rem;
   }
 
-  .pagination-container-mobile {
+  .pagination-container {
     justify-content: space-between;
   }
 

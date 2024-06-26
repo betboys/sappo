@@ -126,6 +126,8 @@ $(document).ready(function () {
 });
 /* header submenu  */
 function headerSubmenu() {
+  const copy = document.querySelector(".header").cloneNode(true);
+  document.querySelector(".main").appendChild(copy);
   let dropdownToggle = document.querySelector(".dropdown-toggle");
   dropdownToggle.addEventListener("click", function (e) {
     e.preventDefault();

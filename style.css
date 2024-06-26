@@ -6188,10 +6188,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .next-prev-buttons {
-    display: none;
-  }
-
-  .next-prev-buttons {
     display: flex;
     justify-content: center;
     margin-top: 5rem;

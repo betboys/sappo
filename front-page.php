@@ -1,7 +1,7 @@
+<?php get_header(); ?>
 <div class="preloader">
 	<img class="preloader-gif" src="https://sappo.am/oockyghi/2024/06/Preloader-animation.gif" alt="">
 </div>
-<?php get_header(); ?>
 <section class="page-hero page-id-288" id="home">
 	<div class="hero-image-inner">
 		<img class="hero-image" src="<?= the_field('video_poster'); ?>" alt="">

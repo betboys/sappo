@@ -1875,6 +1875,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   width: 20%;
 }
 
+.our-service-cards-single .card {
+  width: 25%;
+}
+
 .card {
   height: 100%;
   position: relative;

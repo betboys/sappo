@@ -114,7 +114,7 @@ if ($feture_sec == 'yes'): ?>
         <span class="other-services2" style="color: #fac917;">services</span>
     </h3>
     <div class="our-service-cards">
-        <div class="cards-wrapper">
+        <div class="cards-wrapper our-service-cards-single">
             <?php $current_post_id = get_the_ID();
             $args = array(
                 'post_type' => 'service',

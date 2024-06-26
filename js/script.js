@@ -190,44 +190,44 @@ function headerSubmenu() {
   }
   // responsive header mobile
   // if (windowWidth <= 1320) {
-    let menuOpen = document.querySelector(".burger-menu-open");
-    let lineN1 = document.querySelector(".lineN1");
-    let lineN2 = document.querySelector(".lineN2");
-    let navigation = document.querySelector(".navigation");
-    let dropdownIcon = document.querySelector(".dropdown-icon");
-    let dropdownMenu = document.querySelector(".dropdown-menu");
-    let dropdown = document.querySelector(".dropdown");
-    let menuUl = document.querySelector(".menu-inner");
-    let languageWpml = document.querySelector(".wpml-ls-statics-shortcode_actions");
+    let menuOpen = document.querySelectorAll(".burger-menu-open");
+    let lineN1 = document.querySelectorAll(".lineN1");
+    let lineN2 = document.querySelectorAll(".lineN2");
+    let navigation = document.querySelectorAll(".navigation");
+    let dropdownIcon = document.querySelectorAll(".dropdown-icon");
+    let dropdownMenu = document.querySelectorAll(".dropdown-menu");
+    let dropdown = document.querySelectorAll(".dropdown");
+    let menuUl = document.querySelectorAll(".menu-inner");
+    let languageWpml = document.querySelectorAll(".wpml-ls-statics-shortcode_actions");
     menuUl.append(languageWpml);
-    menuOpen.addEventListener("click", function () {
-      menuOpen.classList.toggle("new-element");
-      lineN1.classList.toggle("new-lineN1");
-      lineN2.classList.toggle("new-lineN2");
-      if (navigation.style.height != "100vh") {
+    menuOpen[1].addEventListener("click", function () {
+      menuOpen[1].classList.toggle("new-element");
+      lineN1[1].classList.toggle("new-lineN1");
+      lineN2[1].classList.toggle("new-lineN2");
+      if (navigation[1].style.height != "100vh") {
         document.querySelector("body").classList.add("no-scroll");
-        navigation.setAttribute(
+        navigation[1].setAttribute(
           "style",
           "height: 100vh; margin-top: 49.63px;display:flex;"
         );
       } else {
         document.querySelector("body").classList.remove("no-scroll");
-        navigation.setAttribute(
+        navigation[1].setAttribute(
           "style",
           "height: 0; margin-top: 0;display:none;"
         );
       }
     });
-    dropdown.addEventListener("click", function () {
-      if (dropdownMenu.style.height != "max-content") {
+    dropdown[1].addEventListener("click", function () {
+      if (dropdownMenu[1].style.height != "max-content") {
         dropdownMenu.setAttribute(
           "style",
           "height: max-content; margin-top: 20.3px"
         );
-        dropdownIcon.style.transform = "rotate(180deg)";
+        dropdownIcon[1].style.transform = "rotate(180deg)";
       } else {
-        dropdownMenu.setAttribute("style", "height: 0; margin-top: 0");
-        dropdownIcon.style.transform = "rotate(0deg)";
+        dropdownMenu[1].setAttribute("style", "height: 0; margin-top: 0");
+        dropdownIcon[1].style.transform = "rotate(0deg)";
       }
     });
   // }

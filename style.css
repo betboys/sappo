@@ -5102,7 +5102,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .header-mobile {
-    display: flex;
+    display: grid;
+    grid-template-areas: "logo burger"
+      "navigation navigation";
     background: #101011e6;
     padding: 1.188rem var(--paddingLeftAndRigth);
     position: fixed;

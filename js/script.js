@@ -199,7 +199,7 @@ function headerSubmenu() {
     let dropdown = document.querySelectorAll(".dropdown");
     let menuUl = document.querySelectorAll(".menu-inner");
     let languageWpml = document.querySelectorAll(".wpml-ls-statics-shortcode_actions");
-    menuUl.append(languageWpml);
+    menuUl[1].append(languageWpml);
     menuOpen[1].addEventListener("click", function () {
       menuOpen[1].classList.toggle("new-element");
       lineN1[1].classList.toggle("new-lineN1");

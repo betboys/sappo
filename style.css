@@ -2711,7 +2711,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 margin-top: 0;
 }
 
-.chosse-file .wpcf7-not-valid-tip {
+.chosse-file .wpcf7-form-control-wrap>.wpcf7-not-valid-tip:last-child {
   display: none;
 }
 

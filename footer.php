@@ -50,10 +50,6 @@
 	</div>
 </footer>
 
-<div class="preloader">
-		<img class="preloader-gif" src="https://sappo.am/oockyghi/2024/06/Preloader-animation.gif" alt="">
-</div>
-
 <div class="popup-mail">
 	<div class="popup-inner">
 		<div class="popup-intro">

@@ -1369,7 +1369,7 @@ body.no-scroll {
 
 .logo-icon {
   width: unset;
-  height: unset;
+  height: max-content;
 }
 
 .burger-menu-open {
@@ -5105,6 +5105,12 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     display: flex;
     background: #101011e6;
     padding: 1.188rem var(--paddingLeftAndRigth);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .logo {

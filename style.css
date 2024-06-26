@@ -3784,6 +3784,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   width: 39.582vw;
   padding: 1.5rem;
   background: rgba(68, 68, 68, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .category-hashtag {
@@ -3793,7 +3796,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .category-title {
-  margin-top: 0.313;
+  margin-block-end: auto;
   font: 400 2.75rem / normal "Bebas Neue";
   color: #e3e3e3;
   letter-spacing: 0.063rem;

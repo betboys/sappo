@@ -375,9 +375,9 @@ if (document.getElementById("home")) {
   const two = document.querySelector(".two");
   const paginationContainer = document.querySelector(".pagination-container");
   const paginatedList = document.getElementById("paginated-list");
-  // if (windowWidth <= 767) {
-  //   paginatedList.appendChild(paginationContainer);
-  // }
+  if (windowWidth <= 767) {
+    paginatedList.appendChild(paginationContainer);
+  }
   document.addEventListener('DOMContentLoaded', (event) => {
     if (listItems.length > 1 && listItems.length <= 4) {
       one.innerHTML = 1;

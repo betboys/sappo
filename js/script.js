@@ -130,8 +130,11 @@ function headerSubmenu() {
   document.querySelector(".main").appendChild(copy);
   let headers= document.querySelectorAll(".header");
   headers[1].setAttribute("class", "header-mobile");
-  let dropdownToggle = document.querySelector(".dropdown-toggle");
-  dropdownToggle.addEventListener("click", function (e) {
+  let dropdownToggle = document.querySelectorAll(".dropdown-toggle");
+  dropdownToggle[0].addEventListener("click", function (e) {
+    e.preventDefault();
+  });
+  dropdownToggle[1].addEventListener("click", function (e) {
     e.preventDefault();
   });
   // if (windowWidth >= 1321 && windowWidth <= 1920) {

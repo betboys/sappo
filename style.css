@@ -2391,10 +2391,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   gap: 2rem;
 }
 
-.next-prev-buttons-mobile {
-  display: none;
-}
-
 .swiper-buttons {
   width: 4rem;
   height: 4rem;
@@ -6195,7 +6191,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     display: none;
   }
 
-  .next-prev-buttons-mobile {
+  .next-prev-buttons {
     display: flex;
     justify-content: center;
     margin-top: 5rem;
@@ -6513,7 +6509,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .partners-card-inner,
-  .next-prev-buttons-mobile {
+  .next-prev-buttons {
     margin-top: 2.563rem;
   }
 

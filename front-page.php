@@ -131,26 +131,6 @@
 					wp_reset_postdata(); ?>
 				<?php endif; ?>
 			</div>
-			<div class="pagination-container pagination-container-mobile">
-				<button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
-					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-						<path class="prev-button-path"
-							d="M25.055 17.3334H10.1616L16.6683 23.84C17.1883 24.36 17.1883 25.2134 16.6683 25.7334C16.1483 26.2534 15.3083 26.2534 14.7883 25.7334L6.00164 16.9467C5.48164 16.4267 5.48164 15.5867 6.00164 15.0667L14.775 6.26671C15.295 5.74671 16.135 5.74671 16.655 6.26671C17.175 6.78671 17.175 7.62671 16.655 8.14671L10.1616 14.6667H25.055C25.7883 14.6667 26.3883 15.2667 26.3883 16C26.3883 16.7334 25.7883 17.3334 25.055 17.3334Z"
-							fill="#101011" />
-					</svg>
-				</button>
-				<p id="pagination-numbers">
-					<span class="one" data-page=""></span> /
-					<span class="two" data-page=""></span>
-				</p>
-				<button class="pagination-button" id="next-button" aria-label="Next page" title="Next page" data-num="">
-					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-						<path class="next-button-path"
-							d="M6.94503 17.3334H21.8384L15.3317 23.84C14.8117 24.36 14.8117 25.2134 15.3317 25.7334C15.8517 26.2534 16.6917 26.2534 17.2117 25.7334L25.9984 16.9467C26.5184 16.4267 26.5184 15.5867 25.9984 15.0667L17.225 6.26671C16.705 5.74671 15.865 5.74671 15.345 6.26671C14.825 6.78671 14.825 7.62671 15.345 8.14671L21.8384 14.6667H6.94503C6.21169 14.6667 5.61169 15.2667 5.61169 16C5.61169 16.7334 6.21169 17.3334 6.94503 17.3334Z"
-							fill="#101011" />
-					</svg>
-				</button>
-			</div>
 		</div>
 	</div>
 </section>

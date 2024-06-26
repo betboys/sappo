@@ -3634,8 +3634,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .item-icon {
-  width: 17px;
-  height: unset;
+  width: auto;
+  height: auto;
 }
 
 .item-title {

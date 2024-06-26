@@ -2023,6 +2023,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   color: #fff;
 }
 
+.card-title-hover-mobile {
+  display: none;
+}
+
 .card-info-inner {
   margin-top: 0.64rem;
   display: flex;
@@ -5700,6 +5704,15 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     display: none;
   }
 
+  .card-title-hover-mobile {
+    display: block;
+    font-size: calc(4.375rem + 4.5 * (100vw - 64rem) / 60);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
   .card-title-hover {
     font-size: calc(4.375rem + 4.5 * (100vw - 64rem) / 60);
     display: -webkit-box;
@@ -6126,7 +6139,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: 4rem;
   }
 
-  .card-title-hover {
+  .card-title-hover,
+  .card-title-hover-mobile {
     font-size: 2.813rem;
   }
 
@@ -6630,7 +6644,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: 74px;
   }
 
-  .card-title-hover {
+  .card-title-hover,
+  .card-title-hover-mobile {
     font-size: 35px;
   }
 

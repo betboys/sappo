@@ -1,42 +1,42 @@
 var $ = jQuery;
-$(document).ready(function () {
-   $.get(
-    "https://ipinfo.io",
-    function (response) {
-      var ip_country = response.country;
-      localStorage.setItem("ipcountry", ip_country);
-      ip_country = localStorage.getItem("ipcountry");
-    console.log(ip_country);
-		 if (ip_country == "AM" ) {
-			 if (!sessionStorage.getItem('redirected_to_AM')) {
-        // Mark that we have redirected
-        sessionStorage.setItem('redirected_to_AM', 'true');
+// $(document).ready(function () {
+//    $.get(
+//     "https://ipinfo.io",
+//     function (response) {
+//       var ip_country = response.country;
+//       localStorage.setItem("ipcountry", ip_country);
+//       ip_country = localStorage.getItem("ipcountry");
+//     console.log(ip_country);
+// 		 if (ip_country == "AM" ) {
+// 			 if (!sessionStorage.getItem('redirected_to_AM')) {
+//         // Mark that we have redirected
+//         sessionStorage.setItem('redirected_to_AM', 'true');
         
-        // Construct the new URL
-        var newUrl = 'https://sappo.am/hy/';
+//         // Construct the new URL
+//         var newUrl = 'https://sappo.am/hy/';
         
-        // Redirect to the new URL
-        window.location.href = newUrl;
-    }
-				   } else if (ip_country == "RU") {
-					   	 if (!sessionStorage.getItem('redirected_to_ru')) {
-        // Mark that we have redirected
-        sessionStorage.setItem('redirected_to_ru', 'true');
+//         // Redirect to the new URL
+//         window.location.href = newUrl;
+//     }
+// 				   } else if (ip_country == "RU") {
+// 					   	 if (!sessionStorage.getItem('redirected_to_ru')) {
+//         // Mark that we have redirected
+//         sessionStorage.setItem('redirected_to_ru', 'true');
         
-        // Construct the new URL
-        var newUrl = 'https://sappo.am/ru/';
+//         // Construct the new URL
+//         var newUrl = 'https://sappo.am/ru/';
         
-        // Redirect to the new URL
-        window.location.href = newUrl;
-    }
-				   } else {
+//         // Redirect to the new URL
+//         window.location.href = newUrl;
+//     }
+// 				   } else {
 					   
-				   }
+// 				   }
 		
-    },
-    "jsonp"
-  );  
- });
+//     },
+//     "jsonp"
+//   );  
+//  });
 // $(document).ready(function () {
 // $(".send-btn-form-cust").click(function (e) {
 //   e.preventDefault();

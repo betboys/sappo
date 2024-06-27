@@ -1,5 +1,47 @@
 <?php
+function set_language_based_on_ip() {
+    global $sitepress;
+    // Get user's IP address
+    $user_ip = $_SERVER['REMOTE_ADDR'];
 
+    // API details
+    $api_key = 'C0629816B2FC850A239B857049550074';
+    $api_url = "https://api.ip2location.io/?key=$api_key&ip=$user_ip";
+
+    // Make API request
+    $response = wp_remote_get($api_url);
+
+    if (!is_wp_error($response)) {
+        $body = wp_remote_retrieve_body($response);
+        $data = json_decode($body, true);
+
+        // Extract country code
+        $country_code = isset($data['country_code']) ? $data['country_code'] : '';
+
+        // Determine language code based on country code
+        switch ($country_code) {
+            case 'AM':
+                $language_code = "hy"; // Armenian language code in WPML
+                break;
+            case 'RU':
+                $language_code = "ru"; // Russian language code in WPML
+                break;
+            default:
+                $language_code = "en"; // Default language code if country not matched
+                break;
+        }
+
+  if (!isset($_COOKIE['wp-wpml_user_language'])) {
+            $sitepress->switch_lang($language_code, true);
+        }
+	   setcookie('wp-wpml_user_language', $language_code, time() + 86400, '/'); 
+ }
+       
+    }
+
+
+add_action('init', 'set_language_based_on_ip'); 
+add_action('wp_loaded', 'set_language_based_on_ip');
 
 /** change tinymce's paste-as-text functionality */
 function paste_as_text($mceInit, $editor_id)

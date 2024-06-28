@@ -1019,35 +1019,35 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 [data-aos=fade-up] {
-  transform: translate3d(0, 100px, 0)
+  transform: translate3d(0, 6.25rem, 0)
 }
 
 [data-aos=fade-down] {
-  transform: translate3d(0, -100px, 0)
+  transform: translate3d(0, -6.25rem, 0)
 }
 
 [data-aos=fade-right] {
-  transform: translate3d(-100px, 0, 0)
+  transform: translate3d(-6.25rem, 0, 0)
 }
 
 [data-aos=fade-left] {
-  transform: translate3d(100px, 0, 0)
+  transform: translate3d(6.25rem, 0, 0)
 }
 
 [data-aos=fade-up-right] {
-  transform: translate3d(-100px, 100px, 0)
+  transform: translate3d(-6.25rem, 6.25rem, 0)
 }
 
 [data-aos=fade-up-left] {
-  transform: translate3d(100px, 100px, 0)
+  transform: translate3d(6.25rem, 6.25rem, 0)
 }
 
 [data-aos=fade-down-right] {
-  transform: translate3d(-100px, -100px, 0)
+  transform: translate3d(-6.25rem, -6.25rem, 0)
 }
 
 [data-aos=fade-down-left] {
-  transform: translate3d(100px, -100px, 0)
+  transform: translate3d(6.25rem, -6.25rem, 0)
 }
 
 [data-aos^=zoom][data-aos^=zoom] {
@@ -1065,19 +1065,19 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 [data-aos=zoom-in-up] {
-  transform: translate3d(0, 100px, 0) scale(.6)
+  transform: translate3d(0, 6.25rem, 0) scale(.6)
 }
 
 [data-aos=zoom-in-down] {
-  transform: translate3d(0, -100px, 0) scale(.6)
+  transform: translate3d(0, -6.25rem, 0) scale(.6)
 }
 
 [data-aos=zoom-in-right] {
-  transform: translate3d(-100px, 0, 0) scale(.6)
+  transform: translate3d(-6.25rem, 0, 0) scale(.6)
 }
 
 [data-aos=zoom-in-left] {
-  transform: translate3d(100px, 0, 0) scale(.6)
+  transform: translate3d(6.25rem, 0, 0) scale(.6)
 }
 
 [data-aos=zoom-out] {
@@ -1085,19 +1085,19 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 [data-aos=zoom-out-up] {
-  transform: translate3d(0, 100px, 0) scale(1.2)
+  transform: translate3d(0, 6.25rem, 0) scale(1.2)
 }
 
 [data-aos=zoom-out-down] {
-  transform: translate3d(0, -100px, 0) scale(1.2)
+  transform: translate3d(0, -6.25rem, 0) scale(1.2)
 }
 
 [data-aos=zoom-out-right] {
-  transform: translate3d(-100px, 0, 0) scale(1.2)
+  transform: translate3d(-6.25rem, 0, 0) scale(1.2)
 }
 
 [data-aos=zoom-out-left] {
-  transform: translate3d(100px, 0, 0) scale(1.2)
+  transform: translate3d(6.25rem, 0, 0) scale(1.2)
 }
 
 [data-aos^=slide][data-aos^=slide] {
@@ -1130,35 +1130,35 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 [data-aos=flip-left] {
-  transform: perspective(2500px) rotateY(-100deg)
+  transform: perspective(156.25rem) rotateY(-100deg)
 }
 
 [data-aos=flip-left].aos-animate {
-  transform: perspective(2500px) rotateY(0)
+  transform: perspective(156.25rem) rotateY(0)
 }
 
 [data-aos=flip-right] {
-  transform: perspective(2500px) rotateY(100deg)
+  transform: perspective(156.25rem) rotateY(100deg)
 }
 
 [data-aos=flip-right].aos-animate {
-  transform: perspective(2500px) rotateY(0)
+  transform: perspective(156.25rem) rotateY(0)
 }
 
 [data-aos=flip-up] {
-  transform: perspective(2500px) rotateX(-100deg)
+  transform: perspective(156.25rem) rotateX(-100deg)
 }
 
 [data-aos=flip-up].aos-animate {
-  transform: perspective(2500px) rotateX(0)
+  transform: perspective(156.25rem) rotateX(0)
 }
 
 [data-aos=flip-down] {
-  transform: perspective(2500px) rotateX(100deg)
+  transform: perspective(156.25rem) rotateX(100deg)
 }
 
 [data-aos=flip-down].aos-animate {
-  transform: perspective(2500px) rotateX(0)
+  transform: perspective(156.25rem) rotateX(0)
 }
 
 .aos-animate span {
@@ -1168,7 +1168,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 .hero-heading-text-inner span,
 .sappo-security-service-text span,
 .contact-us-title span {
-  padding-top: 26px;
+  padding-top: 1.625rem;
 }
 
 * {
@@ -1337,12 +1337,12 @@ body.no-scroll {
   height: 100vh;
   overflow: hidden;
   position: fixed;
-  margin: 0px;
+  margin: 0rem;
 }
 
 .preloader-gif {
   width: 100%;
-  max-width: 280px;
+  max-width: 17.5rem;
   height: unset;
 }
 
@@ -1389,7 +1389,7 @@ body.no-scroll {
   height: 0.185rem;
   background: #fff;
   transition: 0.5s;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform: translate3d(0rem, 0rem, 0rem) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
 
 .lineN2 {
@@ -1398,7 +1398,7 @@ body.no-scroll {
   background: #fff;
   margin-inline-start: auto;
   transition: 0.5s;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform: translate3d(0rem, 0rem, 0rem) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
 
 .burger-menu-open.new-element {
@@ -1407,12 +1407,12 @@ body.no-scroll {
 }
 
 .lineN1.new-lineN1 {
-  transform: translate3d(0px, 0.375rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+  transform: translate3d(0rem, 0.375rem, 0rem) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
 }
 
 .lineN2.new-lineN2 {
   width: 100%;
-  transform: translate3d(0px, -0.375rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
+  transform: translate3d(0rem, -0.375rem, 0rem) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
 }
 
 .menu-inner {
@@ -1558,7 +1558,7 @@ body.no-scroll {
 
 .menu-list:nth-child(4) .menu-link {
   /* width: 11.25rem; */
-  padding: 0 24px;
+  padding: 0 1.5rem;
   height: 3.25rem;
   display: flex;
   align-items: center;
@@ -1692,7 +1692,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 /* home hero section */
 .page-hero {
   width: 100%;
-  height: calc(985px + 30 * (100vw - 1920px) / 60);
+  height: calc(61.563rem + 30 * (100vw - 120rem) / 60);
   overflow: hidden;
   display: grid;
   align-items: center;
@@ -1753,7 +1753,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .link-style {
   /* width: 13.75rem; */
-  padding: 0 24px;
+  padding: 0 1.5rem;
   height: 3.25rem;
   margin-top: 2.5rem;
   display: inline-flex;
@@ -1922,83 +1922,83 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .postid-426 .card-title {
-  height: calc(700px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-91 .card-title {
-  height: calc(700px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-339 .card-title {
-  height: calc(700px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-427 .card-title {
-  height: calc(700px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-96 .card-title {
-  height: calc(700px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-338 .card-title {
-  height: calc(700px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-424 .card-title {
-  height: calc(700px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-39 .card-title {
-  height: calc(740px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-342 .card-title {
-  height: calc(700px + 29.2*(100vw - 1920px) / 60);
+  height: calc(43.75rem + 29.2*(100vw - 120rem) / 60);
 }
 
 .postid-425 .card-title {
-  height: calc(770px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(48.125rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-423 .card-title {
-  height: calc(770px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(48.125rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-85 .card-title {
-  height: calc(800px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(50rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-36 .card-title {
-  height: calc(800px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(50rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-340 .card-title {
-  height: calc(700px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .postid-341 .card-title {
-  height: calc(700px + 29.2 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 29.2 * (100vw - 120rem) / 60);
 }
 
 .page-id-293 .card-title {
-  height: calc(720px + 24 * (100vw - 1920px) / 60);
+  height: calc(45rem + 24 * (100vw - 120rem) / 60);
 }
 
 .page-id-37 .card-title {
-  height: calc(720px + 30 * (100vw - 1920px) / 60);
+  height: calc(45rem + 30 * (100vw - 120rem) / 60);
 }
 
 .page-id-288 .card:nth-child(3) .card-title {
-  height: calc(700px + 15 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 15 * (100vw - 120rem) / 60);
 }
 
 .page-id-288 .card:nth-child(4) .card-title {
-  height: calc(700px + 15 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 15 * (100vw - 120rem) / 60);
 }
 
 .page-id-288 .card:nth-child(5) .card-title {
-  height: calc(700px + 15 * (100vw - 1920px) / 60);
+  height: calc(43.75rem + 15 * (100vw - 120rem) / 60);
 }
 
 .card-hover-visitble {
@@ -2587,7 +2587,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .socal-media-form {
-  margin-top: 24px;
+  margin-top: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2725,7 +2725,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .wpcf7-not-valid-tip {
   max-width: 100%;
   font-size: 0.875rem;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .wpcf7-not-valid-tip-el {
@@ -2891,7 +2891,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   display: flex;
   justify-content: space-between;
   padding: 0 var(--paddingLeftAndRigth);
-  gap: 70px;
+  gap: 4.375rem;
 }
 
 .footer-text {
@@ -3260,7 +3260,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .about-our-serives-card-title {
-  font: 400 41px / 104.545% "Bebas Neue";
+  font: 400 2.563rem / 104.545% "Bebas Neue";
   text-shadow: 0rem 0.25rem 2.5rem rgba(0, 0, 0, 0.05);
   letter-spacing: 0.063rem;
   color: #e3e3e3;
@@ -3282,7 +3282,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .about-card-link {
   width: max-content;
-  padding: 0 44px;
+  padding: 0 2.75rem;
   height: 3.25rem;
   margin-top: 1.5rem;
   border-left: 0.125rem solid #fff;
@@ -3545,7 +3545,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .left-and-right-img {
   width: 50vw;
-  height: calc(55.885vw + -30 *(100vw - 1920px) / 60);
+  height: calc(55.885vw + -30 *(100vw - 120rem) / 60);
 }
 
 .left-and-right-title {
@@ -3629,9 +3629,9 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .item-icon-inner {
-  min-width: 32px;
-  min-height: 32px;
-  border: 1px solid #FAC917;
+  min-width: 2rem;
+  min-height: 2rem;
+  border: 0.063rem solid #FAC917;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3733,7 +3733,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .carrer-hero-heading-text-inner {
   width: 100%;
-  max-width: calc(83rem + 41 *(100vw - 1920px) / 60);
+  max-width: calc(83rem + 41 *(100vw - 120rem) / 60);
   padding-inline: var(--paddingLeftAndRigth);
   margin-top: 6.875rem;
   position: relative;
@@ -3833,7 +3833,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .category-item-link {
   width: max-content;
   height: 3.25rem;
-  padding: 0 59px;
+  padding: 0 3.688rem;
   margin-top: 1.5rem;
   margin-inline-start: auto;
   display: flex;
@@ -4066,7 +4066,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   font: 400 8rem / 83% "Bebas Neue";
   letter-spacing: 0.08rem;
   color: #fac917;
-  padding-top: 26px;
+  padding-top: 1.625rem;
 }
 
 .interested-subtitle {
@@ -4424,7 +4424,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 /* responsive */
 @media (max-width: 1730px) {
   .dropdown-menu-inner {
-    padding: 3.881rem calc(5.449vw + 14* (100vw - 108.125rem) / 60) 5.313rem calc(5.449vw + 14* (100vw - 1730px) / 60);
+    padding: 3.881rem calc(5.449vw + 14* (100vw - 108.125rem) / 60) 5.313rem calc(5.449vw + 14* (100vw - 108.125rem) / 60);
   }
 
   .dropdown-menu-item:nth-child(1),
@@ -4445,7 +4445,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .carrer-hero-heading-text-inner {
-    max-width: calc(57.6rem + 10 *(100vw - 1728px) / 60);
+    max-width: calc(57.6rem + 10 *(100vw - 108rem) / 60);
   }
 
   .dropdown-menu-item:nth-child(3)>.submenu-card-link>.dropdown-menu-item-text-inner>.dropdown-menu-item-title,
@@ -4456,92 +4456,92 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .interested-title,
   .career-single-heading {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .title-subtitle-intro>p,
   .title-subtitle-intro>ul>li {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .title-subtitle-intro>h3 {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 
   .postid-426 .card-title {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .postid-91 .card-title {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .postid-339 .card-title {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .postid-427 .card-title {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .postid-96 .card-title {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .postid-338 .card-title {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .postid-424 .card-title {
-    height: 600px;
+    height: 37.5rem;
   }
 
   .postid-39 .card-title {
-    height: 590px;
+    height: 36.875rem;
   }
 
   .postid-425 .card-title {
-    height: 600px;
+    height: 37.5rem;
   }
 
   .postid-423 .card-title {
-    height: 600px;
+    height: 37.5rem;
   }
 
   .postid-85 .card-title {
-    height: 588px;
+    height: 36.75rem;
   }
 
   .postid-36 .card-title {
-    height: 588px;
+    height: 36.75rem;
   }
 
   .postid-340 .card-title {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .postid-341 .card-title {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .postid-342 .card-title {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .page-id-293 .card-title {
-    height: calc(560px + 0*(100vw - 1728px) / 60);
+    height: calc(35rem + 0*(100vw - 108rem) / 60);
   }
 
   .page-id-288 .card:nth-child(3) .card-title {
-    height: calc(500px + 0 * (100vw - 1728px) / 60);
+    height: calc(31.25rem + 0 * (100vw - 108rem) / 60);
   }
 
   .page-id-288 .card:nth-child(4) .card-title {
-    height: calc(500px + 0 * (100vw - 1728px) / 60);
+    height: calc(31.25rem + 0 * (100vw - 108rem) / 60);
   }
 
   .page-id-288 .card:nth-child(5) .card-title {
-    height: calc(500px + 0 * (100vw - 1728px) / 60);
+    height: calc(31.25rem + 0 * (100vw - 108rem) / 60);
   }
 
   .item-title {
@@ -4600,7 +4600,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .page-id-37 .card-title {
-    height: calc(670px + 0*(100vw - 1728px) / 60);
+    height: calc(41.875rem + 0*(100vw - 108rem) / 60);
   }
 
   .menu-link,
@@ -4675,7 +4675,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .carrer-hero-heading-text-inner {
     padding: 0 var(--paddingLeftAndRigth);
-    margin-top: 100px;
+    margin-top: 6.25rem;
   }
 
   .page-hero,
@@ -4683,15 +4683,15 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .carrer-hero-img,
   .about-hero-img,
   .single-hero-img {
-    height: 740px;
+    height: 46.25rem;
   }
 
   .sappo-security-service-text {
-    font-size: calc(170px + 0 * (100vw - 1440px) / 60);
+    font-size: calc(10.625rem + 0 * (100vw - 90rem) / 60);
   }
 
   .about-our-serives-card-title {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .about-hero-heading-text-inner {
@@ -4712,7 +4712,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .item-title {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .about-card-link {
@@ -4726,7 +4726,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .position {
     width: 100%;
     font-size: 0.875rem;
-    padding-inline: 15px;
+    padding-inline: 0.938rem;
   }
 
   .strength-reliability {
@@ -4759,7 +4759,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .about-hero-heading-text-inner {
-    margin-top: 100px;
+    margin-top: 6.25rem;
   }
 
   .hero-subtitle {
@@ -4797,12 +4797,12 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .hero-heading-text-inner {
     max-width: calc(66rem + 35 * (100vw - 90rem) / 60);
     margin-bottom: unset;
-    margin-top: 74px;
+    margin-top: 4.625rem;
   }
 
   .single-hero-heading-text-inner {
     margin-bottom: unset;
-    margin-top: 100px;
+    margin-top: 6.25rem;
   }
 
   .hero-subtitle-single {
@@ -5518,11 +5518,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .career-single-heading,
   .our-benefits-title,
   .interested-title {
-    font-size: 80px;
+    font-size: 5rem;
   }
 
   .carrer-hero-heading-text-inner {
-    max-width: calc(43.9rem + 13 *(100vw - 1024px) / 60);
+    max-width: calc(43.9rem + 13 *(100vw - 64rem) / 60);
   }
 
   .contact-us-form,
@@ -5692,7 +5692,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .card-hover-visitble {
     width: 100%;
     left: 0;
-    bottom: 24px;
+    bottom: 1.5rem;
     top: unset;
     /* bottom: unset;
     top: calc(13.8rem + -4.2 * (100vw - 64rem) / 60); */
@@ -5737,11 +5737,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .card.height {
-    height: 460px;
+    height: 28.75rem;
   }
 
   .height .card-info-inner {
-    height: 184px;
+    height: 11.5rem;
     margin-top: 0.481rem;
   }
 
@@ -5955,7 +5955,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .card-hover-visitble {
-    bottom: 12px;
+    bottom: 0.75rem;
   }
 
   .single-content-left>.headingN2 {
@@ -5963,11 +5963,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .left-and-right-subtitle {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .left-and-right {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
   }
 
   .career-single-hero-img {
@@ -5990,16 +5990,16 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .popup-title {
-    font-size: 44px;
+    font-size: 2.75rem;
   }
 
   .popup-subtitle {
-    font-size: 14px;
-    padding-inline: 20px;
+    font-size: 0.875rem;
+    padding-inline: 1.25rem;
   }
 
   .go-back {
-    font-size: 16px;
+    font-size: 1rem;
     width: 80%;
     margin-inline: auto;
   }
@@ -6009,11 +6009,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .carrer-hero-heading-text-inner {
-    max-width: calc(29rem + 14 *(100vw - 767px) / 60);
+    max-width: calc(29rem + 14 *(100vw - 47.938rem) / 60);
   }
 
   .title-subtitle-intro>h3 {
-    font-size: 45px;
+    font-size: 2.813rem;
   }
 
   #carrer,
@@ -6024,13 +6024,13 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .postid-341 .single-hero-photo,
   .postid-39 .single-hero-photo,
   .postid-424 .single-hero-photo {
-    object-position: calc(100% + -10 * (100vw - 767px) / 60);
+    object-position: calc(100% + -10 * (100vw - 47.938rem) / 60);
   }
 
   .postid-342 .single-hero-photo,
   .postid-36 .single-hero-photo,
   .postid-423 .single-hero-photo {
-    object-position: calc(48% + 40 * (100vw - 767px) / 60);
+    object-position: calc(48% + 40 * (100vw - 47.938rem) / 60);
   }
 
   .postid-425 .single-page-hero,
@@ -6045,21 +6045,21 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .postid-425 .single-hero-photo,
   .postid-85 .single-hero-photo,
   .postid-340 .single-hero-photo {
-    object-position: calc(20% + 50 * (100vw - 767px) / 60);
+    object-position: calc(20% + 50 * (100vw - 47.938rem) / 60);
   }
 
   .carrer-hero-photo {
-    object-position: calc(65% + 20 * (100vw - 767px) / 60);
+    object-position: calc(65% + 20 * (100vw - 47.938rem) / 60);
   }
 
   .page-id-37 .hero-image,
   .page-id-288 .hero-image,
   .page-id-293 .hero-image {
-    object-position: calc(50% + 32 * (100vw - 767px) / 60);
+    object-position: calc(50% + 32 * (100vw - 47.938rem) / 60);
   }
 
   .about-hero-photo {
-    object-position: calc(100% + -40 * (100vw - 767px) / 60);
+    object-position: calc(100% + -40 * (100vw - 47.938rem) / 60);
   }
 
   .postid-39 h1 {
@@ -6175,7 +6175,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .our-team-title {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 
   .our-team-subtitle {
@@ -6198,7 +6198,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .our-serives-title {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 
   .testimonials-title {
@@ -6235,7 +6235,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .other-services {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 
   .current-openings-content {
@@ -6286,11 +6286,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .career-single-heading,
   .our-benefits-title,
   .interested-title {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 
   .logo-icon {
-    width: 100px;
+    width: 6.25rem;
   }
 
   .secureity-hero h1 {
@@ -6627,7 +6627,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .sappo-security-service,
   .sappo-security-service-image {
-    height: 447px;
+    height: 27.938rem;
   }
 
   .sappo-security-service {
@@ -6642,7 +6642,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-left: 0;
     margin-top: 5rem;
     padding: 0 var(--paddingLeftAndRigth);
-    font-size: 100px;
+    font-size: 6.25rem;
   }
 
   .page-id-288 .sappo-security-service-text {
@@ -6650,18 +6650,18 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .page-id-37 .sappo-security-service-text {
-    font-size: 62px;
+    font-size: 3.875rem;
     margin-top: 5rem;
   }
 
   .page-id-293 .sappo-security-service-text {
-    font-size: 74px;
+    font-size: 4.625rem;
     margin-top: 5rem;
   }
 
   .card-title-hover,
   .card-title-hover-mobile {
-    font-size: 35px;
+    font-size: 2.188rem;
   }
 
   .card-list {

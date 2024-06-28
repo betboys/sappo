@@ -2702,8 +2702,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .form-name {
-  letter-spacing: 0.063rem;
-  font: 400 1.125rem / 179.762% "Bebas Neue";
+  font: 400 1.125rem / 179.762% "Noto Sans Armenian Regular";
   color: #fff;
 }
 
@@ -6190,7 +6189,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .next-prev-buttons {
     display: none;
   }
-  
+
   .next-prev-buttons-mobile {
     display: flex;
     justify-content: center;
@@ -6641,9 +6640,13 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .sappo-security-service-text {
     margin-left: 0;
-    margin-top: 0;
+    margin-top: 5rem;
     padding: 0 var(--paddingLeftAndRigth);
     font-size: 100px;
+  }
+
+  .page-id-288 .sappo-security-service-text {
+    margin-top: 5rem;
   }
 
   .page-id-37 .sappo-security-service-text {
@@ -6653,6 +6656,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .page-id-293 .sappo-security-service-text {
     font-size: 74px;
+    margin-top: 5rem;
   }
 
   .card-title-hover,

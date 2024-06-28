@@ -1557,7 +1557,6 @@ body.no-scroll {
 }
 
 .menu-list:nth-child(4) .menu-link {
-  /* width: 11.25rem; */
   padding: 0 1.5rem;
   height: 3.25rem;
   display: flex;
@@ -1752,7 +1751,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 }
 
 .link-style {
-  /* width: 13.75rem; */
   padding: 0 1.5rem;
   height: 3.25rem;
   margin-top: 2.5rem;
@@ -1862,7 +1860,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 /* our-service-cards */
 .our-service-cards {
   width: 100%;
-  /* height: calc(1076px + 34 * (100vw - 1920px) / 60); */
   height: min(100vh - 6.25rem);
   margin-top: -0.063rem;
 }
@@ -1909,7 +1906,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .card-title {
   writing-mode: vertical-rl;
-  /* height: calc(800px + 29.2 * (100vw - 1920px) / 60); */
   font: 400 calc(6rem + 2.2 * (100vw - 120rem) / 60) / 92% "Bebas Neue";
   color: #fff;
   transform-origin: center;
@@ -3379,7 +3375,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .descover {
   width: 100%;
   height: calc(64.5rem + 30 * (100vw - 120rem) / 60);
-  /* display: grid; */
   display: none;
   position: relative;
   margin-top: -0.063rem;
@@ -3875,7 +3870,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   width: 100%;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRigth);
   background: #fff;
-  /* display: flex; */
   display: none;
   align-items: center;
   justify-content: space-between;
@@ -4733,14 +4727,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     align-items: start;
   }
 
-  /* .partners-card-text {
-    padding: 0 0.938rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 6;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  } */
-
   .menu-link,
   .rigth-intro-link,
   .list-group-item,
@@ -4885,17 +4871,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .partners-card-inner {
     margin-top: 3.75rem;
   }
-
-  /* .master-master-inner {
-    width: 11.813rem;
-    height: 8.813rem;
-    margin-right: 3rem;
-  } */
-
-  /* .chief {
-    width: 6.75rem;
-    height: 5.09rem;
-  } */
 
   .faq-info-inner {
     width: 54.167vw;
@@ -5120,10 +5095,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .header {
     display: none;
-    /* grid-template-areas: "logo burger"
-      "navigation navigation";
-    padding: 1.188rem var(--paddingLeftAndRigth);
-    background: #101011e6; */
   }
 
   .header-mobile {
@@ -5694,8 +5665,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     left: 0;
     bottom: 1.5rem;
     top: unset;
-    /* bottom: unset;
-    top: calc(13.8rem + -4.2 * (100vw - 64rem) / 60); */
     padding-left: 0;
     padding-bottom: 0;
     padding: 0;
@@ -5776,14 +5745,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     width: 100%;
     flex-direction: column;
   }
-
-  /* .partners-card-text {
-    padding: 0 0.75rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  } */
 
   .faq {
     flex-direction: column;
@@ -6433,12 +6394,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 2.563rem;
   }
 
-  /* .master-master-inner {
-    width: 9.438rem;
-    height: 7.063rem;
-    margin-right: 2.438rem;
-  } */
-
   .faq-title {
     font-size: 4rem;
   }
@@ -6472,11 +6427,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     padding: 1.25rem 0;
   }
 
-  /* .chief {
-    width: 5.424rem;
-    height: 4.09rem;
-  } */
-
   .our-trusted-partners-swiper {
     margin-left: var(--paddingLeftAndRigth);
   }
@@ -6506,16 +6456,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .next-prev-buttons-mobile {
     margin-top: 2.563rem;
   }
-
-  /* .master-master-inner {
-    width: 9.492rem;
-    height: 7.104rem;
-  } */
-
-  /* .chief {
-    width: 5.424rem;
-    height: 4.09rem;
-  } */
 
   .master-master-inner {
     margin-right: 2.438rem;
@@ -6718,13 +6658,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 0.938rem;
   }
 }
-
-/* @media (max-width: 430px) {
-  .master-master-inner {
-    width: calc(10.867rem + 29*(100vw - 26.875rem) / 60);
-    height: calc(8.479rem + 29*(100vw - 26.25rem) / 60);
-  }
-} */
 
 @media (max-width: 420px) {
   .hero-heading-text-inner {

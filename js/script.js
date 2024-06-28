@@ -508,9 +508,6 @@ if (document.getElementById("home")) {
   });
   let swiperButtons = document.querySelector(".next-prev-buttons");
   let ourTrustedPartners = document.querySelector(".our-trusted-partners");
-  // if (windowWidth <= 767) {
-  //   ourTrustedPartners.appendChild(swiperButtons);
-  // }
   partners();
   // faq
   faq();

@@ -642,9 +642,9 @@ if (document.getElementById("single")) {
   });
   let swiperButtons = document.querySelector(".next-prev-buttons");
   let ourTrustedPartners = document.querySelector(".our-trusted-partners");
-  if (windowWidth <= 744) {
-    ourTrustedPartners.appendChild(swiperButtons);
-  }
+  // if (windowWidth <= 744) {
+  //   ourTrustedPartners.appendChild(swiperButtons);
+  // }
   $(document).ready(function ($) {
     var lang = $('html').attr('lang');
     if (lang === 'hy-AM') {

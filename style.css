@@ -4285,10 +4285,19 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .dropdown-toggle:hover+.dropdown-icon>svg>.dropdown-icon-fill {
     fill: #FAC917 !important;
-}
+  }
 
   .dropdown-menu-item:hover {
     background: #020202;
+    border-color: #FAC917;
+  }
+
+  .dropdown-menu-item:hover .dropdown-menu-item-img {
+    opacity: 0;
+  }
+
+  .dropdown-menu-item:hover .dropdown-menu-item-img-hover {
+    opacity: 1;
   }
 
   .menu-list:hover:nth-child(4) .menu-link {

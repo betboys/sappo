@@ -50,7 +50,7 @@ $(document).ready(function () {
       flags[0].innerHTML = langsSpan[i].innerHTML;
     });
   }
-  if (windowWidth > 1024 && windowWidth <= 3840) {
+  if (windowWidth > 1024 && windowWidth <= 1920) {
     $(".lang-flag").mouseover(function () {
       $(".language-dropdown").addClass("open");
       $(".language-icon").addClass("language-icon-rotate");

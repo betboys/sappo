@@ -5963,6 +5963,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .gallery-slide-mobile {
     display: flex;
+    margin-top: 2.875rem;
   }
 
   #paginated-list {

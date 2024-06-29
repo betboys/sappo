@@ -146,7 +146,7 @@
 					$size = 'full'; // (thumbnail, medium, large, full or custom size)
 					if ($images): ?>
 						<?php foreach ($images as $image_id): ?>
-							<div class="swiper-slide gallery-slide-mobile">
+							<div class="swiper-slide gallery-swiper-slide-mobile">
 								<img class="gallery-photo" src="<?php echo wp_get_attachment_image_url($image_id, $size); ?>"
 									alt="">
 							</div>

@@ -5971,7 +5971,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 
   .gallery-slide-mobile {
-    width: min(100% - var(--paddingLeftAndRigth));
+    width: calc(45.438rem + 60 * (100vw - 47.938rem) / 60);
     height: 89.744vw;
     margin-right: var(--paddingLeftAndRigth);
   }

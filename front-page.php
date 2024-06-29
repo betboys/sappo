@@ -70,13 +70,14 @@
 						<div class="card-info-inner">
 							<?= $card_description ?>
 
-							<a class="card-link" href="<?php the_permalink(); ?>">
+							<a class="card-link card-link-web" href="<?php the_permalink(); ?>">
 								<svg xmlns="http://www.w3.org/2000/svg" width="77" height="75" viewBox="0 0 77 75" fill="none">
 									<path class="card-link-icon" d="M8 7.71094L37.5 36.2109L67 64.7109" stroke="white"
 										stroke-width="10" stroke-linecap="square" stroke-linejoin="round" />
 									<path class="card-link-icon" d="M71.5 7.71094V69.2109H8" stroke="white" stroke-width="10" />
 								</svg>
 							</a>
+							<a class="about-card-link card-link-mobile-v" href="<?php the_permalink(); ?>">Learn More</a>
 						</div>
 					</div>
 				</div>

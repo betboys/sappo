@@ -2089,6 +2089,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   display: none;
 }
 
+.card-link-mobile-v {
+  display: none;
+}
+
 /* gallery */
 .gallery {
   width: 100%;
@@ -5937,6 +5941,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .card-link-mobile-v {
+    display: flex;
+  }
+
+  .card-link-web {
+    display: none;
   }
 
   h1,

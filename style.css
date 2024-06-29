@@ -5976,6 +5976,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-right: var(--paddingLeftAndRigth);
   }
 
+  .gallery-swiper-slide-mobile:last-child {
+    margin-right: 0;
+  }
+
   .card-link-mobile-v {
     display: flex;
   }

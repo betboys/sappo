@@ -3715,12 +3715,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   margin-top: 1.5rem;
 }
 
-.postid-340 .single-hero-heading-text-inner>.hero-subtitle-single,
-.postid-85 .single-hero-heading-text-inner>.hero-subtitle-single,
-.postid-425 .single-hero-heading-text-inner>.hero-subtitle-single {
-  display: none;
-}
-
 .left-and-right>.left-and-right-text-inner>ul {
   margin-top: 2.5rem;
   padding-right: 2.438rem;
@@ -6041,15 +6035,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     object-position: calc(48% + 40 * (100vw - 47.938rem) / 60);
   }
 
-  .postid-425 .single-page-hero,
-  .postid-425 .single-hero-img,
-  .postid-85 .single-page-hero,
-  .postid-85 .single-hero-img,
-  .postid-340 .single-page-hero,
-  .postid-340 .single-hero-img {
-    height: 100vh;
-  }
-
   .postid-425 .single-hero-photo,
   .postid-85 .single-hero-photo,
   .postid-340 .single-hero-photo {
@@ -6118,14 +6103,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 10.625rem;
     padding-block: 0;
     padding-bottom: 5.313rem;
-  }
-
-  .postid-425 .single-hero-heading-text-inner,
-  .postid-340 .single-hero-heading-text-inner,
-  .postid-85 .single-hero-heading-text-inner {
-    margin-top: 0;
-    padding-block: 0;
-    padding-bottom: 0;
   }
 
   .gallery-photo {

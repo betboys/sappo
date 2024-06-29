@@ -4269,7 +4269,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 @media (min-width: 1001px) {
   .menu-link:hover {
-    color: #fac917;
+    color: #fac917 !important;
+  }
+
+  .menu-link:hover .dropdown-icon-fill {
+    color: #fac917 !important;
   }
 
   .dropdown-menu-item:hover {

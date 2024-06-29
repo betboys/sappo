@@ -1539,10 +1539,17 @@ body.no-scroll {
   gap: 1.863rem;
 }
 
-.dropdown-menu-item-img {
+.dropdown-menu-item-img-hover {
+  position: absolute;
+  opacity: 0;
+}
+
+.dropdown-menu-item-img,
+.dropdown-menu-item-img-hover {
   width: 1.538rem;
   height: 1.619rem;
   margin-top: 0.5rem;
+  transition: 0.5s;
 }
 
 .dropdown-menu-item:nth-child(1),

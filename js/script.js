@@ -132,34 +132,50 @@ function headerSubmenu() {
   let dropdownIconFill = document.querySelectorAll(".dropdown-icon-fill");
   let submenuInner = document.querySelectorAll(".dropdown-menu-inner");
   let submenuInnerH = submenuInner[0].clientHeight + "px";
-  dropdown[0].addEventListener("mouseover", function () {
-    document.querySelector("body").classList.add("no-scroll");
-    dropdownMenu[0].style.height = submenuInnerH;
-    dropdownToggle[0].style.color = "#FAC917";
-    dropdownIcon[0].style.transform = "rotate(180deg)";
-    dropdownIconFill[0].style.fill = "#FAC917";
+  dropdown[0].addEventListener("click", function () {
+    if (dropdownMenu[0].style.height != submenuInnerH) {
+      dropdownMenu[0].style.height = submenuInnerH;
+      document.querySelector("body").classList.add("no-scroll");
+      dropdownToggle[0].style.color = "#FAC917";
+      dropdownIconFill[0].style.fill = "#FAC917";
+      dropdownIcon[0].style.transform = "rotate(180deg)";
+    }
+    else {
+      document.querySelector("body").classList.remove("no-scroll");
+      dropdownMenu[0].style.height = "0";
+      dropdownToggle[0].style.color = "#fff";
+      dropdownIcon[0].style.transform = "rotate(0deg)";
+      dropdownIconFill[0].style.fill = "#fff";
+    }
   });
-  dropdownMenu[0].addEventListener("mouseover", function () {
-    document.querySelector("body").classList.add("no-scroll");
-    dropdownMenu[0].style.height = submenuInnerH;
-    dropdownToggle[0].style.color = "#FAC917";
-    dropdownIcon[0].style.transform = "rotate(180deg)";
-    dropdownIconFill[0].style.fill = "#FAC917";
-  });
-  dropdown[0].addEventListener("mouseout", function () {
-    document.querySelector("body").classList.remove("no-scroll");
-    dropdownMenu[0].style.height = "0";
-    dropdownToggle[0].style.color = "#fff";
-    dropdownIcon[0].style.transform = "rotate(0deg)";
-    dropdownIconFill[0].style.fill = "#fff";
-  });
-  dropdownMenu[0].addEventListener("mouseout", function () {
-    document.querySelector("body").classList.remove("no-scroll");
-    dropdownMenu[0].style.height = "0";
-    dropdownToggle[0].style.color = "#fff";
-    dropdownIcon[0].style.transform = "rotate(0deg)";
-    dropdownIconFill[0].style.fill = "#fff";
-  });
+  // dropdown[0].addEventListener("mouseover", function () {
+  //   document.querySelector("body").classList.add("no-scroll");
+  //   dropdownMenu[0].style.height = submenuInnerH;
+  //   dropdownToggle[0].style.color = "#FAC917";
+  //   dropdownIcon[0].style.transform = "rotate(180deg)";
+  //   dropdownIconFill[0].style.fill = "#FAC917";
+  // });
+  // dropdownMenu[0].addEventListener("mouseover", function () {
+  //   document.querySelector("body").classList.add("no-scroll");
+  //   dropdownMenu[0].style.height = submenuInnerH;
+  //   dropdownToggle[0].style.color = "#FAC917";
+  //   dropdownIcon[0].style.transform = "rotate(180deg)";
+  //   dropdownIconFill[0].style.fill = "#FAC917";
+  // });
+  // dropdown[0].addEventListener("mouseout", function () {
+  //   document.querySelector("body").classList.remove("no-scroll");
+  //   dropdownMenu[0].style.height = "0";
+  //   dropdownToggle[0].style.color = "#fff";
+  //   dropdownIcon[0].style.transform = "rotate(0deg)";
+  //   dropdownIconFill[0].style.fill = "#fff";
+  // });
+  // dropdownMenu[0].addEventListener("mouseout", function () {
+  //   document.querySelector("body").classList.remove("no-scroll");
+  //   dropdownMenu[0].style.height = "0";
+  //   dropdownToggle[0].style.color = "#fff";
+  //   dropdownIcon[0].style.transform = "rotate(0deg)";
+  //   dropdownIconFill[0].style.fill = "#fff";
+  // });
   // responsive header mobile
   let menuOpen = document.querySelectorAll(".burger-menu-open");
   let lineN1 = document.querySelectorAll(".lineN1");

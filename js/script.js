@@ -521,8 +521,8 @@ if (document.getElementById("home")) {
     slidesPerView: "auto",
     speed: 1000,
     navigation: {
-      nextEl: ".swiper-button-next-v",
-      prevEl: ".swiper-button-prev-v",
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
   });
   // Our trusted partners

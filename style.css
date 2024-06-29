@@ -5279,11 +5279,13 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .menu-link {
     font-family: "Noto Sans Armenian SemiBold";
     font-weight: 600;
+    font-size: 1.375rem;
   }
 
   .dropdown-menu-item-title {
     font-family: "Noto Sans Armenian Medium";
     font-weight: 500;
+    font-size: 1.25rem;
   }
 
   .language-dropdown ul.lang-list {
@@ -5620,7 +5622,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-size: calc(5.625rem + 0.5 * (100vw - 120rem) / 60);
   }
 
-  .menu-link,
   .rigth-intro-link,
   .list-group-item,
   .category-item-link,
@@ -5652,7 +5653,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     padding-bottom: 6.438rem;
   }
 
-  .menu-link,
   .rigth-intro-link,
   .list-group-item,
   .category-item-link,
@@ -6165,10 +6165,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
     font-size: 1.125rem;
-  }
-
-  .menu-link {
-    font-size: 1.375rem;
   }
 
   .heading {

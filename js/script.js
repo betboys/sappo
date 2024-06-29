@@ -517,6 +517,15 @@ if (document.getElementById("home")) {
       }
     });
   });
+  // gallery slide mobile
+  const swiper1 = new Swiper(swiper[0], {
+    slidesPerView: "auto",
+    speed: 1000,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
   // Our trusted partners
   const swiper2 = new Swiper(swiper[1], {
     slidesPerView: "auto",

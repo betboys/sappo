@@ -4267,13 +4267,17 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   }
 }
 
+.dropdown-icon>svg>.dropdown-icon-fill {
+  transition: 0.5s;
+}
+
 @media (min-width: 1001px) {
   .menu-link:hover {
     color: #fac917 !important;
   }
 
   .dropdown-toggle:hover+.dropdown-icon>svg>.dropdown-icon-fill {
-    fill: #FAC917;
+    fill: #FAC917 !important;
 }
 
   .dropdown-menu-item:hover {

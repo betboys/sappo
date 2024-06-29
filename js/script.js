@@ -538,12 +538,16 @@ if (document.getElementById("home")) {
   });
   let swiperButtons = document.querySelectorAll(".next-prev-buttons");
   let ourTrustedPartners = document.querySelector(".our-trusted-partners");
-  window.addEventListener("resize", function() {
+  let ttileAndDlideButtons = document.querySelector(".ttile-and-slide-buttons");
+  window.addEventListener("resize", function () {
     const windowWidth = window.innerWidth;
-    if(windowWidth <= 767) {
+    if (windowWidth <= 767) {
       ourTrustedPartners.appendChild(swiperButtons[1]);
     }
-  })
+    if (windowWidth > 767) {
+      ttileAndDlideButtons.appendChild(swiperButtons[1]);
+    }
+  });
   partners();
   // faq
   faq();

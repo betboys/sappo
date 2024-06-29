@@ -22,6 +22,7 @@
 			</a>
 			<button class="burger-menu-open">
 				<div class="lineN1"></div>
+				<div class="lineN3"></div>
 				<div class="lineN2"></div>
 			</button>
 			<nav class="navigation">

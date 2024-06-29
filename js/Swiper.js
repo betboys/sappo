@@ -2786,8 +2786,8 @@
         function p() {
             const e = t.params.navigation;
             if (t.params.navigation = F(t, t.originalParams.navigation, t.params.navigation, {
-                    nextEl: "swiper-button-next",
-                    prevEl: "swiper-button-prev"
+                    nextEl: "swiper-button-next swiper-button-next-v",
+                    prevEl: "swiper-button-prev swiper-button-next-v"
                 }), !e.nextEl && !e.prevEl) return;
             const s = r(e.nextEl),
                 a = r(e.prevEl);

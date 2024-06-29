@@ -52,7 +52,7 @@
         </div>
     </div>
     <div class="next-prev-buttons next-prev-buttons-mobile">
-        <button class="swiper-buttons swiper-button-prev">
+        <button class="swiper-buttons swiper-button-prev ">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
                 <path
                     d="M25.055 15.1666H10.1616L16.6683 8.65996C17.1883 8.13996 17.1883 7.28662 16.6683 6.76662C16.1483 6.24663 15.3083 6.24663 14.7883 6.76662L6.00164 15.5533C5.48164 16.0733 5.48164 16.9133 6.00164 17.4333L14.775 26.2333C15.295 26.7533 16.135 26.7533 16.655 26.2333C17.175 25.7133 17.175 24.8733 16.655 24.3533L10.1616 17.8333H25.055C25.7883 17.8333 26.3883 17.2333 26.3883 16.5C26.3883 15.7666 25.7883 15.1666 25.055 15.1666Z"

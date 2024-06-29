@@ -387,8 +387,8 @@ if (document.getElementById("home")) {
   }
   // galleri section card
   const swiper = document.querySelectorAll('.swiper');
-  const swBtnNext = document.querySelectorAll(".swiper-button-next");
-  const swBtnPrev = document.querySelectorAll(".swiper-button-prev");
+  const swBtnNext = document.querySelector(".swiper-button-next-mobile-v");
+  const swBtnPrev = document.querySelector(".swiper-button-prev-mobile-v");
   const listItems = document.querySelectorAll(".gallery-photo-intro");
   const nextButton = document.getElementById("next-button");
   const prevButton = document.getElementById("prev-button");
@@ -532,8 +532,8 @@ if (document.getElementById("home")) {
     slidesPerView: "auto",
     speed: 1000,
     navigation: {
-      nextEl: swBtnNext[1],
-      prevEl: swBtnPrev[1],
+      nextEl: swBtnNext,
+      prevEl: swBtnPrev,
     },
   });
   let swiperButtons = document.querySelector(".next-prev-buttons");

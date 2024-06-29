@@ -535,10 +535,6 @@ if (document.getElementById("home")) {
       nextEl: swBtnNext[1],
       prevEl: swBtnPrev[1],
     },
-    navigation: {
-      nextEl: swBtnNext[2],
-      prevEl: swBtnPrev[2],
-    },
   });
   let swiperButtons = document.querySelector(".next-prev-buttons");
   let ourTrustedPartners = document.querySelector(".our-trusted-partners");

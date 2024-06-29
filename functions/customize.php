@@ -223,9 +223,11 @@ class Custom_Menu_Walker extends Walker_Nav_Menu
 			$output .= esc_html($item->title);
 		} else {
 			$icon_url = get_field('icon', $item);
+			$icon_url_hover = get_field('icon_hover', $item);
 			$desc = get_field('description', $item);
 			$output .= '<a class="submenu-card-link" href="' . esc_url($item->url) . '">';
 			$output .= '<img class="dropdown-menu-item-img" src="' . $icon_url . '" alt="">';
+			$output .= '<img class="dropdown-menu-item-img-hover" src="' . $icon_url_hover . '" alt="">';
 			$output .= '<div class="dropdown-menu-item-text-inner">
 				<p class="dropdown-menu-item-title">';
 			$output .= esc_html($item->title);

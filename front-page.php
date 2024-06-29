@@ -133,6 +133,39 @@
 				<?php endif; ?>
 			</div>
 		</div>
+
+
+
+
+
+		<div class="swiper-container gallery-slide-mobile">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<?php
+					$images = get_field('gallery');
+					$size = 'full'; // (thumbnail, medium, large, full or custom size)
+					if ($images): ?>
+						<?php foreach ($images as $image_id): ?>
+							<div class="swiper-slide gallery-photo-intro">
+								<img class="gallery-photo" src="<?php echo wp_get_attachment_image_url($image_id, $size); ?>"
+									alt="">
+							</div>
+						<?php endforeach;
+						wp_reset_postdata(); ?>
+					<?php endif; ?>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
 	</div>
 </section>
 

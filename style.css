@@ -2097,6 +2097,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   background: #101011;
 }
 
+.gallery-slide-mobile {
+  display: none;
+}
+
 .text-wrapper-ul {
   background: #101011;
 }
@@ -5955,6 +5959,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   :root {
     --paddingLeftAndRigth: 1.25rem;
     --paddingTopAndBottom: 3.75rem;
+  }
+
+  .gallery-slide-mobile {
+    display: flex;
+  }
+
+  #paginated-list {
+    display: none;
   }
 
   .card-link-mobile-v {

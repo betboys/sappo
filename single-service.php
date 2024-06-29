@@ -152,6 +152,7 @@ if ($feture_sec == 'yes'): ?>
                                             stroke-width="10" />
                                     </svg>
                                 </a>
+                                <a class="about-card-link card-link-mobile-v" href="<?php the_permalink(); ?>">Learn More</a>
                             </div>
                         </div>
                     </div>

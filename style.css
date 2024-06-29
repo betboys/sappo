@@ -5263,7 +5263,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .dropdown-menu-item-title {
     width: 100% !important;
-    max-width: 100% !important;
+    max-width: 17.188rem !important;
   }
 
   .language-dropdown {
@@ -5271,6 +5271,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     align-items: start;
     gap: 1.25rem;
     order: 4;
+  }
+
+  .menu-link {
+    font-family: "Noto Sans Armenian SemiBold";
+    font-weight: 600;
   }
 
   .language-dropdown ul.lang-list {

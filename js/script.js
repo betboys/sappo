@@ -207,18 +207,18 @@ function headerSubmenu() {
       );
     }
   });
-  dropdown2[1].addEventListener("click", function () {
-    if (dropdownMenu2[1].style.height != "max-content") {
-      dropdownMenu2[1].setAttribute(
-        "style",
-        "height: max-content; margin-top: 20.3px"
-      );
-      dropdownIcon2[1].style.transform = "rotate(180deg)";
-    } else {
-      dropdownMenu2[1].setAttribute("style", "height: 0; margin-top: 0");
-      dropdownIcon2[1].style.transform = "rotate(0deg)";
-    }
-  });
+  // dropdown2[1].addEventListener("click", function () {
+  //   if (dropdownMenu2[1].style.height != "max-content") {
+  //     dropdownMenu2[1].setAttribute(
+  //       "style",
+  //       "height: max-content; margin-top: 20.3px"
+  //     );
+  //     dropdownIcon2[1].style.transform = "rotate(180deg)";
+  //   } else {
+  //     dropdownMenu2[1].setAttribute("style", "height: 0; margin-top: 0");
+  //     dropdownIcon2[1].style.transform = "rotate(0deg)";
+  //   }
+  // });
 }
 /* footer navigation */
 function footer() {

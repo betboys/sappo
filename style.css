@@ -2089,10 +2089,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   display: none;
 }
 
-.card-link-mobile-v {
-  display: none;
-}
-
 /* gallery */
 .gallery {
   width: 100%;
@@ -3311,6 +3307,10 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   letter-spacing: 0.003rem;
   color: #fff;
   transition: 0.3s ease;
+}
+
+.card-link-mobile-v {
+  display: none;
 }
 
 .about-card-link::before {

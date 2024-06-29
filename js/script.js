@@ -2,11 +2,11 @@ var $ = jQuery;
 const windowWidth = window.innerWidth;
 // preloader
 $(document).ready(function () {
-  window.setTimeout('fadeout();', 3000);
+  window.setTimeout('fadeout();', 1);
   document.querySelector('body').classList.add('hidden');
 });
 function fadeout() {
-  $('.preloader').delay(3000).fadeOut('slow', function () {
+  $('.preloader').delay(1).fadeOut('slow', function () {
     $('.notLoaded').removeClass('notLoaded');
     document.querySelector('body').classList.remove('hidden');
   });

@@ -387,8 +387,6 @@ if (document.getElementById("home")) {
   }
   // galleri section card
   const swiper = document.querySelectorAll('.swiper');
-  const swBtnNext = document.querySelector(".swiper-button-next-mobile-v");
-  const swBtnPrev = document.querySelector(".swiper-button-prev-mobile-v");
   const listItems = document.querySelectorAll(".gallery-photo-intro");
   const nextButton = document.getElementById("next-button");
   const prevButton = document.getElementById("prev-button");
@@ -523,8 +521,8 @@ if (document.getElementById("home")) {
     slidesPerView: "auto",
     speed: 1000,
     navigation: {
-      nextEl: swBtnNext[0],
-      prevEl: swBtnPrev[0],
+      nextEl: ".swiper-button-next-v",
+      prevEl: ".swiper-button-prev-v",
     },
   });
   // Our trusted partners
@@ -532,8 +530,8 @@ if (document.getElementById("home")) {
     slidesPerView: "auto",
     speed: 1000,
     navigation: {
-      nextEl: swBtnNext,
-      prevEl: swBtnPrev,
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
   });
   let swiperButtons = document.querySelector(".next-prev-buttons");

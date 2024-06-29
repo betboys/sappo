@@ -3311,6 +3311,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
 .card-link-mobile-v {
   display: none;
+  margin-top: 0;
+  margin-inline-start: auto;
 }
 
 .about-card-link::before {

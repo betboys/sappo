@@ -539,6 +539,9 @@ if (document.getElementById("home")) {
   let swiperButtons = document.querySelectorAll(".next-prev-buttons");
   let ourTrustedPartners = document.querySelector(".our-trusted-partners");
   let ttileAndDlideButtons = document.querySelector(".ttile-and-slide-buttons");
+  if (windowWidth <= 767) {
+    ourTrustedPartners.appendChild(swiperButtons[1]);
+  }
   window.addEventListener("resize", function () {
     const windowWidth = window.innerWidth;
     if (windowWidth <= 767) {

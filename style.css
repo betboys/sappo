@@ -5230,14 +5230,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     row-gap: 0;
   }
 
-  .dropdown-icon {
-    width: 1.5rem;
-    height: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .dropdown-menu {
     position: unset;
     background: none;
@@ -5255,6 +5247,20 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .dropdown-menu-item {
     width: 100% !important;
     max-width: 100%;
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  .dropdown-menu-item-img,
+  .dropdown-menu-item-img-hover,
+  .dropdown-menu-item-list-intro,
+  .dropdown-menu-item-desc {
+    display: none;
+  }
+
+  .dropdown-menu-item-title {
+    width: 100% !important;
   }
 
   .language-dropdown {

@@ -536,12 +536,12 @@ if (document.getElementById("home")) {
       prevEl: swBtnPrev[1],
     },
   });
-  let swiperButtons = document.querySelector(".next-prev-buttons");
+  let swiperButtons = document.querySelectorAll(".next-prev-buttons");
   let ourTrustedPartners = document.querySelector(".our-trusted-partners");
   window.addEventListener("resize", function() {
     const windowWidth = window.innerWidth;
     if(windowWidth <= 767) {
-      ourTrustedPartners.appendChild(swiperButtons);
+      ourTrustedPartners.appendChild(swiperButtons[1]);
     }
   })
   partners();

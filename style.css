@@ -6208,10 +6208,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     margin-top: 3.75rem;
   }
 
-  .next-prev-buttons {
-    display: none;
-  }
-
   .next-prev-buttons-mobile {
     display: flex;
     justify-content: center;

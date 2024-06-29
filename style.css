@@ -5241,13 +5241,14 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   .dropdown-menu-inner {
     padding: 0;
     flex-direction: column;
-    row-gap: 0.938rem;
+    row-gap: 0;
   }
 
   .dropdown-menu-item {
     width: 100% !important;
     max-width: 100%;
     padding: 0;
+    padding-top: 24px;
     border: none;
     background: none;
   }
@@ -5261,6 +5262,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .dropdown-menu-item-title {
     width: 100% !important;
+    max-width: 100%;
   }
 
   .language-dropdown {

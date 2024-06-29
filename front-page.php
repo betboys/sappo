@@ -133,11 +133,6 @@
 				<?php endif; ?>
 			</div>
 		</div>
-
-
-
-
-
 		<div class="swiper-container gallery-slide-mobile">
 			<div class="swiper">
 				<div class="swiper-wrapper">
@@ -172,16 +167,6 @@
 				</button>
 			</div>
 		</div>
-
-
-
-
-
-
-
-
-
-
 	</div>
 </section>
 

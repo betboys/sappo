@@ -180,6 +180,7 @@ function headerSubmenu() {
   let menuOpen = document.querySelectorAll(".burger-menu-open");
   let lineN1 = document.querySelectorAll(".lineN1");
   let lineN2 = document.querySelectorAll(".lineN2");
+  let lineN3 = document.querySelectorAll(".lineN3");
   let navigation = document.querySelectorAll(".navigation");
   let dropdownIcon2 = document.querySelectorAll(".dropdown-icon");
   let dropdownMenu2 = document.querySelectorAll(".dropdown-menu");
@@ -191,6 +192,7 @@ function headerSubmenu() {
     menuOpen[1].classList.toggle("new-element");
     lineN1[1].classList.toggle("new-lineN1");
     lineN2[1].classList.toggle("new-lineN2");
+    lineN3[1].classList.toggle("new-lineN3");
     if (navigation[1].style.height != "100vh") {
       document.querySelector("body").classList.add("no-scroll");
       navigation[1].setAttribute(

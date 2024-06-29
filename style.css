@@ -5281,6 +5281,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-weight: 600;
   }
 
+  .dropdown-menu-item-title {
+    font-family: "Noto Sans Armenian Medium";
+    font-weight: 500;
+  }
+
   .language-dropdown ul.lang-list {
     position: unset;
     padding-top: 0;

@@ -1407,7 +1407,7 @@ body.no-scroll {
 }
 
 .burger-menu-open.new-element {
-  width: 2.938rem;
+  width: 3.938rem;
 }
 
 .lineN1.new-lineN1 {
@@ -1611,6 +1611,14 @@ body.no-scroll {
 
 body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transform: unset;
+}
+
+@media (min-width: 1320px) {
+
+  body .wpml-ls-legacy-dropdown .wpml-ls-current-language:focus .wpml-ls-sub-menu,
+  body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu {
+    visibility: visible;
+  }
 }
 
 @media (min-width: 1025px) {

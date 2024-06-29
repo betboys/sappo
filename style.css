@@ -2256,7 +2256,8 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 .sappo-security-service {
   width: 100%;
   height: calc(68.75rem + 28.7 * (100vw - 120rem) / 60);
-  display: grid;
+  /* display: grid; */
+  display: none;
   position: relative;
 }
 

@@ -51,7 +51,7 @@
             endif; ?>
         </div>
     </div>
-    <div class="next-prev-buttons next-prev-buttons-mobile">
+    <!-- <div class="next-prev-buttons next-prev-buttons-mobile">
         <button class="swiper-buttons swiper-button-prev ">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
                 <path
@@ -66,5 +66,5 @@
                     fill="white" />
             </svg>
         </button>
-    </div>
+    </div> -->
 </section>

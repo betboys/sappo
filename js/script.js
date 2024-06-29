@@ -387,6 +387,8 @@ if (document.getElementById("home")) {
   }
   // galleri section card
   const swiper = document.querySelectorAll('.swiper');
+  const swBtnNext = document.querySelectorAll(".swiper-button-next");
+  const swBtnPrev = document.querySelectorAll(".swiper-button-prev");
   const listItems = document.querySelectorAll(".gallery-photo-intro");
   const nextButton = document.getElementById("next-button");
   const prevButton = document.getElementById("prev-button");
@@ -521,8 +523,8 @@ if (document.getElementById("home")) {
     slidesPerView: "auto",
     speed: 1000,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: swBtnNext[0],
+      prevEl: swBtnPrev[0],
     },
   });
   // Our trusted partners
@@ -530,12 +532,18 @@ if (document.getElementById("home")) {
     slidesPerView: "auto",
     speed: 1000,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: swBtnNext[1],
+      prevEl: swBtnPrev[1],
     },
   });
   let swiperButtons = document.querySelector(".next-prev-buttons");
   let ourTrustedPartners = document.querySelector(".our-trusted-partners");
+  window.addEventListener("resize", function() {
+    const windowWidth = window.innerWidth;
+    if(windowWidth <= 767) {
+      ourTrustedPartners.appendChild(swiperButtons);
+    }
+  })
   partners();
   // faq
   faq();

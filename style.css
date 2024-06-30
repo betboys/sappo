@@ -5269,6 +5269,11 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     max-width: 18.9rem !important;
   }
 
+  .page-id-37 .dropdown-menu-item-title {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
   .language-dropdown {
     flex-direction: column;
     align-items: start;

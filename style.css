@@ -1614,7 +1614,7 @@ body.no-scroll {
     transform: unset;
   }
 
-  .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover .wpml-ls-sub-menu {
+  .wpml-ls-legacy-dropdown .wpml-ls-item:hover .wpml-ls-sub-menu {
     visibility: visible;
   }
 

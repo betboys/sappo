@@ -7,9 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<title><?php echo wp_get_document_title(); ?></title>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-	<link rel="icon" type="image/png" sizes="32x32" href="https://sappo.am/oockyghi/2024/06/fav-icon.svg">
-	<link rel="icon" type="image/png" sizes="96x96" href="https://sappo.am/oockyghi/2024/06/fav-icon.svg">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://sappo.am/oockyghi/2024/06/fav-icon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://sappo.am/oockyghi/2024/06/fav-icon-1.svg">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://sappo.am/oockyghi/2024/06/fav-icon-1.svg">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://sappo.am/oockyghi/2024/06/fav-icon-1.svg">
 	<!-- Generate favicon here http://www.favicon-generator.org/ -->
 	<?php wp_head(); ?>
 </head>

@@ -68,12 +68,12 @@ $(document).ready(function () {
       $(".language-icon").removeClass("language-icon-rotate");
     });
   }
-  if (windowWidth <= 1024) {
-    $(".lang-flag").click(function () {
-      $(".language-dropdown").toggleClass("open");
-      languageIcon.classList.toggle("language-icon-rotate");
-    });
-  }
+  // if (windowWidth <= 1024) {
+  //   $(".lang-flag").click(function () {
+  //     $(".language-dropdown").toggleClass("open");
+  //     languageIcon.classList.toggle("language-icon-rotate");
+  //   });
+  // }
   $(".wpml-ls-item-toggle").click(function () {
     $(".wpml-ls-item-toggle").toggleClass("icon-rotate");
     let subWpml = document.querySelectorAll(".wpml-ls-sub-menu");

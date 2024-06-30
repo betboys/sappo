@@ -74,9 +74,10 @@ $(document).ready(function () {
       languageIcon.classList.toggle("language-icon-rotate");
     });
   }
-  $(".wpml-ls-item-toggle").click(function () {
-    $(".wpml-ls-item-toggle").toggleClass("icon-rotate");
-    let subWpml = document.querySelectorAll(".wpml-ls-sub-menu");
+  let wpmlLsItem = document.querySelectorAll(".wpml-ls-item-toggle");
+  let subWpml = document.querySelectorAll(".wpml-ls-sub-menu");
+  wpmlLsItem[1].addEventListener("click", function () {
+    wpmlLsItem[1].classList.toggle("icon-rotate")
     if (subWpml[1].style.visibility != "visible") {
       subWpml[1].style.visibility = "visible";
     }

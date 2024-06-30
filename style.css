@@ -1617,6 +1617,11 @@ body.no-scroll {
   .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     transform: rotate(180deg);
   }
+
+  .wpml-ls-legacy-dropdown .wpml-ls-current-language:focus .wpml-ls-sub-menu,
+  .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu {
+    visibility: visible;
+  }
 }
 
 @media (min-width: 1025px) {

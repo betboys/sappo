@@ -1617,16 +1617,15 @@ body.no-scroll {
   .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     transform: rotate(180deg);
   }
-
-  body .wpml-ls-legacy-dropdown .wpml-ls-current-language:focus .wpml-ls-sub-menu {
-    visibility: visible;
-  }
-
-  body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu {
-    visibility: visible;
-  }
 }
 
+body .wpml-ls-legacy-dropdown .wpml-ls-current-language:focus .wpml-ls-sub-menu {
+  visibility: unset;
+}
+
+body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu {
+  visibility: unset;
+}
 
 @media (min-width: 1025px) {
 

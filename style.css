@@ -1622,7 +1622,7 @@ body.no-scroll {
     transform: rotate(180deg);
   }
 
-  .wpml-ls-sub-menu:hover+a.wpml-ls-item-toggle:hover::after {
+  .wpml-ls-sub-menu:hover .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle::after {
     transform: rotate(180deg);
   }
 }

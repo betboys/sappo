@@ -1618,8 +1618,8 @@ body.no-scroll {
     transform: rotate(180deg);
   }
 
-  .wpml-ls-legacy-dropdown .wpml-ls-current-language:focus .wpml-ls-sub-menu,
-  .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu {
+  body .wpml-ls-legacy-dropdown .wpml-ls-current-language:focus .wpml-ls-sub-menu,
+  body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu {
     visibility: visible;
   }
 }

@@ -76,14 +76,12 @@ $(document).ready(function () {
   }
   $(".wpml-ls-item-toggle").click(function () {
     $(".wpml-ls-item-toggle").toggleClass("icon-rotate");
-    let subWpml = document.querySelector(".wpml-ls-sub-menu");
-    if (subWpml.style.height != "max-content") {
-      subWpml.style.height = "max-content"
-      // subWpml.style.visibility = "visible";
+    let subWpml = document.querySelectorAll(".wpml-ls-sub-menu");
+    if (subWpml[1].style.visibility != "visible") {
+      subWpml[1].style.visibility = "visible";
     }
     else {
-      subWpml.style.height = 0
-      // subWpml.style.visibility = "hidden";
+      subWpml[1].style.visibility = "hidden";
     }
   });
   $("ul.lang-list li").click(function () {

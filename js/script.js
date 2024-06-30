@@ -79,9 +79,11 @@ $(document).ready(function () {
     let subWpml = document.querySelector(".wpml-ls-sub-menu");
     if (subWpml.style.visibility != "visible") {
       subWpml.style.visibility = "visible";
+      alert("yes")
     }
     else {
       subWpml.style.visibility = "hidden";
+      alert("no")
     }
   });
   $("ul.lang-list li").click(function () {

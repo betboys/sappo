@@ -1416,7 +1416,7 @@ body.no-scroll {
 
 .lineN2.new-lineN2 {
   width: 100%;
-  transform: translate3d(0rem, -0.375rem, 0rem) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
+  transform: translate3d(0rem, -0.5rem, 0rem) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
 }
 
 .lineN3.new-lineN3 {

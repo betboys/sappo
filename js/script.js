@@ -77,13 +77,13 @@ $(document).ready(function () {
   $(".wpml-ls-item-toggle").click(function () {
     $(".wpml-ls-item-toggle").toggleClass("icon-rotate");
     let subWpml = document.querySelector(".wpml-ls-sub-menu");
-    if (subWpml.style.visibility != "visible") {
-      subWpml.style.visibility = "visible";
-      alert("yes")
+    if (subWpml.style.height != "max-content") {
+      subWpml.style.height = "max-content"
+      // subWpml.style.visibility = "visible";
     }
     else {
-      subWpml.style.visibility = "hidden";
-      alert("no")
+      subWpml.style.height = 0
+      // subWpml.style.visibility = "hidden";
     }
   });
   $("ul.lang-list li").click(function () {

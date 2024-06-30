@@ -1620,11 +1620,11 @@ body.no-scroll {
 }
 
 body .wpml-ls-legacy-dropdown .wpml-ls-current-language:focus .wpml-ls-sub-menu {
-  visibility: unset;
+  visibility: hidden;
 }
 
 body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu {
-  visibility: unset;
+  visibility: hidden;
 }
 
 @media (min-width: 1025px) {

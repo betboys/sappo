@@ -1613,14 +1613,6 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
   transform: unset;
 }
 
-@media (min-width: 1320px) {
-
-  body .wpml-ls-legacy-dropdown .wpml-ls-current-language:focus .wpml-ls-sub-menu,
-  body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu {
-    visibility: visible;
-  }
-}
-
 @media (min-width: 1025px) {
 
   .js-wpml-ls-item-toggle:hover::after {
@@ -5274,7 +5266,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
 
   .dropdown-menu-item-title {
     width: 100% !important;
-    max-width: 17.188rem !important;
+    max-width: 18.9rem !important;
   }
 
   .language-dropdown {
@@ -5294,6 +5286,7 @@ body .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:hover::after {
     font-family: "Noto Sans Armenian Medium";
     font-weight: 500;
     font-size: 1.25rem;
+    text-transform: capitalize;
   }
 
   .language-dropdown ul.lang-list {

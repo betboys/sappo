@@ -1462,9 +1462,9 @@ body.no-scroll {
   grid-area: subMenu;
   width: 100%;
   overflow: hidden;
-  transition: 0.5s;
   height: 0;
   visibility: hidden;
+  transition: height 0.5s ease;
 }
 
 .logo {

@@ -1362,7 +1362,7 @@ body.no-scroll {
   display: none;
 }
 
-/* .header {
+.header {
   width: 100%;
   padding: 0 var(--paddingLeftAndRigth);
   background: rgba(16, 16, 17, 0.6);
@@ -1378,36 +1378,7 @@ body.no-scroll {
     "subMenu subMenu";
   grid-template-columns: 1fr;
   align-items: center;
-} */
-
-
-
-
-/* General styles for the blur effect */
-.header {
-  width: 100%;
-  padding: 0 var(--paddingLeftAndRigth);
-  background: rgba(16, 16, 17, 0.6);
-  -webkit-backdrop-filter: blur(1.359rem);
-  backdrop-filter: blur(1.359rem);
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 100;
-  display: grid;
-  grid-template-areas:
-    "logo nav"
-    "subMenu subMenu";
-  grid-template-columns: 1fr;
-  align-items: center;
-  transition: -webkit-backdrop-filter 0s, backdrop-filter 0s;
-  /* Ensure no transition delay */
 }
-
-
-
-
-
 
 .logo-icon {
   width: unset;

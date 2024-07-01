@@ -199,6 +199,15 @@ function footer() {
 }
 /* our service card */
 function ourServiceCards() {
+  $(document).ready(function ($) {
+    var lang = $('html').attr('lang');
+    if (lang === 'hy-AM') {
+      $(".card-link-mobile-v").text("Իմանալ ավելին");
+    }
+    if (lang === 'ru-RU') {
+      $(".card-link-mobile-v").text("Узнать больше");
+    }
+  });
   let cards = document.querySelectorAll(".card");
   let cardTitle = document.querySelectorAll(".card-title");
   let cardTitleHover = document.querySelectorAll(".card-title-hover");

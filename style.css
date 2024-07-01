@@ -1584,7 +1584,7 @@ body.no-scroll {
 
 .menu-list:nth-child(4) .menu-link {
   padding: 0 1.5rem;
-  height: 3.25rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1804,7 +1804,7 @@ body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu 
 
 .link-style {
   padding: 0 1.5rem;
-  height: 3.25rem;
+  height: 3rem;
   margin-top: 2.5rem;
   display: inline-flex;
   align-items: center;
@@ -2872,9 +2872,10 @@ body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu 
 }
 
 .send-button {
+  height: 3rem;
   margin-top: 0.5rem;
   display: flex;
-  padding: 0.688rem 6.313rem;
+  padding-inline: 6.313rem;
   text-align: center;
   cursor: pointer;
   position: relative;
@@ -3331,7 +3332,7 @@ body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu 
 .about-card-link {
   width: max-content;
   padding: 0 2.75rem;
-  height: 3.25rem;
+  height: 3rem;
   margin-top: 1.5rem;
   border-left: 0.125rem solid #fff;
   border-bottom: 0.125rem solid #fff;
@@ -3879,7 +3880,7 @@ body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu 
 
 .category-item-link {
   width: max-content;
-  height: 3.25rem;
+  height: 3rem;
   padding: 0 3.688rem;
   margin-top: 1.5rem;
   margin-inline-start: auto;
@@ -4195,7 +4196,7 @@ body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu 
 
 .incidents-form-button {
   padding-inline: 7.313rem;
-  height: 3.25rem;
+  height: 3rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;

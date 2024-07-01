@@ -1380,17 +1380,8 @@ body.no-scroll {
   align-items: center;
 } */
 
-/* .header::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url(images/Navbar.png) center center no-repeat;
-  background-size: cover;
-  z-index: -1;
-} */
+
+
 
 /* General styles for the blur effect */
 .header {
@@ -1409,27 +1400,14 @@ body.no-scroll {
     "subMenu subMenu";
   grid-template-columns: 1fr;
   align-items: center;
-  transition: none;
-  /* Ensure no transitions on the backdrop filter */
+  transition: -webkit-backdrop-filter 0s, backdrop-filter 0s;
+  /* Ensure no transition delay */
 }
 
-/* Handle the closing of the menu specifically for Safari */
-@supports (-webkit-backdrop-filter: blur(1.359rem)) {
-  .header {
-    -webkit-backdrop-filter: none !important;
-    /* Remove blur effect for Safari */
-    backdrop-filter: none !important;
-    display: none;
-    /* Hide the menu */
-  }
-}
 
-/* General closing menu styles for other browsers */
-.header {
-  -webkit-backdrop-filter: none;
-  backdrop-filter: none;
-  display: none;
-}
+
+
+
 
 .logo-icon {
   width: unset;

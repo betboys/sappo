@@ -156,7 +156,7 @@ function headerSubmenu() {
       dropdownIconFill[0].style.fill = "#fff";
       setTimeout(() => {
         header[0].style.overflow = "visible";
-      }, 1);
+      }, 600);
 
     }
   });

@@ -1362,7 +1362,7 @@ body.no-scroll {
   display: none;
 }
 
-.header {
+/* .header {
   width: 100%;
   padding: 0 var(--paddingLeftAndRigth);
   background: rgba(16, 16, 17, 0.6);
@@ -1378,6 +1378,49 @@ body.no-scroll {
     "subMenu subMenu";
   grid-template-columns: 1fr;
   align-items: center;
+} */
+
+
+/* General styles for the blur effect */
+.blur-effect {
+  width: 100%;
+  padding: 0 var(--paddingLeftAndRigth);
+  background: rgba(16, 16, 17, 0.6);
+  -webkit-backdrop-filter: blur(1.359rem);
+  backdrop-filter: blur(1.359rem);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  display: grid;
+  grid-template-areas:
+    "logo nav "
+    "subMenu subMenu";
+  grid-template-columns: 1fr;
+  align-items: center;
+  transition: none;
+  /* Ensure no transitions on the backdrop filter */
+}
+
+/* Specific styles to handle Safari behavior */
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-backdrop-filter: none) {
+    .blur-effect {
+      /* Safari-specific handling */
+      -webkit-backdrop-filter: none !important;
+      /* Remove blur effect for Safari */
+      backdrop-filter: none !important;
+    }
+  }
+}
+
+/* Hide menu and remove blur effect */
+.menu-closed .blur-effect {
+  -webkit-backdrop-filter: none !important;
+  /* Ensure blur effect is removed */
+  backdrop-filter: none !important;
+  display: none;
+  /* Hide the menu */
 }
 
 .logo-icon {

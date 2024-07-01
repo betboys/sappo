@@ -143,6 +143,7 @@ function headerSubmenu() {
       dropdownIcon[0].style.transform = "rotate(180deg)";
     }
     else {
+      closeHeaderAfter.style.display = "none";
       document.querySelector("body").classList.remove("no-scroll");
       dropdownMenu[0].style.height = "0";
       dropdownToggle[0].style.color = "#fff";

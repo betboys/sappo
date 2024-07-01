@@ -134,10 +134,10 @@ function headerSubmenu() {
   let submenuInner = document.querySelectorAll(".dropdown-menu-inner");
   let submenuInnerH = submenuInner[0].clientHeight + "px";
   dropdown[0].addEventListener("click", function () {
-    if (dropdownMenu[0].style.height != submenuInnerH) {
+    if (dropdownMenu[0].style.height != "660px") {
       closeHeaderAfter.style.display = "block";
       dropdownMenu[0].style.visibility = "visible";
-      dropdownMenu[0].style.height = submenuInnerH;
+      dropdownMenu[0].style.height = "660px";
       document.querySelector("body").classList.add("no-scroll");
       dropdownToggle[0].style.color = "#FAC917";
       dropdownIconFill[0].style.fill = "#FAC917";

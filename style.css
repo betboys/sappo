@@ -1378,6 +1378,7 @@ body.no-scroll {
     "subMenu subMenu";
   grid-template-columns: 1fr;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo-icon {

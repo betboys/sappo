@@ -1381,7 +1381,7 @@ body.no-scroll {
 }
 
 .header::before {
-  content: url(/images/Navbar.png);
+  content: url(images/Navbar.png);
   position: absolute;
   inset: 0;
 }

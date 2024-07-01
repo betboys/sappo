@@ -151,6 +151,11 @@ function headerSubmenu() {
       dropdownToggle[0].style.color = "#fff";
       dropdownIcon[0].style.transform = "rotate(0deg)";
       dropdownIconFill[0].style.fill = "#fff";
+
+      setTimeout(() => {
+        header[0].style.overflow = "hidden";
+      }, 1000);
+
     }
   });
   closeHeaderAfter.addEventListener("click", function () {

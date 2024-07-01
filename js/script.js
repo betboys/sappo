@@ -134,7 +134,7 @@ function headerSubmenu() {
   let submenuInner = document.querySelectorAll(".dropdown-menu-inner");
   let submenuInnerH = submenuInner[0].clientHeight + "px";
   dropdown[0].addEventListener("click", function () {
-    if (dropdownMenu[0].style.height != submenuInnerH) {
+    if (dropdownMenu[0].style.transformScale != (1, 1)) {
       closeHeaderAfter.style.display = "block";
       dropdownMenu[0].style.visibility = "visible";
       dropdownMenu[0].style.height = submenuInnerH;
@@ -147,7 +147,7 @@ function headerSubmenu() {
       dropdownMenu[0].style.visibility = "hidden";
       closeHeaderAfter.style.display = "none";
       document.querySelector("body").classList.remove("no-scroll");
-      dropdownMenu[0].style.height = "0";
+      dropdownMenu[0].style.transformScale = (1, 0);
       dropdownToggle[0].style.color = "#fff";
       dropdownIcon[0].style.transform = "rotate(0deg)";
       dropdownIconFill[0].style.fill = "#fff";
@@ -157,7 +157,7 @@ function headerSubmenu() {
     dropdownMenu[0].style.visibility = "hidden";
     closeHeaderAfter.style.display = "none";
     document.querySelector("body").classList.remove("no-scroll");
-    dropdownMenu[0].style.height = "0";
+    dropdownMenu[0].style.transformScale = (1, 0);
     dropdownToggle[0].style.color = "#fff";
     dropdownIcon[0].style.transform = "rotate(0deg)";
     dropdownIconFill[0].style.fill = "#fff";

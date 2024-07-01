@@ -143,7 +143,7 @@ if ($feture_sec == 'yes'): ?>
                             <div class="card-info-inner">
                                 <?= $card_description ?>
 
-                                <a class="card-link" href="<?php the_permalink(); ?>">
+                                <a class="card-link card-link-web" href="<?php the_permalink(); ?>">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="77" height="75" viewBox="0 0 77 75"
                                         fill="none">
                                         <path class="card-link-icon" d="M8 7.71094L37.5 36.2109L67 64.7109" stroke="white"

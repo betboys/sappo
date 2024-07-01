@@ -5793,7 +5793,7 @@ body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu 
   }
 
   .height .card-info-inner {
-    height: 11.5rem;
+    height: 12.5rem;
     margin-top: 0.481rem;
   }
 
@@ -6740,12 +6740,6 @@ body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu 
 
   .se-right-img {
     height: 19.875rem;
-  }
-}
-
-@media (max-width: 477px) {
-  .about-card-link {
-    margin-top: 0.938rem;
   }
 }
 

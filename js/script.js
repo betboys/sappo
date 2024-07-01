@@ -155,7 +155,7 @@ function headerSubmenu() {
       dropdownIcon[0].style.transform = "rotate(0deg)";
       dropdownIconFill[0].style.fill = "#fff";
       setTimeout(() => {
-        header[0].style.overflow = "visitble";
+        header[0].style.overflow = "visible";
       }, 500);
 
     }

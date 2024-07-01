@@ -148,6 +148,7 @@ function headerSubmenu() {
       closeHeaderAfter.style.display = "none";
       document.querySelector("body").classList.remove("no-scroll");
       dropdownMenu[0].style.height = "0";
+      dropdownMenu[0].style.display = "none";
       dropdownToggle[0].style.color = "#fff";
       dropdownIcon[0].style.transform = "rotate(0deg)";
       dropdownIconFill[0].style.fill = "#fff";

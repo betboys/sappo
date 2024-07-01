@@ -133,6 +133,7 @@ function headerSubmenu() {
   let dropdownIconFill = document.querySelectorAll(".dropdown-icon-fill");
   let submenuInner = document.querySelectorAll(".dropdown-menu-inner");
   let submenuInnerH = submenuInner[0].clientHeight + "px";
+  submenuInner[0].style.height = "0"
   dropdown[0].addEventListener("click", function () {
     if (dropdownMenu[0].style.height != submenuInnerH) {
       submenuInner[0].style.height = submenuInnerH;

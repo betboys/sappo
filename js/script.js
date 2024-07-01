@@ -113,8 +113,8 @@ $(document).ready(function () {
 });
 /* header submenu  */
 function headerSubmenu() {
-  const copy = document.querySelector(".header").cloneNode(true);
-  document.querySelector(".main").appendChild(copy);
+  // const copy = document.querySelector(".header").cloneNode(true);
+  // document.querySelector(".main").appendChild(copy);
   let headers = document.querySelectorAll(".header");
   headers[1].setAttribute("class", "header-mobile");
   let dropdownToggle = document.querySelectorAll(".dropdown-toggle");

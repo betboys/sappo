@@ -302,6 +302,7 @@ if ($feture_sec == 'yes'): ?>
         </div>
     </div>
 </section> -->
-<!-- <?php get_template_part('templates/partners'); ?> -->
+
+<?php get_template_part('templates/partners'); ?>
 <?php get_template_part('templates/contact'); ?>
 <?Php get_footer(); ?>

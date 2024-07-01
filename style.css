@@ -2084,6 +2084,10 @@ body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu 
   justify-content: space-between;
 }
 
+.card-link {
+  margin-left: 3rem;
+}
+
 .card-list-intro,
 .card-info-inner>ul {
   display: flex;

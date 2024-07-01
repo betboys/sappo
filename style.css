@@ -3625,16 +3625,16 @@ body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu 
   list-style: disc;
 }
 
-.left-and-right:nth-child(odd) {
+.left-and-right:nth-child(even) {
   flex-direction: row-reverse;
 }
 
-.left-and-right:nth-child(odd)>.left-and-right-text-inner {
+.left-and-right:nth-child(even)>.left-and-right-text-inner {
   width: 43.958vw;
   padding-left: var(--paddingLeftAndRigth);
 }
 
-.left-and-right:nth-child(even)>.left-and-right-text-inner {
+.left-and-right:nth-child(odd)>.left-and-right-text-inner {
   width: 41.302vw;
   padding-right: 5.156vw;
 }

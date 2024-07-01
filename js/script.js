@@ -142,9 +142,9 @@ function headerSubmenu() {
       dropdownToggle[0].style.color = "#FAC917";
       dropdownIconFill[0].style.fill = "#FAC917";
       dropdownIcon[0].style.transform = "rotate(180deg)";
- 
-        header[0].style.overflow = "hidden";
-     
+
+      header[0].style.overflow = "hidden";
+
     }
     else {
       dropdownMenu[0].style.visibility = "hidden";
@@ -157,7 +157,6 @@ function headerSubmenu() {
       setTimeout(() => {
         header[0].style.overflow = "visible";
       }, 600);
-
     }
   });
   closeHeaderAfter.addEventListener("click", function () {
@@ -168,6 +167,9 @@ function headerSubmenu() {
     dropdownToggle[0].style.color = "#fff";
     dropdownIcon[0].style.transform = "rotate(0deg)";
     dropdownIconFill[0].style.fill = "#fff";
+    setTimeout(() => {
+      header[0].style.overflow = "visible";
+    }, 600);
   });
   // responsive header mobile
   let menuOpen = document.querySelectorAll(".burger-menu-open");

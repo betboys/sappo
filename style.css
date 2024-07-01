@@ -1463,9 +1463,7 @@ body.no-scroll {
   width: 100%;
   overflow: hidden;
   transition: 0.5s;
-  /* height: 0; */
-  transform: scale(1, 0);
-  transform-origin: left top;
+  height: 0;
   visibility: hidden;
 }
 

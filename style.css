@@ -1484,6 +1484,7 @@ body.no-scroll {
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 2rem;
+  height: 0;
 }
 
 .dropdown-menu-item-title {

@@ -135,7 +135,8 @@ function headerSubmenu() {
   let submenuInnerH = submenuInner[0].clientHeight + "px";
   dropdown[0].addEventListener("click", function () {
     if (dropdownMenu[0].style.height != submenuInnerH) {
-      // closeHeaderAfter.style.display = "block";
+      submenuInner[0].style.height = submenuInnerH;
+      closeHeaderAfter.style.display = "block";
       dropdownMenu[0].style.visibility = "visible";
       dropdownMenu[0].style.height = submenuInnerH;
       document.querySelector("body").classList.add("no-scroll");
@@ -144,8 +145,9 @@ function headerSubmenu() {
       dropdownIcon[0].style.transform = "rotate(180deg)";
     }
     else {
+      submenuInner[0].style.height = "0";
       dropdownMenu[0].style.visibility = "hidden";
-      // closeHeaderAfter.style.display = "none";
+      closeHeaderAfter.style.display = "none";
       document.querySelector("body").classList.remove("no-scroll");
       dropdownMenu[0].style.height = "0";
       dropdownToggle[0].style.color = "#fff";
@@ -153,15 +155,16 @@ function headerSubmenu() {
       dropdownIconFill[0].style.fill = "#fff";
     }
   });
-  // closeHeaderAfter.addEventListener("click", function () {
-  //   dropdownMenu[0].style.visibility = "hidden";
-  //   closeHeaderAfter.style.display = "none";
-  //   document.querySelector("body").classList.remove("no-scroll");
-  //   dropdownMenu[0].style.height = "0";
-  //   dropdownToggle[0].style.color = "#fff";
-  //   dropdownIcon[0].style.transform = "rotate(0deg)";
-  //   dropdownIconFill[0].style.fill = "#fff";
-  // });
+  closeHeaderAfter.addEventListener("click", function () {
+    submenuInner[0].style.height = "0";
+    dropdownMenu[0].style.visibility = "hidden";
+    closeHeaderAfter.style.display = "none";
+    document.querySelector("body").classList.remove("no-scroll");
+    dropdownMenu[0].style.height = "0";
+    dropdownToggle[0].style.color = "#fff";
+    dropdownIcon[0].style.transform = "rotate(0deg)";
+    dropdownIconFill[0].style.fill = "#fff";
+  });
   // responsive header mobile
   let menuOpen = document.querySelectorAll(".burger-menu-open");
   let lineN1 = document.querySelectorAll(".lineN1");

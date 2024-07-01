@@ -3350,7 +3350,6 @@ body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu 
 .card-link-mobile-v {
   display: none;
   margin-top: 0;
-  margin-inline-start: auto;
 }
 
 .about-card-link::before {
@@ -6038,7 +6037,7 @@ body .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover .wpml-ls-sub-menu 
   }
 
   .card-hover-visitble {
-    bottom: 0.75rem;
+    bottom: 1.5rem;
   }
 
   .single-content-left>.headingN2 {

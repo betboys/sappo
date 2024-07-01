@@ -1392,48 +1392,43 @@ body.no-scroll {
   z-index: -1;
 } */
 
-
-
 /* General styles for the blur effect */
 .header {
   width: 100%;
   padding: 0 var(--paddingLeftAndRigth);
   background: rgba(16, 16, 17, 0.6);
+  -webkit-backdrop-filter: blur(1.359rem);
+  backdrop-filter: blur(1.359rem);
   position: fixed;
   left: 0;
   top: 0;
   z-index: 100;
   display: grid;
   grid-template-areas:
-      "logo nav"
-      "subMenu subMenu";
+    "logo nav"
+    "subMenu subMenu";
   grid-template-columns: 1fr;
   align-items: center;
+  transition: none;
+  /* Ensure no transitions on the backdrop filter */
 }
 
-/* Adding an animation for Safari */
+/* Handle the closing of the menu specifically for Safari */
 @supports (-webkit-backdrop-filter: blur(1.359rem)) {
   .header {
-      -webkit-backdrop-filter: blur(1.359rem);
-      backdrop-filter: blur(1.359rem);
-      animation: removeBlur 0.2s forwards;
+    -webkit-backdrop-filter: none !important;
+    /* Remove blur effect for Safari */
+    backdrop-filter: none !important;
+    display: none;
+    /* Hide the menu */
   }
 }
 
-/* Keyframes to remove blur effect quickly */
-@keyframes removeBlur {
-  to {
-      -webkit-backdrop-filter: none;
-      backdrop-filter: none;
-  }
-}
-
-/* Adding class when menu is closed */
-.menu-closed .header {
-  animation: none; /* Stop animation */
-  -webkit-backdrop-filter: none !important; /* Remove blur effect immediately */
-  backdrop-filter: none !important;
-  display: none; /* Hide the menu */
+/* General closing menu styles for other browsers */
+.header {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  display: none;
 }
 
 .logo-icon {

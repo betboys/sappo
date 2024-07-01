@@ -151,6 +151,7 @@ function headerSubmenu() {
     }
   });
   closeHeaderAfter.addEventListener("click", function () {
+    closeHeaderAfter.style.display = "none";
     document.querySelector("body").classList.remove("no-scroll");
     dropdownMenu[0].style.height = "0";
     dropdownToggle[0].style.color = "#fff";

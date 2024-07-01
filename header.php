@@ -16,6 +16,7 @@
 
 <body <?php body_class(); ?>>
 	<main class="main">
+		<div class="close-header-after"></div>
 		<header class="header">
 			<a class="logo" href="<?php echo get_bloginfo('url'); ?>">
 				<img class="logo-icon" src="<?= the_field('logo', 'option'); ?>" alt="Sappo Logo">
